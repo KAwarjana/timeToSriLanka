@@ -1,0 +1,87 @@
+// ── LANGUAGE ──
+  let currentLang = 'en';
+
+  const langData = {
+    en: {
+      name: 'English',
+      flag: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 40"><rect width="60" height="40" fill="#012169"/><path d="M0,0 L60,40 M60,0 L0,40" stroke="#fff" stroke-width="8"/><path d="M0,0 L60,40 M60,0 L0,40" stroke="#C8102E" stroke-width="4"/><path d="M30,0 V40 M0,20 H60" stroke="#fff" stroke-width="12"/><path d="M30,0 V40 M0,20 H60" stroke="#C8102E" stroke-width="7"/></svg>`
+    },
+    si: {
+      name: 'සිංහල',
+      flag: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 45"><rect width="90" height="45" fill="#8D153A"/><rect width="10" height="45" fill="#FF7900"/><rect x="10" width="10" height="45" fill="#009F4D"/><rect x="20" width="70" height="45" fill="#8D153A"/><rect x="20" width="70" height="45" fill="none" stroke="#FC0" stroke-width="3"/></svg>`
+    },
+    ta: {
+      name: 'தமிழ்',
+      flag: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 45"><rect width="90" height="45" fill="#8D153A"/><rect width="10" height="45" fill="#FF7900"/><rect x="10" width="10" height="45" fill="#009F4D"/><rect x="20" width="70" height="45" fill="#8D153A"/><rect x="20" width="70" height="45" fill="none" stroke="#FC0" stroke-width="3"/></svg>`
+    }
+  };
+
+  function toggleLang(e) {
+    e.stopPropagation();
+    document.getElementById('langSelect').classList.toggle('open');
+  }
+
+  function setLang(code, e) {
+    e.stopPropagation();
+    currentLang = code;
+    const d = langData[code];
+    document.getElementById('activeLangFlag').innerHTML = d.flag;
+    document.getElementById('activeLangName').textContent = d.name;
+    document.getElementById('langSelect').classList.remove('open');
+
+    // Update all translatable elements
+    document.querySelectorAll('[data-' + code + ']').forEach(el => {
+      el.textContent = el.getAttribute('data-' + code);
+    });
+
+    // Mark active
+    document.querySelectorAll('.lang-option').forEach(opt => opt.classList.remove('active'));
+    e.currentTarget.classList.add('active');
+  }
+
+  document.addEventListener('click', () => {
+    document.getElementById('langSelect').classList.remove('open');
+  });
+
+  // ── DROPDOWN (desktop nav) ──
+  function toggleSub(id, e) {
+    e.preventDefault();
+    const el = document.getElementById(id);
+    const isOpen = el.classList.contains('open');
+    document.querySelectorAll('.has-sub').forEach(li => li.classList.remove('open'));
+    if (!isOpen) el.classList.add('open');
+  }
+
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('.has-sub')) {
+      document.querySelectorAll('.has-sub').forEach(li => li.classList.remove('open'));
+    }
+  });
+
+  // ── PANEL ──
+  function togglePanel() {
+    const panel = document.getElementById('sidePanel');
+    const overlay = document.getElementById('overlay');
+    const btn = document.getElementById('toggleBtn');
+    const isOpen = panel.classList.contains('open');
+    if (isOpen) closePanel();
+    else {
+      panel.classList.add('open');
+      overlay.classList.add('open');
+      btn.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+  }
+
+  function closePanel() {
+    document.getElementById('sidePanel').classList.remove('open');
+    document.getElementById('overlay').classList.remove('open');
+    document.getElementById('toggleBtn').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  function togglePanelSub(id, e) {
+    e.preventDefault();
+    const el = document.getElementById(id);
+    el.classList.toggle('open');
+  }
