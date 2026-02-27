@@ -250,3 +250,129 @@ function handleSwipe() {
         }
     }
 }
+
+
+
+document.querySelectorAll('.card').forEach(card => {
+  card.addEventListener('click', () => {
+    const isActive = card.classList.contains('active');
+    document.querySelectorAll('.card').forEach(c => c.classList.remove('active'));
+    if (!isActive) card.classList.add('active');
+  });
+});
+
+
+
+const testimonials = [
+  {
+    name: "Amal Perera",
+    country: "Sri Lanka",
+    initial: "A",
+    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    rightText: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    stars: 5
+  },
+  {
+    name: "Sarah Johnson",
+    country: "United States",
+    initial: "S",
+    text: "The service was absolutely outstanding! The team went above and beyond to ensure everything was perfect. I couldn't be happier with the results. Highly recommend to anyone looking for quality.",
+    rightText: "Sarah has been using our platform for over 2 years and her experience highlights the dedication we bring to every single client interaction and project.",
+    stars: 5
+  },
+  {
+    name: "Kamal Silva",
+    country: "Australia",
+    initial: "K",
+    text: "Incredible experience from start to finish. The attention to detail was remarkable and the final outcome exceeded all my expectations. Will definitely be coming back for more projects.",
+    rightText: "Kamal's journey with us began as a small startup and grew into a thriving business thanks to our collaborative approach and relentless focus on delivering value.",
+    stars: 4
+  },
+  {
+    name: "Mei Tanaka",
+    country: "Japan",
+    initial: "M",
+    text: "What sets this team apart is their passion and professionalism. They truly understand what you need and deliver results that speak for themselves. A truly world-class experience.",
+    rightText: "Mei represents our growing international clientele and her feedback motivates us to continue raising our standards and delivering excellence across every market.",
+    stars: 5
+  }
+];
+
+let current = 0;
+let direction = 'next';
+let autoTimer;
+
+function buildDots() {
+  const container = document.getElementById('progressDots');
+  container.innerHTML = '';
+  testimonials.forEach((_, i) => {
+    const dot = document.createElement('div');
+    dot.className = 'dot' + (i === current ? ' active' : '');
+    dot.onclick = () => goTo(i);
+    dot.style.cursor = 'pointer';
+    container.appendChild(dot);
+  });
+}
+
+function updateCard(dir) {
+  const card = document.getElementById('testimonialCard');
+  const t = testimonials[current];
+
+  // Animate card
+  card.style.opacity = '0';
+  card.style.transform = dir === 'next' ? 'translateX(30px)' : 'translateX(-30px)';
+
+  setTimeout(() => {
+    document.getElementById('customerName').textContent = t.name;
+    document.getElementById('customerCountry').textContent = t.country;
+    document.getElementById('profileInitial').textContent = t.initial;
+    document.getElementById('testimonialText').textContent = t.text;
+    document.getElementById('rightText').textContent = t.rightText;
+
+    // Stars
+    const stars = document.getElementById('starsContainer');
+    stars.innerHTML = '';
+    for (let i = 0; i < 5; i++) {
+      const s = document.createElement('span');
+      s.className = 'star';
+      s.textContent = i < t.stars ? '★' : '☆';
+      if (i >= t.stars) s.style.color = 'rgba(255,255,255,0.3)';
+      stars.appendChild(s);
+    }
+
+    card.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
+    card.style.opacity = '1';
+    card.style.transform = 'translateX(0)';
+
+    buildDots();
+  }, 150);
+
+  // Button flash
+  const btn = dir === 'next' ? document.getElementById('nextBtn') : document.getElementById('prevBtn');
+  btn.classList.add('active-btn');
+  setTimeout(() => btn.classList.remove('active-btn'), 300);
+}
+
+function goTo(index) {
+  direction = index > current ? 'next' : 'prev';
+  current = index;
+  updateCard(direction);
+  resetTimer();
+}
+
+function changeSlide(dir) {
+  direction = dir;
+  if (dir === 'next') current = (current + 1) % testimonials.length;
+  else current = (current - 1 + testimonials.length) % testimonials.length;
+  updateCard(dir);
+  resetTimer();
+}
+
+function resetTimer() {
+  clearInterval(autoTimer);
+  autoTimer = setInterval(() => changeSlide('next'), 4000);
+}
+
+// Init
+buildDots();
+autoTimer = setInterval(() => changeSlide('next'), 4000);
