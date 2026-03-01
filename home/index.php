@@ -5,10 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Time to Sri Lanka</title>
+  <link rel="stylesheet" href="../header/header.css">
   <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="../footer/footer.css">
 </head>
 
 <body>
+
+<?php include('../header/header.php'); ?>
 
   <!-- ══════════════════════════════════════
      SECTION 1 — HERO (video background)
@@ -283,7 +287,7 @@
     </div>
   </section>
 
-  <!-- packages-section.html -->
+  <!-- packages-section -->
   <section class="packages">
 
     <!-- Background layers -->
@@ -551,6 +555,9 @@
     </div>
   </section>
 
+  <?php include('../footer/footer.php'); ?>
+
+  <script src="../header/header.js"></script>
   <script src="home.js"></script>
 
 </body>

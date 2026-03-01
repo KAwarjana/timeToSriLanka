@@ -4,7 +4,7 @@
   --purple-light: #a855f7;
   --purple-gradient: linear-gradient(135deg, #4C00B0 0%, #A99CFD 100%);
   --gold: #f59e0b;
-  --white: #F8F7FF;
+  --white: #f5f0ff;
   --panel-bg: #0d0d0d;
   --panel-width: 380px;
   --font-color: #260058;
@@ -62,7 +62,7 @@ body {
 .topbar-divider {
   width: 1px;
   height: 18px;
-  background: rgba(255, 255, 255, 0.35);
+  background: linear-gradient(180deg, #f4f0fb00 0%, #f5f0ff 50%, #f4f0fb00 100%);
 }
 
 .lang-select {
@@ -98,7 +98,7 @@ body {
   position: absolute;
   top: calc(100% + 8px);
   right: 0;
-  background: #fff;
+  background: #f5f0ff;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 8px 32px rgba(60, 7, 100, 0.18);
@@ -185,7 +185,7 @@ body {
   padding: 8px 16px;
   font-size: 15px;
   font-weight: 500;
-  color: #2d1b4e;
+  color: #260058;
   text-decoration: none;
   border-radius: 8px;
   transition: background .18s, color .18s;
@@ -212,7 +212,8 @@ body {
   transform: translateX(-50%);
   width: 80%;
   height: 4px;
-  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 8' preserveAspectRatio='none'%3E%3Cpath d='M0,5 C10,2 20,8 30,4 C40,0 50,7 60,4 C70,1 75,5 80,4' fill='none' stroke='%237c3aed' stroke-width='2.5' stroke-linecap='round'/%3E%3C/svg%3E") center/100% 100% no-repeat;
+  background: linear-gradient(90deg, #f5f0ff 0%, #4C00B0 50%, #f5f0ff 100%);
+  /* background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 8' preserveAspectRatio='none'%3E%3Cpath d='M0,5 C10,2 20,8 30,4 C40,0 50,7 60,4 C70,1 75,5 80,4' fill='none' stroke='%237c3aed' stroke-width='2.5' stroke-linecap='round'/%3E%3C/svg%3E") center/100% 100% no-repeat; */
 }
 
 /* Dropdown arrow */
@@ -294,7 +295,7 @@ body {
   display: block;
   width: 24px;
   height: 2.5px;
-  background: var(--purple-deep);
+  background: #4C00B0;
   border-radius: 2px;
   transition: transform .3s, opacity .3s, width .3s;
 }
@@ -575,7 +576,7 @@ body {
   width: 32px;
   height: 32px;
   background: #6616ce;
-  border-radius: 8px;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -613,7 +614,7 @@ body {
   height: 38px;
   background: #6016c2;
   border: 1px solid #260058;
-  border-radius: 10px;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;

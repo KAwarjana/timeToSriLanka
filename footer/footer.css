@@ -11,9 +11,9 @@ body {
 
 /* ── FOOTER ── */
 .footer {
-  background: linear-gradient(135deg, #2a0050 0%, #3b0764 40%, #5b1099 100%);
+  background: linear-gradient(135deg, #4C00B0 0%, #260058 100%);
   padding: 60px 60px 40px;
-  color: #fff;
+  color: #f5f0ff;
 }
 
 .footer-grid {
@@ -71,7 +71,7 @@ body {
 }
 
 .footer-social:hover {
-  background: rgba(168, 85, 247, 0.45);
+  background: #5a42f7ce;
   border-color: rgba(168, 85, 247, 0.8);
 }
 
@@ -86,7 +86,7 @@ body {
 
 .footer-col-title {
   font-family: 'Outfit', sans-serif;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -107,34 +107,67 @@ body {
   gap: 8px;
   font-size: 14px;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.68);
+  color: #f5f0ff;
   text-decoration: none;
   transition: color .18s;
   letter-spacing: 0.02em;
+  text-transform: uppercase;
+  transition: ease-out 0.3s;
 }
 
 .footer-col ul li a::before {
   content: '>';
-  color: rgba(168, 85, 247, 0.9);
+  color: #A99CFD;
   font-weight: 600;
   font-size: 13px;
 }
 
 .footer-col ul li a:hover {
-  color: #fff;
+  color: #A99CFD;
+  letter-spacing: 0.1rem;
 }
 
 /* ── BOTTOM BAR ── */
 .footer-bottom {
   background: #f0eaff;
   padding: 16px 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+.footer-bottom-copy {
   text-align: right;
   font-size: 13.5px;
   color: #3b0764;
 }
 
-.footer-bottom span {
+.footer-bottom-design {
+  text-align: right;
+  font-size: 13.5px;
+  color: #3b0764;
+}
+
+.footer-bottom-copy span {
   font-weight: 700;
+  transition: ease-out 0.3s;
+}
+
+.footer-bottom-copy span:hover {
+  color: #8572fd;
+  cursor: pointer;
+}
+
+.footer-bottom-design span {
+  font-weight: 700;
+  transition: ease-out 0.3s;
+}
+
+.footer-bottom-design span:hover {
+  color: #8572fd;
+  cursor: pointer;
 }
 
 /* ── RESPONSIVE ── */
@@ -229,6 +262,10 @@ body {
   .footer-bottom {
     padding: 14px 32px;
     text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.6;
   }
 }
 
@@ -302,7 +339,7 @@ body {
   }
 
   .footer-col-title {
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 14px;
   }
 
@@ -312,6 +349,20 @@ body {
 
   .footer-bottom {
     padding: 13px 20px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.6;
+  }
+
+  .footer-bottom-copy {
+    font-size: 12.5px;
+    text-align: center;
+    line-height: 1.6;
+  }
+
+  .footer-bottom-design {
     font-size: 12.5px;
     text-align: center;
     line-height: 1.6;

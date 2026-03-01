@@ -89,7 +89,15 @@
 
     <!-- Bottom bar -->
     <div class="footer-bottom">
+      <div class="footer-bottom-copy">
+        &copy;
+        <script>
+          document.write(new Date().getFullYear())
+        </script>&nbsp;<span>Time to Sri Lanka. All rights reserved.</span> 
+      </div>
+      <div class="footer-bottom-design">
       Design &amp; Developed by <span>Evon Technologies Software Solutions (PVT) Ltd.</span>
+      </div>
     </div>
   </footer>
 
