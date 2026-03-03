@@ -98,9 +98,9 @@
       <div class="logo">T</div>
 
       <ul class="nav-links" id="navLinks">
-        <li><a href="#" class="active" data-en="Home" data-si="මුල් පිටුව" data-ta="முகப்பு">Home</a></li>
+        <li><a href="../home/index.php" class="active" data-en="Home" data-si="මුල් පිටුව" data-ta="முகப்பு">Home</a></li>
         <li class="has-sub" id="expDropdown">
-          <a href="#" onclick="toggleSub('expDropdown',event)" data-en="Experience" data-si="අත්දැකීම"
+          <a href="../experiences/experiences.php" onclick="toggleSub('expDropdown',event)" data-en="Experience" data-si="අත්දැකීම"
             data-ta="அனுபவம்">
             Experience <span class="arrow"></span>
           </a>
@@ -114,19 +114,19 @@
           </ul>
         </li>
         <li class="has-sub" id="svcDropdown">
-          <a href="#" onclick="toggleSub('svcDropdown',event)" data-en="Services" data-si="සේවාවන්" data-ta="சேவைகள்">
+          <a href="../services/services.php" onclick="toggleSub('svcDropdown',event)" data-en="Services" data-si="සේවාවන්" data-ta="சேவைகள்">
             Services <span class="arrow"></span>
           </a>
           <ul class="subnav">
-            <li><a href="#" data-en="Hotel Booking" data-si="හෝටල් වෙන් කිරීම" data-ta="ஹோட்டல் முன்பதிவு">Hotel
+            <li><a href="../services/hotel-booking.php" data-en="Hotel Booking" data-si="හෝටල් වෙන් කිරීම" data-ta="ஹோட்டல் முன்பதிவு">Hotel
                 Booking</a></li>
             <li><a href="#" data-en="Transport" data-si="ප්‍රවාහනය" data-ta="போக்குவரத்து">Transport</a></li>
             <li><a href="#" data-en="Guided Tours" data-si="මාර්ගෝපදේශ චාරිකා" data-ta="வழிகாட்டப்பட்ட சுற்றுலா">Guided
                 Tours</a></li>
           </ul>
         </li>
-        <li><a href="#" data-en="Packages" data-si="පැකේජ" data-ta="தொகுப்புகள்">Packages</a></li>
-        <li><a href="#" data-en="Destinations" data-si="ගමනාන්ත" data-ta="இடங்கள்">Destinations</a></li>
+        <li><a href="../experiences/experiences.php" data-en="Packages" data-si="පැකේජ" data-ta="தொகுப்புகள்">Packages</a></li>
+        <li><a href="../destinations/destinations.php" data-en="Destinations" data-si="ගමනාන්ත" data-ta="இடங்கள்">Destinations</a></li>
       </ul>
 
       <div class="nav-right">
@@ -163,12 +163,12 @@
           <div class="panel-nav-label" data-en="Navigation" data-si="නාවිගේෂනය" data-ta="வழிசெலுத்தல்">Navigation</div>
           <ul class="panel-nav-list">
             <li class="panel-nav-item">
-              <a href="#" class="active" data-en="Home" data-si="මුල් පිටුව" data-ta="முகப்பு">
+              <a href="../home/index.php" class="active" data-en="Home" data-si="මුල් පිටුව" data-ta="முகப்பு">
                 🏠 Home
               </a>
             </li>
             <li class="panel-nav-item" id="pExp">
-              <a href="#" onclick="togglePanelSub('pExp',event)" data-en="Experience" data-si="අත්දැකීම"
+              <a href="../experiences/experiences.php" onclick="togglePanelSub('pExp',event)" data-en="Experience" data-si="අත්දැකීම"
                 data-ta="அனுபவம்">
                 🌴 <span data-en="Experience" data-si="අත්දැකීම" data-ta="அனுபவம்">Experience</span>
                 <span class="panel-chevron"></span>
@@ -184,7 +184,7 @@
               </ul>
             </li>
             <li class="panel-nav-item" id="pSvc">
-              <a href="#" onclick="togglePanelSub('pSvc',event)" data-en="Services" data-si="සේවාවන්" data-ta="சேவைகள்">
+              <a href="../services/services.php" onclick="togglePanelSub('pSvc',event)" data-en="Services" data-si="සේවාවන්" data-ta="சேவைகள்">
                 🛎 <span data-en="Services" data-si="සේවාවන්" data-ta="சேவைகள்">Services</span>
                 <span class="panel-chevron"></span>
               </a>
@@ -197,19 +197,19 @@
               </ul>
             </li>
             <li class="panel-nav-item">
-              <a href="#" data-en="Packages" data-si="පැකේජ" data-ta="தொகுப்புகள்">📦 <span data-en="Packages"
+              <a href="../experiences/experiences.php" data-en="Packages" data-si="පැකේජ" data-ta="தொகுப்புகள்">📦 <span data-en="Packages"
                   data-si="පැකේජ" data-ta="தொகுப்புகள்">Packages</span></a>
             </li>
             <li class="panel-nav-item">
-              <a href="#" data-en="Destinations" data-si="ගමනාන්ත" data-ta="இடங்கள்">📍 <span data-en="Destinations"
+              <a href="../destinations/destinations.php" data-en="Destinations" data-si="ගමනාන්ත" data-ta="இடங்கள்">📍 <span data-en="Destinations"
                   data-si="ගමනාන්ත" data-ta="இடங்கள்">Destinations</span></a>
             </li>
             <li class="panel-nav-item">
-              <a href="#" data-en="About Us" data-si="අප ගැන" data-ta="எங்களை பற்றி">ℹ️ <span data-en="About Us"
+              <a href="../about/about.php" data-en="About Us" data-si="අප ගැන" data-ta="எங்களை பற்றி">ℹ️ <span data-en="About Us"
                   data-si="අප ගැන" data-ta="எங்களை பற்றி">About Us</span></a>
             </li>
             <li class="panel-nav-item">
-              <a href="#" data-en="Contact" data-si="සම්බන්ධ කරන්න" data-ta="தொடர்பு">📞 <span data-en="Contact"
+              <a href="../contact/contact.php" data-en="Contact" data-si="සම්බන්ධ කරන්න" data-ta="தொடர்பு">📞 <span data-en="Contact"
                   data-si="සම්බන්ධ කරන්න" data-ta="தொடர்பு">Contact</span></a>
             </li>
           </ul>

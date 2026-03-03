@@ -85,3 +85,37 @@
     const el = document.getElementById(id);
     el.classList.toggle('open');
   }
+
+
+  // ── ACTIVE NAV STATE ──
+(function () {
+  const currentPath = window.location.pathname;
+
+  // Normalise: strip trailing slash, lowercase
+  function norm(p) {
+    return p.replace(/\/+$/, '').toLowerCase();
+  }
+
+  // All nav + panel links
+  const allLinks = document.querySelectorAll(
+    '.nav-links a, .panel-nav-item > a, .panel-subnav a'
+  );
+
+  allLinks.forEach(link => {
+    // Remove any hard-coded active class set in HTML
+    link.classList.remove('active');
+
+    const linkPath = norm(new URL(link.href, location.origin).pathname);
+    const curPath  = norm(currentPath);
+
+    if (linkPath === curPath) {
+      link.classList.add('active');
+
+      // If it's inside a panel subnav, open the parent too
+      const parentItem = link.closest('.panel-nav-item');
+      if (parentItem && link.closest('.panel-subnav')) {
+        parentItem.classList.add('open');
+      }
+    }
+  });
+})();
