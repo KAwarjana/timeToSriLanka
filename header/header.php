@@ -125,7 +125,7 @@
                 Tours</a></li>
           </ul>
         </li>
-        <li><a href="../experiences/experiences.php" data-en="Packages" data-si="පැකේජ" data-ta="தொகுப்புகள்">Packages</a></li>
+        <li><a href="../packages/packages.php" data-en="Packages" data-si="පැකේජ" data-ta="தொகுப்புகள்">Packages</a></li>
         <li><a href="../destinations/destinations.php" data-en="Destinations" data-si="ගමනාන්ත" data-ta="இடங்கள்">Destinations</a></li>
       </ul>
 
@@ -197,7 +197,7 @@
               </ul>
             </li>
             <li class="panel-nav-item">
-              <a href="../experiences/experiences.php" data-en="Packages" data-si="පැකේජ" data-ta="தொகுப்புகள்">📦 <span data-en="Packages"
+              <a href="../packages/packages.php" data-en="Packages" data-si="පැකේජ" data-ta="தொகுப்புகள்">📦 <span data-en="Packages"
                   data-si="පැකේජ" data-ta="தொகுப்புகள்">Packages</span></a>
             </li>
             <li class="panel-nav-item">

@@ -21,12 +21,12 @@ body {
 
 .bg-blob {
     position: fixed;
-    top: 100px;
-    left: 0%;
+    top: 0;
+    right: -5%;
     width: 50%;
     height: 110vh;
     transition: transform 0.05s linear;
-    background-image: url("../resources/img/services/Ellipse.png");
+    background-image: url("../resources/img/experiences/Ellipse.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     pointer-events: none;
@@ -191,179 +191,145 @@ body {
 }
 
 
-
-/* ===== Section Layout ===== */
-.main-section {
-  display: flex;
-  flex-direction: column;
-  /* min-height: 100vh; */
-  width: 100%;
-  max-width: 1160px;
-  margin: 2rem auto;
-  padding: 48px 40px;
+/* ===== Section ===== */
+.packages-section {
+  background: var(--white);
+  padding: 32px 28px;
+  margin: 4rem 0;
 }
 
-.main-section-div {
-  display: flex;
-  flex-direction: row;
+.packages-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1160px;
   margin: 0 auto;
-  gap: 35px;
-  align-items: stretch;
+}
+
+/* ===== Card ===== */
+.pkg-card {
+  background: var(--white);
+  border-radius: 14px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 16px rgba(80, 40, 160, 0.10);
   z-index: 1;
 }
 
-/* ===== Left Hero Image ===== */
-.main-image-wrap {
-  flex: 0 0 38%;
-  max-width: 38%;
-  align-self: stretch;
+/* ===== Main Image — tall, full width, no gap ===== */
+.pkg-main-img-wrap {
+  width: 100%;
+  aspect-ratio: 3/2.2;
+  overflow: hidden;
+  /* no border-radius — card handles it at top */
 }
 
-.main-img {
+.pkg-main-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 10px;
   display: block;
+  transition: opacity 0.16s ease;
+  transition: transform 0.35s ease;
 }
 
-/* ===== Right Content Column ===== */
-.content-col {
-  flex: 1;
+.pkg-card:hover .pkg-main-img {
+  transform: scale(1.04);
+}
+
+/* ===== Thumbnail Strip ===== */
+.pkg-thumb-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  padding: 6px 8px;
+  background: var(--white);
+}
+
+.pkg-thumb-row img {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  display: block;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 2px solid transparent;
+  opacity: 0.8;
+  transition: opacity 0.15s ease, border-color 0.15s ease;
+}
+
+.pkg-thumb-row img:hover {
+  opacity: 1;
+}
+
+.pkg-thumb-row img.active {
+  border-color: var(--purple-light);
+  opacity: 1;
+}
+
+/* ===== Card Body ===== */
+.pkg-body {
+  padding: 14px 14px 5px 14px;
   display: flex;
   flex-direction: column;
-  gap: 0;
+  flex: 1;
+  background: var(--white);
 }
 
-/* Label */
-.label {
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-  color: var(--purple-light);
-  margin-bottom: 12px;
-}
-
-/* Title */
-.title {
+.pkg-title {
   font-family: 'Playfair Display', serif;
-  font-size: clamp(28px, 3.2vw, 44px);
+  font-size: 18px;
   font-weight: 700;
-  color: #260058;
-  line-height: 1.15;
-  margin-bottom: 22px;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+  line-height: 1.25;
 }
 
-.accent {
+.pkg-title span {
   color: var(--purple-light);
   font-style: italic;
 }
 
-/* Body Text */
-.body-text {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  margin-bottom: 24px;
-  margin-top: 1.5rem;
-  text-align: justify;
+.pkg-desc {
+  font-size: 13px;
+  line-height: 1.65;
+  color: #444;
+  flex: 1;
+  margin-bottom: 14px;
 }
 
-.body-text p {
-  /* font-size: 14px; */
-  line-height: 1.75;
-  color: #260058;
-}
-
-.body-text1 {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  margin-bottom: 24px;
-  margin-top: 2rem;
-  text-align: justify;
-  z-index: 1;
-}
-
-.body-text1 p {
-  /* font-size: 14px; */
-  line-height: 1.75;
-  color: #260058;
-}
-
-/* ===== Gallery Row ===== */
-.gallery-row {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 18px;
-  margin-top: 0.5rem;
-}
-
-.gallery-item {
-  border-radius: 10px;
-  overflow: hidden;
-  aspect-ratio: 2.5/3;
-}
-
-.gallery-item img {
+/* ===== Book Button — rounded pill, inside body padding ===== */
+.pkg-btn {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  transition: transform 0.35s ease;
+  padding: 13px 15px;
+  background: linear-gradient(-90deg, rgba(76, 0, 176, 1) 0%, rgba(109, 93, 246, 1) 50%, rgba(169, 156, 253, 1) 100%);
+  color: var(--white);
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0.14em;
+  border: none;
+  border-radius: 0 0 8px 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  text-align: right;
 }
 
-.gallery-item:hover img {
-  transform: scale(1.05);
+.pkg-btn:hover {
+  background: var(--purple-light);
 }
 
 /* ===== Responsive ===== */
-
-/* Tablet */
 @media (max-width: 900px) {
-  .main-section-div {
-    flex-direction: column;
-    padding: 32px 0.5rem;
-    gap: 32px;
-    min-height: unset;
-  }
-
-  .main-image-wrap {
-    flex: unset;
-    max-width: 100%;
-    width: 100%;
-    height: 300px;
-  }
-
-  .main-img {
-    height: 300px;
-    width: 100%;
-  }
-
-  .body-text1 {
-    padding: 0 0.5rem;
+  .packages-section { padding: 24px 20px; }
+  .packages-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
   }
 }
 
-/* Mobile */
 @media (max-width: 560px) {
-  .main-section-div {
-    /* padding: 24px 16px; */
-    gap: 24px;
-  }
-
-  .main-image-wrap {
-    height: 220px;
-  }
-
-  .main-img {
-    height: 220px;
-  }
-
-  .gallery-row {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 8px;
-  }
-  
+  .packages-section { padding: 20px 14px; }
+  .packages-grid { grid-template-columns: 1fr; }
 }
