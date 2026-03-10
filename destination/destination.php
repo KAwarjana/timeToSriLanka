@@ -195,7 +195,7 @@
     <!-- ------------footer----------- -->
 
     <script src="../header/header.js"></script>
-    <script src="destination.js"></script>
+    <script src="../resources/components/main.js"></script>
 
 </body>
 

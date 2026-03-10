@@ -66,7 +66,7 @@
                         printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
                         since the 1900s.</p>
                 </div>
-                <a href="#" class="featured-btn">EXPLORE MORE<img src="../resources/img/home/arrow.png"
+                <a href="../hiking/hiking.php" class="featured-btn">EXPLORE MORE<img src="../resources/img/home/arrow.png"
                         class="arrow--img"></a>
             </div>
         </div>
@@ -141,7 +141,7 @@
 <!-- ------------footer----------- -->
 
 <script src="../header/header.js"></script>
-    <script src="experiences.js"></script>
+<script src="../resources/components/main.js"></script>
 
 </body>
 

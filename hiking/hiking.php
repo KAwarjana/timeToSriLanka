@@ -126,7 +126,7 @@
     <!-- ------------footer----------- -->
 
     <script src="../header/header.js"></script>
-    <script src="hiking.js"></script>
+    <script src="../resources/components/main.js"></script>
 
 </body>
 

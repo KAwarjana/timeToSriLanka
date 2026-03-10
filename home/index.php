@@ -23,7 +23,6 @@
     <!-- Video background -->
     <div class="hero-video-wrap">
       <video class="hero-video" autoplay muted loop playsinline>
-        <!-- Replace src with your actual video file -->
         <source src="../resources/img/home/corporate-video.mp4" type="video/mp4">
       </video>
       <div class="hero-overlay"></div>

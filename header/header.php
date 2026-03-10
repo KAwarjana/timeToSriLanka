@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Time to Sri Lanka</title>
   <link
-    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Outfit:wght@300;400;500;600&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500 ;700&family=Outfit:wght@300;400;500;600&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="header.css">
 </head>
@@ -38,7 +38,7 @@
 
       <!-- Language Selector -->
       <div class="lang-select" id="langSelect" onclick="toggleLang(event)">
-        <span class="lang-flag" id="activeLangFlag"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 40">
+        <span class="lang-flag" id="activeLangFlag"><svg xmlns="http://www.w3.org/2000/svg " viewBox="0 0 60 40">
             <rect width="60" height="40" fill="#012169" />
             <path d="M0,0 L60,40 M60,0 L0,40" stroke="#fff" stroke-width="8" />
             <path d="M0,0 L60,40 M60,0 L0,40" stroke="#C8102E" stroke-width="4" />
@@ -51,7 +51,7 @@
           <div class="lang-option active" onclick="setLang('en',event)">
             <span class="lang-flag"
               style="width:22px;height:15px;display:inline-flex;border-radius:2px;overflow:hidden;flex-shrink:0">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 40" style="width:100%;height:100%">
+              <svg xmlns="http://www.w3.org/2000/svg " viewBox="0 0 60 40" style="width:100%;height:100%">
                 <rect width="60" height="40" fill="#012169" />
                 <path d="M0,0 L60,40 M60,0 L0,40" stroke="#fff" stroke-width="8" />
                 <path d="M0,0 L60,40 M60,0 L0,40" stroke="#C8102E" stroke-width="4" />
@@ -64,7 +64,7 @@
           <div class="lang-option" onclick="setLang('si',event)">
             <span class="lang-flag"
               style="width:22px;height:15px;display:inline-flex;border-radius:2px;overflow:hidden;flex-shrink:0">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 45" style="width:100%;height:100%">
+              <svg xmlns="http://www.w3.org/2000/svg " viewBox="0 0 90 45" style="width:100%;height:100%">
                 <rect width="90" height="45" fill="#8D153A" />
                 <rect width="10" height="45" fill="#FF7900" />
                 <rect x="10" width="10" height="45" fill="#009F4D" />
@@ -78,7 +78,7 @@
           <div class="lang-option" onclick="setLang('ta',event)">
             <span class="lang-flag"
               style="width:22px;height:15px;display:inline-flex;border-radius:2px;overflow:hidden;flex-shrink:0">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 45" style="width:100%;height:100%">
+              <svg xmlns="http://www.w3.org/2000/svg " viewBox="0 0 90 45" style="width:100%;height:100%">
                 <rect width="90" height="45" fill="#8D153A" />
                 <rect width="10" height="45" fill="#FF7900" />
                 <rect x="10" width="10" height="45" fill="#009F4D" />
@@ -100,33 +100,33 @@
       <ul class="nav-links" id="navLinks">
         <li><a href="../home/index.php" class="active" data-en="Home" data-si="මුල් පිටුව" data-ta="முகப்பு">Home</a></li>
         <li class="has-sub" id="expDropdown">
-          <a href="../experiences/experiences.php" onclick="toggleSub('expDropdown',event)" data-en="Experience" data-si="අත්දැකීම"
+          <a href="../experiences/experiences.php" data-en="Experience" data-si="අත්දැකීම"
             data-ta="அனுபவம்">
             Experience <span class="arrow"></span>
           </a>
           <ul class="subnav">
-            <li><a href="#" data-en="Cultural Tours" data-si="සංස්කෘතික චාරිකා" data-ta="கலாச்சார சுற்றுலா">Cultural
+            <li><a href="../experiences/experiences.php#cultural" data-en="Cultural Tours" data-si="සංස්කෘතික චාරිකා" data-ta="கலாச்சார சுற்றுலா">Cultural
                 Tours</a></li>
-            <li><a href="#" data-en="Wildlife Safari" data-si="වනජීවී සෆාරි" data-ta="வனவிலங்கு சஃபாரி">Wildlife
+            <li><a href="../experiences/experiences.php#wildlife" data-en="Wildlife Safari" data-si="වනජීවී සෆාරි" data-ta="வனவிலங்கு சஃபாரி">Wildlife
                 Safari</a></li>
-            <li><a href="#" data-en="Beach Escapes" data-si="වෙරළ ගමන" data-ta="கடற்கரை பயணம்">Beach Escapes</a></li>
-            <li><a href="#" data-en="Adventure" data-si="ඇඩ්වෙන්චර්" data-ta="சாகசம்">Adventure</a></li>
+            <li><a href="../experiences/experiences.php#beach" data-en="Beach Escapes" data-si="වෙරළ ගමන" data-ta="கடற்கரை பயணம்">Beach Escapes</a></li>
+            <li><a href="../experiences/experiences.php#adventure" data-en="Adventure" data-si="ඇඩ්වෙන්චර්" data-ta="சாகசம்">Adventure</a></li>
           </ul>
         </li>
         <li class="has-sub" id="svcDropdown">
-          <a href="../services/services.php" onclick="toggleSub('svcDropdown',event)" data-en="Services" data-si="සේවාවන්" data-ta="சேவைகள்">
+          <a href="../services/services.php" data-en="Services" data-si="සේවාවන්" data-ta="சேவைகள்">
             Services <span class="arrow"></span>
           </a>
           <ul class="subnav">
-            <li><a href="../services/hotel-booking.php" data-en="Hotel Booking" data-si="හෝටල් වෙන් කිරීම" data-ta="ஹோட்டல் முன்பதிவு">Hotel
+            <li><a href="../services/services.php#hotel" data-en="Hotel Booking" data-si="හෝටල් වෙන් කිරීම" data-ta="ஹோட்டல் முன்பதிவு">Hotel
                 Booking</a></li>
-            <li><a href="#" data-en="Transport" data-si="ප්‍රවාහනය" data-ta="போக்குவரத்து">Transport</a></li>
-            <li><a href="#" data-en="Guided Tours" data-si="මාර්ගෝපදේශ චාරිකා" data-ta="வழிகாட்டப்பட்ட சுற்றுலா">Guided
+            <li><a href="../services/services.php#transport" data-en="Transport" data-si="ප්‍රවාහනය" data-ta="போக்குவரத்து">Transport</a></li>
+            <li><a href="../services/services.php#guided" data-en="Guided Tours" data-si="මාර්ගෝපදේශ චාරිකා" data-ta="வழிகாட்டப்பட்ட சுற்றுலா">Guided
                 Tours</a></li>
           </ul>
         </li>
         <li><a href="../packages/packages.php" data-en="Packages" data-si="පැකේජ" data-ta="தொகுப்புகள்">Packages</a></li>
-        <li><a href="../destinations/destinations.php" data-en="Destinations" data-si="ගමනාන්ත" data-ta="இடங்கள்">Destinations</a></li>
+        <li><a href="../destination/destination.php" data-en="Destinations" data-si="ගමනාන්ත" data-ta="இடங்கள்">Destinations</a></li>
       </ul>
 
       <div class="nav-right">
@@ -174,13 +174,13 @@
                 <span class="panel-chevron"></span>
               </a>
               <ul class="panel-subnav">
-                <li><a href="#" data-en="Cultural Tours" data-si="සංස්කෘතික චාරිකා" data-ta="கலாச்சார சுற்றுலா">Cultural
+                <li><a href="../experiences/experiences.php#cultural" data-en="Cultural Tours" data-si="සංස්කෘතික චාරිකා" data-ta="கலாச்சார சுற்றுலா">Cultural
                     Tours</a></li>
-                <li><a href="#" data-en="Wildlife Safari" data-si="වනජීවී සෆාරි" data-ta="வனவிலங்கு சஃபாரி">Wildlife
+                <li><a href="../experiences/experiences.php#wildlife" data-en="Wildlife Safari" data-si="වනජීවී සෆාරි" data-ta="வனவிலங்கு சஃபாரி">Wildlife
                     Safari</a></li>
-                <li><a href="#" data-en="Beach Escapes" data-si="වෙරළ ගමන" data-ta="கடற்கரை பயணம்">Beach Escapes</a>
+                <li><a href="../experiences/experiences.php#beach" data-en="Beach Escapes" data-si="වෙරළ ගමන" data-ta="கடற்கரை பயணம்">Beach Escapes</a>
                 </li>
-                <li><a href="#" data-en="Adventure" data-si="ඇඩ්වෙන්චර්" data-ta="சாகசம்">Adventure</a></li>
+                <li><a href="../experiences/experiences.php#adventure" data-en="Adventure" data-si="ඇඩ්වෙන්චර්" data-ta="சாகசம்">Adventure</a></li>
               </ul>
             </li>
             <li class="panel-nav-item" id="pSvc">
@@ -189,10 +189,10 @@
                 <span class="panel-chevron"></span>
               </a>
               <ul class="panel-subnav">
-                <li><a href="#" data-en="Hotel Booking" data-si="හෝටල් වෙන් කිරීම" data-ta="ஹோட்டல் முன்பதிவு">Hotel
+                <li><a href="../services/services.php#hotel" data-en="Hotel Booking" data-si="හෝටල් වෙන් කිරීම" data-ta="ஹோட்டல் முன்பதிவு">Hotel
                     Booking</a></li>
-                <li><a href="#" data-en="Transport" data-si="ප්‍රවාහනය" data-ta="போக்குவரத்து">Transport</a></li>
-                <li><a href="#" data-en="Guided Tours" data-si="මාර්ගෝපදේශ චාරිකා"
+                <li><a href="../services/services.php#transport" data-en="Transport" data-si="ප්‍රවාහනය" data-ta="போக்குவரத்து">Transport</a></li>
+                <li><a href="../services/services.php#guided" data-en="Guided Tours" data-si="මාර්ගෝපදේශ චාරිකා"
                     data-ta="வழிகாட்டப்பட்ட சுற்றுலா">Guided Tours</a></li>
               </ul>
             </li>
@@ -201,7 +201,7 @@
                   data-si="පැකේජ" data-ta="தொகுப்புகள்">Packages</span></a>
             </li>
             <li class="panel-nav-item">
-              <a href="../destinations/destinations.php" data-en="Destinations" data-si="ගමනාන්ත" data-ta="இடங்கள்">📍 <span data-en="Destinations"
+              <a href="../destination/destination.php" data-en="Destinations" data-si="ගමනාන්ත" data-ta="இடங்கள்">📍 <span data-en="Destinations"
                   data-si="ගමනාන්ත" data-ta="இடங்கள்">Destinations</span></a>
             </li>
             <li class="panel-nav-item">

@@ -4,15 +4,15 @@
   const langData = {
     en: {
       name: 'English',
-      flag: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 40"><rect width="60" height="40" fill="#012169"/><path d="M0,0 L60,40 M60,0 L0,40" stroke="#fff" stroke-width="8"/><path d="M0,0 L60,40 M60,0 L0,40" stroke="#C8102E" stroke-width="4"/><path d="M30,0 V40 M0,20 H60" stroke="#fff" stroke-width="12"/><path d="M30,0 V40 M0,20 H60" stroke="#C8102E" stroke-width="7"/></svg>`
+      flag: `<svg xmlns="http://www.w3.org/2000/svg " viewBox="0 0 60 40"><rect width="60" height="40" fill="#012169"/><path d="M0,0 L60,40 M60,0 L0,40" stroke="#fff" stroke-width="8"/><path d="M0,0 L60,40 M60,0 L0,40" stroke="#C8102E" stroke-width="4"/><path d="M30,0 V40 M0,20 H60" stroke="#fff" stroke-width="12"/><path d="M30,0 V40 M0,20 H60" stroke="#C8102E" stroke-width="7"/></svg>`
     },
     si: {
       name: 'සිංහල',
-      flag: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 45"><rect width="90" height="45" fill="#8D153A"/><rect width="10" height="45" fill="#FF7900"/><rect x="10" width="10" height="45" fill="#009F4D"/><rect x="20" width="70" height="45" fill="#8D153A"/><rect x="20" width="70" height="45" fill="none" stroke="#FC0" stroke-width="3"/></svg>`
+      flag: `<svg xmlns="http://www.w3.org/2000/svg " viewBox="0 0 90 45"><rect width="90" height="45" fill="#8D153A"/><rect width="10" height="45" fill="#FF7900"/><rect x="10" width="10" height="45" fill="#009F4D"/><rect x="20" width="70" height="45" fill="#8D153A"/><rect x="20" width="70" height="45" fill="none" stroke="#FC0" stroke-width="3"/></svg>`
     },
     ta: {
       name: 'தமிழ்',
-      flag: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 45"><rect width="90" height="45" fill="#8D153A"/><rect width="10" height="45" fill="#FF7900"/><rect x="10" width="10" height="45" fill="#009F4D"/><rect x="20" width="70" height="45" fill="#8D153A"/><rect x="20" width="70" height="45" fill="none" stroke="#FC0" stroke-width="3"/></svg>`
+      flag: `<svg xmlns="http://www.w3.org/2000/svg " viewBox="0 0 90 45"><rect width="90" height="45" fill="#8D153A"/><rect width="10" height="45" fill="#FF7900"/><rect x="10" width="10" height="45" fill="#009F4D"/><rect x="20" width="70" height="45" fill="#8D153A"/><rect x="20" width="70" height="45" fill="none" stroke="#FC0" stroke-width="3"/></svg>`
     }
   };
 
@@ -43,15 +43,30 @@
     document.getElementById('langSelect').classList.remove('open');
   });
 
-  // ── DROPDOWN (desktop nav) ──
-  function toggleSub(id, e) {
-    e.preventDefault();
-    const el = document.getElementById(id);
-    const isOpen = el.classList.contains('open');
-    document.querySelectorAll('.has-sub').forEach(li => li.classList.remove('open'));
-    if (!isOpen) el.classList.add('open');
-  }
+  // ── DESKTOP DROPDOWN (hover) ──
+  // Only for desktop - hover triggers dropdown
+  const hasSubItems = document.querySelectorAll('.has-sub');
+  
+  hasSubItems.forEach(item => {
+    // Mouse enter - show dropdown
+    item.addEventListener('mouseenter', function() {
+      // Only on desktop (screen width > 768px)
+      if (window.innerWidth > 768) {
+        // Close other dropdowns first
+        document.querySelectorAll('.has-sub').forEach(li => li.classList.remove('open'));
+        this.classList.add('open');
+      }
+    });
+    
+    // Mouse leave - hide dropdown
+    item.addEventListener('mouseleave', function() {
+      if (window.innerWidth > 768) {
+        this.classList.remove('open');
+      }
+    });
+  });
 
+  // Click outside to close dropdowns
   document.addEventListener('click', (e) => {
     if (!e.target.closest('.has-sub')) {
       document.querySelectorAll('.has-sub').forEach(li => li.classList.remove('open'));
@@ -80,7 +95,9 @@
     document.body.style.overflow = '';
   }
 
+  // ── PANEL DROPDOWN (click) ──
   function togglePanelSub(id, e) {
+    // Always prevent default for panel dropdowns (mobile behavior)
     e.preventDefault();
     const el = document.getElementById(id);
     el.classList.toggle('open');
