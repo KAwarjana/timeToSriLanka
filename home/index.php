@@ -12,9 +12,9 @@
 
 <body>
 
-<!-- ------------header----------- -->
-<?php include('../header/header.php'); ?>
-<!-- ------------header----------- -->
+  <!-- ------------header----------- -->
+  <?php include('../header/header.php'); ?>
+  <!-- ------------header----------- -->
 
   <!-- ══════════════════════════════════════
      SECTION 1 — HERO (video background)
@@ -556,9 +556,9 @@
     </div>
   </section>
 
-<!-- ------------footer----------- -->
+  <!-- ------------footer----------- -->
   <?php include('../footer/footer.php'); ?>
-<!-- ------------footer----------- -->
+  <!-- ------------footer----------- -->
 
   <script src="../header/header.js"></script>
   <script src="home.js"></script>
