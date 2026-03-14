@@ -56,10 +56,10 @@
         <div class="footer-col">
           <div class="footer-col-title">Quick Links</div>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Our Services</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="#" data-en="Home" data-si="මුල් පිටුව" data-ta="முகப்பு">Home</a></li>
+            <li><a href="#" data-en="Our Services" data-si="අපගේ සේවාවන්" data-ta="உ我们的服务">Our Services</a></li>
+            <li><a href="#" data-en="About Us" data-si="අපි ගැන" data-ta="உன்னை பற்றி">About Us</a></li>
+            <li><a href="#" data-en="Contact Us" data-si="අපට සම්බන්ධ වන්න" data-ta="எங்களை தொடர்பு கொள்ளுங்கள்">Contact Us</a></li>
           </ul>
         </div>
 
