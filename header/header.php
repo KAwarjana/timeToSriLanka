@@ -133,7 +133,7 @@
         <button class="toggle-btn" id="toggleBtn" onclick="togglePanel()" aria-label="Menu">
           <span></span><span></span><span></span>
         </button>
-        <button class="book-btn" data-en="BOOK NOW" data-si="දැන් වෙන් කරන්න" data-ta="இப்போது முன்பதிவு">BOOK
+        <button class="book-btn" data-en="BOOK NOW" data-si="දැන් වෙන් කරන්න" data-ta="இப்போது முன்பதிவு" onclick="window.location='../booking/booking.php';">BOOK
           NOW</button>
       </div>
     </nav>
@@ -209,7 +209,7 @@
                   data-si="අප ගැන" data-ta="எங்களை பற்றி">About Us</span></a>
             </li>
             <li class="panel-nav-item">
-              <a href="../contact/contact.php" data-en="Contact" data-si="සම්බන්ධ කරන්න" data-ta="தொடர்பு">📞 <span data-en="Contact"
+              <a href="../about/about.php#contact" data-en="Contact" data-si="සම්බන්ධ කරන්න" data-ta="தொடர்பு">📞 <span data-en="Contact"
                   data-si="සම්බන්ධ කරන්න" data-ta="தொடர்பு">Contact</span></a>
             </li>
           </ul>
@@ -278,7 +278,7 @@
         <!-- Panel Book Button -->
         <div class="panel-book-wrap">
           <button class="panel-book-btn" data-en="✈ BOOK YOUR JOURNEY NOW" data-si="✈ දැන් ඔබේ ගමන වෙන් කරන්න"
-            data-ta="✈ இப்போது உங்கள் பயணத்தை முன்பதிவு செய்யுங்கள்">✈ BOOK YOUR JOURNEY NOW</button>
+            data-ta="✈ இப்போது உங்கள் பயணத்தை முன்பதிவு செய்யுங்கள்" onclick="window.location='../booking/booking.php';">✈ BOOK YOUR JOURNEY NOW</button>
         </div>
 
       </div>
