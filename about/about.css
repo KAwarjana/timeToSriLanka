@@ -1020,8 +1020,6 @@ body {
 }
 
 /* ══ LEFT: FORM ══ */
-.cf-left {}
-
 .cf-fields {
   display: flex;
   flex-direction: column;

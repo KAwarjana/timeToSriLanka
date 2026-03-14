@@ -27,8 +27,6 @@ body {
 }
 
 /* ── BRAND COL ── */
-.footer-brand {}
-
 .footer-logo {
   width: 90px;
   height: 90px;
@@ -84,8 +82,6 @@ body {
 }
 
 /* ── LINK COLS ── */
-.footer-col {}
-
 .footer-col-title {
   font-family: 'Outfit', sans-serif;
   font-size: 15px;
