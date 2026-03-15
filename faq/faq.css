@@ -4,7 +4,7 @@
     --purple-light: #6D5DF6;
     --purple-gradient: linear-gradient(180deg, rgba(76, 0, 176, 1) 0%, rgba(109, 93, 246, 1) 50%, rgba(169, 156, 253, 1) 100%);
     --white: #f5f0ff;
-    --font-color: #1a0035;
+    --font-color: #260058;
 }
 
 * {
@@ -228,7 +228,7 @@ body {
  
     .tab-btn.active {
       background: linear-gradient(90deg, rgba(76, 0, 176, 1) 0%, rgba(109, 93, 246, 1) 50%, rgba(169, 156, 253, 1) 100%);
-      color: #fff;
+      color: var(--white);
       box-shadow: 0 4px 18px rgba(108,47,212,0.35);
     }
  
@@ -257,7 +257,7 @@ body {
       font-family: 'Playfair Display', serif;
       font-size: clamp(22px, 3vw, 30px);
       font-weight: 700;
-      color: #1a0035;
+      color: #260058;
       text-align: center;
       margin-bottom: 32px;
     }
@@ -278,7 +278,7 @@ body {
     .policy-heading {
       font-size: 13.5px;
       font-weight: 700;
-      color: #1a0035;
+      color: #260058;
       line-height: 1.5;
       padding-top: 2px;
     }
@@ -304,7 +304,7 @@ body {
     .faq-cat-label {
       font-size: 14px;
       font-weight: 700;
-      color: #1a0035;
+      color: #260058;
       padding-top: 18px;
     }
  
@@ -340,7 +340,7 @@ body {
     .faq-question-text {
       font-size: 13.5px;
       font-weight: 600;
-      color: #1a0035;
+      color: #260058;
       line-height: 1.4;
     }
  

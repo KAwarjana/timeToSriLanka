@@ -40,9 +40,9 @@
       <div class="lang-select" id="langSelect" onclick="toggleLang(event)">
         <span class="lang-flag" id="activeLangFlag"><svg xmlns="http://www.w3.org/2000/svg " viewBox="0 0 60 40">
             <rect width="60" height="40" fill="#012169" />
-            <path d="M0,0 L60,40 M60,0 L0,40" stroke="#fff" stroke-width="8" />
+            <path d="M0,0 L60,40 M60,0 L0,40" stroke="#f5f0ff" stroke-width="8" />
             <path d="M0,0 L60,40 M60,0 L0,40" stroke="#C8102E" stroke-width="4" />
-            <path d="M30,0 V40 M0,20 H60" stroke="#fff" stroke-width="12" />
+            <path d="M30,0 V40 M0,20 H60" stroke="#f5f0ff" stroke-width="12" />
             <path d="M30,0 V40 M0,20 H60" stroke="#C8102E" stroke-width="7" />
           </svg></span>
         <span id="activeLangName">English</span>
@@ -53,9 +53,9 @@
               style="width:22px;height:15px;display:inline-flex;border-radius:2px;overflow:hidden;flex-shrink:0">
               <svg xmlns="http://www.w3.org/2000/svg " viewBox="0 0 60 40" style="width:100%;height:100%">
                 <rect width="60" height="40" fill="#012169" />
-                <path d="M0,0 L60,40 M60,0 L0,40" stroke="#fff" stroke-width="8" />
+                <path d="M0,0 L60,40 M60,0 L0,40" stroke="#f5f0ff" stroke-width="8" />
                 <path d="M0,0 L60,40 M60,0 L0,40" stroke="#C8102E" stroke-width="4" />
-                <path d="M30,0 V40 M0,20 H60" stroke="#fff" stroke-width="12" />
+                <path d="M30,0 V40 M0,20 H60" stroke="#f5f0ff" stroke-width="12" />
                 <path d="M30,0 V40 M0,20 H60" stroke="#C8102E" stroke-width="7" />
               </svg>
             </span>

@@ -4,7 +4,7 @@
     --purple-light: #6D5DF6;
     --purple-gradient: linear-gradient(180deg, rgba(76, 0, 176, 1) 0%, rgba(109, 93, 246, 1) 50%, rgba(169, 156, 253, 1) 100%);
     --white: #f5f0ff;
-    --font-color: #1a0035;
+    --font-color: #260058;
 }
 
 * {
@@ -43,7 +43,7 @@ body {
     min-height: 260px;
     max-height: 480px;
     overflow: hidden;
-    background: #2a0050;
+    background: var(--purple-light);
     z-index: 1;
 }
 
@@ -98,7 +98,7 @@ body {
 .hero-bar {
     width: 3px;
     height: 40px;
-    background: var(--purple-mid);
+    background: var(--purple-light);
     border-radius: 2px;
     flex-shrink: 0;
 }
@@ -307,7 +307,7 @@ body {
   font-family: 'Playfair Display', serif;
   font-size: clamp(1.4rem, 2.5vw, 1.9rem);
   font-weight: 800;
-  color: #260058;
+  color: var(--font-color);
   line-height: 1.2;
 }
 
@@ -319,7 +319,8 @@ body {
 .card__content p {
   font-size: 0.88rem;
   line-height: 1.65;
-  color: #260058bb;
+  color: var(--font-color);
+  text-align: justify;
 }
 
 .card:hover .card__label {

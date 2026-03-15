@@ -1,7 +1,7 @@
 :root {
   --purple-deep: #3b0764;
   --purple-mid: #7c3aed;
-  --purple-light: #a855f7;
+  --purple-light: #6D5DF6;
   --purple-gradient: linear-gradient(135deg, #4C00B0 0%, #A99CFD 100%);
   --gold: #f59e0b;
   --white: #f5f0ff;
@@ -123,17 +123,17 @@ body {
   padding: 11px 16px;
   font-size: 13.5px;
   font-family: 'Outfit', sans-serif;
-  color: #3b0764;
+  color: var(--font-color);
   cursor: pointer;
   transition: background .15s;
 }
 
 .lang-option:hover {
-  background: #f5f0ff;
+  background: #dcd0f3;
 }
 
 .lang-option.active {
-  background: #ede9fe;
+  background: #c8bef5;
   font-weight: 600;
 }
 
@@ -185,7 +185,7 @@ body {
   padding: 8px 16px;
   font-size: 15px;
   font-weight: 500;
-  color: #260058;
+  color: var(--font-color);
   text-decoration: none;
   border-radius: 8px;
   transition: background .18s, color .18s;
@@ -275,13 +275,13 @@ body {
   border-radius: 0;
   padding: 10px 20px;
   font-size: 14px;
-  color: #3b0764;
+  color: var(--font-color);
   position: relative;
 }
 
 .subnav a:hover {
   background: #f5f0ff;
-  color: var(--purple-mid);
+  color: var(--purple-light);
 }
 
 /* Remove active bottom line from subnav items */
@@ -434,7 +434,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
+  color: #f5f0ff;
   font-family: 'Playfair Display', serif;
   font-size: 17px;
   font-weight: 700;
@@ -451,7 +451,7 @@ body {
 .panel-logo-sub {
   font-family: 'Outfit', sans-serif;
   font-size: 10.5px;
-  color: #260058bb;
+  color: var(--font-color);
   font-weight: 400;
   letter-spacing: .5px;
   text-transform: uppercase;
@@ -538,7 +538,7 @@ body {
   display: block;
   padding: 9px 16px;
   font-size: 14px;
-  color: #260058cb;
+  color: var(--font-color);
   text-decoration: none;
   border-radius: 8px;
   transition: background .18s, color .18s;
@@ -616,7 +616,7 @@ body {
 .panel-contact-icon {
   width: 32px;
   height: 32px;
-  background: #6616ce;
+  background: #4C00B0;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -640,7 +640,7 @@ body {
 
 .panel-about p {
   font-size: 13px;
-  color: #260058bb;
+  color: var(--font-color);
   line-height: 1.7;
   margin-bottom: 18px;
 }
@@ -666,8 +666,8 @@ body {
 }
 
 .panel-social-btn:hover {
-  background: rgba(124, 58, 237, 0.35);
-  color: #fff;
+  background: #6c2fd4;
+  color: var(--white);
   border-color: rgba(124, 58, 237, 0.6);
 }
 
@@ -680,7 +680,7 @@ body {
   width: 100%;
   padding: 14px;
   background: var(--purple-gradient);
-  color: #fff;
+  color: var(--white);
   text-align: center;
   text-decoration: none;
   font-family: 'Outfit', sans-serif;

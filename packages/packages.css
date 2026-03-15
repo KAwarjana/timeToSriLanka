@@ -43,7 +43,7 @@ body {
     min-height: 260px;
     max-height: 480px;
     overflow: hidden;
-    background: #2a0050;
+    background: var(--font-color);
     z-index: 1;
 }
 
@@ -98,7 +98,7 @@ body {
 .hero-bar {
     width: 3px;
     height: 40px;
-    background: var(--purple-mid);
+    background: var(--purple-light);
     border-radius: 2px;
     flex-shrink: 0;
 }
@@ -281,7 +281,7 @@ body {
   font-family: 'Playfair Display', serif;
   font-size: 18px;
   font-weight: 700;
-  color: #1a1a1a;
+  color: var(--font-color);
   margin-bottom: 10px;
   line-height: 1.25;
 }
@@ -294,9 +294,10 @@ body {
 .pkg-desc {
   font-size: 13px;
   line-height: 1.65;
-  color: #444;
+  color: var(--font-color);
   flex: 1;
   margin-bottom: 14px;
+  text-align: justify;
 }
 
 /* ===== Book Button — rounded pill, inside body padding ===== */

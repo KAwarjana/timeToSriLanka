@@ -39,7 +39,7 @@ body {
   font-family: 'Playfair Display', serif;
   font-size: 32px;
   font-weight: 700;
-  color: #fff;
+  color: #f5f0ff;
   border: 2px solid rgba(168, 85, 247, 0.5);
 }
 
@@ -88,7 +88,7 @@ body {
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #fff;
+  color: #f5f0ff;
   margin-bottom: 22px;
 }
 

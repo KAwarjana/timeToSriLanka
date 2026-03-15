@@ -1,10 +1,10 @@
 :root {
     --purple-deep: #3b0764;
     --purple-mid: #7c3aed;
-    --purple-light: #a855f7;
+    --purple-light: #6D5DF6;
     --purple-gradient: linear-gradient(180deg, rgba(76, 0, 176, 1) 0%, rgba(109, 93, 246, 1) 50%, rgba(169, 156, 253, 1) 100%);
     --white: #f5f0ff;
-    --font-color: #1a0035;
+    --font-color: #260058;
 }
 
 * {
@@ -43,7 +43,7 @@ body {
     min-height: 260px;
     max-height: 480px;
     overflow: hidden;
-    background: #2a0050;
+    background: var(--font-color);
     z-index: 1;
 }
 
@@ -98,7 +98,7 @@ body {
 .hero-bar {
     width: 3px;
     height: 40px;
-    background: var(--purple-mid);
+    background: var(--purple-light);
     border-radius: 2px;
     flex-shrink: 0;
 }
@@ -267,7 +267,7 @@ body {
 }
 
 .accent {
-    color: #887ee9;
+    color: #a096fa;
     font-style: italic;
 }
 
@@ -285,6 +285,7 @@ body {
     font-weight: 400;
     color: var(--white);
     line-height: 1.65;
+    text-align: justify;
 }
 
 .featured-btn {

@@ -5,9 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Time to Sri Lanka</title>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Outfit:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
+    <link rel="icon" type="image/png" href="../assets/favicon.png">
+
     <link rel="stylesheet" href="../header/header.css">
     <link rel="stylesheet" href="destination.css">
     <link rel="stylesheet" href="../footer/footer.css">
@@ -188,7 +187,7 @@
         </div>
 
     </section>
-    
+
 
     <!-- ------------footer----------- -->
     <?php include('../footer/footer.php'); ?>

@@ -4,7 +4,7 @@
     --purple-light: #6D5DF6;
     --purple-gradient: linear-gradient(180deg, rgba(76, 0, 176, 1) 0%, rgba(109, 93, 246, 1) 50%, rgba(169, 156, 253, 1) 100%);
     --white: #f5f0ff;
-    --font-color: #1a0035;
+    --font-color: #260058;
 }
 
 * {
@@ -416,7 +416,7 @@ body {
 
 .cal-day.selected {
     background: #7c3aed;
-    color: #fff;
+    color: var(--white);
     font-weight: 700;
 }
 
@@ -534,7 +534,7 @@ body {
     padding: 15px 0;
     margin-top: 4px;
     background: linear-gradient(90deg, rgba(76, 0, 176, 1) 0%, rgba(109, 93, 246, 1) 50%, rgba(169, 156, 253, 1) 100%);
-    color: #fff;
+    color: var(--white);
     font-family: 'Source Sans 3', sans-serif;
     font-size: 13px;
     font-weight: 700;

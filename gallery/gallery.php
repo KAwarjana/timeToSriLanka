@@ -5,9 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Time to Sri Lanka</title>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Outfit:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
+    <link rel="icon" type="image/png" href="../assets/favicon.png">
+
     <link rel="stylesheet" href="../header/header.css">
     <link rel="stylesheet" href="gallery.css">
     <link rel="stylesheet" href="../footer/footer.css">
@@ -41,55 +40,55 @@
     </section>
 
     <section class="gallery-section">
-    <div class="gallery-header">
-        <p class="gallery-label">GALLERY</p>
-        <h2 class="gallery-title">Topic Or <em>Something</em></h2>
-        <p class="gallery-desc">Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem Ipsum Has Been The Industry's Standard Dummy Text Ever Since The 1500s Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry.</p>
-    </div>
-
-    <div class="gallery-grid">
-        <!-- Row 1: 5 images (small, small, wide, small, small) -->
-        <div class="gallery-item">
-            <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=400&q=80" alt="Hiking 1">
-        </div>
-        <div class="gallery-item">
-            <img src="https://images.unsplash.com/photo-1501555088652-021faa106b9b?w=400&q=80" alt="Mountain 1">
-        </div>
-        <div class="gallery-item">
-            <img src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800&q=80" alt="Camping Wide">
-        </div>
-        <div class="gallery-item">
-            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&q=80" alt="Adventure 1">
-        </div>
-        <div class="gallery-item">
-            <img src="https://images.unsplash.com/photo-1522163182402-834f871fd851?w=400&q=80" alt="Travel 1">
+        <div class="gallery-header">
+            <p class="gallery-label">GALLERY</p>
+            <h2 class="gallery-title">Topic Or <em>Something</em></h2>
+            <p class="gallery-desc">Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem Ipsum Has Been The Industry's Standard Dummy Text Ever Since The 1500s Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry.</p>
         </div>
 
-        <!-- Row 2: 7 images (small, small, wide, small, small, small, small) -->
-        <div class="gallery-item">
-            <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=400&q=80" alt="Hiking 2">
+        <div class="gallery-grid">
+            <!-- Row 1: 5 images (small, small, wide, small, small) -->
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=400&q=80" alt="Hiking 1">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1501555088652-021faa106b9b?w=400&q=80" alt="Mountain 1">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800&q=80" alt="Camping Wide">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&q=80" alt="Adventure 1">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1522163182402-834f871fd851?w=400&q=80" alt="Travel 1">
+            </div>
+
+            <!-- Row 2: 7 images (small, small, wide, small, small, small, small) -->
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=400&q=80" alt="Hiking 2">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1501555088652-021faa106b9b?w=400&q=80" alt="Mountain 2">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800&q=80" alt="Camping Wide 2">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&q=80" alt="Adventure 2">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1522163182402-834f871fd851?w=400&q=80" alt="Travel 2">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=400&q=80" alt="Nature 1">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=400&q=80" alt="Landscape 1">
+            </div>
         </div>
-        <div class="gallery-item">
-            <img src="https://images.unsplash.com/photo-1501555088652-021faa106b9b?w=400&q=80" alt="Mountain 2">
-        </div>
-        <div class="gallery-item">
-            <img src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800&q=80" alt="Camping Wide 2">
-        </div>
-        <div class="gallery-item">
-            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&q=80" alt="Adventure 2">
-        </div>
-        <div class="gallery-item">
-            <img src="https://images.unsplash.com/photo-1522163182402-834f871fd851?w=400&q=80" alt="Travel 2">
-        </div>
-        <div class="gallery-item">
-            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=400&q=80" alt="Nature 1">
-        </div>
-        <div class="gallery-item">
-            <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=400&q=80" alt="Landscape 1">
-        </div>
-    </div>
-</section>
-    
+    </section>
+
 
     <!-- ------------footer----------- -->
     <?php include('../footer/footer.php'); ?>
