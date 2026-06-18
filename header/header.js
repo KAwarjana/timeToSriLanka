@@ -11,8 +11,15 @@
       flag: `<svg xmlns="http://www.w3.org/2000/svg " viewBox="0 0 90 45"><rect width="90" height="45" fill="#8D153A"/><rect width="10" height="45" fill="#FF7900"/><rect x="10" width="10" height="45" fill="#009F4D"/><rect x="20" width="70" height="45" fill="#8D153A"/><rect x="20" width="70" height="45" fill="none" stroke="#FC0" stroke-width="3"/></svg>`
     },
     ta: {
-      name: 'தமிழ்',
-      flag: `<svg xmlns="http://www.w3.org/2000/svg " viewBox="0 0 90 45"><rect width="90" height="45" fill="#8D153A"/><rect width="10" height="45" fill="#FF7900"/><rect x="10" width="10" height="45" fill="#009F4D"/><rect x="20" width="70" height="45" fill="#8D153A"/><rect x="20" width="70" height="45" fill="none" stroke="#FC0" stroke-width="3"/></svg>`
+      name: 'Nederlands',
+      flag: `<svg xmlns="http://w3.org" viewBox="0 0 900 600" width="100%" height="auto">
+  <!-- Red Stripe -->
+  <rect fill="#AE1C28" width="900" height="200" />
+  <!-- White Stripe -->
+  <rect fill="#FFFFFF" y="200" width="900" height="200" />
+  <!-- Blue Stripe -->
+  <rect fill="#21468B" y="400" width="900" height="200" />
+</svg>`
     }
   };
 
@@ -31,8 +38,8 @@
 
     // Update all translatable elements
     document.querySelectorAll('[data-' + code + ']').forEach(el => {
-      el.textContent = el.getAttribute('data-' + code);
-    });
+  el.innerHTML = el.getAttribute('data-' + code);
+});
 
     // Mark active
     document.querySelectorAll('.lang-option').forEach(opt => opt.classList.remove('active'));

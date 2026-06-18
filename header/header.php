@@ -4,11 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Time to Sri Lanka</title>
+  <title>Time to Ceylon</title>
   <link
     href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500 ;700&family=Outfit:wght@300;400;500;600&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="header.css">
+  <link rel="icon" type="image/png" href="../resources/img/logo.png">
 </head>
 
 <body>
@@ -78,16 +79,16 @@
           <div class="lang-option" onclick="setLang('ta',event)">
             <span class="lang-flag"
               style="width:22px;height:15px;display:inline-flex;border-radius:2px;overflow:hidden;flex-shrink:0">
-              <svg xmlns="http://www.w3.org/2000/svg " viewBox="0 0 90 45" style="width:100%;height:100%">
-                <rect width="90" height="45" fill="#8D153A" />
-                <rect width="10" height="45" fill="#FF7900" />
-                <rect x="10" width="10" height="45" fill="#009F4D" />
-                <rect x="20" width="70" height="45" fill="#8D153A" rx="2" />
-                <rect x="20" width="70" height="45" fill="none" stroke="#FC0" stroke-width="3" /><text x="55" y="33"
-                  font-size="22" text-anchor="middle" fill="#FC0">🦁</text>
-              </svg>
+              <svg xmlns="http://w3.org" viewBox="0 0 900 600" width="100%" height="auto">
+  <!-- Red Stripe -->
+  <rect fill="#AE1C28" width="900" height="200" />
+  <!-- White Stripe -->
+  <rect fill="#FFFFFF" y="200" width="900" height="200" />
+  <!-- Blue Stripe -->
+  <rect fill="#21468B" y="400" width="900" height="200" />
+</svg>
             </span>
-            தமிழ்
+            Nederlands
           </div>
         </div>
       </div>
@@ -95,45 +96,47 @@
 
     <!-- MAIN NAVBAR -->
     <nav class="navbar">
-      <div class="logo">T</div>
+      <div class="logo">
+        <img src="../resources/img/logo.png" alt="Time to Ceylon Logo" class="header-logo-img">
+      </div>
 
       <ul class="nav-links" id="navLinks">
-        <li><a href="../home/index.php" class="active" data-en="Home" data-si="මුල් පිටුව" data-ta="முகப்பு">Home</a></li>
+        <li><a href="../home/index.php" class="active" data-en="Home" data-si="මුල් පිටුව" data-ta="">Home</a></li>
         <li class="has-sub" id="expDropdown">
           <a href="../experiences/experiences.php" data-en="Experience" data-si="අත්දැකීම"
-            data-ta="அனுபவம்">
+            data-ta="">
             Experience <span class="arrow"></span>
           </a>
           <ul class="subnav">
-            <li><a href="../experiences/experiences.php#cultural" data-en="Cultural Tours" data-si="සංස්කෘතික චාරිකා" data-ta="கலாச்சார சுற்றுலா">Cultural
+            <li><a href="../experiences/experiences.php#cultural" data-en="Cultural Tours" data-si="සංස්කෘතික චාරිකා" data-ta="">Cultural
                 Tours</a></li>
-            <li><a href="../experiences/experiences.php#wildlife" data-en="Wildlife Safari" data-si="වනජීවී සෆාරි" data-ta="வனவிலங்கு சஃபாரி">Wildlife
+            <li><a href="../experiences/experiences.php#wildlife" data-en="Wildlife Safari" data-si="වනජීවී සෆාරි" data-ta="">Wildlife
                 Safari</a></li>
-            <li><a href="../experiences/experiences.php#beach" data-en="Beach Escapes" data-si="වෙරළ ගමන" data-ta="கடற்கரை பயணம்">Beach Escapes</a></li>
-            <li><a href="../experiences/experiences.php#adventure" data-en="Adventure" data-si="ඇඩ්වෙන්චර්" data-ta="சாகசம்">Adventure</a></li>
+            <li><a href="../experiences/experiences.php#beach" data-en="Beach Escapes" data-si="වෙරළ ගමන" data-ta="">Beach Escapes</a></li>
+            <li><a href="../experiences/experiences.php#adventure" data-en="Adventure" data-si="ඇඩ්වෙන්චර්" data-ta="">Adventure</a></li>
           </ul>
         </li>
         <li class="has-sub" id="svcDropdown">
-          <a href="../services/services.php" data-en="Services" data-si="සේවාවන්" data-ta="சேவைகள்">
+          <a href="../services/services.php" data-en="Services" data-si="සේවාවන්" data-ta="">
             Services <span class="arrow"></span>
           </a>
           <ul class="subnav">
-            <li><a href="../services/services.php#hotel" data-en="Hotel Booking" data-si="හෝටල් වෙන් කිරීම" data-ta="ஹோட்டல் முன்பதிவு">Hotel
+            <li><a href="../services/services.php#hotel" data-en="Hotel Booking" data-si="හෝටල් වෙන් කිරීම" data-ta="">Hotel
                 Booking</a></li>
-            <li><a href="../services/services.php#transport" data-en="Transport" data-si="ප්‍රවාහනය" data-ta="போக்குவரத்து">Transport</a></li>
-            <li><a href="../services/services.php#guided" data-en="Guided Tours" data-si="මාර්ගෝපදේශ චාරිකා" data-ta="வழிகாட்டப்பட்ட சுற்றுலா">Guided
+            <li><a href="../services/services.php#transport" data-en="Transport" data-si="ප්‍රවාහනය" data-ta="">Transport</a></li>
+            <li><a href="../services/services.php#guided" data-en="Guided Tours" data-si="මාර්ගෝපදේශ චාරිකා" data-ta="">Guided
                 Tours</a></li>
           </ul>
         </li>
-        <li><a href="../packages/packages.php" data-en="Packages" data-si="පැකේජ" data-ta="தொகுப்புகள்">Packages</a></li>
-        <li><a href="../destination/destination.php" data-en="Destinations" data-si="ගමනාන්ත" data-ta="இடங்கள்">Destinations</a></li>
+        <li><a href="../packages/packages.php" data-en="Packages" data-si="පැකේජ" data-ta="">Packages</a></li>
+        <li><a href="../destination/destination.php" data-en="Destinations" data-si="ගමනාන්ත" data-ta="">Destinations</a></li>
       </ul>
 
       <div class="nav-right">
         <button class="toggle-btn" id="toggleBtn" onclick="togglePanel()" aria-label="Menu">
           <span></span><span></span><span></span>
         </button>
-        <button class="book-btn" data-en="BOOK NOW" data-si="දැන් වෙන් කරන්න" data-ta="இப்போது முன்பதிவு" onclick="window.location='../booking/booking.php';">BOOK
+        <button class="book-btn" data-en="BOOK NOW" data-si="දැන් වෙන් කරන්න" data-ta="" onclick="window.location='../booking/booking.php';">BOOK
           NOW</button>
       </div>
     </nav>
@@ -149,9 +152,11 @@
         <!-- Header -->
         <div class="panel-header">
           <div class="panel-logo">
-            <div class="panel-logo-icon">T</div>
+            <div class="panel-logo-icon">
+              <img src="../resources/img/logo.png" alt="Time to Ceylon Logo" class="header-logo-img">
+            </div>
             <div>
-              <div class="panel-logo-text">Time to Sri Lanka</div>
+              <div class="panel-logo-text">Time to Ceylon</div>
               <div class="panel-logo-sub">Your Island Experience</div>
             </div>
           </div>
@@ -160,57 +165,57 @@
 
         <!-- Navigation -->
         <div class="panel-nav">
-          <div class="panel-nav-label" data-en="Navigation" data-si="නාවිගේෂනය" data-ta="வழிசெலுத்தல்">Navigation</div>
+          <div class="panel-nav-label" data-en="Navigation" data-si="නාවිගේෂනය" data-ta="">Navigation</div>
           <ul class="panel-nav-list">
             <li class="panel-nav-item">
-              <a href="../home/index.php" class="active" data-en="Home" data-si="මුල් පිටුව" data-ta="முகப்பு">
+              <a href="../home/index.php" class="active" data-en="Home" data-si="මුල් පිටුව" data-ta="">
                 🏠 Home
               </a>
             </li>
             <li class="panel-nav-item" id="pExp">
               <a href="../experiences/experiences.php" onclick="togglePanelSub('pExp',event)" data-en="Experience" data-si="අත්දැකීම"
-                data-ta="அனுபவம்">
-                🌴 <span data-en="Experience" data-si="අත්දැකීම" data-ta="அனுபவம்">Experience</span>
+                data-ta="">
+                🌴 <span data-en="Experience" data-si="අත්දැකීම" data-ta="">Experience</span>
                 <span class="panel-chevron"></span>
               </a>
               <ul class="panel-subnav">
-                <li><a href="../experiences/experiences.php#cultural" data-en="Cultural Tours" data-si="සංස්කෘතික චාරිකා" data-ta="கலாச்சார சுற்றுலா">Cultural
+                <li><a href="../experiences/experiences.php#cultural" data-en="Cultural Tours" data-si="සංස්කෘතික චාරිකා" data-ta="">Cultural
                     Tours</a></li>
-                <li><a href="../experiences/experiences.php#wildlife" data-en="Wildlife Safari" data-si="වනජීවී සෆාරි" data-ta="வனவிலங்கு சஃபாரி">Wildlife
+                <li><a href="../experiences/experiences.php#wildlife" data-en="Wildlife Safari" data-si="වනජීවී සෆාරි" data-ta="">Wildlife
                     Safari</a></li>
-                <li><a href="../experiences/experiences.php#beach" data-en="Beach Escapes" data-si="වෙරළ ගමන" data-ta="கடற்கரை பயணம்">Beach Escapes</a>
+                <li><a href="../experiences/experiences.php#beach" data-en="Beach Escapes" data-si="වෙරළ ගමන" data-ta="">Beach Escapes</a>
                 </li>
-                <li><a href="../experiences/experiences.php#adventure" data-en="Adventure" data-si="ඇඩ්වෙන්චර්" data-ta="சாகசம்">Adventure</a></li>
+                <li><a href="../experiences/experiences.php#adventure" data-en="Adventure" data-si="ඇඩ්වෙන්චර්" data-ta="">Adventure</a></li>
               </ul>
             </li>
             <li class="panel-nav-item" id="pSvc">
-              <a href="../services/services.php" onclick="togglePanelSub('pSvc',event)" data-en="Services" data-si="සේවාවන්" data-ta="சேவைகள்">
-                🛎 <span data-en="Services" data-si="සේවාවන්" data-ta="சேவைகள்">Services</span>
+              <a href="../services/services.php" onclick="togglePanelSub('pSvc',event)" data-en="Services" data-si="සේවාවන්" data-ta="">
+                🛎 <span data-en="Services" data-si="සේවාවන්" data-ta="">Services</span>
                 <span class="panel-chevron"></span>
               </a>
               <ul class="panel-subnav">
-                <li><a href="../services/services.php#hotel" data-en="Hotel Booking" data-si="හෝටල් වෙන් කිරීම" data-ta="ஹோட்டல் முன்பதிவு">Hotel
+                <li><a href="../services/services.php#hotel" data-en="Hotel Booking" data-si="හෝටල් වෙන් කිරීම" data-ta="">Hotel
                     Booking</a></li>
-                <li><a href="../services/services.php#transport" data-en="Transport" data-si="ප්‍රවාහනය" data-ta="போக்குவரத்து">Transport</a></li>
+                <li><a href="../services/services.php#transport" data-en="Transport" data-si="ප්‍රවාහනය" data-ta="">Transport</a></li>
                 <li><a href="../services/services.php#guided" data-en="Guided Tours" data-si="මාර්ගෝපදේශ චාරිකා"
-                    data-ta="வழிகாட்டப்பட்ட சுற்றுலா">Guided Tours</a></li>
+                    data-ta="">Guided Tours</a></li>
               </ul>
             </li>
             <li class="panel-nav-item">
-              <a href="../packages/packages.php" data-en="Packages" data-si="පැකේජ" data-ta="தொகுப்புகள்">📦 <span data-en="Packages"
-                  data-si="පැකේජ" data-ta="தொகுப்புகள்">Packages</span></a>
+              <a href="../packages/packages.php" data-en="Packages" data-si="පැකේජ" data-ta="">📦 <span data-en="Packages"
+                  data-si="පැකේජ" data-ta="">Packages</span></a>
             </li>
             <li class="panel-nav-item">
-              <a href="../destination/destination.php" data-en="Destinations" data-si="ගමනාන්ත" data-ta="இடங்கள்">📍 <span data-en="Destinations"
-                  data-si="ගමනාන්ත" data-ta="இடங்கள்">Destinations</span></a>
+              <a href="../destination/destination.php" data-en="Destinations" data-si="ගමනාන්ත" data-ta="">📍 <span data-en="Destinations"
+                  data-si="ගමනාන්ත" data-ta="">Destinations</span></a>
             </li>
             <li class="panel-nav-item">
-              <a href="../about/about.php" data-en="About Us" data-si="අප ගැන" data-ta="எங்களை பற்றி">ℹ️ <span data-en="About Us"
-                  data-si="අප ගැන" data-ta="எங்களை பற்றி">About Us</span></a>
+              <a href="../about/about.php" data-en="About Us" data-si="අප ගැන" data-ta="">ℹ️ <span data-en="About Us"
+                  data-si="අප ගැන" data-ta="">About Us</span></a>
             </li>
             <li class="panel-nav-item">
-              <a href="../about/about.php#contact" data-en="Contact" data-si="සම්බන්ධ කරන්න" data-ta="தொடர்பு">📞 <span data-en="Contact"
-                  data-si="සම්බන්ධ කරන්න" data-ta="தொடர்பு">Contact</span></a>
+              <a href="../about/about.php#contact" data-en="Contact" data-si="සම්බන්ධ කරන්න" data-ta="">📞 <span data-en="Contact"
+                  data-si="සම්බන්ධ කරන්න" data-ta="">Contact</span></a>
             </li>
           </ul>
         </div>
@@ -220,7 +225,7 @@
         <!-- Contact -->
         <div class="panel-contact">
           <div class="panel-contact-label" data-en="Contact Us" data-si="අප හා සම්බන්ධ වන්න"
-            data-ta="எங்களை தொடர்பு கொள்ளுங்கள்">Contact Us</div>
+            data-ta="">Contact Us</div>
           <a class="panel-contact-item" href="tel:+94255528956">
             <span class="panel-contact-icon">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.7)"
@@ -259,10 +264,10 @@
 
         <!-- About -->
         <div class="panel-about">
-          <div class="panel-about-label" data-en="About Us" data-si="අප ගැන" data-ta="எங்களை பற்றி">About Us</div>
+          <div class="panel-about-label" data-en="About Us" data-si="අප ගැන" data-ta="">About Us</div>
           <p data-en="Discover the pearl of the Indian Ocean. We craft unforgettable journeys across Sri Lanka's ancient temples, emerald mountains, and golden shores."
             data-si="ඉන්දීය සාගරයේ මුතු ඇටය ගවේෂණය කරන්න. අපි ශ්‍රී ලංකාවේ පුරාණ දේවස්ථාන, මරකත කඳු සහ රන් වෙරළ හරහා අමතක නොවන ගමන් සංවිධානය කරමු."
-            data-ta="இந்திய கடலின் முத்தை கண்டுபிடியுங்கள். இலங்கையின் பண்டைய கோயில்கள், மரகத மலைகள் மற்றும் தங்க கடற்கரைகளில் மறக்க முடியாத பயணங்களை நாங்கள் உருவாக்குகிறோம்.">
+            data-ta="">
             Discover the pearl of the Indian Ocean. We craft unforgettable journeys across Sri Lanka's ancient temples,
             emerald mountains, and golden shores.
           </p>
@@ -278,7 +283,7 @@
         <!-- Panel Book Button -->
         <div class="panel-book-wrap">
           <button class="panel-book-btn" data-en="✈ BOOK YOUR JOURNEY NOW" data-si="✈ දැන් ඔබේ ගමන වෙන් කරන්න"
-            data-ta="✈ இப்போது உங்கள் பயணத்தை முன்பதிவு செய்யுங்கள்" onclick="window.location='../booking/booking.php';">✈ BOOK YOUR JOURNEY NOW</button>
+            data-ta="" onclick="window.location='../booking/booking.php';">✈ BOOK YOUR JOURNEY NOW</button>
         </div>
 
       </div>

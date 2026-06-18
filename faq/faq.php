@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Time to Sri Lanka</title>
-  <link rel="icon" type="image/png" href="../assets/favicon.png">
+  <title>Time to Ceylon</title>
+  <link rel="icon" type="image/png" href="../resources/img/logo.png">
 
   <link rel="stylesheet" href="../header/header.css">
   <link rel="stylesheet" href="faq.css">

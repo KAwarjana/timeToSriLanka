@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Time to Sri Lanka</title>
-  <link rel="icon" type="image/png" href="../assets/favicon.png">
+  <title>Time to Ceylon</title>
+  <link rel="icon" type="image/png" href="../resources/img/logo.png">
 
   <link rel="stylesheet" href="../header/header.css">
   <link rel="stylesheet" href="about.css">
@@ -67,7 +67,7 @@
       <!-- RIGHT: text -->
       <div class="about-content">
         <span class="about-eyebrow">About Us</span>
-        <h2 class="about-heading">Topic Or <span>Something</span></h2>
+        <h2 class="about-heading" data-en="Discover the Essence of <span>TimetoCeylon</span>" data-si="" data-ta="Ontdek De Essentie van <span>TimetoCeylon</span>">Discover the Essence of <span>TimetoCeylon</span></h2>
         <div class="about-body">
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -166,15 +166,12 @@
     <div class="contact-layout">
 
       <div class="text-wrap">
-        <p class="label">Contact</p>
+        <p class="label" data-en="Contact" data-si="" data-ta="Kontak">Contact</p>
         <h2 class="title">
-          <span class="t-white">Topic Or </span><span class="t-accent">Something</span>
+          <span class="t-white" data-en="Let Your Dream Journey <span class='t-accent'>Begin</span>" data-si="" data-ta="Laat Uw Droomreis <span class='t-accent'>Beginnen</span>">Let Your Dream Journey <span class="t-accent">Begin</span></span>
         </h2>
-        <p class="body-text">
-          Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting
-          Industry. Lorem Ipsum Has Been The Industry's Standard Dummy Text
-          Ever Since The 1500s Lorem Ipsum Is Simply Dummy Text Of The
-          Printing And Typesetting Industry.
+        <p class="body-text" data-en="Our team is ready to craft your ideal Sri Lanka experience with care, precision, and personal attention." data-si="" data-ta="Ons team staat klaar om uw ideale Sri Lanka ervaring met zorg, precisie en persoonlijke aandacht samen te stellen.">
+          Our team is ready to craft your ideal Sri Lanka experience with care, precision, and personal attention.
         </p>
       </div>
 
@@ -190,11 +187,9 @@
 
     <!-- bottom row: contact info (white zone) -->
     <div class="contact-info">
-      <h3>Contact Information</h3>
-      <p class="info-desc">
-        Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem Ipsum Has
-        Been The Industry's Standard Dummy Text Ever Since The 1500s Lorem Ipsum Is Simply Dummy
-        Text Of The Printing And Typesetting Industry.
+      <h3 data-en="Contact Information" data-si="" data-ta="Contact Informatie">Contact Information</h3>
+      <p class="info-desc" data-en="Connect with us for expert guidance and receive an exclusive travel proposal thoughtfully tailored to your wishes and expectations." data-si="" data-ta="Neem contact met ons op voor deskundig advies en ontvang een exclusief reisvoorstel dat volledig is afgestemd op uw wensen en verwachtingen.">
+        Connect with us for expert guidance and receive an exclusive travel proposal thoughtfully tailored to your wishes and expectations.
       </p>
       <div class="contact-cards">
 
@@ -245,11 +240,9 @@
       <!-- LEFT: Get In Touch Form -->
       <div class="cf-left">
         <!-- <p class="cf-eyebrow">Reach Out</p> -->
-        <h3 class="cf-heading">Get In <span>Touch</span></h3>
-        <p class="cf-desc">
-          Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting
-          Industry. Lorem Ipsum Has Been The Industry's Standard Dummy Text
-          Ever Since The 1500s.
+        <h3 class="cf-heading" data-en="Get In Touch" data-si="" data-ta="Neem Contact Op">Get In <span>Touch</span></h3>
+        <p class="cf-desc" data-en="Share your travel aspirations with us and let TimetoCeylon create an exclusive, fully tailored Sri Lanka experience, thoughtfully designed to exceed your expectations." data-si="" data-ta="Deel uw reiswensen met ons en laat TimetoCeylon een exclusieve, volledig op maat gemaakte Sri Lanka ervaring creëren, zorgvuldig ontworpen om uw verwachtingen te overtreffen.">
+          Share your travel aspirations with us and let TimetoCeylon create an exclusive, fully tailored Sri Lanka experience, thoughtfully designed to exceed your expectations.
         </p>
 
         <div class="cf-fields">
@@ -257,11 +250,11 @@
           <!-- Row 1: First Name + Last Name -->
           <div class="cf-row cf-two">
             <div class="cf-box">
-              <label class="cf-label">Your First Name</label>
+              <label class="cf-label" data-en="Your First Name" data-si="" data-ta="Uw Eerste Naam">Your First Name</label>
               <input class="cf-input" type="text" id="cfFirstName" placeholder="Please Enter Your First Name" />
             </div>
             <div class="cf-box">
-              <label class="cf-label">Your Last Name</label>
+              <label class="cf-label" data-en="Your Last Name" data-si="" data-ta="Uw Laatste Naam">Your Last Name</label>
               <input class="cf-input" type="text" id="cfLastName" placeholder="Please Enter Your Last Name" />
             </div>
           </div>
@@ -269,11 +262,11 @@
           <!-- Row 2: Email + Mobile -->
           <div class="cf-row cf-two">
             <div class="cf-box">
-              <label class="cf-label">Your Email</label>
+              <label class="cf-label" data-en="Your Email" data-si="" data-ta="Uw Email">Your Email</label>
               <input class="cf-input" type="email" id="cfEmail" placeholder="Please Enter Your Email" />
             </div>
             <div class="cf-box">
-              <label class="cf-label">Your Mobile Number</label>
+              <label class="cf-label" data-en="Your Mobile Number" data-si="" data-ta="Uw Mobiele Nummer">Your Mobile Number</label>
               <input class="cf-input" type="tel" id="cfMobile" placeholder="Please Enter Your Mobile Number" />
             </div>
           </div>
@@ -281,7 +274,7 @@
           <!-- Row 3: Subject -->
           <div class="cf-row cf-one">
             <div class="cf-box">
-              <label class="cf-label">Your Subject</label>
+              <label class="cf-label" data-en="Your Subject" data-si="" data-ta="Uw Onderwerp">Your Subject</label>
               <input class="cf-input" type="text" id="cfSubject" placeholder="Please Enter Your Subject" />
             </div>
           </div>
@@ -289,7 +282,7 @@
           <!-- Row 4: Message -->
           <div class="cf-row cf-one">
             <div class="cf-box">
-              <label class="cf-label">Your Message</label>
+              <label class="cf-label" data-en="Your Message" data-si="" data-ta="Uw Bericht">Your Message</label>
               <textarea class="cf-input cf-textarea" id="cfMessage" placeholder="Please Enter Your Message"></textarea>
             </div>
           </div>
@@ -306,11 +299,9 @@
         <!-- Our Location -->
         <div class="cf-location">
           <!-- <p class="cf-eyebrow">Find Us</p> -->
-          <h3 class="cf-heading">Our <span>Location</span></h3>
-          <p class="cf-desc">
-            Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting
-            Industry. Lorem Ipsum Has Been The Industry's Standard Dummy Text
-            Ever Since The 1500s.
+          <h3 class="cf-heading" data-en="Our Location" data-si="" data-ta="Ons Locatie">Our <span>Location</span></h3>
+          <p class="cf-desc" data-en="From the heart of Sri Lanka, we guide travelers with local expertise, personal attention, and exceptional service." data-si="" data-ta="Vanuit het hart van Sri Lanka begeleiden wij reizigers met lokale expertise, persoonlijke aandacht en uitzonderlijke service.">
+            From the heart of Sri Lanka, we guide travelers with local expertise, personal attention, and exceptional service.
           </p>
           <div class="cf-map-wrap">
             <iframe
@@ -325,22 +316,21 @@
         <!-- Social Media -->
         <div class="cf-social">
           <!-- <p class="cf-eyebrow">Connect</p> -->
-          <h3 class="cf-heading">Social <span>Media</span></h3>
-          <p class="cf-desc">
-            Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry.
-            Lorem Ipsum Has Been The Industry's Standard Dummy Text Ever Since The 1500s.
+          <h3 class="cf-heading" data-en="Social Media" data-si="" data-ta="Sociale Media">Social <span>Media</span></h3>
+          <p class="cf-desc" data-en="Discover the beauty of Sri Lanka through our travel stories, exclusive destinations, and inspiring experiences." data-si="" data-ta="Ontdek de schoonheid van Sri Lanka via onze reisverhalen, exclusieve bestemmingen en inspirerende ervaringen.">
+            Discover the beauty of Sri Lanka through our travel stories, exclusive destinations, and inspiring experiences.
           </p>
           <div class="cf-social-icons">
 
             <!-- Facebook -->
-            <a href="#" class="cf-social-btn" aria-label="Facebook">
+            <a href="https://www.facebook.com/share/1DB9cy6f1o/?mibextid=wwXIfr" class="cf-social-btn" aria-label="Facebook">
               <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
               </svg>
             </a>
 
             <!-- Instagram -->
-            <a href="#" class="cf-social-btn" aria-label="Instagram">
+            <a href="https://www.instagram.com/private_sri_lanka_tours_?igsh=azZ5ZDhkODQ3N2g0&utm_source=qr" class="cf-social-btn" aria-label="Instagram">
               <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect x="2" y="2" width="20" height="20" rx="5" stroke="white" stroke-width="2"/>
                 <circle cx="12" cy="12" r="4" stroke="white" stroke-width="2"/>
@@ -349,7 +339,7 @@
             </a>
 
             <!-- WhatsApp -->
-            <a href="#" class="cf-social-btn" aria-label="WhatsApp">
+            <a href="https://wa.me/9471" class="cf-social-btn" aria-label="WhatsApp">
               <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path fill="white" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
               </svg>
