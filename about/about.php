@@ -28,7 +28,7 @@
     </div>
     <div class="hero-content">
       <span class="hero-bar"></span>
-      <h1 class="hero-title">Topic Or Something Casual</h1>
+      <h1 class="hero-title" data-en="Your Sri Lanka Story Begins Here" data-si="ඔබගේ ශ්‍රී ලංකා කතාව මෙතනින් ආරම්භ වේ" data-ta="Uw Sri Lanka-verhaal begint hier">Your Sri Lanka Story Begins Here</h1>
     </div>
   </section>
 
@@ -47,7 +47,7 @@
             alt="About us" />
           <div class="card__overlay">
             <div class="card__label">
-              <span class="label-text">Lorem Ipsum</span>
+              <span class="label-text" data-en="Trusted Travel Partner" data-si="විශ්වාසදායක සංචාර සහකරු" data-ta="Betrouwbare reispartner">Trusted Travel Partner</span>
             </div>
             <div class="card__clients">
               <div class="card__circles">
@@ -56,7 +56,7 @@
                 <div class="circle"><img src="../resources/img/clients/client3.jpg" alt="client 3" /></div>
               </div>
               <div class="card__clients-text">
-                <span class="clients-name">Lorem Ipsum</span>
+                <span class="clients-name" data-en="Happy Travelers" data-si="සතුටු සංචාරකයින්" data-ta="Blije reizigers">Happy Travelers</span>
                 <span class="clients-count">+ 500</span>
               </div>
             </div>
@@ -67,11 +67,11 @@
       <!-- RIGHT: text -->
       <div class="about-content">
         <span class="about-eyebrow">About Us</span>
-        <h2 class="about-heading" data-en="Discover the Essence of <span>TimetoCeylon</span>" data-si="" data-ta="Ontdek De Essentie van <span>TimetoCeylon</span>">Discover the Essence of <span>TimetoCeylon</span></h2>
+        <h2 class="about-heading" data-en="Discover the Essence of <span>TimetoCeylon</span>" data-si="TimetoCeylon හි මූලික සාරය සොයාගන්න" data-ta="Ontdek De Essentie van <span>TimetoCeylon</span>">Discover the Essence of <span>TimetoCeylon</span></h2>
         <div class="about-body">
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <p data-en="TimetoCeylon creates thoughtfully curated journeys that blend comfort, culture, and discovery across the most beautiful corners of Sri Lanka." data-si="TimetoCeylon සුව පහසුකම්, සංස්කෘතිය සහ ගවේෂණය එකට පොහොසත් කරමින් ශ්‍රී ලංකාවේ ලස්සනම කෙළවරවල් හරහා සලකා සකස් කළ ගමන් සපයයි." data-ta="TimetoCeylon creëert zorgvuldig samengestelde reizen die comfort, cultuur en ontdekking combineren in de mooiste hoeken van Sri Lanka.">TimetoCeylon creates thoughtfully curated journeys that blend comfort, culture, and discovery across the most beautiful corners of Sri Lanka.</p>
+          <p data-en="From scenic train rides to hidden beaches and heritage sites, every itinerary is designed to feel personal, seamless, and memorable." data-si="දර්ශනීය දුම්රිය ගමන් සිට සැඟවුණු වෙරළවල්, උරුම ස්ථාන දක්වා සෑම ගමනක්ම පුද්ගලික, සුසටහන් හා මතකයට පත්වන ලෙස සකසා ඇත." data-ta="Van scenerische treinritten tot verborgen stranden en erfgoedlocaties, elke reisroute is ontworpen om persoonlijk, naadloos en onvergetelijk te voelen.">From scenic train rides to hidden beaches and heritage sites, every itinerary is designed to feel personal, seamless, and memorable.</p>
+          <p data-en="We are passionate about helping travelers experience Sri Lanka with warmth, local insight, and complete peace of mind." data-si="අපි දේශීය දැනුම, උණුසුම් සේවාව සහ සම්පූර්ණ සාමය සමඟ ශ්‍රී ලංකාව අත්දැකීමට සංචාරකයින්ට උදව් කිරීමට ප්‍රීතියෙන් කටයුතු කරමු." data-ta="We zijn gepassioneerd over het helpen van reizigers Sri Lanka te ervaren met warmte, lokale kennis en complete gemoedsrust.">We are passionate about helping travelers experience Sri Lanka with warmth, local insight, and complete peace of mind.</p>
         </div>
       </div>
 
@@ -79,7 +79,7 @@
 
     <!-- bottom: full-width paragraph -->
     <div class="about-bottom-text">
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      <p data-en="Every journey with TimetoCeylon is shaped around your interests, schedule, and sense of wonder, ensuring that your time in Sri Lanka feels effortless, enriching, and truly unforgettable." data-si="TimetoCeylon සමඟ සෑම ගමනක්ම ඔබගේ උනන්දුව, කාලසටහන සහ විස්මය අනුව සකස් කර ඇති අතර ශ්‍රී ලංකාවේ ඔබේ කාලය අසීරු නොවී, පූර්ණ සහ අමතක නොවන ලෙස ගත වේ." data-ta="Elke reis met TimetoCeylon wordt gevormd rond uw interesses, planning en nieuwsgierigheid, zodat uw tijd in Sri Lanka moeiteloos, verrijkend en echt onvergetelijk voelt.">Every journey with TimetoCeylon is shaped around your interests, schedule, and sense of wonder, ensuring that your time in Sri Lanka feels effortless, enriching, and truly unforgettable.</p>
     </div>
 
     <!-- stats row -->
@@ -103,7 +103,7 @@
         </div>
         <div class="stat-text">
           <span class="stat-number">45+</span>
-          <span class="stat-label">Lorem Ipsum Is Simply</span>
+          <span class="stat-label" data-en="Satisfied Guests" data-si="තෘප්තිමත් අමුත්තන්" data-ta="Tevreden gasten">Satisfied Guests</span>
         </div>
       </div>
       <div class="stat-divider"></div>
@@ -126,7 +126,7 @@
         </div>
         <div class="stat-text">
           <span class="stat-number">4k+</span>
-          <span class="stat-label">Lorem Ipsum Is Simply</span>
+          <span class="stat-label" data-en="Tailored Experiences" data-si="අභිරුචි අත්දැකීම්" data-ta="Op maat gemaakte ervaringen">Tailored Experiences</span>
         </div>
       </div>
       <div class="stat-divider"></div>
@@ -149,7 +149,7 @@
         </div>
         <div class="stat-text">
           <span class="stat-number">5.8</span>
-          <span class="stat-label">Lorem Ipsum Is Simply</span>
+          <span class="stat-label" data-en="Average Rating" data-si="සාමාන්‍ය ශ්‍රේෂ්ඨත්වය" data-ta="Gemiddelde beoordeling">Average Rating</span>
         </div>
       </div>
     </div>
@@ -166,11 +166,11 @@
     <div class="contact-layout">
 
       <div class="text-wrap">
-        <p class="label" data-en="Contact" data-si="" data-ta="Kontak">Contact</p>
+        <p class="label" data-en="Contact" data-si="සම්බන්ධ කිරීම" data-ta="Kontak">Contact</p>
         <h2 class="title">
-          <span class="t-white" data-en="Let Your Dream Journey <span class='t-accent'>Begin</span>" data-si="" data-ta="Laat Uw Droomreis <span class='t-accent'>Beginnen</span>">Let Your Dream Journey <span class="t-accent">Begin</span></span>
+          <span class="t-white" data-en="Let Your Dream Journey <span class='t-accent'>Begin</span>" data-si="ඔබේ සිහිනයෙන් පිරුණු ගමන <span class='t-accent'>ආරම්භ වේ</span>" data-ta="Laat Uw Droomreis <span class='t-accent'>Beginnen</span>">Let Your Dream Journey <span class="t-accent">Begin</span></span>
         </h2>
-        <p class="body-text" data-en="Our team is ready to craft your ideal Sri Lanka experience with care, precision, and personal attention." data-si="" data-ta="Ons team staat klaar om uw ideale Sri Lanka ervaring met zorg, precisie en persoonlijke aandacht samen te stellen.">
+        <p class="body-text" data-en="Our team is ready to craft your ideal Sri Lanka experience with care, precision, and personal attention." data-si="අපගේ කණ්ඩායම ඔබගේ ඉලක්කමනින් පිරුණු ශ්‍රී ලංකා අත්දැකීම සකස් කිරීමට සූදානම් වේ." data-ta="Ons team staat klaar om uw ideale Sri Lanka ervaring met zorg, precisie en persoonlijke aandacht samen te stellen.">
           Our team is ready to craft your ideal Sri Lanka experience with care, precision, and personal attention.
         </p>
       </div>
@@ -187,8 +187,8 @@
 
     <!-- bottom row: contact info (white zone) -->
     <div class="contact-info">
-      <h3 data-en="Contact Information" data-si="" data-ta="Contact Informatie">Contact Information</h3>
-      <p class="info-desc" data-en="Connect with us for expert guidance and receive an exclusive travel proposal thoughtfully tailored to your wishes and expectations." data-si="" data-ta="Neem contact met ons op voor deskundig advies en ontvang een exclusief reisvoorstel dat volledig is afgestemd op uw wensen en verwachtingen.">
+      <h3 data-en="Contact Information" data-si="සම්බන්ධතා තොරතුරු" data-ta="Contact Informatie">Contact Information</h3>
+      <p class="info-desc" data-en="Connect with us for expert guidance and receive an exclusive travel proposal thoughtfully tailored to your wishes and expectations." data-si="විශේෂඥ මාර්ගදේශයක් සදහා අප හා සම්බන්ධ වන්න, ඔබගේ අපේක්ෂාවන්ට ගැලපෙන විශේෂිත ගමනේ යෝජනාවක් ලබා ගන්න." data-ta="Neem contact met ons op voor deskundig advies en ontvang een exclusief reisvoorstel dat volledig is afgestemd op uw wensen en verwachtingen.">
         Connect with us for expert guidance and receive an exclusive travel proposal thoughtfully tailored to your wishes and expectations.
       </p>
       <div class="contact-cards">
@@ -200,8 +200,8 @@
               <path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z" />
             </svg>
           </div>
-          <strong>+ 0000000000</strong>
-          <span>Lorem Ipsum Is Simply</span>
+          <strong>+ 94 77 123 4567</strong>
+          <span data-en="Call our travel specialists" data-si="අපගේ සංචාර විශේෂඥයින් අමතන්න" data-ta="Bel onze reisspecialisten">Call our travel specialists</span>
         </div>
 
         <!-- Email -->
@@ -211,8 +211,8 @@
               <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
             </svg>
           </div>
-          <strong><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="e4858687a48389858d88ca878b89">[email&#160;protected]</a></strong>
-          <span>Lorem Ipsum Is Simply</span>
+          <strong><a href="mailto:hello@timetoceylon.com">hello@timetoceylon.com</a></strong>
+          <span data-en="Send us your travel ideas" data-si="ඔබේ සංචාර අදහස් අපට යවන්න" data-ta="Stuur ons uw reisideeën">Send us your travel ideas</span>
         </div>
 
         <!-- Location -->
@@ -223,7 +223,7 @@
             </svg>
           </div>
           <strong>Colombo, Sri Lanka</strong>
-          <span>Lorem Ipsum Is Simply</span>
+          <span data-en="Visit our local office" data-si="අපගේ දේශීය කාර්යාලය පැමිණෙන්න" data-ta="Bezoek ons lokale kantoor">Visit our local office</span>
         </div>
 
       </div>
@@ -240,8 +240,8 @@
       <!-- LEFT: Get In Touch Form -->
       <div class="cf-left">
         <!-- <p class="cf-eyebrow">Reach Out</p> -->
-        <h3 class="cf-heading" data-en="Get In Touch" data-si="" data-ta="Neem Contact Op">Get In <span>Touch</span></h3>
-        <p class="cf-desc" data-en="Share your travel aspirations with us and let TimetoCeylon create an exclusive, fully tailored Sri Lanka experience, thoughtfully designed to exceed your expectations." data-si="" data-ta="Deel uw reiswensen met ons en laat TimetoCeylon een exclusieve, volledig op maat gemaakte Sri Lanka ervaring creëren, zorgvuldig ontworpen om uw verwachtingen te overtreffen.">
+        <h3 class="cf-heading" data-en="Get In Touch" data-si="අප හා සම්බන්ධ වන්න" data-ta="Neem Contact Op">Get In <span>Touch</span></h3>
+        <p class="cf-desc" data-en="Share your travel aspirations with us and let TimetoCeylon create an exclusive, fully tailored Sri Lanka experience, thoughtfully designed to exceed your expectations." data-si="ඔබේ සංචාර අභිලාෂ අප වෙත බෙදා ගන්න, TimetoCeylon ඔබගේ අපේක්ෂාවන්ට සම්පූර්ණයෙන් ගැලපෙන ශ්‍රී ලංකා අත්දැකීමක් නිර්මාණය කර දෙනු ඇත." data-ta="Deel uw reiswensen met ons en laat TimetoCeylon een exclusieve, volledig op maat gemaakte Sri Lanka ervaring creëren, zorgvuldig ontworpen om uw verwachtingen te overtreffen.">
           Share your travel aspirations with us and let TimetoCeylon create an exclusive, fully tailored Sri Lanka experience, thoughtfully designed to exceed your expectations.
         </p>
 
@@ -250,11 +250,11 @@
           <!-- Row 1: First Name + Last Name -->
           <div class="cf-row cf-two">
             <div class="cf-box">
-              <label class="cf-label" data-en="Your First Name" data-si="" data-ta="Uw Eerste Naam">Your First Name</label>
+              <label class="cf-label" data-en="Your First Name" data-si="ඔබේ මුල් නම" data-ta="Uw Eerste Naam">Your First Name</label>
               <input class="cf-input" type="text" id="cfFirstName" placeholder="Please Enter Your First Name" />
             </div>
             <div class="cf-box">
-              <label class="cf-label" data-en="Your Last Name" data-si="" data-ta="Uw Laatste Naam">Your Last Name</label>
+              <label class="cf-label" data-en="Your Last Name" data-si="ඔබේ අවසාන නම" data-ta="Uw Laatste Naam">Your Last Name</label>
               <input class="cf-input" type="text" id="cfLastName" placeholder="Please Enter Your Last Name" />
             </div>
           </div>
@@ -262,11 +262,11 @@
           <!-- Row 2: Email + Mobile -->
           <div class="cf-row cf-two">
             <div class="cf-box">
-              <label class="cf-label" data-en="Your Email" data-si="" data-ta="Uw Email">Your Email</label>
+              <label class="cf-label" data-en="Your Email" data-si="ඔබේ විද්‍යුත් තැපෑල" data-ta="Uw Email">Your Email</label>
               <input class="cf-input" type="email" id="cfEmail" placeholder="Please Enter Your Email" />
             </div>
             <div class="cf-box">
-              <label class="cf-label" data-en="Your Mobile Number" data-si="" data-ta="Uw Mobiele Nummer">Your Mobile Number</label>
+              <label class="cf-label" data-en="Your Mobile Number" data-si="ඔබේ ජංගම අංකය" data-ta="Uw Mobiele Nummer">Your Mobile Number</label>
               <input class="cf-input" type="tel" id="cfMobile" placeholder="Please Enter Your Mobile Number" />
             </div>
           </div>
@@ -274,7 +274,7 @@
           <!-- Row 3: Subject -->
           <div class="cf-row cf-one">
             <div class="cf-box">
-              <label class="cf-label" data-en="Your Subject" data-si="" data-ta="Uw Onderwerp">Your Subject</label>
+              <label class="cf-label" data-en="Your Subject" data-si="ඔබේ විෂය" data-ta="Uw Onderwerp">Your Subject</label>
               <input class="cf-input" type="text" id="cfSubject" placeholder="Please Enter Your Subject" />
             </div>
           </div>
@@ -282,13 +282,13 @@
           <!-- Row 4: Message -->
           <div class="cf-row cf-one">
             <div class="cf-box">
-              <label class="cf-label" data-en="Your Message" data-si="" data-ta="Uw Bericht">Your Message</label>
+              <label class="cf-label" data-en="Your Message" data-si="ඔබේ පණිවිඩය" data-ta="Uw Bericht">Your Message</label>
               <textarea class="cf-input cf-textarea" id="cfMessage" placeholder="Please Enter Your Message"></textarea>
             </div>
           </div>
 
           <!-- Submit -->
-          <button class="cf-send-btn" onclick="cfHandleSend()">SEND MESSAGE</button>
+          <button class="cf-send-btn" onclick="cfHandleSend()" data-en="SEND MESSAGE" data-si="පණිවිඩය යවන්න" data-ta="VERSTUUR BERICHT">SEND MESSAGE</button>
 
         </div>
       </div>
@@ -299,8 +299,8 @@
         <!-- Our Location -->
         <div class="cf-location">
           <!-- <p class="cf-eyebrow">Find Us</p> -->
-          <h3 class="cf-heading" data-en="Our Location" data-si="" data-ta="Ons Locatie">Our <span>Location</span></h3>
-          <p class="cf-desc" data-en="From the heart of Sri Lanka, we guide travelers with local expertise, personal attention, and exceptional service." data-si="" data-ta="Vanuit het hart van Sri Lanka begeleiden wij reizigers met lokale expertise, persoonlijke aandacht en uitzonderlijke service.">
+          <h3 class="cf-heading" data-en="Our Location" data-si="අපගේ ස්ථානය" data-ta="Ons Locatie">Our <span>Location</span></h3>
+          <p class="cf-desc" data-en="From the heart of Sri Lanka, we guide travelers with local expertise, personal attention, and exceptional service." data-si="ශ්‍රී ලංකාවේ හදවත් සිට අපි දේශීය විශේෂඥතාවය, පුද්ගලික අවධානය සහ විශිෂ්ට සේවාව සමඟ සංචාරකයින්ට මාර්ගෝපදේශ කරමු." data-ta="Vanuit het hart van Sri Lanka begeleiden wij reizigers met lokale expertise, persoonlijke aandacht en uitzonderlijke service.">
             From the heart of Sri Lanka, we guide travelers with local expertise, personal attention, and exceptional service.
           </p>
           <div class="cf-map-wrap">
@@ -316,8 +316,8 @@
         <!-- Social Media -->
         <div class="cf-social">
           <!-- <p class="cf-eyebrow">Connect</p> -->
-          <h3 class="cf-heading" data-en="Social Media" data-si="" data-ta="Sociale Media">Social <span>Media</span></h3>
-          <p class="cf-desc" data-en="Discover the beauty of Sri Lanka through our travel stories, exclusive destinations, and inspiring experiences." data-si="" data-ta="Ontdek de schoonheid van Sri Lanka via onze reisverhalen, exclusieve bestemmingen en inspirerende ervaringen.">
+          <h3 class="cf-heading" data-en="Social Media" data-si="සමාජ මාධ්‍ය" data-ta="Sociale Media">Social <span>Media</span></h3>
+          <p class="cf-desc" data-en="Discover the beauty of Sri Lanka through our travel stories, exclusive destinations, and inspiring experiences." data-si="අපගේ සංචාර කතන්දර, විශේෂිත ගමනාන්ත හා අභිප්‍රේරණීය අත්දැකීම් හරහා ශ්‍රී ලංකාවේ ලස්සන ගවේෂණය කරන්න." data-ta="Ontdek de schoonheid van Sri Lanka via onze reisverhalen, exclusieve bestemmingen en inspirerende ervaringen.">
             Discover the beauty of Sri Lanka through our travel stories, exclusive destinations, and inspiring experiences.
           </p>
           <div class="cf-social-icons">
@@ -354,7 +354,7 @@
   </section>
 
   <!-- Toast notification -->
-  <div class="cf-toast" id="cfToast">✓ Message sent successfully!</div>
+  <div class="cf-toast" id="cfToast" data-en="✓ Message sent successfully!" data-si="✓ පණිවිඩය සාර්ථකව යවන ලදී!" data-ta="✓ Bericht succesvol verzonden!">✓ Message sent successfully!</div>
 
   <?php include('../footer/footer.php'); ?>
 

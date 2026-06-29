@@ -23,7 +23,7 @@
           <div class="footer-logo">
             <img src="../resources/img/logo.png" alt="Time to Ceylon Logo" class="footer-logo-img">
           </div>
-          <p class="footer-desc" data-en="TimetoCeylon brings together luxury, authenticity, and carefully curated travel experiences to create unforgettable memories in Sri Lanka." data-si="" data-ta="TimetoCeylon brengt luxe, authenticiteit en zorgvuldig samengestelde reiservaringen samen om onvergetelijke herinneringen in Sri Lanka te creëren.">
+          <p class="footer-desc" data-en="TimetoCeylon brings together luxury, authenticity, and carefully curated travel experiences to create unforgettable memories in Sri Lanka." data-si="TimetoCeylon සිරස, සත්‍යතාවය සහ අවධානයෙන් තෝරාගත් යාත්‍රා අත්දැකීම් එකට එකතු කරමින් ශ්‍රී ලංකාවේ අමතක නොවන මතක නිර්මාණය කරයි." data-ta="TimetoCeylon brengt luxe, authenticiteit en zorgvuldig samengestelde reiservaringen samen om onvergetelijke herinneringen in Sri Lanka te creëren.">
             TimetoCeylon brings together luxury, authenticity, and carefully curated travel experiences to create unforgettable memories in Sri Lanka.
           </p>
           <div class="footer-socials">
@@ -55,33 +55,35 @@
 
         <!-- Quick Links -->
         <div class="footer-col">
-          <div class="footer-col-title">Quick Links</div>
+          <div class="footer-col-title" data-en="Quick Links" data-si="ඉක්මන් සබැඳි" data-ta="Snelle links">Quick Links</div>
           <ul>
-            <li><a href="#" data-en="Home" data-si="මුල් පිටුව" data-ta="">Home</a></li>
-            <li><a href="#" data-en="Our Services" data-si="අපගේ සේවාවන්" data-ta="">Our Services</a></li>
-            <li><a href="#" data-en="About Us" data-si="අපි ගැන" data-ta="">About Us</a></li>
-            <li><a href="#" data-en="Contact Us" data-si="අපට සම්බන්ධ වන්න" data-ta="">Contact Us</a></li>
+            <li><a href="#" data-en="Home" data-si="මුල් පිටුව" data-ta="Home">Home</a></li>
+            <li><a href="#" data-en="Our Services" data-si="අපගේ සේවාවන්" data-ta="Onze diensten">Our Services</a></li>
+            <li><a href="#" data-en="About Us" data-si="අපි ගැන" data-ta="Over ons">About Us</a></li>
+            <li><a href="#" data-en="Contact Us" data-si="අපට සම්බන්ධ වන්න" data-ta="Neem contact op">Contact Us</a></li>
           </ul>
         </div>
 
         <!-- Navigations -->
         <div class="footer-col">
-          <div class="footer-col-title">Navigations</div>
+          <div class="footer-col-title" data-en="Navigations" data-si="සංචාලන" data-ta="Navigatie">Navigations</div>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Our Services</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="#" data-en="Adventure" data-si="ඇඩ්වෙන්චර්" data-ta="Avontuur">Adventure</a></li>
+            <li><a href="#" data-en="Wildlife Safari" data-si="වනජීවී සෆාරි" data-ta="Wildlife safaritocht">Wildlife Safari</a></li>
+            <li><a href="#" data-en="Cultural Discovery" data-si="සංස්කෘතික ගවේෂණය" data-ta="Culturele ontdekking">Cultural Discovery</a></li>
+            <li><a href="#" data-en="Ayurveda &amp; Wellness" data-si="අයුර්වේදා සහ සෞඛ්‍ය" data-ta="Ayurveda &amp; wellness">Ayurveda &amp; Wellness</a></li>
+            <li><a href="#" data-en="Scenic Journeys" data-si="ද්‍රුපීත ගමන්" data-ta="Scenische reizen">Scenic Journeys</a></li>
+            <li><a href="#" data-en="Coastal Escape" data-si="වෙරළ තාටා ගමන" data-ta="Kustontsnapping">Coastal Escape</a></li>
           </ul>
         </div>
 
         <!-- Policies -->
         <div class="footer-col">
-          <div class="footer-col-title">Policies</div>
+          <div class="footer-col-title" data-en="Policies" data-si="ප්‍රතිපත්ති" data-ta="Beleid">Policies</div>
           <ul>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms &amp; Conditions</a></li>
-            <li><a href="#">FAQ</a></li>
+            <li><a href="#" data-en="Privacy Policy" data-si="පෞද්ගලිකත්ව ප්‍රතිපත්තිය" data-ta="Privacybeleid">Privacy Policy</a></li>
+            <li><a href="#" data-en="Terms &amp; Conditions" data-si="නියම සහ කොන්දේසි" data-ta="Algemene voorwaarden">Terms &amp; Conditions</a></li>
+            <li><a href="#" data-en="FAQ" data-si="නිතර අසන ප්‍රශ්න" data-ta="Veelgestelde vragen">FAQ</a></li>
           </ul>
         </div>
 
@@ -90,14 +92,14 @@
 
     <!-- Bottom bar -->
     <div class="footer-bottom">
-      <div class="footer-bottom-copy">
+      <div class="footer-bottom-copy" data-en="© 2026 Time to Ceylon. All rights reserved." data-si="© 2026 Time to Ceylon. සියලුම හිමිකම් ඇවරණය වේ." data-ta="© 2026 Time to Ceylon. Alle rechten voorbehouden.">
         &copy;
         <script>
           document.write(new Date().getFullYear())
-        </script>&nbsp;<span>Time to Ceylon. All rights reserved.</span> 
+        </script>&nbsp;<span data-en="Time to Ceylon. All rights reserved." data-si="Time to Ceylon. සියලුම හිමිකම් ඇවරණය වේ." data-ta="Time to Ceylon. Alle rechten voorbehouden.">Time to Ceylon. All rights reserved.</span> 
       </div>
-      <div class="footer-bottom-design">
-      Design &amp; Developed by <span>Evon Technologies Software Solutions (PVT) Ltd.</span>
+      <div class="footer-bottom-design" data-en="Design &amp; Developed by" data-si="නිර්මාණය කර ඇත්තේ" data-ta="Ontworpen en ontwikkeld door">
+      Design &amp; Developed by <span data-en="Evon Technologies Software Solutions (PVT) Ltd." data-si="Evon Technologies Software Solutions (PVT) Ltd." data-ta="Evon Technologies Software Solutions (PVT) Ltd.">Evon Technologies Software Solutions (PVT) Ltd.</span>
       </div>
     </div>
   </footer>

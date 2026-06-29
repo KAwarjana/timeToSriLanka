@@ -38,8 +38,14 @@
 
     // Update all translatable elements
     document.querySelectorAll('[data-' + code + ']').forEach(el => {
-  el.innerHTML = el.getAttribute('data-' + code);
-});
+      el.innerHTML = el.getAttribute('data-' + code);
+    });
+
+    document.querySelectorAll('[data-placeholder-' + code + ']').forEach(el => {
+      el.placeholder = el.getAttribute('data-placeholder-' + code);
+    });
+
+    window.dispatchEvent(new CustomEvent('langChanged', { detail: { lang: code } }));
 
     // Mark active
     document.querySelectorAll('.lang-option').forEach(opt => opt.classList.remove('active'));
