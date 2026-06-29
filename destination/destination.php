@@ -35,7 +35,7 @@
         <!-- Content -->
         <div class="hero-content">
             <span class="hero-bar"></span>
-            <h1 class="hero-title">Discover Sri Lanka's Most Iconic Destinations</h1>
+            <h1 class="hero-title"  data-en="Discover Sri Lanka's Most Iconic Destinations" data-si="ශ්‍රී ලංකාවේ වඩාත්ම ජනප්‍රිය ගමනාන්ත සොයා ගන්න" data-ta="Ontdek de meest iconische bestemmingen van Sri Lanka.">Discover Sri Lanka's Most Iconic Destinations</h1>
         </div>
     </section>
 
