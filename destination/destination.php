@@ -62,11 +62,26 @@
 
                     <!-- Right 60%: label + title + paragraphs -->
                     <div class="dest-col col-text">
-                        <p class="dest-label">SIGIRIYA</p>
-                        <h2 class="dest-title">Sigiriya Rock <em>Fortress</em></h2>
-                        <p class="dest-para">Sigiriya Lion Rock is an ancient fortress known for its massive column of rock rising nearly 200 meters high. The site dates to King Kasyapa's reign around 477 to 495 AD, when he built a palace atop the rock accessible only through a carved lion's mouth.</p>
-                        <p class="dest-para">The rocky plain formed from an extinct volcano's magma stands 200 meters above surrounding forest. Visitors are amazed by the unique harmony between nature and human imagination displayed throughout this magnificent ancient complex.</p>
-                        <p class="dest-para">Western walls are covered with frescoes from the Kasyapa period, with eighteen still surviving today. These paintings depict beautiful women and celebrate feminine beauty with remarkable historical impact on Sri Lankan art and culture.</p>
+                        <p class="dest-label"
+                            data-en="SIGIRIYA"
+                            data-si="සීගිරිය"
+                            data-ta="SIGIRIYA">SIGIRIYA</p>
+                        <h2 class="dest-title"
+                            data-en="Sigiriya Rock <em>Fortress</em>"
+                            data-si="සීගිරිය පර්වත <em>බලකොටුව</em>"
+                            data-ta="Sigiriya Rots<em>fort</em>">Sigiriya Rock <em>Fortress</em></h2>
+                        <p class="dest-para"
+                            data-en="Sigiriya Lion Rock is an ancient fortress known for its massive column of rock rising nearly 200 meters high. The site dates to King Kasyapa's reign around 477 to 495 AD, when he built a palace atop the rock accessible only through a carved lion's mouth."
+                            data-si="සීගිරිය සිංහ පර්වතය යනු මීටර් 200 ක් පමණ උසට නැගී සිටින විශාල ගල් කණුවක් සහිත පුරාණ බලකොටුවකි. මෙම ස්ථානය ක්‍රි.ව. 477 සිට 495 දක්වා පැවති කාශ්‍යප රජුගේ රාජ්‍ය සමයට අයත් වන අතර, ඔහු කැටයම් කරන ලද සිංහ මුඛයකින් පමණක් ප්‍රවේශ විය හැකි මාලිගාවක් පර්වතය මුදුනේ ඉදි කළේය."
+                            data-ta="Sigiriya Lion Rock is een oude vesting die bekend is om de massieve rotskolom die bijna 200 meter hoog oprijst. De plek stamt uit de regeerperiode van koning Kasyapa, rond 477 tot 495 n.Chr., toen hij op de top van de rots een paleis bouwde dat alleen toegankelijk was via een uitgehouwen leeuwenmuil.">Sigiriya Lion Rock is an ancient fortress known for its massive column of rock rising nearly 200 meters high. The site dates to King Kasyapa's reign around 477 to 495 AD, when he built a palace atop the rock accessible only through a carved lion's mouth.</p>
+                        <p class="dest-para"
+                            data-en="The rocky plain formed from an extinct volcano's magma stands 200 meters above surrounding forest. Visitors are amazed by the unique harmony between nature and human imagination displayed throughout this magnificent ancient complex."
+                            data-si="නිවුණු ගිනි කන්දක මැග්මාවෙන් සැකසුණු මෙම ගල් තැනිතලාව අවට වනාන්තරයට වඩා මීටර් 200ක් උසින් පිහිටා ඇත. මෙම අතිමහත් පුරාණ සංකීර්ණය පුරා දැක්වෙන ස්වභාවධර්මය හා මානව නිර්මාණශීලීත්වය අතර ඇති අනූන සහජීවනය නරඹන්නන් පුදුමයට පත් කරයි."
+                            data-ta="De rotsachtige vlakte, gevormd uit de magma van een uitgedoofde vulkaan, rijst 200 meter boven het omringende woud uit. Bezoekers worden verbaasd door de unieke harmonie tussen natuur en menselijke verbeeldingskracht die overal in dit prachtige oude complex te zien is.">The rocky plain formed from an extinct volcano's magma stands 200 meters above surrounding forest. Visitors are amazed by the unique harmony between nature and human imagination displayed throughout this magnificent ancient complex.</p>
+                        <p class="dest-para"
+                            data-en="Western walls are covered with frescoes from the Kasyapa period, with eighteen still surviving today. These paintings depict beautiful women and celebrate feminine beauty with remarkable historical impact on Sri Lankan art and culture."
+                            data-si="බටහිර බිත්ති කාශ්‍යප සමයේ බිතුසිතුවම්වලින් වැසී ඇති අතර, අද වන විට ඉන් දහඅටක් තවමත් ඉතිරිව පවතී. මෙම සිතුවම් ලස්සන කාන්තාවන් නිරූපනය කරන අතර ශ්‍රී ලාංකික කලාව හා සංස්කෘතියට කැපී පෙනෙන ඓතිහාසික බලපෑමක් ඇති කරමින් ස්ත්‍රී සුන්දරත්වය සමරයි."
+                            data-ta="De westelijke muren zijn bedekt met fresco's uit de Kasyapa-periode, waarvan er vandaag nog achttien bewaard zijn gebleven. Deze schilderingen tonen mooie vrouwen en vieren vrouwelijke schoonheid, met een opmerkelijke historische invloed op de Sri Lankaanse kunst en cultuur.">Western walls are covered with frescoes from the Kasyapa period, with eighteen still surviving today. These paintings depict beautiful women and celebrate feminine beauty with remarkable historical impact on Sri Lankan art and culture.</p>
                     </div>
 
                 </div>
@@ -76,8 +91,14 @@
 
                     <!-- Left 40%: paragraph -->
                     <div class="dest-col col-text">
-                        <p class="dest-para">The mirrored walls were once polished so finely that the king could see his reflection. Ancient inscriptions and poems written by visitors cover these walls, with the oldest dating back to the ninth century.</p>
-                        <p class="dest-para">Called the eighth wonder of the world by locals, Sigiriya attracts thousands of tourists annually. It remains the most visited destination in Sri Lanka, offering significant archaeological value and breathtaking views from the summit.</p>
+                        <p class="dest-para"
+                            data-en="The mirrored walls were once polished so finely that the king could see his reflection. Ancient inscriptions and poems written by visitors cover these walls, with the oldest dating back to the ninth century."
+                            data-si="මේ පවුර වඩාත් සියුම් ලෙස හෝදන ලද්දේ රජුට තමාගේ පිළිබිඹුව එහි දැක ගත හැකි වන ලෙසය. නරඹන්නන් විසින් ලියන ලද පුරාණ සෙල්ලිපි හා කවි මෙම පවුරුවල ඇති අතර, ඉන් පැරණිතම නවවැනි සියවසට අයත් වේ."
+                            data-ta="De spiegelmuren waren ooit zo fijn gepolijst dat de koning zijn eigen spiegelbeeld erin kon zien. Oude inscripties en gedichten van bezoekers bedekken deze muren, waarvan de oudste teruggaat tot de negende eeuw.">The mirrored walls were once polished so finely that the king could see his reflection. Ancient inscriptions and poems written by visitors cover these walls, with the oldest dating back to the ninth century.</p>
+                        <p class="dest-para"
+                            data-en="Called the eighth wonder of the world by locals, Sigiriya attracts thousands of tourists annually. It remains the most visited destination in Sri Lanka, offering significant archaeological value and breathtaking views from the summit."
+                            data-si="ප්‍රාදේශීයයන් විසින් ලෝකයේ අටවැනි පුදුමය ලෙස හඳුන්වනු ලබන සීගිරිය, වාර්ෂිකව සංචාරකයින් දහස් ගණනක් ආකර්ෂණය කරයි. එය ශ්‍රී ලංකාවේ වැඩිපුරම නැරඹෙන ගමනාන්තය ලෙස පැවතෙන අතර, සැලකිය යුතු පුරාවිද්‍යාත්මක වටිනාකමක් හා මුදුනේ සිට මනස් ඇද ගන්නා දසුන් ඉදිරිපත් කරයි."
+                            data-ta="Door de lokale bevolking het achtste wereldwonder genoemd, trekt Sigiriya jaarlijks duizenden toeristen aan. Het blijft de meest bezochte bestemming van Sri Lanka, met grote archeologische waarde en adembenemende uitzichten vanaf de top.">Called the eighth wonder of the world by locals, Sigiriya attracts thousands of tourists annually. It remains the most visited destination in Sri Lanka, offering significant archaeological value and breathtaking views from the summit.</p>
                     </div>
 
                     <!-- Right 60%: 3 images -->
@@ -116,11 +137,26 @@
 
                     <!-- Left 60%: label + title + paragraphs -->
                     <div class="dest-col col-text">
-                        <p class="dest-label">TEMPLE OF TOOTH</p>
-                        <h2 class="dest-title">Temple Of The <em>Sacred Tooth</em></h2>
-                        <p class="dest-para">The Temple of the Sacred Tooth Relic houses the left canine tooth of Gautama Buddha. Venerated by thousands of devotees daily, this UNESCO World Heritage Site was inscribed in 1988 for its immense cultural and religious significance.</p>
-                        <p class="dest-para">The architecture showcases a unique Kandyan style combined with elements from previous kingdoms' Dalada Mandira shrines. Intricate carvings in gold, silver, bronze, and ivory adorn the temple's magnificent halls and chambers.</p>
-                        <p class="dest-para">Built near Kandy's ancient Royal Palace, the temple faces the famous Kiri Muhuda lake to the south. The surrounding Udawaththa Kelaya forest reserve and nearby Natha and Paththini Devala complete this sacred landscape.</p>
+                        <p class="dest-label"
+                            data-en="TEMPLE OF TOOTH"
+                            data-si="දළදා මාලිගාව"
+                            data-ta="TEMPEL VAN DE TAND">TEMPLE OF TOOTH</p>
+                        <h2 class="dest-title"
+                            data-en="Temple Of The <em>Sacred Tooth</em>"
+                            data-si="<em>ශ්‍රී දළදා</em> මාලිගාව"
+                            data-ta="Tempel Van De <em>Heilige Tand</em>">Temple Of The <em>Sacred Tooth</em></h2>
+                        <p class="dest-para"
+                            data-en="The Temple of the Sacred Tooth Relic houses the left canine tooth of Gautama Buddha. Venerated by thousands of devotees daily, this UNESCO World Heritage Site was inscribed in 1988 for its immense cultural and religious significance."
+                            data-si="ශ්‍රී දළදා මාලිගාවේ ගෞතම බුදුන්ගේ වම් කෙනයේ දළදා වහන්සේ තැන්පත් කොට ඇත. දිනපතා භක්තිකයන් දහස් ගණනක් විසින් වැඳපුදනු ලබන මෙම යුනෙස්කෝ ලෝක උරුම ස්ථානය, එහි අතිමහත් සංස්කෘතික හා ආගමික වැදගත්කම නිසා 1988 දී ලෝක උරුමයක් ලෙස ලේඛනගත කරන ලදී."
+                            data-ta="De Tempel van de Heilige Tandrelikwie herbergt de linker hoektand van Gautama Boeddha. Dagelijks vereerd door duizenden gelovigen, werd deze UNESCO-Werelderfgoedlocatie in 1988 op de lijst gezet vanwege haar immense culturele en religieuze betekenis.">The Temple of the Sacred Tooth Relic houses the left canine tooth of Gautama Buddha. Venerated by thousands of devotees daily, this UNESCO World Heritage Site was inscribed in 1988 for its immense cultural and religious significance.</p>
+                        <p class="dest-para"
+                            data-en="The architecture showcases a unique Kandyan style combined with elements from previous kingdoms' Dalada Mandira shrines. Intricate carvings in gold, silver, bronze, and ivory adorn the temple's magnificent halls and chambers."
+                            data-si="මෙහි ගෘහ නිර්මාණ ශිල්පය පෙරදී පැවති දළදා මන්දිර සිද්ධස්ථානවල අංග සමඟ අනූන කන්ද උඩරට විලාසයක් ඉදිරිපත් කරයි. රත්‍රන්, රිදී, ලෝකඩ සහ අලින් දළ වලින් කරන ලද සියුම් කැටයම් මාලිගාවේ අතිමහත් ශාලා හා කුටිවල අලංකාරය වෛදික කරයි."
+                            data-ta="De architectuur toont een unieke Kandyaanse stijl, gecombineerd met elementen uit de Dalada Mandira-heiligdommen van eerdere koninkrijken. Verfijnde houtsnijwerken in goud, zilver, brons en ivoor versieren de prachtige zalen en kamers van de tempel.">The architecture showcases a unique Kandyan style combined with elements from previous kingdoms' Dalada Mandira shrines. Intricate carvings in gold, silver, bronze, and ivory adorn the temple's magnificent halls and chambers.</p>
+                        <p class="dest-para"
+                            data-en="Built near Kandy's ancient Royal Palace, the temple faces the famous Kiri Muhuda lake to the south. The surrounding Udawaththa Kelaya forest reserve and nearby Natha and Paththini Devala complete this sacred landscape."
+                            data-si="මහනුවර පුරාණ රාජකීය මාලිගාව ආසන්නයේ ඉදිකරන ලද මෙම විහාරය, දකුණු දෙසින් ප්‍රසිද්ධ කිරි මුහුද වරාය වැළඳ සිටී. අවට පිහිටි උඩවත්තකැලේ වන රක්ෂිතය හා ආසන්නයේ ඇති නාථ සහ පත්තිනි දේවාල මෙම පූජනීය භූමි දර්ශනය සම්පූර්ණ කරයි."
+                            data-ta="Gebouwd nabij het oude koninklijk paleis van Kandy, kijkt de tempel uit op het beroemde Kiri Muhuda-meer in het zuiden. Het omringende Udawaththa Kelaya-bosreservaat en de nabijgelegen Natha- en Paththini-tempels maken dit heilige landschap compleet.">Built near Kandy's ancient Royal Palace, the temple faces the famous Kiri Muhuda lake to the south. The surrounding Udawaththa Kelaya forest reserve and nearby Natha and Paththini Devala complete this sacred landscape.</p>
                     </div>
 
                     <!-- Right 40%: single image -->
@@ -156,8 +192,14 @@
 
                     <!-- Right 40%: paragraph -->
                     <div class="dest-col col-text">
-                        <p class="dest-para">The evening pooja ceremony around 6:30pm offers the most atmospheric experience. As light fades, the temple comes alive with ritual, music, and devotion, creating a profoundly moving spiritual encounter for all visitors.</p>
-                        <p class="dest-para">The most holy Buddhist temple in Sri Lanka remains calm and welcoming. The August festival transforms it into a spectacular celebration, while daily worship continues the centuries-old tradition of honoring the Buddha's sacred relic.</p>
+                        <p class="dest-para"
+                            data-en="The evening pooja ceremony around 6:30pm offers the most atmospheric experience. As light fades, the temple comes alive with ritual, music, and devotion, creating a profoundly moving spiritual encounter for all visitors."
+                            data-si="සවස 6:30 ට පමණ පවත්වන සවස් පූජාව වඩාත් ආකර්ෂණීය අත්දැකීමක් ලබා දෙයි. එළිය මැකෙත්ම, විහාරය චාරිත්‍ර, සංගීතය සහ භක්තියෙන් සජීවී වන අතර, සියලුම නරඹන්නන්ට ගැඹුරින් සිත් ඇද ගන්නා ආගමික අත්දැකීමක් ලබා දෙයි."
+                            data-ta="De avondpooja-ceremonie rond 18:30 uur biedt de meest sfeervolle ervaring. Naarmate het licht vervaagt, komt de tempel tot leven met rituelen, muziek en devotie, wat een diep ontroerende spirituele ervaring creëert voor alle bezoekers.">The evening pooja ceremony around 6:30pm offers the most atmospheric experience. As light fades, the temple comes alive with ritual, music, and devotion, creating a profoundly moving spiritual encounter for all visitors.</p>
+                        <p class="dest-para"
+                            data-en="The most holy Buddhist temple in Sri Lanka remains calm and welcoming. The August festival transforms it into a spectacular celebration, while daily worship continues the centuries-old tradition of honoring the Buddha's sacred relic."
+                            data-si="ශ්‍රී ලංකාවේ වඩාත්ම පූජනීය බෞද්ධ විහාරස්ථානය සන්සුන් හා ආගන්තුකශීලී ලෙස පවතී. අගෝස්තු මාසයේ පවත්වන පෙරහැර එය විශිෂ්ට උත්සවයක් බවට පත් කරන අතර, දිනපතා වැඳීම බුදුන්ගේ පූජනීය ධාතුව ගරු කිරීමේ සියවස් ගණනක පැරණි සම්ප්‍රදාය දිගටම පවත්වයි."
+                            data-ta="De heiligste boeddhistische tempel van Sri Lanka blijft rustig en gastvrij. Het augustusfestival verandert de tempel in een spectaculair feest, terwijl de dagelijkse verering de eeuwenoude traditie van het eren van Boeddha's heilige relikwie voortzet.">The most holy Buddhist temple in Sri Lanka remains calm and welcoming. The August festival transforms it into a spectacular celebration, while daily worship continues the centuries-old tradition of honoring the Buddha's sacred relic.</p>
                     </div>
 
                 </div>
@@ -186,11 +228,26 @@
 
                     <!-- Right 60%: label + title + paragraphs -->
                     <div class="dest-col col-text">
-                        <p class="dest-label">YALA NATIONAL PARK</p>
-                        <h2 class="dest-title">Yala National <em>Park Safari</em></h2>
-                        <p class="dest-para">Yala National Park spans 1,268 square kilometers across Sri Lanka's southeastern coastline. Rich dunes, forests, open plains, and lush lagoons attract 44 mammal species and over 215 bird species to this incredible wildlife sanctuary.</p>
-                        <p class="dest-para">The park boasts one of the highest leopard densities in the world, with about 25 leopards in Block 1 alone. Asian elephant sightings are virtually guaranteed, making Yala essential for any wildlife enthusiast visiting Sri Lanka.</p>
-                        <p class="dest-para">Split into five sectors with two open to visitors, Yala offers far more than big cats. Asian elephants, sloth bears, crocodiles, deer, jackals, and spotted deer thrive across the park's varied terrain and ecosystems.</p>
+                        <p class="dest-label"
+                            data-en="YALA NATIONAL PARK"
+                            data-si="යාල ජාතික වනෝද්‍යානය"
+                            data-ta="YALA NATIONAAL PARK">YALA NATIONAL PARK</p>
+                        <h2 class="dest-title"
+                            data-en="Yala National <em>Park Safari</em>"
+                            data-si="යාල ජාතික වනෝද්‍යාන <em>සෆාරිය</em>"
+                            data-ta="Yala Nationaal <em>Park Safari</em>">Yala National <em>Park Safari</em></h2>
+                        <p class="dest-para"
+                            data-en="Yala National Park spans 1,268 square kilometers across Sri Lanka's southeastern coastline. Rich dunes, forests, open plains, and lush lagoons attract 44 mammal species and over 215 bird species to this incredible wildlife sanctuary."
+                            data-si="යාල ජාතික වනෝද්‍යානය ශ්‍රී ලංකාවේ දකුණු-නැගෙනහිර වෙරළ තීරය ඔස්සේ වර්ග කිලෝමීටර් 1,268ක් ව්‍යාප්ත වේ. ඉසිඹු කඳු, වනාන්තර, විවෘත තැනිතලා සහ සශ්‍රීක කලපු, ක්ෂීරපායී විශේෂ 44ක් සහ පක්ෂි විශේෂ 215කට වැඩි ප්‍රමාණයක් මෙම අසාමාන්‍ය වන සතුන් ආරක්ෂිත භූමියට ආකර්ෂණය කරයි."
+                            data-ta="Het Yala National Park beslaat 1.268 vierkante kilometer langs de zuidoostelijke kustlijn van Sri Lanka. Rijke duinen, bossen, open vlaktes en weelderige lagunes trekken 44 zoogdiersoorten en meer dan 215 vogelsoorten aan naar dit ongelooflijke natuurreservaat.">Yala National Park spans 1,268 square kilometers across Sri Lanka's southeastern coastline. Rich dunes, forests, open plains, and lush lagoons attract 44 mammal species and over 215 bird species to this incredible wildlife sanctuary.</p>
+                        <p class="dest-para"
+                            data-en="The park boasts one of the highest leopard densities in the world, with about 25 leopards in Block 1 alone. Asian elephant sightings are virtually guaranteed, making Yala essential for any wildlife enthusiast visiting Sri Lanka."
+                            data-si="මෙම වනෝද්‍යානය ලෝකයේ වැඩිම දිවියන් ඝනත්වයක් ඇති ස්ථානයකි, 1 කොට්ඨාසයේ පමණක් දිවියන් 25ක් පමණ සිටින බව තක්සේරු වේ. ආසියානු අලින් දැකීම පාහේ සහතික වන අතර, ශ්‍රී ලංකාවට පැමිණෙන ඕනෑම වන සත්ව ලෝලියෙකුට යාල අත්‍යවශ්‍ය වේ."
+                            data-ta="Het park heeft een van de hoogste luipaarddichtheden in de wereld, met ongeveer 25 luipaarden alleen al in Blok 1. Het waarnemen van Aziatische olifanten is bijna gegarandeerd, waardoor Yala essentieel is voor elke natuurliefhebber die Sri Lanka bezoekt.">The park boasts one of the highest leopard densities in the world, with about 25 leopards in Block 1 alone. Asian elephant sightings are virtually guaranteed, making Yala essential for any wildlife enthusiast visiting Sri Lanka.</p>
+                        <p class="dest-para"
+                            data-en="Split into five sectors with two open to visitors, Yala offers far more than big cats. Asian elephants, sloth bears, crocodiles, deer, jackals, and spotted deer thrive across the park's varied terrain and ecosystems."
+                            data-si="කොට්ඨාශ පහකට බෙදී ඇති අතර ඉන් දෙකක් පමණක් නරඹන්නන්ට විවෘතව ඇති යාල, විශාල සිවුපාවුන්ට වඩා බොහෝ දේ ඉදිරිපත් කරයි. ආසියානු අලින්, වලාහා, කිඹුලන්, මුවන්, නරියන් සහ තිත් මුවන් වනෝද්‍යානයේ විවිධාකාර භූමි හා පරිසර පද්ධති පුරා සමෘද්ධිමත් වෙයි."
+                            data-ta="Yala is verdeeld in vijf sectoren, waarvan twee toegankelijk zijn voor bezoekers, en biedt veel meer dan alleen grote katten. Aziatische olifanten, lippenberen, krokodillen, herten, jakhalzen en gevlekte herten gedijen in het gevarieerde terrein en de ecosystemen van het park.">Split into five sectors with two open to visitors, Yala offers far more than big cats. Asian elephants, sloth bears, crocodiles, deer, jackals, and spotted deer thrive across the park's varied terrain and ecosystems.</p>
                     </div>
 
                 </div>
@@ -200,8 +257,14 @@
 
                     <!-- Left 40%: paragraph -->
                     <div class="dest-col col-text">
-                        <p class="dest-para">Over 400 bird species have been recorded here, including 33 rare and endemic varieties. Wetlands, shallow lagoons, and untouched coastline create perfect conditions for observing this extraordinary diversity of avian life.</p>
-                        <p class="dest-para">Landscapes shift from arid savannah to tangled forest to turquoise lagoons. The proximity to the ocean gives Yala a wild, restless edge matched by few parks worldwide, drawing visitors from across the globe year after year.</p>
+                        <p class="dest-para"
+                            data-en="Over 400 bird species have been recorded here, including 33 rare and endemic varieties. Wetlands, shallow lagoons, and untouched coastline create perfect conditions for observing this extraordinary diversity of avian life."
+                            data-si="මෙහි පක්ෂි විශේෂ 400කට වැඩි ප්‍රමාණයක් ලේඛනගත කර ඇති අතර, ඉන් 33ක්ම දුර්ලභ හා ආවේණික විශේෂ වේ. තැඹිලි බිම්, නොගැඹුරු කලපු සහ නොවලහන වෙරළ තීරය මෙම අසාමාන්‍ය පක්ෂි විවිධත්වය නැරඹීම සඳහා පරිපූර්ණ වාතාවරණයක් ඇති කරයි."
+                            data-ta="Hier zijn meer dan 400 vogelsoorten geregistreerd, waaronder 33 zeldzame en endemische soorten. Wetlands, ondiepe lagunes en ongerepte kustlijnen creëren perfecte omstandigheden om deze buitengewone diversiteit aan vogelleven te observeren.">Over 400 bird species have been recorded here, including 33 rare and endemic varieties. Wetlands, shallow lagoons, and untouched coastline create perfect conditions for observing this extraordinary diversity of avian life.</p>
+                        <p class="dest-para"
+                            data-en="Landscapes shift from arid savannah to tangled forest to turquoise lagoons. The proximity to the ocean gives Yala a wild, restless edge matched by few parks worldwide, drawing visitors from across the globe year after year."
+                            data-si="භූ දර්ශන වියළි සවානා සිට ගුළිලි වනාන්තර හරහා නිල් කලපු දක්වා වෙනස් වෙයි. සාගරයට සමීපත්වය යාලට ලෝකයේ ස්වල්ප වනෝද්‍යාන සමඟ සමාන කළ හැකි ම ම් ම් චංචල ස්වභාවයක් ලබා දෙන අතර, වර්ෂයෙන් වර්ෂයට ලොව පුරා සංචාරකයින් ආකර්ෂණය කරයි."
+                            data-ta="De landschappen verschuiven van droge savanne naar dicht bos en turquoise lagunes. De nabijheid van de oceaan geeft Yala een wilde, rusteloze rand die door weinig parken wereldwijd wordt geëvenaard, en trekt jaar na jaar bezoekers van over de hele wereld aan.">Landscapes shift from arid savannah to tangled forest to turquoise lagoons. The proximity to the ocean gives Yala a wild, restless edge matched by few parks worldwide, drawing visitors from across the globe year after year.</p>
                     </div>
 
                     <!-- Right 60%: 3 images -->
@@ -240,11 +303,26 @@
 
                     <!-- Left 60%: label + title + paragraphs -->
                     <div class="dest-col col-text">
-                        <p class="dest-label">GALLE FORT</p>
-                        <h2 class="dest-title">Galle Fort <em>Heritage</em></h2>
-                        <p class="dest-para">The coastal city of Galle was known as Gimhatiththa during the Anuradhapura era. The Portuguese arrived in 1505 and built the first fortification called Santa Cruz against the local Sinhalese kingdoms of that time.</p>
-                        <p class="dest-para">The Dutch seized the fort in 1640 with help from the Kingdom of Kandy. They transformed it into magnificent ramparts with sophisticated sewage and freshwater drainage systems that still function today.</p>
-                        <p class="dest-para">The Dutch drafted plans to protect their precious spice cargo, forming the core layout of modern Galle Fort. For 150 years, Galle served as the main trading port of Ceylon under Dutch colonial rule.</p>
+                        <p class="dest-label"
+                            data-en="GALLE FORT"
+                            data-si="ගාල්ල කොටුව"
+                            data-ta="GALLE FORT">GALLE FORT</p>
+                        <h2 class="dest-title"
+                            data-en="Galle Fort <em>Heritage</em>"
+                            data-si="ගාල්ල කොටුවේ <em>උරුමය</em>"
+                            data-ta="Galle Fort <em>Erfgoed</em>">Galle Fort <em>Heritage</em></h2>
+                        <p class="dest-para"
+                            data-en="The coastal city of Galle was known as Gimhatiththa during the Anuradhapura era. The Portuguese arrived in 1505 and built the first fortification called Santa Cruz against the local Sinhalese kingdoms of that time."
+                            data-si="වෙරළබඩ නගරයක් වූ ගාල්ල, අනුරාධපුර යුගයේ ගිම්හතිත්ථ නමින් හැඳින්වුණි. පෘතුගීසීන් 1505 දී පැමිණ, එවකට පැවති සිංහල රාජධානිවලට එරෙහිව සැන්ටා ක්‍රූස් නම් වූ ප්‍රථම බලකොටුව ඉදි කළහ."
+                            data-ta="De kuststad Galle werd tijdens het Anuradhapura-tijdperk Gimhatiththa genoemd. De Portugezen kwamen in 1505 aan en bouwden het eerste fort, Santa Cruz, tegen de lokale Singalese koninkrijken van die tijd.">The coastal city of Galle was known as Gimhatiththa during the Anuradhapura era. The Portuguese arrived in 1505 and built the first fortification called Santa Cruz against the local Sinhalese kingdoms of that time.</p>
+                        <p class="dest-para"
+                            data-en="The Dutch seized the fort in 1640 with help from the Kingdom of Kandy. They transformed it into magnificent ramparts with sophisticated sewage and freshwater drainage systems that still function today."
+                            data-si="හොලන්දකරුවන් 1640 දී මහනුවර රාජධානියේ ආධාරයෙන් කොටුව අත්පත් කර ගත්හ. ඔවුහු එය අද දක්වා ක්‍රියාත්මක වන සංකීර්ණ ජල විදුලි පද්ධති සහ පැන්නා ජල විසර්ජන පද්ධති සහිත අතිමහත් බැම්ම මාලාවක් බවට පරිවර්තනය කළහ."
+                            data-ta="De Nederlanders namen het fort in 1640 in met hulp van het Koninkrijk Kandy. Ze veranderden het in prachtige vestingmuren met geavanceerde riolerings- en drinkwaterafvoersystemen die vandaag nog steeds functioneren.">The Dutch seized the fort in 1640 with help from the Kingdom of Kandy. They transformed it into magnificent ramparts with sophisticated sewage and freshwater drainage systems that still function today.</p>
+                        <p class="dest-para"
+                            data-en="The Dutch drafted plans to protect their precious spice cargo, forming the core layout of modern Galle Fort. For 150 years, Galle served as the main trading port of Ceylon under Dutch colonial rule."
+                            data-si="හොලන්දකරුවන් ඔවුන්ගේ වටිනා කුළු බඩු බඩු ආරක්ෂා කිරීම සඳහා සැලසුම් සකස් කළ අතර, එය නූතන ගාල්ල කොටුවේ මූලික සැලසුම සකස් කළේය. වසර 150ක් පුරා, හොලන්ද යටත් විජිත පාලනය යටතේ ගාල්ල ලංකාවේ ප්‍රධාන වෙළඳ වරාය ලෙස සේවය කළේය."
+                            data-ta="De Nederlanders maakten plannen om hun kostbare specerijenlading te beschermen, wat de basisindeling van het moderne Galle Fort vormde. Gedurende 150 jaar diende Galle als de belangrijkste handelshaven van Ceylon onder Nederlands koloniaal bestuur.">The Dutch drafted plans to protect their precious spice cargo, forming the core layout of modern Galle Fort. For 150 years, Galle served as the main trading port of Ceylon under Dutch colonial rule.</p>
                     </div>
 
                     <!-- Right 40%: single image -->
@@ -280,8 +358,14 @@
 
                     <!-- Right 40%: paragraph -->
                     <div class="dest-col col-text">
-                        <p class="dest-para">Galle Fort is a living fort, inscribed as a UNESCO World Heritage Site in 1988. Its old colonial charms and artsy flair create an impression similar to Hoi An in Vietnam for many visitors.</p>
-                        <p class="dest-para">Today the fort remains a vibrant community with boutique hotels, art galleries, cafes, and shops within its ramparts. Narrow streets lined with Dutch-colonial buildings offer stunning Indian Ocean views from the fort walls.</p>
+                        <p class="dest-para"
+                            data-en="Galle Fort is a living fort, inscribed as a UNESCO World Heritage Site in 1988. Its old colonial charms and artsy flair create an impression similar to Hoi An in Vietnam for many visitors."
+                            data-si="ගාල්ල කොටුව ජීවමාන කොටුවකි, 1988 දී යුනෙස්කෝ ලෝක උරුම ස්ථානයක් ලෙස ලේඛනගත කරන ලදී. එහි පැරණි යටත් විජිත අලංකාරය හා කලා රසය බොහෝ නරඹන්නන්ට වියට්නාමයේ හෝයි ආන් නම් නගරයට සමාන හැඟීමක් ඇති කරයි."
+                            data-ta="Galle Fort is een levend fort, in 1988 ingeschreven als UNESCO-Werelderfgoedlocatie. De oude koloniale charme en artistieke uitstraling roepen bij veel bezoekers een indruk op die vergelijkbaar is met Hoi An in Vietnam.">Galle Fort is a living fort, inscribed as a UNESCO World Heritage Site in 1988. Its old colonial charms and artsy flair create an impression similar to Hoi An in Vietnam for many visitors.</p>
+                        <p class="dest-para"
+                            data-en="Today the fort remains a vibrant community with boutique hotels, art galleries, cafes, and shops within its ramparts. Narrow streets lined with Dutch-colonial buildings offer stunning Indian Ocean views from the fort walls."
+                            data-si="අද වන විට කොටුව, එහි බැම්ම තුළ බුටික් හෝටල්, කලාගාර, කැෆේ සහ සාප්පු සහිත සජීවී ප්‍රජාවක් ලෙස පවතී. හොලන්ද යටත් විජිත ගොඩනැගිලිවලින් සැදුම් ලද පටු මංතීරුවලින් කොටු බැම්ම මතින් ඉන්දියානු සාගරයේ අතිමහත් දසුන් ලබා ගත හැකිය."
+                            data-ta="Vandaag de dag blijft het fort een levendige gemeenschap met boetiekhotels, kunstgalerieën, cafés en winkels binnen de vestingmuren. Smalle straten met Nederlands-koloniale gebouwen bieden prachtige uitzichten op de Indische Oceaan vanaf de fortmuren.">Today the fort remains a vibrant community with boutique hotels, art galleries, cafes, and shops within its ramparts. Narrow streets lined with Dutch-colonial buildings offer stunning Indian Ocean views from the fort walls.</p>
                     </div>
 
                 </div>
@@ -310,11 +394,26 @@
 
                     <!-- Right 60%: label + title + paragraphs -->
                     <div class="dest-col col-text">
-                        <p class="dest-label">ELLA</p>
-                        <h2 class="dest-title">Ella Hill <em>Country</em></h2>
-                        <p class="dest-para">Ella is a place that gets under your skin with its waterfalls, misty tea fields, and the iconic Nine Arch Bridge. Compact enough to walk everywhere, it offers some of the best views in all of Sri Lanka.</p>
-                        <p class="dest-para">The town sits at around 1,000 meters above sea level in the central highlands. The elevation brings cooler temperatures, tea-scented air, and morning light that makes you take too many photos.</p>
-                        <p class="dest-para">What makes Ella special is its perfect combination of hiking, waterfalls, viewpoints, and a food scene that punches above its size. Little Adam's Peak and Ella Rock provide stunning panoramas over the countryside.</p>
+                        <p class="dest-label"
+                            data-en="ELLA"
+                            data-si="ඇල්ල"
+                            data-ta="ELLA">ELLA</p>
+                        <h2 class="dest-title"
+                            data-en="Ella Hill <em>Country</em>"
+                            data-si="ඇල්ල කඳුකර <em>ප්‍රදේශය</em>"
+                            data-ta="Ella <em>Heuvelland</em>">Ella Hill <em>Country</em></h2>
+                        <p class="dest-para"
+                            data-en="Ella is a place that gets under your skin with its waterfalls, misty tea fields, and the iconic Nine Arch Bridge. Compact enough to walk everywhere, it offers some of the best views in all of Sri Lanka."
+                            data-si="ඇල්ල යනු ඇගේ දිය ඇලි, මීදුම් සහිත තේ වතුවැටි සහ ප්‍රබල නයින් ආර්ච් පාලම සමඟ ඔබේ සිතේ ගැඹුරටම කා වදින ස්ථානයකි. ඕන තැනකට පයින් ගමන් කළ හැකි තරම් කුඩා වුවද, එය ශ්‍රී ලංකාවේ පුරාම ඇති වඩාත්ම හොඳ දසුන් වලින් කොතරම් ලබා දෙයි."
+                            data-ta="Ella is een plek die je niet snel loslaat, met zijn watervallen, mistige theevelden en de iconische Nine Arch Bridge. Compact genoeg om overal te lopen, biedt het enkele van de beste vergezichten van heel Sri Lanka.">Ella is a place that gets under your skin with its waterfalls, misty tea fields, and the iconic Nine Arch Bridge. Compact enough to walk everywhere, it offers some of the best views in all of Sri Lanka.</p>
+                        <p class="dest-para"
+                            data-en="The town sits at around 1,000 meters above sea level in the central highlands. The elevation brings cooler temperatures, tea-scented air, and morning light that makes you take too many photos."
+                            data-si="මෙම නගරය මධ්‍යම කඳුකරයේ සාගර මට්ටමින් මීටර් 1,000ක් පමණ උසින් පිහිටා ඇත. මෙම උන්නතාංශය සිසිල් උෂ්ණත්වයක්, තේ සුවඳ සහිත වාතයක් සහ ඔබට අධික ඡායාරූප ගැනීමට පෙළඹවන උදෑසන එළිය ලබා දෙයි."
+                            data-ta="Het stadje ligt op ongeveer 1.000 meter boven zeeniveau in de centrale hooglanden. De hoogte brengt koelere temperaturen, naar thee geurende lucht en ochtendlicht dat je veel te veel foto's laat maken.">The town sits at around 1,000 meters above sea level in the central highlands. The elevation brings cooler temperatures, tea-scented air, and morning light that makes you take too many photos.</p>
+                        <p class="dest-para"
+                            data-en="What makes Ella special is its perfect combination of hiking, waterfalls, viewpoints, and a food scene that punches above its size. Little Adam's Peak and Ella Rock provide stunning panoramas over the countryside."
+                            data-si="ඇල්ල විශේෂත්වයට හේතුව, කඳු නැගීම, දිය ඇලි, දර්ශන ස්ථාන සහ එහි ප්‍රමාණයට වඩා ඉහළ මට්ටමක පවතින ආහාර අත්දැකීම සමඟ එහි පරිපූර්ණ එකමුතුකමයි. ලිට්ල් ඇඩම්ස් පීක් සහ ඇල්ල රොක් ග්‍රාමීය ප්‍රදේශය මතින් අතිමහත් දසුන් ලබා දෙයි."
+                            data-ta="Wat Ella speciaal maakt, is de perfecte combinatie van wandelen, watervallen, uitkijkpunten en een eetcultuur die boven zijn gewicht boxt. Little Adam's Peak en Ella Rock bieden prachtige panorama's over het platteland.">What makes Ella special is its perfect combination of hiking, waterfalls, viewpoints, and a food scene that punches above its size. Little Adam's Peak and Ella Rock provide stunning panoramas over the countryside.</p>
                     </div>
 
                 </div>
@@ -324,8 +423,14 @@
 
                     <!-- Left 40%: paragraph -->
                     <div class="dest-col col-text">
-                        <p class="dest-para">The Nine Arch Bridge is the main draw, a jaw-dropping viaduct that bends high over the valley below. The train passes every hour, creating one of the most photographed scenes in Sri Lankan travel.</p>
-                        <p class="dest-para">Valleys of green soar in all directions with shadows cast from rocky outcrops. A carpet of lush grass and dark leafy trees blankets the town, proving that nature and humans can coexist beautifully.</p>
+                        <p class="dest-para"
+                            data-en="The Nine Arch Bridge is the main draw, a jaw-dropping viaduct that bends high over the valley below. The train passes every hour, creating one of the most photographed scenes in Sri Lankan travel."
+                            data-si="නයින් ආර්ච් පාලම ප්‍රධාන ආකර්ශනීය ස්ථානය වන අතර, එය පහළ නිම්නය මතින් ඉහළින් නැඹුරු වන විශ්මයජනක දෙව්මග් මාර්ගයකි. දුම්රිය සෑම පැයකටම පමණ ගමන් කරන අතර, එය ශ්‍රී ලාංකික සංචාරක ක්ෂේත්‍රයේ වඩාත්ම ඡායාරූපගත වන දර්ශනවලින් එකකි."
+                            data-ta="De Nine Arch Bridge is de grootste attractie, een verbluffend viaduct dat hoog over de vallei daaronder buigt. De trein passeert elk uur, wat een van de meest gefotografeerde taferelen in het Sri Lankaanse reisleven creëert.">The Nine Arch Bridge is the main draw, a jaw-dropping viaduct that bends high over the valley below. The train passes every hour, creating one of the most photographed scenes in Sri Lankan travel.</p>
+                        <p class="dest-para"
+                            data-en="Valleys of green soar in all directions with shadows cast from rocky outcrops. A carpet of lush grass and dark leafy trees blankets the town, proving that nature and humans can coexist beautifully."
+                            data-si="කොළ පැහැති නිම්න සියලු දිශාවලින් නැගී සිටින අතර, පාෂාණමය උන්මුඛවලින් සෙවණ වැතිර යයි. සශ්‍රීක තණකොළ සහ ගිලුණු කොළ සහිත ගස් වලින් වැසුණු සළුවක් නගරය වසා ගෙන ඇත, එමඟින් ස්වභාවධර්මය හා මනුෂ්‍යයන් අතර අලංකාර සහජීවනයක් සනාථ කරයි."
+                            data-ta="Groene valleien rijzen in alle richtingen op, met schaduwen die door rotsachtige uitlopers worden gegoten. Een tapijt van weelderig gras en donkere, bebladerde bomen bedekt het stadje, wat bewijst dat natuur en mensen prachtig kunnen samenleven.">Valleys of green soar in all directions with shadows cast from rocky outcrops. A carpet of lush grass and dark leafy trees blankets the town, proving that nature and humans can coexist beautifully.</p>
                     </div>
 
                     <!-- Right 60%: 3 images -->
@@ -364,11 +469,26 @@
 
                     <!-- Left 60%: label + title + paragraphs -->
                     <div class="dest-col col-text">
-                        <p class="dest-label">PINNAWALA ELEPHANT ORPHANAGE</p>
-                        <h2 class="dest-title">Pinnawala Elephant <em>Orphanage</em></h2>
-                        <p class="dest-para">Established in 1975 by the Department of Wildlife Conservation, Pinnawala cares for orphaned baby elephants found in the wild. Today it houses the largest herd of captive elephants anywhere in the world.</p>
-                        <p class="dest-para">Located in Kegalle District about 90 kilometers from Colombo, the orphanage allows elephants to roam freely. Visitors can observe them bathing in the nearby Maha Oya river twice daily in a spectacular display.</p>
-                        <p class="dest-para">The facility provides safe haven for injured, abandoned, or displaced elephants. The herd now numbers over 80 elephants including several calves born here, fed milk and nourished with leaves and vegetation.</p>
+                        <p class="dest-label"
+                            data-en="PINNAWALA ELEPHANT ORPHANAGE"
+                            data-si="පින්නවල අලි අනාථාගාරය"
+                            data-ta="PINNAWALA OLIFANTENWEESHUIS">PINNAWALA ELEPHANT ORPHANAGE</p>
+                        <h2 class="dest-title"
+                            data-en="Pinnawala Elephant <em>Orphanage</em>"
+                            data-si="පින්නවල අලි <em>අනාථාගාරය</em>"
+                            data-ta="Pinnawala Olifanten<em>weeshuis</em>">Pinnawala Elephant <em>Orphanage</em></h2>
+                        <p class="dest-para"
+                            data-en="Established in 1975 by the Department of Wildlife Conservation, Pinnawala cares for orphaned baby elephants found in the wild. Today it houses the largest herd of captive elephants anywhere in the world."
+                            data-si="1975 දී වන සත්ව සංරක්ෂණ දෙපාර්තමේන්තුව විසින් ආරම්භ කරන ලද පින්නවල, වනයේ සිට හමු වන අනාථ අලි පැටවුන් රැක බලා ගනී. අද වන විට එය ලොව පුරා බන්ධනයේ සිටින විශාලතම අලි රංචුව නවාතැන් කරයි."
+                            data-ta="Opgericht in 1975 door de Dienst voor Natuurbehoud, zorgt Pinnawala voor wees-olifantenkalveren die in het wild zijn gevonden. Vandaag herbergt het de grootste kudde gevangen gehouden olifanten ter wereld.">Established in 1975 by the Department of Wildlife Conservation, Pinnawala cares for orphaned baby elephants found in the wild. Today it houses the largest herd of captive elephants anywhere in the world.</p>
+                        <p class="dest-para"
+                            data-en="Located in Kegalle District about 90 kilometers from Colombo, the orphanage allows elephants to roam freely. Visitors can observe them bathing in the nearby Maha Oya river twice daily in a spectacular display."
+                            data-si="කොළඹ සිට කිලෝමීටර් 90ක් පමණ දුරින් කෑගල්ල දිස්ත්‍රික්කයේ පිහිටි මෙම අනාථාගාරය, අලින්ට නිදහසේ සැරිසරීමට ඉඩ දෙයි. නරඹන්නන්ට දිනපතා දෙවරක් ආසන්නයේ ඇති මහ ඔය ගඟේ ඔවුන් ස්නානය කරනු දැකගත හැකිය."
+                            data-ta="Gelegen in het district Kegalle, ongeveer 90 kilometer van Colombo, laat het weeshuis de olifanten vrij rondzwerven. Bezoekers kunnen hen tweemaal daags zien baden in de nabijgelegen rivier Maha Oya, een spectaculair schouwspel.">Located in Kegalle District about 90 kilometers from Colombo, the orphanage allows elephants to roam freely. Visitors can observe them bathing in the nearby Maha Oya river twice daily in a spectacular display.</p>
+                        <p class="dest-para"
+                            data-en="The facility provides safe haven for injured, abandoned, or displaced elephants. The herd now numbers over 80 elephants including several calves born here, fed milk and nourished with leaves and vegetation."
+                            data-si="මෙම මධ්‍යස්ථානය තුවාල ලැබූ, අත්හැර දැමූ හෝ අවතැන් වූ අලින්ට ආරක්ෂිත නවාතැනක් ලබා දෙයි. රංචුවේ සංඛ්‍යාව දැන් අලි 80කට වැඩි වන අතර, මෙහි උපන් අලි පැටවුන් කිහිපයක්ද ඇතුළත් වන අතර, ඔවුන්ට කිරි සහ කොළ එළවළු ආහාරයට ලබා දේ."
+                            data-ta="De voorziening biedt een veilige haven voor gewonde, verlaten of verdreven olifanten. De kudde telt nu meer dan 80 olifanten, waaronder verschillende kalveren die hier geboren zijn, gevoed met melk en gevoed met bladeren en groenvoer.">The facility provides safe haven for injured, abandoned, or displaced elephants. The herd now numbers over 80 elephants including several calves born here, fed milk and nourished with leaves and vegetation.</p>
                     </div>
 
                     <!-- Right 40%: single image -->
@@ -404,8 +524,14 @@
 
                     <!-- Right 40%: paragraph -->
                     <div class="dest-col col-text">
-                        <p class="dest-para">Watch elephants being bottle-fed by their mahouts and observe the close bonds between elephants and caretakers. The orphanage also conducts research on elephant behavior and reproduction for conservation efforts.</p>
-                        <p class="dest-para">The best times to visit are during morning or afternoon feeding sessions and river bathing. The sight of dozens of elephants playing and splashing in the water creates an unforgettable experience for all visitors.</p>
+                        <p class="dest-para"
+                            data-en="Watch elephants being bottle-fed by their mahouts and observe the close bonds between elephants and caretakers. The orphanage also conducts research on elephant behavior and reproduction for conservation efforts."
+                            data-si="ඔවුන්ගේ ආඥාකරුවන් විසින් අලින්ට බෝතල් වලින් කිරි පෙවීම නරඹන්න සහ අලින් සහ රැක බලා ගන්නන් අතර තියෙන සමීප බැඳීම් සොයා බලන්න. සංරක්ෂණ ක්‍රියාකාරකම් සඳහා අලින්ගේ චර්යාව සහ ප්‍රජනනය පිළිබඳ පර්යේෂණද අනාථාගාරය විසින් සිදු කරයි."
+                            data-ta="Bekijk hoe olifanten met de fles worden gevoed door hun mahouts en observeer de nauwe band tussen olifanten en verzorgers. Het weeshuis voert ook onderzoek uit naar het gedrag en de voortplanting van olifanten ten behoeve van het natuurbehoud.">Watch elephants being bottle-fed by their mahouts and observe the close bonds between elephants and caretakers. The orphanage also conducts research on elephant behavior and reproduction for conservation efforts.</p>
+                        <p class="dest-para"
+                            data-en="The best times to visit are during morning or afternoon feeding sessions and river bathing. The sight of dozens of elephants playing and splashing in the water creates an unforgettable experience for all visitors."
+                            data-si="වඩාත් සුදුසු සංචාරක කාලය වන්නේ උදේ හෝ දහවල් ආහාර වේල් සහ ගංගා ස්නානය අතරතුර වේ. ජලයේ සෙල්ලම් කරන සහ ස්නානය කරන අලින් දුසිම් ගණනක දසුන, සියලුම නරඹන්නන්ට අමතක නොවන අත්දැකීමක් ලබා දෙයි."
+                            data-ta="De beste tijden om te bezoeken zijn tijdens de ochtend- of middagvoersessies en het rivierbad. Het zien van tientallen olifanten die spelen en plonzen in het water creëert een onvergetelijke ervaring voor alle bezoekers.">The best times to visit are during morning or afternoon feeding sessions and river bathing. The sight of dozens of elephants playing and splashing in the water creates an unforgettable experience for all visitors.</p>
                     </div>
 
                 </div>
@@ -434,11 +560,26 @@
 
                     <!-- Right 60%: label + title + paragraphs -->
                     <div class="dest-col col-text">
-                        <p class="dest-label">DAMBULLA CAVE TEMPLE</p>
-                        <h2 class="dest-title">Dambulla Cave <em>Temple</em></h2>
-                        <p class="dest-para">The Rangiri Dambulla Cave Temple is a living Buddhist site with five cave shrines. Inhabited by monks since the 3rd century BCE, it has become one of the largest Buddhist complexes in South and Southeast Asia.</p>
-                        <p class="dest-para">King Valagamba sought refuge in these caves during a 14-year exile in the 1st century BCE. Upon reclaiming his throne, he transformed them into a magnificent temple complex as an expression of gratitude.</p>
-                        <p class="dest-para">The five caves house over 150 statues including a 14-meter reclining Buddha and depictions of Hindu gods. Well-preserved frescoes cover 23,000 square feet, showcasing exceptional craftsmanship throughout the complex.</p>
+                        <p class="dest-label"
+                            data-en="DAMBULLA CAVE TEMPLE"
+                            data-si="දඹුල්ල ලෙන් විහාරය"
+                            data-ta="DAMBULLA GROTTEMPEL">DAMBULLA CAVE TEMPLE</p>
+                        <h2 class="dest-title"
+                            data-en="Dambulla Cave <em>Temple</em>"
+                            data-si="දඹුල්ල ලෙන් <em>විහාරය</em>"
+                            data-ta="Dambulla Grot<em>tempel</em>">Dambulla Cave <em>Temple</em></h2>
+                        <p class="dest-para"
+                            data-en="The Rangiri Dambulla Cave Temple is a living Buddhist site with five cave shrines. Inhabited by monks since the 3rd century BCE, it has become one of the largest Buddhist complexes in South and Southeast Asia."
+                            data-si="රන්ගිරි දඹුල්ල ලෙන් විහාරය, ලෙන් සිද්ධස්ථාන පහක් සහිත ජීවමාන බෞද්ධ ස්ථානයකි. ක්‍රි.පූ. තුන්වැනි සියවසේ සිට හිමිවරුන් විසින් වැඩවාසය කරන ලද මෙය, දකුණු හා දකුණු-නැගෙනහිර ආසියාවේ විශාලතම බෞද්ධ සංකීර්ණයන්ගෙන් එකක් බවට පත්ව ඇත."
+                            data-ta="De Rangiri Dambulla Grottempel is een levende boeddhistische plek met vijf grotheiligdommen. Bewoond door monniken sinds de 3e eeuw v.Chr., is het een van de grootste boeddhistische complexen in Zuid- en Zuidoost-Azië geworden.">The Rangiri Dambulla Cave Temple is a living Buddhist site with five cave shrines. Inhabited by monks since the 3rd century BCE, it has become one of the largest Buddhist complexes in South and Southeast Asia.</p>
+                        <p class="dest-para"
+                            data-en="King Valagamba sought refuge in these caves during a 14-year exile in the 1st century BCE. Upon reclaiming his throne, he transformed them into a magnificent temple complex as an expression of gratitude."
+                            data-si="ක්‍රි.පූ. පළමුවැනි සියවසේ වළගම්බා රජු වසර 14ක් පුරා පැවති පිටුවහල් කාලය තුළ මෙම ලෙන්වල ආරක්ෂාව පැතුවේය. තම රාජ්‍යය නැවත ලබා ගත් පසු, ඔහු කෘතගුණ දැක්වීමක් ලෙස ඒවා අතිමහත් විහාර සංකීර්ණයක් බවට පරිවර්තනය කළේය."
+                            data-ta="Koning Valagamba zocht zijn toevlucht in deze grotten tijdens een 14 jaar durende ballingschap in de 1e eeuw v.Chr. Na het herwinnen van zijn troon, veranderde hij ze als uiting van dankbaarheid in een prachtig tempelcomplex.">King Valagamba sought refuge in these caves during a 14-year exile in the 1st century BCE. Upon reclaiming his throne, he transformed them into a magnificent temple complex as an expression of gratitude.</p>
+                        <p class="dest-para"
+                            data-en="The five caves house over 150 statues including a 14-meter reclining Buddha and depictions of Hindu gods. Well-preserved frescoes cover 23,000 square feet, showcasing exceptional craftsmanship throughout the complex."
+                            data-si="ලෙන් පහෙහි ප්‍රතිමා 150කට වැඩි ප්‍රමාණයක් ඇති අතර, ඉන් මීටර් 14ක නිදිගත් බුද්ධ ප්‍රතිමාවක් සහ හින්දු දෙවිවරුන්ගේ නිරූපනද ඇතුළත් වේ. හොඳින් සංරක්ෂණය වූ බිතුසිතුවම් වර්ග අඩි 23,000ක් ආවරණය කරන අතර, සංකීර්ණය පුරා විශිෂ්ට ශිල්ප කෞශල්‍යය පෙන්වයි."
+                            data-ta="De vijf grotten herbergen meer dan 150 standbeelden, waaronder een 14 meter lange liggende Boeddha en afbeeldingen van Hindoegoden. Goed bewaarde fresco's bedekken 23.000 vierkante voet en tonen uitzonderlijk vakmanschap door het gehele complex.">The five caves house over 150 statues including a 14-meter reclining Buddha and depictions of Hindu gods. Well-preserved frescoes cover 23,000 square feet, showcasing exceptional craftsmanship throughout the complex.</p>
                     </div>
 
                 </div>
@@ -448,8 +589,14 @@
 
                     <!-- Left 40%: paragraph -->
                     <div class="dest-col col-text">
-                        <p class="dest-para">Successive monarchs enhanced the site over centuries, with major renovations in the 18th century. The spatial hierarchy leads devotees systematically through ritual spaces without physical divisions between them.</p>
-                        <p class="dest-para">Designated a UNESCO World Heritage Site in 1991, the temple maintains continuous Buddhist pilgrimage for over two millennia. It stands as a remarkable testament to living religious tradition and artistic mastery.</p>
+                        <p class="dest-para"
+                            data-en="Successive monarchs enhanced the site over centuries, with major renovations in the 18th century. The spatial hierarchy leads devotees systematically through ritual spaces without physical divisions between them."
+                            data-si="සියවස් ගණනක් පුරා අනුප්‍රාප්තික රජවරුන් මෙම ස්ථානය වැඩිදියුණු කළ අතර, 18 වැනි සියවසේ ප්‍රධාන ප්‍රතිසංස්කරණ සිදු කරන ලදී. මෙහි අවකාශීය පිළිවෙළ, ඒවා අතර කිසිදු භෞතික බෙදීමක් නොමැතිව, භක්තිකයින් ක්‍රමානුකූලව චාරිත්‍ර අවකාශ හරහා ගෙන යයි."
+                            data-ta="Opvolgende monarchen verbeterden de plek eeuwenlang, met grote renovaties in de 18e eeuw. De ruimtelijke hiërarchie leidt gelovigen systematisch door rituele ruimtes zonder fysieke scheidingen daartussen.">Successive monarchs enhanced the site over centuries, with major renovations in the 18th century. The spatial hierarchy leads devotees systematically through ritual spaces without physical divisions between them.</p>
+                        <p class="dest-para"
+                            data-en="Designated a UNESCO World Heritage Site in 1991, the temple maintains continuous Buddhist pilgrimage for over two millennia. It stands as a remarkable testament to living religious tradition and artistic mastery."
+                            data-si="1991 දී යුනෙස්කෝ ලෝක උරුම ස්ථානයක් ලෙස නම් කරන ලද මෙම විහාරය, සහස්‍ර දෙකකට වැඩි කාලයක් අඛණ්ඩ බෞද්ධ වන්දනා ගමන් පවත්වා ගෙන යයි. එය ජීවමාන ආගමික සම්ප්‍රදායේ සහ කලාත්මක ප්‍රවීණත්වයේ විශිෂ්ට සාක්ෂියක් ලෙස නැගී සිටී."
+                            data-ta="In 1991 aangewezen als UNESCO-Werelderfgoedlocatie, onderhoudt de tempel een ononderbroken boeddhistische pelgrimstocht van meer dan twee millennia. Het staat als een opmerkelijk getuigenis van levende religieuze traditie en artistiek meesterschap.">Designated a UNESCO World Heritage Site in 1991, the temple maintains continuous Buddhist pilgrimage for over two millennia. It stands as a remarkable testament to living religious tradition and artistic mastery.</p>
                     </div>
 
                     <!-- Right 60%: 3 images -->
@@ -488,11 +635,26 @@
 
                     <!-- Left 60%: label + title + paragraphs -->
                     <div class="dest-col col-text">
-                        <p class="dest-label">ADAM'S PEAK</p>
-                        <h2 class="dest-title">Adam's Peak <em>Sri Pada</em></h2>
-                        <p class="dest-para">Adam's Peak rises 2,243 meters from Sri Lanka's central highlands. For over a thousand years, pilgrims have climbed 5,500 steps to witness the perfect triangular shadow cast across the valleys at sunrise.</p>
-                        <p class="dest-para">Buddhists believe the footprint is Buddha's left foot, while Hindus attribute it to Lord Shiva. Muslims see it as Adam's first step from Paradise, and some Christians associate it with St. Thomas the Apostle.</p>
-                        <p class="dest-para">Known locally as Samanala Kanda or Butterfly Mountain, legends say butterflies use this as their final resting place. The pilgrimage trail becomes a radiant pathway when thousands walk under illumination during season.</p>
+                        <p class="dest-label"
+                            data-en="ADAM'S PEAK"
+                            data-si="ශ්‍රී පාදය"
+                            data-ta="ADAM'S PEAK">ADAM'S PEAK</p>
+                        <h2 class="dest-title"
+                            data-en="Adam's Peak <em>Sri Pada</em>"
+                            data-si="ශ්‍රී පාද <em>කන්ද</em>"
+                            data-ta="Adam's Peak <em>Sri Pada</em>">Adam's Peak <em>Sri Pada</em></h2>
+                        <p class="dest-para"
+                            data-en="Adam's Peak rises 2,243 meters from Sri Lanka's central highlands. For over a thousand years, pilgrims have climbed 5,500 steps to witness the perfect triangular shadow cast across the valleys at sunrise."
+                            data-si="ශ්‍රී ලංකාවේ මධ්‍යම කඳුකරයෙන් ශ්‍රී පාද කන්ද මීටර් 2,243ක් උසට නැගී සිටී. වසර දහසකට වැඩි කාලයක් තිස්සේ, හිරු උදාවේ නිම්න හරහා වැතිරෙන පරිපූර්ණ ත්‍රිකෝණාකාර සෙවණැල්ල නැරඹීමට වන්දනාකරුවන් පඩිපෙළ 5,500ක් නැග ඇත."
+                            data-ta="Adam's Peak rijst 2.243 meter op vanuit het centrale hoogland van Sri Lanka. Al meer dan duizend jaar beklimmen pelgrims 5.500 treden om de perfecte driehoekige schaduw te zien die bij zonsopgang over de valleien valt.">Adam's Peak rises 2,243 meters from Sri Lanka's central highlands. For over a thousand years, pilgrims have climbed 5,500 steps to witness the perfect triangular shadow cast across the valleys at sunrise.</p>
+                        <p class="dest-para"
+                            data-en="Buddhists believe the footprint is Buddha's left foot, while Hindus attribute it to Lord Shiva. Muslims see it as Adam's first step from Paradise, and some Christians associate it with St. Thomas the Apostle."
+                            data-si="බෞද්ධයන් විශ්වාස කරන්නේ එම පා සටහන බුදුන්ගේ වම් පාදය බවය, එහෙත් හින්දු භක්තිකයන් එය ශිව දෙවියන්ට ආරෝපණය කරයි. මුස්ලිම්වරුන් එය ආදම් වහන්සේ පාරාදීසයෙන් තබන ලද පළමු පියවර ලෙස දකින අතර, ක්‍රිස්තියානිවරුන් කිහිප දෙනෙක් එය ශාන්ත තෝමස් ප්‍රේරිතයාණන් සමඟ සම්බන්ධ කරයි."
+                            data-ta="Boeddhisten geloven dat de voetafdruk de linkervoet van Boeddha is, terwijl hindoes het toeschrijven aan Heer Shiva. Moslims zien het als Adams eerste stap vanuit het Paradijs, en sommige christenen associëren het met de apostel Thomas.">Buddhists believe the footprint is Buddha's left foot, while Hindus attribute it to Lord Shiva. Muslims see it as Adam's first step from Paradise, and some Christians associate it with St. Thomas the Apostle.</p>
+                        <p class="dest-para"
+                            data-en="Known locally as Samanala Kanda or Butterfly Mountain, legends say butterflies use this as their final resting place. The pilgrimage trail becomes a radiant pathway when thousands walk under illumination during season."
+                            data-si="ප්‍රාදේශීයව සමනල කන්ද ලෙස හඳුන්වන මෙය, ජනප්‍රවාද අනුව සමනලුන් ඔවුන්ගේ අවසන් විවාම් ස්ථානය ලෙස භාර ගනී. සමයේ දහස් ගණනක් එළිය යටතේ ගමන් කරන විට වන්දනා මග ප්‍රභාමත් මංතීරුවක් බවට පත් වෙයි."
+                            data-ta="Lokaal bekend als Samanala Kanda of Vlinderberg, vertellen legendes dat vlinders dit als hun laatste rustplaats gebruiken. Het pelgrimspad wordt een stralend pad wanneer duizenden tijdens het seizoen onder verlichting lopen.">Known locally as Samanala Kanda or Butterfly Mountain, legends say butterflies use this as their final resting place. The pilgrimage trail becomes a radiant pathway when thousands walk under illumination during season.</p>
                     </div>
 
                     <!-- Right 40%: single image -->
@@ -528,8 +690,14 @@
 
                     <!-- Right 40%: paragraph -->
                     <div class="dest-col col-text">
-                        <p class="dest-para">Peak season runs from December to May when weather is most favorable. Thousands start climbing at 2 AM for the night journey, ringing the summit temple bell once for each successful visit they have made.</p>
-                        <p class="dest-para">The rectangular shadow forms a triangle during sunrise in the phenomenon called Shadow of the Peak. It emerges mysteriously from the valleys, expanding in size like a floating illusion that has fascinated pilgrims for centuries.</p>
+                        <p class="dest-para"
+                            data-en="Peak season runs from December to May when weather is most favorable. Thousands start climbing at 2 AM for the night journey, ringing the summit temple bell once for each successful visit they have made."
+                            data-si="කාලගුණය වඩාත් හිතකර වන දෙසැම්බර් සිට මැයි දක්වා මුඛ්‍ය සමය පවතී. දහස් ගණනක් රාත්‍රී ගමන සඳහා පෙ.ව. 2 ට නැගීම අරඹන අතර, ඔවුන් සාර්ථකව සංචාරය කළ සෑම අවස්ථාවකටම මුදුන් විහාරයේ සීනුව වරක් නාද කරයි."
+                            data-ta="Het hoogseizoen loopt van december tot mei, wanneer het weer het meest gunstig is. Duizenden beginnen om 2 uur 's nachts met de klim voor de nachtreis, en luiden eenmaal de tempelbel op de top voor elk succesvol bezoek dat ze hebben gemaakt.">Peak season runs from December to May when weather is most favorable. Thousands start climbing at 2 AM for the night journey, ringing the summit temple bell once for each successful visit they have made.</p>
+                        <p class="dest-para"
+                            data-en="The rectangular shadow forms a triangle during sunrise in the phenomenon called Shadow of the Peak. It emerges mysteriously from the valleys, expanding in size like a floating illusion that has fascinated pilgrims for centuries."
+                            data-si="හිරු උදාවේදී සෘජුකෝණාස්‍රාකාර සෙවණැල්ල ත්‍රිකෝණයක් සකස් කරයි, මෙය කන්දේ සෙවණැල්ල ලෙස හඳුන්වන සංසිද්ධියකි. එය නිම්නවලින් අද්භූත ලෙස මතුවී, සියවස් ගණනක් වන්දනාකරුවන් ආකර්ෂණය කරගත් පාවෙන මායාවක් මෙන් ප්‍රමාණයෙන් වැඩි වෙයි."
+                            data-ta="De rechthoekige schaduw vormt bij zonsopgang een driehoek in het fenomeen genaamd de Schaduw van de Piek. Het verrijst mysterieus uit de valleien, groeiend in omvang als een drijvende illusie die pelgrims al eeuwenlang heeft gefascineerd.">The rectangular shadow forms a triangle during sunrise in the phenomenon called Shadow of the Peak. It emerges mysteriously from the valleys, expanding in size like a floating illusion that has fascinated pilgrims for centuries.</p>
                     </div>
 
                 </div>
@@ -558,11 +726,26 @@
 
                     <!-- Right 60%: label + title + paragraphs -->
                     <div class="dest-col col-text">
-                        <p class="dest-label">MIRISSA BEACH</p>
-                        <h2 class="dest-title">Mirissa Beach <em>Paradise</em></h2>
-                        <p class="dest-para">Mirissa is a laid-back beach town where palm-lined shores meet wild ocean sunsets. The crescent-shaped bay remains beautiful with golden sand and a relaxed atmosphere that makes every day feel longer.</p>
-                        <p class="dest-para">The sand is soft and golden, with palm-lined shores giving a laid-back feel. By day it is calm and chilled, while evenings transform into candle-lit beach dining with fresh seafood restaurants lining the shore.</p>
-                        <p class="dest-para">Mirissa is one of the best places in the world to see blue whales. From November to April, boats head out early morning to spot blue whales, sperm whales, and dolphins just offshore in a humbling spectacle.</p>
+                        <p class="dest-label"
+                            data-en="MIRISSA BEACH"
+                            data-si="මිරිස්ස වෙරළ"
+                            data-ta="MIRISSA BEACH">MIRISSA BEACH</p>
+                        <h2 class="dest-title"
+                            data-en="Mirissa Beach <em>Paradise</em>"
+                            data-si="මිරිස්ස වෙරළ <em>පාරාදීසය</em>"
+                            data-ta="Mirissa Beach <em>Paradijs</em>">Mirissa Beach <em>Paradise</em></h2>
+                        <p class="dest-para"
+                            data-en="Mirissa is a laid-back beach town where palm-lined shores meet wild ocean sunsets. The crescent-shaped bay remains beautiful with golden sand and a relaxed atmosphere that makes every day feel longer."
+                            data-si="මිරිස්ස යනු පොල් ගස් වැටුණු වෙරළ තීරයන් සහ වෘජ සාගර හිරු බැසීම් එක්වන සැහැල්ලු වෙරළබඩ නගරයකි. අඩ සඳ හැඩයේ බොක්ක රන් වර්ණ වැලි සහ සැහැල්ලු වාතාවරණයක් සහිතව සුන්දර ව පවතින අතර, එමඟින් සෑම දිනක්ම දිගු බවක් දැනේ."
+                            data-ta="Mirissa is een ontspannen badplaats waar met palmbomen omzoomde kusten samenkomen met wilde oceaanzonsondergangen. De halvemaanvormige baai blijft mooi met goudkleurig zand en een ontspannen sfeer die elke dag langer doet aanvoelen.">Mirissa is a laid-back beach town where palm-lined shores meet wild ocean sunsets. The crescent-shaped bay remains beautiful with golden sand and a relaxed atmosphere that makes every day feel longer.</p>
+                        <p class="dest-para"
+                            data-en="The sand is soft and golden, with palm-lined shores giving a laid-back feel. By day it is calm and chilled, while evenings transform into candle-lit beach dining with fresh seafood restaurants lining the shore."
+                            data-si="වැලි මෙහි මෙළඟ සහ රන් වර්ණවට, පොල් ගස් වැටුණු වෙරළ තීරයන් සැහැල්ලු හැඟීමක් ලබා දෙයි. දහවල් කාලයේ සන්සුන් හා සිසිල් වන අතර, සවස් කාලයේ පහන් එළියෙන් සැදුම් ලද වෙරළ භෝජනය බවට පරිවර්තනය වන අතර, නැවුම් මුහුදු ආහාර අවන්හල් වෙරළ තීරය දිගේ පෙළ ගැසී ඇත."
+                            data-ta="Het zand is zacht en goudkleurig, met met palmbomen omzoomde kusten die een ontspannen gevoel geven. Overdag is het rustig en kalm, terwijl de avonden veranderen in kaarslicht-strandeten met restaurants vol verse zeevruchten langs de kust.">The sand is soft and golden, with palm-lined shores giving a laid-back feel. By day it is calm and chilled, while evenings transform into candle-lit beach dining with fresh seafood restaurants lining the shore.</p>
+                        <p class="dest-para"
+                            data-en="Mirissa is one of the best places in the world to see blue whales. From November to April, boats head out early morning to spot blue whales, sperm whales, and dolphins just offshore in a humbling spectacle."
+                            data-si="මිරිස්ස නිල් තල්මසුන් දැකීමට ලොව තිබෙන වඩාත්ම හොඳ ස්ථානයකි. නොවැම්බර් සිට අප්‍රේල් දක්වා, ඉමහත් දසුනකින් වෙරළට ආසන්නයේ නිල් තල්මසුන්, ශුක්ල තල්මසුන් සහ ඩොල්ෆින්වරුන් සොයා ගැනීමට බෝට්ටු උදේ පාන්දරම පිටත්වෙයි."
+                            data-ta="Mirissa is een van de beste plekken in de wereld om blauwe vinvissen te zien. Van november tot april vertrekken boten 's ochtends vroeg om blauwe vinvissen, potvissen en dolfijnen net voor de kust te spotten, een nederig schouwspel.">Mirissa is one of the best places in the world to see blue whales. From November to April, boats head out early morning to spot blue whales, sperm whales, and dolphins just offshore in a humbling spectacle.</p>
                     </div>
 
                 </div>
@@ -572,8 +755,14 @@
 
                     <!-- Left 40%: paragraph -->
                     <div class="dest-col col-text">
-                        <p class="dest-para">Coconut Tree Hill offers one of the most beautiful sunset views on the south coast. Parrot Rock perches just offshore, providing a perfectly framed viewpoint of the bay and surrounding coastline.</p>
-                        <p class="dest-para">Whether watching fishermen haul nets at sunrise or sipping a coconut beneath palm trees, Mirissa makes every moment feel special. This beach town forces you to slow down and be present in the moment.</p>
+                        <p class="dest-para"
+                            data-en="Coconut Tree Hill offers one of the most beautiful sunset views on the south coast. Parrot Rock perches just offshore, providing a perfectly framed viewpoint of the bay and surrounding coastline."
+                            data-si="කොකනට් ට්‍රී හිල් දකුණු වෙරළ තීරයේ වඩාත්ම සුන්දර හිරු බැසීම් දසුන් වලින් එකක් ලබා දෙයි. පැරට් රොක් වෙරළට ආසන්නයේ පිහිටා ඇති අතර, බොක්කේ සහ අවට වෙරළ තීරයේ පරිපූර්ණ දසුනක් ලබා දෙයි."
+                            data-ta="Coconut Tree Hill biedt een van de mooiste zonsondergangen aan de zuidkust. Parrot Rock troont net voor de kust en biedt een perfect omlijst uitzicht op de baai en de omliggende kustlijn.">Coconut Tree Hill offers one of the most beautiful sunset views on the south coast. Parrot Rock perches just offshore, providing a perfectly framed viewpoint of the bay and surrounding coastline.</p>
+                        <p class="dest-para"
+                            data-en="Whether watching fishermen haul nets at sunrise or sipping a coconut beneath palm trees, Mirissa makes every moment feel special. This beach town forces you to slow down and be present in the moment."
+                            data-si="හිරු උදාවේ වැලි ඇද ගන්නා ධීවරයන් නැරඹීම හෝ පොල් ගස් යට පොල් වතුර පානය කිරීම වෙතත්, මිරිස්ස සෑම මොහොතක්ම විශේෂ බවක් දැනෙන සේ සකස් කරයි. මෙම වෙරළබඩ නගරය ඔබට වේගය අඩු කරගෙන මොහොතේ සිටීමට බල කරයි."
+                            data-ta="Of je nu vissers bij zonsopgang netten ziet uithalen of een kokosnoot drinkt onder palmbomen, Mirissa laat elk moment speciaal aanvoelen. Dit strandplaatsje dwingt je om te vertragen en in het moment te zijn.">Whether watching fishermen haul nets at sunrise or sipping a coconut beneath palm trees, Mirissa makes every moment feel special. This beach town forces you to slow down and be present in the moment.</p>
                     </div>
 
                     <!-- Right 60%: 3 images -->
@@ -612,11 +801,26 @@
 
                     <!-- Left 60%: label + title + paragraphs -->
                     <div class="dest-col col-text">
-                        <p class="dest-label">ANCIENT CITY OF POLONNARUWA</p>
-                        <h2 class="dest-title">Ancient City Of <em>Polonnaruwa</em></h2>
-                        <p class="dest-para">Polonnaruwa became Sri Lanka's second capital after Anuradhapura's destruction in 993. The city contains Brahmanic monuments built by the Chola dynasty and the garden-city created by Parakramabahu the Great.</p>
-                        <p class="dest-para">The ancient city held the Sacred Tooth Relic, talisman of the Sinhalese monarchy. Its removal confirmed Polonnaruwa's downfall, yet the ruins remain remarkably well-preserved and awe-inspiring today.</p>
-                        <p class="dest-para">Parakramabahu transformed Polonnaruwa into a magnificent garden city with vast reservoirs and temples. The Gal Viharaya features four massive Buddha statues carved from a single granite wall.</p>
+                        <p class="dest-label"
+                            data-en="ANCIENT CITY OF POLONNARUWA"
+                            data-si="පොළොන්නරුව පුරාණ නගරය"
+                            data-ta="OUDE STAD POLONNARUWA">ANCIENT CITY OF POLONNARUWA</p>
+                        <h2 class="dest-title"
+                            data-en="Ancient City Of <em>Polonnaruwa</em>"
+                            data-si="<em>පොළොන්නරුව</em> පුරාණ නගරය"
+                            data-ta="Oude Stad <em>Polonnaruwa</em>">Ancient City Of <em>Polonnaruwa</em></h2>
+                        <p class="dest-para"
+                            data-en="Polonnaruwa became Sri Lanka's second capital after Anuradhapura's destruction in 993. The city contains Brahmanic monuments built by the Chola dynasty and the garden-city created by Parakramabahu the Great."
+                            data-si="993 දී අනුරාධපුරයේ විනාශය පසුව පොළොන්නරුව ශ්‍රී ලංකාවේ දෙවැනි අගනුවර බවට පත් විය. මෙම නගරයේ චෝල රාජවංශය විසින් ඉදිකරන ලද බ්‍රාහ්මණ ස්මාරක සහ මහා පරාක්‍රමබාහු රජු විසින් නිර්මාණය කරන ලද උද්‍යාන නගරය ඇතුළත් වේ."
+                            data-ta="Polonnaruwa werd de tweede hoofdstad van Sri Lanka na de verwoesting van Anuradhapura in 993. De stad bevat Brahmaanse monumenten gebouwd door de Chola-dynastie en de tuinstad gecreëerd door Parakramabahu de Grote.">Polonnaruwa became Sri Lanka's second capital after Anuradhapura's destruction in 993. The city contains Brahmanic monuments built by the Chola dynasty and the garden-city created by Parakramabahu the Great.</p>
+                        <p class="dest-para"
+                            data-en="The ancient city held the Sacred Tooth Relic, talisman of the Sinhalese monarchy. Its removal confirmed Polonnaruwa's downfall, yet the ruins remain remarkably well-preserved and awe-inspiring today."
+                            data-si="මෙම පුරාණ නගරයේ සිංහල රාජාණ්ඩුවේ සංකේතය වූ පූජනීය දළදා වහන්සේ තැන්පත්ව තිබුණි. එහි ඉවත් කිරීම පොළොන්නරුවේ බිඳ වැටීම තහවුරු කළ අතර, එහෙත් නටබුන් අද වන විට පුදුම සහගත ලෙස හොඳින් සංරක්ෂණය වී ඇති අතර, ඒවා දැකීම සිත් ඇද ගනී."
+                            data-ta="De oude stad herbergde de Heilige Tandrelikwie, het talisman van de Singalese monarchie. De verwijdering ervan bevestigde de val van Polonnaruwa, maar de ruïnes blijven vandaag opmerkelijk goed bewaard en ontzagwekkend.">The ancient city held the Sacred Tooth Relic, talisman of the Sinhalese monarchy. Its removal confirmed Polonnaruwa's downfall, yet the ruins remain remarkably well-preserved and awe-inspiring today.</p>
+                        <p class="dest-para"
+                            data-en="Parakramabahu transformed Polonnaruwa into a magnificent garden city with vast reservoirs and temples. The Gal Viharaya features four massive Buddha statues carved from a single granite wall."
+                            data-si="පරාක්‍රමබාහු රජු පොළොන්නරුව ව්‍යාප්ත ජලාශ සහ විහාරස්ථාන සහිත අතිමහත් උද්‍යාන නගරයක් බවට පරිවර්තනය කළේය. ගල් විහාරයේ එක් ග්‍රැනයිට් පවුරකින් කැටයම් කරන ලද විශාල බුද්ධ ප්‍රතිමා හතරක් ඇත."
+                            data-ta="Parakramabahu veranderde Polonnaruwa in een prachtige tuinstad met enorme reservoirs en tempels. De Gal Viharaya bevat vier massieve Boeddhabeelden, uitgehouwen uit één granieten wand.">Parakramabahu transformed Polonnaruwa into a magnificent garden city with vast reservoirs and temples. The Gal Viharaya features four massive Buddha statues carved from a single granite wall.</p>
                     </div>
 
                     <!-- Right 40%: single image -->
@@ -652,8 +856,14 @@
 
                     <!-- Right 40%: paragraph -->
                     <div class="dest-col col-text">
-                        <p class="dest-para">The Quadrangle contains twelve buildings including the Vatadage, a circular relic house of exceptional beauty. The unusual dimensions and special relationship between buildings and nature make this site remarkable.</p>
-                        <p class="dest-para">Today Polonnaruwa is a UNESCO World Heritage Site and one of Asia's best-preserved ancient cities. Visitors can explore ruins by bicycle, discovering palaces, dagobas, and remarkable ancient irrigation systems.</p>
+                        <p class="dest-para"
+                            data-en="The Quadrangle contains twelve buildings including the Vatadage, a circular relic house of exceptional beauty. The unusual dimensions and special relationship between buildings and nature make this site remarkable."
+                            data-si="සතරැස් භූමියේ විශිෂ්ට අලංකාරයෙන් යුත් වෘත්තාකාර ධාතු මාලිගාවක් වූ වටදාගේය ඇතුළු ගොඩනැගිලි දොළහක් ඇත. අසාමාන්‍ය මානයන් සහ ගොඩනැගිලි හා ස්වභාවධර්මය අතර විශේෂ සම්බන්ධතාවය මෙම ස්ථානය කැපී පෙනෙන කරයි."
+                            data-ta="De Quadrangle bevat twaalf gebouwen, waaronder de Vatadage, een ronde relikwiekamer van uitzonderlijke schoonheid. De ongewone afmetingen en de speciale relatie tussen gebouwen en natuur maken deze plek opmerkelijk.">The Quadrangle contains twelve buildings including the Vatadage, a circular relic house of exceptional beauty. The unusual dimensions and special relationship between buildings and nature make this site remarkable.</p>
+                        <p class="dest-para"
+                            data-en="Today Polonnaruwa is a UNESCO World Heritage Site and one of Asia's best-preserved ancient cities. Visitors can explore ruins by bicycle, discovering palaces, dagobas, and remarkable ancient irrigation systems."
+                            data-si="අද වන විට පොළොන්නරුව යුනෙස්කෝ ලෝක උරුම ස්ථානයක් වන අතර, ආසියාවේ වඩාත්ම හොඳින් සංරක්ෂණය වූ පුරාණ නගරයන්ගෙන් එකකි. නරඹන්නන්ට පාගවි ආධාරයෙන් මාලිගා, දාගැබ් සහ කැපී පෙනෙන පුරාණ වාරිමාර්ග පද්ධති සොයා ගනිමින් නටබුන් ගවේෂණය කළ හැකිය."
+                            data-ta="Vandaag is Polonnaruwa een UNESCO-Werelderfgoedlocatie en een van de best bewaarde oude steden van Azië. Bezoekers kunnen de ruïnes per fiets verkennen en paleizen, dagobas en opmerkelijke oude irrigatiesystemen ontdekken.">Today Polonnaruwa is a UNESCO World Heritage Site and one of Asia's best-preserved ancient cities. Visitors can explore ruins by bicycle, discovering palaces, dagobas, and remarkable ancient irrigation systems.</p>
                     </div>
 
                 </div>
@@ -682,11 +892,26 @@
 
                     <!-- Right 60%: label + title + paragraphs -->
                     <div class="dest-col col-text">
-                        <p class="dest-label">ANURADHAPURA</p>
-                        <h2 class="dest-title">Sacred City Of <em>Anuradhapura</em></h2>
-                        <p class="dest-para">Founded in the 4th century BCE, Anuradhapura was the center of Sinhalese civilization for over 1,300 years. Grand palaces, monasteries, and magnificent stupas rivaled the ancient capitals of India and Rome.</p>
-                        <p class="dest-para">A sapling from the Buddha's enlightenment tree was brought here in the 3rd century BCE. The Jaya Sri Maha Bodhi, planted by Princess Sangamitta, still grows as the oldest documented tree planted by human hands.</p>
-                        <p class="dest-para">At its peak, tens of thousands of monks and a thriving urban population called Anuradhapura home. Ingenious irrigation systems fed rice paddies and reservoirs that still function in the surrounding countryside today.</p>
+                        <p class="dest-label"
+                            data-en="ANURADHAPURA"
+                            data-si="අනුරාධපුරය"
+                            data-ta="ANURADHAPURA">ANURADHAPURA</p>
+                        <h2 class="dest-title"
+                            data-en="Sacred City Of <em>Anuradhapura</em>"
+                            data-si="<em>අනුරාධපුර</em> පූජනීය නගරය"
+                            data-ta="Heilige Stad <em>Anuradhapura</em>">Sacred City Of <em>Anuradhapura</em></h2>
+                        <p class="dest-para"
+                            data-en="Founded in the 4th century BCE, Anuradhapura was the center of Sinhalese civilization for over 1,300 years. Grand palaces, monasteries, and magnificent stupas rivaled the ancient capitals of India and Rome."
+                            data-si="ක්‍රි.පූ. හතරවැනි සියවසේ ස්ථාපිත කරන ලද අනුරාධපුරය, වසර 1,300කට වැඩි කාලයක් සිංහල සංස්කෘතියේ කේන්ද්‍රස්ථානය විය. විශාල මාලිගා, විහාරස්ථාන සහ අතිමහත් ස්තූප ඉන්දියාවේ සහ රෝමයේ පුරාණ අගනුවරවලට තරඟකාරී විය."
+                            data-ta="Anuradhapura, gesticht in de 4e eeuw v.Chr., was meer dan 1.300 jaar het centrum van de Singalese beschaving. Grote paleizen, kloosters en prachtige stoepa's wedijverden met de oude hoofdsteden van India en Rome.">Founded in the 4th century BCE, Anuradhapura was the center of Sinhalese civilization for over 1,300 years. Grand palaces, monasteries, and magnificent stupas rivaled the ancient capitals of India and Rome.</p>
+                        <p class="dest-para"
+                            data-en="A sapling from the Buddha's enlightenment tree was brought here in the 3rd century BCE. The Jaya Sri Maha Bodhi, planted by Princess Sangamitta, still grows as the oldest documented tree planted by human hands."
+                            data-si="ක්‍රි.පූ. තුන්වැනි සියවසේ බුදුන්ගේ බෝධි වෘක්ෂයෙන් ලබාගත් පැළයක් මෙහි ගෙන එනු ලැබිණි. සංඝමිත්තා කුමරිය විසින් රෝපණය කරන ලද ජය ශ්‍රී මහා බෝධිය, මානව හස්තයෙන් රෝපණය කරන ලද ලේඛනගත වූ පැරණිතම ගස ලෙස තවමත් වැඩෙයි."
+                            data-ta="Een stekje van de boom van Boeddha's verlichting werd hierheen gebracht in de 3e eeuw v.Chr. De Jaya Sri Maha Bodhi, geplant door prinses Sangamitta, groeit nog steeds als de oudste gedocumenteerde door mensenhanden geplante boom.">A sapling from the Buddha's enlightenment tree was brought here in the 3rd century BCE. The Jaya Sri Maha Bodhi, planted by Princess Sangamitta, still grows as the oldest documented tree planted by human hands.</p>
+                        <p class="dest-para"
+                            data-en="At its peak, tens of thousands of monks and a thriving urban population called Anuradhapura home. Ingenious irrigation systems fed rice paddies and reservoirs that still function in the surrounding countryside today."
+                            data-si="එහි උච්ච අවස්ථාවේ දී, භික්ෂූන් දස දහස් ගණනක් සහ සශ්‍රීක නාගරික ජනවාසයක් අනුරාධපුරය නිවස ලෙස හැඳින්වූහ. දක්ෂ වාරිමාර්ග පද්ධති වී කුඹුරු සහ ජලාශවලට ජලය ලබා දුන් අතර, ඒවා අද වන විට අවට ග්‍රාමීය ප්‍රදේශවල ක්‍රියාත්මක වෙයි."
+                            data-ta="Op zijn hoogtepunt noemden tienduizenden monniken en een bloeiende stedelijke bevolking Anuradhapura hun thuis. Ingenieuze irrigatiesystemen voedden rijstvelden en reservoirs die vandaag nog steeds functioneren in het omliggende platteland.">At its peak, tens of thousands of monks and a thriving urban population called Anuradhapura home. Ingenious irrigation systems fed rice paddies and reservoirs that still function in the surrounding countryside today.</p>
                     </div>
 
                 </div>
