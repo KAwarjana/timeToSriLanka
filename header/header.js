@@ -1,5 +1,6 @@
 // ── LANGUAGE ──
-  let currentLang = 'en';
+  // Load saved language from localStorage, default to 'en'
+  let currentLang = localStorage.getItem('selectedLang') || 'en';
 
   const langData = {
     en: {
@@ -23,6 +24,37 @@
     }
   };
 
+  // Function to apply language to all elements
+  function applyLanguage(code) {
+    const d = langData[code];
+    if (!d) return;
+
+    // Update UI selector
+    const activeLangFlag = document.getElementById('activeLangFlag');
+    const activeLangName = document.getElementById('activeLangName');
+    if (activeLangFlag) activeLangFlag.innerHTML = d.flag;
+    if (activeLangName) activeLangName.textContent = d.name;
+
+    // Update all translatable elements with innerHTML
+    document.querySelectorAll('[data-' + code + ']').forEach(el => {
+      el.innerHTML = el.getAttribute('data-' + code);
+    });
+
+    // Update all translatable elements with placeholder
+    document.querySelectorAll('[data-placeholder-' + code + ']').forEach(el => {
+      el.placeholder = el.getAttribute('data-placeholder-' + code);
+    });
+
+    // Update active lang option marker - find the correct option based on lang code
+    document.querySelectorAll('.lang-option').forEach(opt => {
+      opt.classList.remove('active');
+      const onclickAttr = opt.getAttribute('onclick') || '';
+      if (onclickAttr.includes(`'${code}'`)) {
+        opt.classList.add('active');
+      }
+    });
+  }
+
   function toggleLang(e) {
     e.stopPropagation();
     document.getElementById('langSelect').classList.toggle('open');
@@ -31,25 +63,32 @@
   function setLang(code, e) {
     e.stopPropagation();
     currentLang = code;
-    const d = langData[code];
-    document.getElementById('activeLangFlag').innerHTML = d.flag;
-    document.getElementById('activeLangName').textContent = d.name;
+    
+    // Save to localStorage for persistence across pages
+    localStorage.setItem('selectedLang', code);
+    
+    applyLanguage(code);
     document.getElementById('langSelect').classList.remove('open');
-
-    // Update all translatable elements
-    document.querySelectorAll('[data-' + code + ']').forEach(el => {
-      el.innerHTML = el.getAttribute('data-' + code);
-    });
-
-    document.querySelectorAll('[data-placeholder-' + code + ']').forEach(el => {
-      el.placeholder = el.getAttribute('data-placeholder-' + code);
-    });
 
     window.dispatchEvent(new CustomEvent('langChanged', { detail: { lang: code } }));
 
     // Mark active
     document.querySelectorAll('.lang-option').forEach(opt => opt.classList.remove('active'));
     e.currentTarget.classList.add('active');
+  }
+
+  // Apply saved language on page load
+  document.addEventListener('DOMContentLoaded', function() {
+    applyLanguage(currentLang);
+  });
+
+  // Also apply immediately if DOM is already loaded (for dynamic includes)
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function() {
+      applyLanguage(currentLang);
+    });
+  } else {
+    applyLanguage(currentLang);
   }
 
   document.addEventListener('click', () => {
