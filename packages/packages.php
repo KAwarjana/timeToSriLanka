@@ -64,7 +64,7 @@
                     <p class="pkg-desc">Lorem Ipsum is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem
                         Ipsum Has Been The Industry's Standard Dummy Text Ever Since The 1500.</p>
                 </div>
-                <button class="pkg-btn">BOOK NOW</button>
+                <button class="pkg-btn" onclick="window.location='../booking/booking.php';">BOOK NOW</button>
             </div>
 
             <!-- Card 2 -->
@@ -88,7 +88,7 @@
                     <p class="pkg-desc">Lorem Ipsum is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem
                         Ipsum Has Been The Industry's Standard Dummy Text Ever Since The 1500.</p>
                 </div>
-                <button class="pkg-btn">BOOK NOW</button>
+                <button class="pkg-btn" onclick="window.location='../booking/booking.php';">BOOK NOW</button>
             </div>
 
             <!-- Card 3 -->
@@ -112,7 +112,7 @@
                     <p class="pkg-desc">Lorem Ipsum is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem
                         Ipsum Has Been The Industry's Standard Dummy Text Ever Since The 1500.</p>
                 </div>
-                <button class="pkg-btn">BOOK NOW</button>
+                <button class="pkg-btn" onclick="window.location='../booking/booking.php';">BOOK NOW</button>
             </div>
 
             <!-- Card 4 -->
@@ -136,7 +136,7 @@
                     <p class="pkg-desc">Lorem Ipsum is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem
                         Ipsum Has Been The Industry's Standard Dummy Text Ever Since The 1500.</p>
                 </div>
-                <button class="pkg-btn">BOOK NOW</button>
+                <button class="pkg-btn" onclick="window.location='../booking/booking.php';">BOOK NOW</button>
             </div>
 
             <!-- Card 5 -->
@@ -160,7 +160,7 @@
                     <p class="pkg-desc">Lorem Ipsum is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem
                         Ipsum Has Been The Industry's Standard Dummy Text Ever Since The 1500.</p>
                 </div>
-                <button class="pkg-btn">BOOK NOW</button>
+                <button class="pkg-btn" onclick="window.location='../booking/booking.php';">BOOK NOW</button>
             </div>
 
             <!-- Card 6 -->
@@ -184,7 +184,7 @@
                     <p class="pkg-desc">Lorem Ipsum is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem
                         Ipsum Has Been The Industry's Standard Dummy Text Ever Since The 1500.</p>
                 </div>
-                <button class="pkg-btn">BOOK NOW</button>
+                <button class="pkg-btn" onclick="window.location='../booking/booking.php';">BOOK NOW</button>
             </div>
 
         </div>

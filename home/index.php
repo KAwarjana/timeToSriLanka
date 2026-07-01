@@ -76,7 +76,7 @@
           From airport transfers and private transportation to carefully selected accommodations, guided excursions, and personalized travel assistance, we take care of every detail so you can travel without stress. Our experienced local team is dedicated to delivering exceptional service, ensuring every part of your journey is smooth, comfortable, and memorable. Whether you're visiting for a short getaway or an extended holiday, we are committed to creating authentic experiences and unforgettable moments that you'll cherish long after your trip ends.
         </p>
 
-        <a href="#" class="read-more-btn" data-en="READ MORE <span class='btn-arrows'><img src='../resources/img/home/arrow.png' class='arrow--img'></span>" data-si="තව කියවන්න <span class='btn-arrows'><img src='../resources/img/home/arrow.png' class='arrow--img'></span>" data-ta="LEES MEER <span class='btn-arrows'><img src='../resources/img/home/arrow.png' class='arrow--img'></span>">
+        <a href="../about/about.php" class="read-more-btn" data-en="READ MORE <span class='btn-arrows'><img src='../resources/img/home/arrow.png' class='arrow--img'></span>" data-si="තව කියවන්න <span class='btn-arrows'><img src='../resources/img/home/arrow.png' class='arrow--img'></span>" data-ta="LEES MEER <span class='btn-arrows'><img src='../resources/img/home/arrow.png' class='arrow--img'></span>">
           READ MORE
           <span class="btn-arrows"><img src="../resources/img/home/arrow.png" class="arrow--img"></span>
         </a>
@@ -95,7 +95,7 @@
         <p class="exp-desc" data-en="From breathtaking adventures to serene relaxation, discover carefully selected experiences designed to make your journey through Sri Lanka unforgettable." data-si="අභියෝගාත්මක ගමනවල සිට සන්සුන් විවේකය දක්වා, ශ්‍රී ලංකාව හරහා ඔබේ ගමන අමතක නොවන ලෙස සූක්ෂමව තෝරාගත් අත්දැකීම් සොයා බලන්න." data-ta="Van indrukwekkende avonturen tot serene ontspanning, ontdek zorgvuldig geselecteerde ervaringen ontworpen om je reis door Sri Lanka onvergetelijk te maken.">
           From breathtaking adventures to serene relaxation, discover carefully selected experiences designed to make your journey through Sri Lanka unforgettable.
         </p>
-        <a href="#" class="exp-btn" data-en="EXPLORE <span class='btn-arrows'><img src='../resources/img/home/arrow.png' class='arrow--img'></span>" data-si="ගවේෂණය කරන්න <span class='btn-arrows'><img src='../resources/img/home/arrow.png' class='arrow--img'></span>" data-ta="VERKEN <span class='btn-arrows'><img src='../resources/img/home/arrow.png' class='arrow--img'></span>">
+        <a href="../experiences/experiences.php" class="exp-btn" data-en="EXPLORE <span class='btn-arrows'><img src='../resources/img/home/arrow.png' class='arrow--img'></span>" data-si="ගවේෂණය කරන්න <span class='btn-arrows'><img src='../resources/img/home/arrow.png' class='arrow--img'></span>" data-ta="VERKEN <span class='btn-arrows'><img src='../resources/img/home/arrow.png' class='arrow--img'></span>">
           EXPLORE <span class="btn-arrows"><img src="../resources/img/home/arrow.png" class="arrow--img"></span>
         </a>
       </div>
@@ -206,7 +206,7 @@
           <h2 class="srv-heading" data-en="Exclusive Travel Services for a <span class='accent'>Seamless Journey</span>" data-si="ඉතා සුවිශේෂී <span class='accent'>අති සරල ගමන</span> සඳහා වූ ගමන් සේවා" data-ta="Exclusieve reisdiensten voor een <span class='accent'>zorgeloze ervaring</span>">Exclusive Travel Services for a <span class="accent">Seamless Journey</span></h2>
           <p class="srv-lead" data-en="At TimetoCeylon, we offer premium travel services that make every journey through Sri Lanka effortless, comfortable, and unforgettable, with personalized service and local expertise." data-si="TimetoCeylon සමඟ, අපි ශ්‍රී ලංකාව හරහා සෑම ගමනක්ම සරල, සුවපහසු සහ අමතක නොවන ලෙස සකස් කරන ප්‍රිමියම් ගමන් සේවා සපයමු. පුද්ගලීකරණය කළ සේවාව සහ දේශීය දැනුම සමඟ." data-ta="Bij TimetoCeylon bieden wij hoogwaardige reisdiensten die ontworpen zijn om iedere reis door Sri Lanka moeiteloos, comfortabel en onvergetelijk te maken. Met persoonlijke aandacht, lokale expertise en premium service zorgen wij voor een reiservaring die volledig aansluit op uw wensen.">
             At TimetoCeylon, we offer premium travel services that make every journey through Sri Lanka effortless, comfortable, and unforgettable, with personalized service and local expertise.</p>
-          <a href="#" class="srv-btn" data-en="SEE MORE <span class='btn-arrows'><img src='../resources/img/home/arrow.png' class='arrow--img'></span>" data-si="තව බලන්න <span class='btn-arrows'><img src='../resources/img/home/arrow.png' class='arrow--img'></span>" data-ta="MEER ZIEN <span class='btn-arrows'><img src='../resources/img/home/arrow.png' class='arrow--img'></span>">SEE MORE <span class="btn-arrows"><img src="../resources/img/home/arrow.png"
+          <a href="../services/services.php" class="srv-btn" data-en="SEE MORE <span class='btn-arrows'><img src='../resources/img/home/arrow.png' class='arrow--img'></span>" data-si="තව බලන්න <span class='btn-arrows'><img src='../resources/img/home/arrow.png' class='arrow--img'></span>" data-ta="MEER ZIEN <span class='btn-arrows'><img src='../resources/img/home/arrow.png' class='arrow--img'></span>">SEE MORE <span class="btn-arrows"><img src="../resources/img/home/arrow.png"
                 class="arrow--img"></span></a>
         </div>
 
@@ -309,7 +309,7 @@
             <h3 class="card-name" data-en="Basic Package" data-si="මූලික පැකේජය" data-ta="Basis pakket">Basic Package</h3>
             <p class="card-sub" data-en="Perfect for starters" data-si="ආරම්භකයන් සඳහා සුදුසු" data-ta="Perfect voor starters">Perfect for starters</p>
             <p class="card-price">Rs. 5,000.00</p>
-            <a href="#" class="card-btn" onclick="event.stopPropagation()" data-en="SEE MORE <span><img src='../resources/img/home/arrow_dark.png' id='btn-arrow-0' class='arrow--img'></span>" data-si="තව බලන්න <span><img src='../resources/img/home/arrow_dark.png' id='btn-arrow-0' class='arrow--img'></span>" data-ta="MEER ZIEN <span><img src='../resources/img/home/arrow_dark.png' id='btn-arrow-0' class='arrow--img'></span>">SEE MORE <span><img
+            <a href="../packages/packages.php" class="card-btn" onclick="event.stopPropagation()" data-en="SEE MORE <span><img src='../resources/img/home/arrow_dark.png' id='btn-arrow-0' class='arrow--img'></span>" data-si="තව බලන්න <span><img src='../resources/img/home/arrow_dark.png' id='btn-arrow-0' class='arrow--img'></span>" data-ta="MEER ZIEN <span><img src='../resources/img/home/arrow_dark.png' id='btn-arrow-0' class='arrow--img'></span>">SEE MORE <span><img
                   src="../resources/img/home/arrow_dark.png" id="btn-arrow-0" class="arrow--img"></span></a>
           </div>
           <div class="card-features">
@@ -338,7 +338,7 @@
             <h3 class="card-name" data-en="Premium Package" data-si="ප්‍රිමියම් පැකේජය" data-ta="Premium pakket">Premium Package</h3>
             <p class="card-sub" data-en="Most popular choice" data-si="වඩාත්ම ජනප්‍රිය තේරීම" data-ta="Meest populaire keuze">Most popular choice</p>
             <p class="card-price">Rs. 10,000.00</p>
-            <a href="#" class="card-btn" onclick="event.stopPropagation()" data-en="SEE MORE <span><img src='../resources/img/home/arrow.png' id='btn-arrow-1' class='arrow--img'></span>" data-si="තව බලන්න <span><img src='../resources/img/home/arrow.png' id='btn-arrow-1' class='arrow--img'></span>" data-ta="MEER ZIEN <span><img src='../resources/img/home/arrow.png' id='btn-arrow-1' class='arrow--img'></span>">SEE MORE <span><img
+            <a href="../packages/packages.php" class="card-btn" onclick="event.stopPropagation()" data-en="SEE MORE <span><img src='../resources/img/home/arrow.png' id='btn-arrow-1' class='arrow--img'></span>" data-si="තව බලන්න <span><img src='../resources/img/home/arrow.png' id='btn-arrow-1' class='arrow--img'></span>" data-ta="MEER ZIEN <span><img src='../resources/img/home/arrow.png' id='btn-arrow-1' class='arrow--img'></span>">SEE MORE <span><img
                   src="../resources/img/home/arrow.png" id="btn-arrow-1" class="arrow--img"></span></a>
           </div>
           <div class="card-features">
@@ -367,7 +367,7 @@
             <h3 class="card-name" data-en="Enterprise Package" data-si="ව්‍යාපාරික පැකේජය" data-ta="Enterprise pakket">Enterprise Package</h3>
             <p class="card-sub" data-en="For large teams" data-si="විශාල කණ්ඩායම් සඳහා" data-ta="Voor grote teams">For large teams</p>
             <p class="card-price">Rs. 20,000.00</p>
-            <a href="#" class="card-btn" onclick="event.stopPropagation()" data-en="SEE MORE <span><img src='../resources/img/home/arrow_dark.png' id='btn-arrow-2' class='arrow--img'></span>" data-si="තව බලන්න <span><img src='../resources/img/home/arrow_dark.png' id='btn-arrow-2' class='arrow--img'></span>" data-ta="MEER ZIEN <span><img src='../resources/img/home/arrow_dark.png' id='btn-arrow-2' class='arrow--img'></span>">SEE MORE <span><img
+            <a href="../packages/packages.php" class="card-btn" onclick="event.stopPropagation()" data-en="SEE MORE <span><img src='../resources/img/home/arrow_dark.png' id='btn-arrow-2' class='arrow--img'></span>" data-si="තව බලන්න <span><img src='../resources/img/home/arrow_dark.png' id='btn-arrow-2' class='arrow--img'></span>" data-ta="MEER ZIEN <span><img src='../resources/img/home/arrow_dark.png' id='btn-arrow-2' class='arrow--img'></span>">SEE MORE <span><img
                   src="../resources/img/home/arrow_dark.png" id="btn-arrow-2" class="arrow--img"></span></a>
           </div>
           <div class="card-features">

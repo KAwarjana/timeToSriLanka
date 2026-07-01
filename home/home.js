@@ -278,35 +278,67 @@ document.querySelectorAll('.card').forEach(card => {
 
 const testimonials = [
   {
-    name: "Amal Perera",
-    country: "Sri Lanka",
+    name: { en: "Amal Perera", si: "අමල් පෙරේරා", ta: "Amal Perera" },
+    country: { en: "Sri Lanka", si: "ශ්‍රී ලංකාව", ta: "Sri Lanka" },
     initial: "A",
-    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    rightText: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    text: {
+      en: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      si: "ලොරිම් ඉප්සම් යනු මුද්‍රණ හා වර්ගලේඛන කර්මාන්තයේ සරලව භාවිතා වන දර්ශක වචන සමූහයකි. ලොරිම් ඉප්සම් 1500 ගණන්වල සිට සම්මත පෙළක් ලෙස භාවිතා වී ඇත.",
+      ta: "Lorem Ipsum is gewoon een voorbeeldtekst uit de druk- en zetindustrie. Lorem Ipsum is al sinds de 16e eeuw de standaard voorbeeldtekst in de branche. Lorem Ipsum is gewoon een voorbeeldtekst uit de druk- en zetindustrie."
+    },
+    rightText: {
+      en: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      si: "ලොරිම් ඉප්සම් යනු මුද්‍රණ හා වර්ගලේඛන කර්මාන්තයේ සරලව භාවිතා වන දර්ශක වචන සමූහයකි. ලොරිම් ඉප්සම් 1500 ගණන්වල සිට සම්මත පෙළක් ලෙස භාවිතා වී ඇත.",
+      ta: "Lorem Ipsum is gewoon een voorbeeldtekst uit de druk- en zetindustrie. Lorem Ipsum is al sinds de 16e eeuw de standaard voorbeeldtekst in de branche. Lorem Ipsum is gewoon een voorbeeldtekst uit de druk- en zetindustrie."
+    },
     stars: 5
   },
   {
-    name: "Sarah Johnson",
-    country: "United States",
+    name: { en: "Sarah Johnson", si: "Sarah Johnson", ta: "Sarah Johnson" },
+    country: { en: "United States", si: "United States", ta: "United States" },
     initial: "S",
-    text: "The service was absolutely outstanding! The team went above and beyond to ensure everything was perfect. I couldn't be happier with the results. Highly recommend to anyone looking for quality.",
-    rightText: "Sarah has been using our platform for over 2 years and her experience highlights the dedication we bring to every single client interaction and project.",
+    text: {
+      en: "The service was absolutely outstanding! The team went above and beyond to ensure everything was perfect. I couldn't be happier with the results. Highly recommend to anyone looking for quality.",
+      si: "සේවාව අතිශයින්ම විශිෂ්ටයි! සෑම දෙයක්ම පරිපූර්ණ බව සහතික කිරීමට කණ්ඩායම උපරිම උත්සාහයක් ගත්තා. ප්‍රතිඵල ගැන මට සතුටු වෙන්න බෑ. ගුණාත්මකභාවය සොයන ඕනෑම කෙනෙකුට මම ඉහළින්ම නිර්දේශ කරනවා.",
+      ta: "De service was werkelijk uitstekend! Het team deed er alles aan om ervoor te zorgen dat alles perfect was. Ik ben ontzettend blij met het resultaat. Een absolute aanrader voor iedereen die op zoek is naar kwaliteit."
+    },
+    rightText: {
+      en: "Sarah has been using our platform for over 2 years and her experience highlights the dedication we bring to every single client interaction and project.",
+      si: "සාරා වසර 2 කට වැඩි කාලයක් අපගේ වේදිකාව භාවිතා කර ඇති අතර ඇයගේ අත්දැකීම් මගින් අපි සෑම පාරිභෝගික අන්තර්ක්‍රියාවක් සහ ව්‍යාපෘතියක් සඳහාම ගෙන එන කැපවීම ඉස්මතු කරයි.",
+      ta: "Sarah gebruikt ons platform al meer dan 2 jaar en haar ervaring onderstreept de toewijding die we in elke klantinteractie en elk project steken."
+    },
     stars: 5
   },
   {
-    name: "Kamal Silva",
-    country: "Australia",
+    name: { en: "Kamal Silva", si: "Kamal Silva", ta: "Kamal Silva" },
+    country: { en: "Australia", si: "Australia", ta: "Australia" },
     initial: "K",
-    text: "Incredible experience from start to finish. The attention to detail was remarkable and the final outcome exceeded all my expectations. Will definitely be coming back for more projects.",
-    rightText: "Kamal's journey with us began as a small startup and grew into a thriving business thanks to our collaborative approach and relentless focus on delivering value.",
+    text: {
+      en: "Incredible experience from start to finish. The attention to detail was remarkable and the final outcome exceeded all my expectations. Will definitely be coming back for more projects.",
+      si: "ආරම්භයේ සිට අවසානය දක්වා ඇදහිය නොහැකි අත්දැකීමක්. විස්තර කෙරෙහි අවධානය යොමු කිරීම විශිෂ්ට වූ අතර අවසාන ප්‍රතිඵලය මගේ සියලු අපේක්ෂාවන් ඉක්මවා ගියේය. තවත් ව්‍යාපෘති සඳහා නිසැකවම නැවත පැමිණේ.",
+      ta: "Een fantastische ervaring van begin tot eind. De aandacht voor detail was opmerkelijk en het eindresultaat overtrof al mijn verwachtingen. Ik kom zeker terug voor meer projecten."
+    },
+    rightText: {
+      en: "Kamal's journey with us began as a small startup and grew into a thriving business thanks to our collaborative approach and relentless focus on delivering value.",
+      si: "කමල් අප සමඟ කළ ගමන කුඩා ආරම්භයක් ලෙස ආරම්භ වූ අතර අපගේ සහයෝගී ප්‍රවේශය සහ වටිනාකම් ලබා දීම කෙරෙහි නොපසුබට අවධානය යොමු කිරීම නිසා සමෘද්ධිමත් ව්‍යාපාරයක් දක්වා වර්ධනය විය.",
+      ta: "Kamals reis met ons begon als een kleine startup en groeide uit tot een bloeiend bedrijf dankzij onze samenwerkingsgerichte aanpak en onophoudelijke focus op het leveren van waarde."
+    },
     stars: 4
   },
   {
-    name: "Mei Tanaka",
-    country: "Japan",
+    name: { en: "Mei Tanaka", si: "Mei Tanaka", ta: "Mei Tanaka" },
+    country: { en: "Japan", si: "Japan", ta: "Japan" },
     initial: "M",
-    text: "What sets this team apart is their passion and professionalism. They truly understand what you need and deliver results that speak for themselves. A truly world-class experience.",
-    rightText: "Mei represents our growing international clientele and her feedback motivates us to continue raising our standards and delivering excellence across every market.",
+    text: {
+      en: "What sets this team apart is their passion and professionalism. They truly understand what you need and deliver results that speak for themselves. A truly world-class experience.",
+      si: "මෙම කණ්ඩායම කැපී පෙනෙන්නේ ඔවුන්ගේ දැඩි ආශාව සහ වෘත්තීයභාවයයි. ඔබට අවශ්‍ය දේ ඔවුන් සැබවින්ම තේරුම් ගෙන තමන් වෙනුවෙන්ම කතා කරන ප්‍රතිඵල ලබා දෙයි. සැබවින්ම ලෝක මට්ටමේ අත්දැකීමක්.",
+      ta: "Het wat deze groep onderscheidt is hun passie en professionaliteit. Zij begrijpen echt wat u nodig heeft en leveren resultaten die voor zichzelf spreken. Een ware wereldklasse ervaring."
+    },
+    rightText: {
+      en: "Mei represents our growing international clientele and her feedback motivates us to continue raising our standards and delivering excellence across every market.",
+      si: "Mei අපගේ වර්ධනය වන ජාත්‍යන්තර ගනුදෙනුකරුවන් නියෝජනය කරන අතර ඇයගේ ප්‍රතිපෝෂණය අපගේ ප්‍රමිතීන් ඉහළ නැංවීමට සහ සෑම වෙළඳපලකම විශිෂ්ටත්වය ලබා දීමට අපව පොළඹවයි.",
+      ta: "Mei vertegenwoordigt onze groeiende internationale klantenkring en haar feedback motiveert ons om onze normen te blijven verhogen en uitmuntende prestaties te leveren in elke markt."
+    },
     stars: 5
   }
 ];
@@ -314,6 +346,18 @@ const testimonials = [
 let current = 0;
 let direction = 'next';
 let autoTimer;
+
+function getCurrentLang() {
+  return localStorage.getItem('selectedLang') || 'en';
+}
+
+function getLocalizedValue(value) {
+  if (typeof value === 'object') {
+    const lang = getCurrentLang();
+    return value[lang] || value.en;
+  }
+  return value;
+}
 
 function buildDots() {
   const container = document.getElementById('progressDots');
@@ -336,11 +380,11 @@ function updateCard(dir) {
   card.style.transform = dir === 'next' ? 'translateX(30px)' : 'translateX(-30px)';
 
   setTimeout(() => {
-    document.getElementById('customerName').textContent = t.name;
-    document.getElementById('customerCountry').textContent = t.country;
+    document.getElementById('customerName').textContent = getLocalizedValue(t.name);
+    document.getElementById('customerCountry').textContent = getLocalizedValue(t.country);
     document.getElementById('profileInitial').textContent = t.initial;
-    document.getElementById('testimonialText').textContent = t.text;
-    document.getElementById('rightText').textContent = t.rightText;
+    document.getElementById('testimonialText').textContent = getLocalizedValue(t.text);
+    document.getElementById('rightText').textContent = getLocalizedValue(t.rightText);
 
     // Stars
     const stars = document.getElementById('starsContainer');
@@ -388,4 +432,6 @@ function resetTimer() {
 
 // Init
 buildDots();
-autoTimer = setInterval(() => changeSlide('next'), 4000);
+updateCard(direction);
+window.addEventListener('langChanged', () => updateCard(direction));
+resetTimer();

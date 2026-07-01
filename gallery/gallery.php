@@ -35,15 +35,27 @@
         <!-- Content -->
         <div class="hero-content">
             <span class="hero-bar"></span>
-            <h1 class="hero-title">Topic Or Something Casual</h1>
+            <h1 class="hero-title"
+            data-en="Our Gallery"
+            data-si="අපගේ ගැලරිය" 
+            data-ta="Onze Galerij">Our Gallery</h1>
         </div>
     </section>
 
     <section class="gallery-section">
         <div class="gallery-header">
-            <p class="gallery-label">GALLERY</p>
-            <h2 class="gallery-title">Topic Or <em>Something</em></h2>
-            <p class="gallery-desc">Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem Ipsum Has Been The Industry's Standard Dummy Text Ever Since The 1500s Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry.</p>
+            <p class="gallery-label"
+            data-en="GALLERY"
+            data-si="ගැලරිය"
+            data-ta="Galerij">GALLERY</p>
+            <h2 class="gallery-title"
+            data-en="Capture The <em>Moments</em>"
+            data-si="මොහොතවල් ග්‍රහණය <em>කරගන්න</em>"
+            data-ta="Leg de momenten <em>vast</em>">Capture The <em>Moments</em></h2>
+            <p class="gallery-desc"
+            data-en="Explore our collection of stunning photographs showcasing the beauty of Sri Lanka. From ancient temples and pristine beaches to lush tea plantations and wildlife encounters, our gallery captures the essence of every unforgettable journey."
+            data-si="ශ්‍රී ලංකාවේ සුන්දරත්වය විදහා දක්වන අපගේ විශ්මයජනක ඡායාරූප එකතුව ගවේෂණය කරන්න. පුරාණ විහාරස්ථාන සහ පෞරාණික වෙරළ තීරයන්ගේ සිට සශ්‍රීක තේ වතු සහ වනජීවී හමුවීම් දක්වා, අපගේ ගැලරිය සෑම අමතක නොවන ගමනකම සාරය ග්‍රහණය කරයි."
+            data-ta="Ontdek onze collectie adembenemende foto's die de schoonheid van Sri Lanka laten zien. Van eeuwenoude tempels en ongerepte stranden tot weelderige theeplantages en ontmoetingen met wilde dieren: onze galerij legt de essentie vast van elke onvergetelijke reis.">Explore our collection of stunning photographs showcasing the beauty of Sri Lanka. From ancient temples and pristine beaches to lush tea plantations and wildlife encounters, our gallery captures the essence of every unforgettable journey.</p>
         </div>
 
         <div class="gallery-grid">

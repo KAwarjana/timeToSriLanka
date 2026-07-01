@@ -103,17 +103,16 @@
     <ul class="nav-links" id="navLinks">
       <li><a href="../home/index.php" class="active" data-en="Home" data-si="මුල් පිටුව" data-ta="Home">Home</a></li>
       <li class="has-sub" id="expDropdown">
-        <a href="../experiences/experiences.php" data-en="Experience <span class='arrow'>" data-si="අත්දැකීම <span class='arrow'>"
-          data-ta="Ervaring <span class='arrow'>">
+        <a href="../experiences/experiences.php" data-en="Experience <span class='arrow'>" data-si="අත්දැකීම <span class='arrow'>" data-ta="Ervaring <span class='arrow'>">
           Experience <span class="arrow"></span>
         </a>
         <ul class="subnav">
-          <li><a href="../experiences/experiences.php#adventure" data-en="Adventure" data-si="ඇඩ්වෙන්චර්" data-ta="Avontuur">Adventure</a></li>
-          <li><a href="../experiences/experiences.php#wildlife" data-en="Wildlife Safari" data-si="වනජීවී සෆාරි" data-ta="Wildlife safaritocht">Wildlife Safari</a></li>
-          <li><a href="../experiences/experiences.php#beach" data-en="Cultural Discovery" data-si="සංස්කෘතික ගවේෂණය" data-ta="Culturele Ontdekking">Cultural Discovery</a></li>
-          <li><a href="../experiences/experiences.php#adventure" data-en="Ayurveda & Wellness" data-si="ආයුර්වේද හා සුවතා" data-ta="Ayurveda & Welzijn">Ayurveda & Wellness</a></li>
-          <li><a href="../experiences/experiences.php#adventure" data-en="Scenic Journeys" data-si="ද්‍රුපීත ගමන්" data-ta="Scenische reizen">Scenic Journeys</a></li>
-          <li><a href="../experiences/experiences.php#adventure" data-en="Coastal Escape" data-si="වෙරළ තාටා ගමන" data-ta="Kustontsnapping">Coastal Escape</a></li>
+          <li><a href="../experiences/adventure.php" data-en="Adventure" data-si="ඇඩ්වෙන්චර්" data-ta="Avontuur">Adventure</a></li>
+          <li><a href="../experiences/wildlife-safari.php" data-en="Wildlife Safari" data-si="වනජීවී සෆාරි" data-ta="Wildlife safaritocht">Wildlife Safari</a></li>
+          <li><a href="../experiences/cultural-discovery.php" data-en="Cultural Discovery" data-si="සංස්කෘතික ගවේෂණය" data-ta="Culturele Ontdekking">Cultural Discovery</a></li>
+          <li><a href="../experiences/ayurveda-wellness.php" data-en="Ayurveda & Wellness" data-si="ආයුර්වේද හා සුවතා" data-ta="Ayurveda & Welzijn">Ayurveda & Wellness</a></li>
+          <li><a href="../experiences/scenic-journeys.php" data-en="Scenic Journeys" data-si="ද්‍රුපීත ගමන්" data-ta="Scenische reizen">Scenic Journeys</a></li>
+          <li><a href="../experiences/coastal-escape.php" data-en="Coastal Escape" data-si="වෙරළ තාටා ගමන" data-ta="Kustontsnapping">Coastal Escape</a></li>
         </ul>
       </li>
       <li class="has-sub" id="svcDropdown">
@@ -180,12 +179,12 @@
               <span class="panel-chevron"></span>
             </a>
             <ul class="panel-subnav">
-              <li><a href="../experiences/experiences.php#adventure" data-en="Adventure" data-si="ඇඩ්වෙන්චර්" data-ta="Avontuur">Adventure</a></li>
-              <li><a href="../experiences/experiences.php#wildlife" data-en="Wildlife Safari" data-si="වනජීවී සෆාරි" data-ta="Wildlife safaritocht">Wildlife Safari</a></li>
-              <li><a href="../experiences/experiences.php#beach" data-en="Cultural Discovery" data-si="සංස්කෘතික ගවේෂණය" data-ta="Culturele Ontdekking">Cultural Discovery</a></li>
-              <li><a href="../experiences/experiences.php#adventure" data-en="Ayurveda & Wellness" data-si="ආයුර්වේද හා සුවතා" data-ta="Ayurveda & Welzijn">Ayurveda & Wellness</a></li>
-              <li><a href="../experiences/experiences.php#adventure" data-en="Scenic Journeys" data-si="ද්‍රුපීත ගමන්" data-ta="Scenische reizen">Scenic Journeys</a></li>
-              <li><a href="../experiences/experiences.php#adventure" data-en="Coastal Escape" data-si="වෙරළ තාටා ගමන" data-ta="Kustontsnapping">Coastal Escape</a></li>
+              <li><a href="../experiences/adventure.php" data-en="Adventure" data-si="ඇඩ්වෙන්චර්" data-ta="Avontuur">Adventure</a></li>
+              <li><a href="../experiences/wildlife-safari.php" data-en="Wildlife Safari" data-si="වනජීවී සෆාරි" data-ta="Wildlife safaritocht">Wildlife Safari</a></li>
+              <li><a href="../experiences/cultural-discovery.php" data-en="Cultural Discovery" data-si="සංස්කෘතික ගවේෂණය" data-ta="Culturele Ontdekking">Cultural Discovery</a></li>
+              <li><a href="../experiences/ayurveda-wellness.php" data-en="Ayurveda & Wellness" data-si="ආයුර්වේද හා සුවතා" data-ta="Ayurveda & Welzijn">Ayurveda & Wellness</a></li>
+              <li><a href="../experiences/scenic-journeys.php" data-en="Scenic Journeys" data-si="ද්‍රුපීත ගමන්" data-ta="Scenische reizen">Scenic Journeys</a></li>
+              <li><a href="../experiences/coastal-escape.php" data-en="Coastal Escape" data-si="වෙරළ තාටා ගමන" data-ta="Kustontsnapping">Coastal Escape</a></li>
             </ul>
           </li>
           <li class="panel-nav-item" id="pSvc">
@@ -209,6 +208,10 @@
           <li class="panel-nav-item">
             <a href="../destination/destination.php" data-en="Destinations" data-si="ගමනාන්ත" data-ta="Bestemmingen">📍 <span data-en="Destinations"
                 data-si="ගමනාන්ත" data-ta="Bestemmingen">Destinations</span></a>
+          </li>
+          <li class="panel-nav-item">
+            <a href="../gallery/gallery.php" data-en="Gallery" data-si="ගැලරිය" data-ta="Galerij">🖼 <span data-en="Gallery"
+                data-si="ගැලරිය" data-ta="Galerij">Gallery</span></a>
           </li>
           <li class="panel-nav-item">
             <a href="../about/about.php" data-en="About Us" data-si="අප ගැන" data-ta="Over ons">ℹ️ <span data-en="About Us"
@@ -273,11 +276,11 @@
           emerald mountains, and golden shores.
         </p>
         <div class="panel-socials">
-          <a class="panel-social-btn" href="#" title="Facebook">f</a>
+          <a class="panel-social-btn" href="https://www.facebook.com/share/1DB9cy6f1o/?mibextid=wwXIfr" title="Facebook" target="_blank" rel="noreferrer">f</a>
           <a class="panel-social-btn" href="#" title="X/Twitter">𝕏</a>
-          <a class="panel-social-btn" href="#" title="Instagram">📸</a>
+          <a class="panel-social-btn" href="https://www.instagram.com/private_sri_lanka_tours_?igsh=azZ5ZDhkODQ3N2g0&utm_source=qr" title="Instagram" target="_blank" rel="noreferrer">📸</a>
           <a class="panel-social-btn" href="#" title="YouTube">▶</a>
-          <a class="panel-social-btn" href="#" title="WhatsApp">💬</a>
+          <a class="panel-social-btn" href="https://wa.me/9471" title="WhatsApp" target="_blank" rel="noreferrer">💬</a>
         </div>
       </div>
 
