@@ -156,7 +156,7 @@
             <img src="../resources/img/logo.png" alt="Time to Ceylon Logo" class="header-logo-img">
           </div>
           <div>
-            <div class="panel-logo-text" data-en="Time to Ceylon" data-si="ටයිම් ටු සීලන්" data-ta="Time to Ceylon">Time to Ceylon</div>
+            <div class="panel-logo-text" data-en="Time to Ceylon" data-si="Time to Ceylon" data-ta="Time to Ceylon">Time to Ceylon</div>
             <div class="panel-logo-sub" data-en="Your Island Experience" data-si="ඔබේ දූපත් අත්දැකීම" data-ta="Uw eilandervaring">Your Island Experience</div>
           </div>
         </div>
