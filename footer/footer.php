@@ -21,7 +21,7 @@
         <!-- Brand -->
         <div class="footer-brand">
           <div class="footer-logo">
-            <img src="../resources/img/logo.png" alt="Time to Ceylon Logo" class="footer-logo-img">
+            <img src="../resources/img/logo_banner.png" alt="Time to Ceylon Logo" class="footer-logo-img">
           </div>
           <p class="footer-desc" data-en="TimetoCeylon brings together luxury, authenticity, and carefully curated travel experiences to create unforgettable memories in Sri Lanka." data-si="TimetoCeylon සිරස, සත්‍යතාවය සහ අවධානයෙන් තෝරාගත් යාත්‍රා අත්දැකීම් එකට එකතු කරමින් ශ්‍රී ලංකාවේ අමතක නොවන මතක නිර්මාණය කරයි." data-ta="TimetoCeylon brengt luxe, authenticiteit en zorgvuldig samengestelde reiservaringen samen om onvergetelijke herinneringen in Sri Lanka te creëren.">
             TimetoCeylon brings together luxury, authenticity, and carefully curated travel experiences to create unforgettable memories in Sri Lanka.

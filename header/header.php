@@ -9,7 +9,7 @@
     href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500 ;700&family=Outfit:wght@300;400;500;600&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="header.css">
-  <link rel="icon" type="image/png" href="../resources/img/logo.png">
+  <link rel="icon" type="image/png" href="../resources/img/logo_single.png">
 </head>
 
 <body>
@@ -17,14 +17,32 @@
   <!-- TOP BAR -->
   <div class="topbar">
     <div class="topbar-left">
-      <a class="topbar-item" href="tel:+94255528956">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="#F4F0FB" stroke="#4C00B0" stroke-width="1"
-          stroke-linecap="round" stroke-linejoin="round">
-          <path
-            d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.05 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
-        </svg>
-        +94 255 528 956
-      </a>
+      <div class="topbar-phones">
+        <a class="topbar-item" href="tel:+94255528956">
+          <span class="topbar-flag">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 45">
+              <rect width="90" height="45" fill="#8D153A" />
+              <rect width="10" height="45" fill="#FF7900" />
+              <rect x="10" width="10" height="45" fill="#009F4D" />
+              <rect x="20" width="70" height="45" fill="#8D153A" />
+              <rect x="20" width="70" height="45" fill="none" stroke="#FC0" stroke-width="3" />
+              <text x="55" y="33" font-size="22" text-anchor="middle" fill="#FC0">🦁</text>
+            </svg>
+          </span>
+          +94 255 528 956
+        </a>
+        <div class="topbar-divider"></div>
+        <a class="topbar-item" href="https://wa.me/31612345678" target="_blank" rel="noreferrer">
+          <span class="topbar-flag">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+              <rect fill="#AE1C28" width="900" height="200" />
+              <rect fill="#FFFFFF" y="200" width="900" height="200" />
+              <rect fill="#21468B" y="400" width="900" height="200" />
+            </svg>
+          </span>
+          +31 6 12345678
+        </a>
+      </div>
       <div class="topbar-divider"></div>
       <a class="topbar-item" href="/cdn-cgi/l/email-protection#384c51555d4c574b4a515459565359785f55595154165b5755">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="#F4F0FB" stroke="#4C00B0" stroke-width="1"
@@ -97,7 +115,8 @@
   <!-- MAIN NAVBAR -->
   <nav class="navbar">
     <div class="logo">
-      <img src="../resources/img/logo.png" alt="Time to Ceylon Logo" class="header-logo-img">
+      <img src="../resources/img/logo_banner.png" alt="Time to Ceylon Logo" class="header-logo-img logo-desktop-img">
+      <img src="../resources/img/logo_single.png" alt="Time to Ceylon Logo" class="header-logo-img logo-mobile-img">
     </div>
 
     <ul class="nav-links" id="navLinks">
@@ -153,12 +172,12 @@
       <div class="panel-header">
         <div class="panel-logo">
           <div class="panel-logo-icon">
-            <img src="../resources/img/logo.png" alt="Time to Ceylon Logo" class="header-logo-img">
+            <img src="../resources/img/logo_banner.png" alt="Time to Ceylon Logo" class="header-logo-img">
           </div>
-          <div>
+          <!-- <div>
             <div class="panel-logo-text" data-en="Time to Ceylon" data-si="Time to Ceylon" data-ta="Time to Ceylon">Time to Ceylon</div>
             <div class="panel-logo-sub" data-en="Your Island Experience" data-si="ඔබේ දූපත් අත්දැකීම" data-ta="Uw eilandervaring">Your Island Experience</div>
-          </div>
+          </div> -->
         </div>
         <button class="panel-close" onclick="closePanel()">✕</button>
       </div>

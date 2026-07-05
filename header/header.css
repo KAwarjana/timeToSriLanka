@@ -40,6 +40,14 @@ body {
   flex-wrap: wrap;
 }
 
+/* Keeps both phone numbers on a single row */
+.topbar-phones {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: nowrap;
+}
+
 .topbar-item {
   display: flex;
   align-items: center;
@@ -49,6 +57,7 @@ body {
   font-weight: 400;
   text-decoration: none;
   transition: color .2s;
+  white-space: nowrap;
 }
 
 .topbar-item:hover {
@@ -59,10 +68,36 @@ body {
   flex-shrink: 0;
 }
 
+.topbar-flag {
+  display: inline-flex;
+  align-items: center;
+  width: 20px;
+  height: 14px;
+  border-radius: 2px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.topbar-flag svg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 .topbar-divider {
   width: 1px;
   height: 18px;
   background: linear-gradient(180deg, #f4f0fb00 0%, #f5f0ff 50%, #f4f0fb00 100%);
+  flex-shrink: 0;
+}
+
+/* Hide the phone numbers below 650px, keep email visible */
+@media (max-width: 649px) {
+  .topbar-phones,
+  .topbar-phones + .topbar-divider {
+    display: none;
+  }
 }
 
 .lang-select {
@@ -152,25 +187,77 @@ body {
 }
 
 .logo {
-  width: 52px;
-  height: 52px;
-  background: var(--purple-gradient);
-  border-radius: 50%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  color: var(--white);
-  font-family: 'Playfair Display', serif;
-  font-size: 22px;
-  font-weight: 700;
   flex-shrink: 0;
-  box-shadow: 0 4px 14px rgba(124, 58, 237, 0.35);
+  transition: height .25s ease;
 }
 
 .header-logo-img{
-  width: 100%;
   height: 100%;
-  object-fit: cover;
+  width: auto;
+  object-fit: contain;
+  transition: height .25s ease;
+}
+
+/* Logo switching: banner (wide) vs single (circular mark).
+   Give each <img> both "header-logo-img" and one of these two classes.
+   Ranges: <500px = single | 500-850px = banner | 851-1023px = single | 1024px+ = banner */
+.logo-desktop-img,
+.logo-mobile-img {
+  display: none;
+}
+
+/* < 500px : single mark */
+@media (max-width: 499px) {
+  .logo-mobile-img {
+    display: block;
+  }
+  .logo {
+    height: 50px;
+  }
+  .navbar.scrolled .logo {
+    height: 36px;
+  }
+}
+
+/* 500px - 850px : banner */
+@media (min-width: 500px) and (max-width: 850px) {
+  .logo-desktop-img {
+    display: block;
+  }
+  .logo {
+    height: 60px;
+  }
+  .navbar.scrolled .logo {
+    height: 44px;
+  }
+}
+
+/* 851px - 1023px : single mark */
+@media (min-width: 851px) and (max-width: 1023px) {
+  .logo-mobile-img {
+    display: block;
+  }
+  .logo {
+    height: 58px;
+  }
+  .navbar.scrolled .logo {
+    height: 42px;
+  }
+}
+
+/* 1024px+ : banner */
+@media (min-width: 1024px) {
+  .logo-desktop-img {
+    display: block;
+  }
+  .logo {
+    height: 68px;
+  }
+  .navbar.scrolled .logo {
+    height: 48px;
+  }
 }
 
 .nav-links {
@@ -219,7 +306,6 @@ body {
   width: 80%;
   height: 4px;
   background: linear-gradient(90deg, #f5f0ff 0%, #4C00B0 50%, #f5f0ff 100%);
-  /* background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg ' viewBox='0 0 80 8' preserveAspectRatio='none'%3E%3Cpath d='M0,5 C10,2 20,8 30,4 C40,0 50,7 60,4 C70,1 75,5 80,4' fill='none' stroke='%237c3aed' stroke-width='2.5' stroke-linecap='round'/%3E%3C/svg%3E") center/100% 100% no-repeat; */
 }
 
 /* Dropdown arrow */
@@ -433,17 +519,20 @@ body {
 }
 
 .panel-logo-icon {
-  width: 40px;
-  height: 40px;
-  background: var(--purple-gradient);
-  border-radius: 50%;
+  width: 100%;
+  height: auto;
+  /* border-radius: 50%; */
+  overflow: hidden;
   display: flex;
   align-items: center;
-  justify-content: center;
-  color: #f5f0ff;
-  font-family: 'Playfair Display', serif;
-  font-size: 17px;
-  font-weight: 700;
+  /* justify-content: center; */
+  flex-shrink: 0;
+}
+
+.panel-logo-icon .header-logo-img {
+  width: 70%;
+  height: auto;
+  object-fit: cover;
 }
 
 .panel-logo-text {
@@ -707,21 +796,14 @@ body {
 
 /* ── DESKTOP 1100px+ ── */
 @media (min-width: 1101px) {
-  /* .topbar {
-    padding: 10px max(24px, calc((100% - 150vh) / 2 + 24px));
-  } */
   .navbar {
     padding: 0 max(24px, calc((100% - 1160px) / 2 + 24px));
   }
 }
 
 /* ── MOBILE ── */
-@media (max-width: 790px) {
+@media (max-width: 850px) {
   .topbar-divider {
-    display: none;
-  }
-
-  .topbar-item:first-child {
     display: none;
   }
 
@@ -737,6 +819,24 @@ body {
   :root {
     --panel-width: 100vw;
   }
+}
+
+@media (min-width: 701px) and (max-width: 850px) {
+
+.panel-logo-icon .header-logo-img {
+  width: 40%;
+  height: auto;
+  object-fit: cover;
+}
+}
+
+@media (min-width: 400px) and (max-width: 700px) {
+
+.panel-logo-icon .header-logo-img {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+}
 }
 
 @media (max-width: 480px) {
