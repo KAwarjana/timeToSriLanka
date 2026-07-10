@@ -1,0 +1,540 @@
+:root {
+    --purple-deep: #3b0764;
+    --purple-mid: #7c3aed;
+    --purple-light: #6D5DF6;
+    --white: #f5f0ff;
+    --font-color: #260058;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background: var(--white);
+    color: var(--font-color);
+}
+
+.bg-blob {
+    position: fixed;
+    top: 0;
+    right: -5%;
+    width: 50%;
+    height: 110vh;
+    background-image: url("../resources/img/experiences/Ellipse.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* All sections start hidden — package-details.js reveals
+   only the one that matches the ?pkg= URL parameter. */
+.pkg-detail-section {
+    display: none;
+    position: relative;
+    z-index: 1;
+}
+
+.pd-not-found {
+    display: none;
+    max-width: 600px;
+    margin: 120px auto;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.pd-not-found p {
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+/* ════════════════════
+   HERO
+════════════════════ */
+.pd-hero {
+    position: relative;
+    width: 100%;
+    height: 38vw;
+    min-height: 260px;
+    max-height: 460px;
+    overflow: hidden;
+    background: var(--font-color);
+}
+
+.pd-hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.pd-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.20) 0%,
+            rgba(0, 0, 0, 0.05) 45%,
+            rgba(245, 240, 255, 0.65) 80%,
+            rgba(245, 240, 255, 1.0) 100%);
+}
+
+.pd-hero-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 26px;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.pd-back {
+    color: var(--font-color);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    width: fit-content;
+    padding: 6px 14px;
+    border-radius: 20px;
+    background: rgba(245, 240, 255, 0.85);
+    transition: background 0.2s ease;
+}
+
+.pd-back:hover {
+    background: var(--white);
+}
+
+.pd-title {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(24px, 3.4vw, 40px);
+    font-weight: 700;
+    color: var(--font-color);
+}
+
+.pd-title span {
+    color: var(--purple-light);
+    font-style: italic;
+}
+
+.pd-subtitle {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--purple-mid);
+    letter-spacing: 0.01em;
+}
+
+/* ════════════════════
+   BODY LAYOUT
+════════════════════ */
+.pd-body {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 40px 28px 80px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+    align-items: start;
+}
+
+.pd-section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 32px 0 14px;
+    color: var(--font-color);
+}
+
+.pd-main .pd-section-title:first-child {
+    margin-top: 0;
+}
+
+.pd-desc {
+    font-size: 14.5px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+/* ════════════════════════════════════════════════
+   HIGHLIGHTS GRID
+   Flexbox (not CSS grid) on purpose: when the last
+   row doesn't fill completely (e.g. 5 or 4 items),
+   flex-wrap + justify-content:center keeps that row
+   centered instead of stuck to the left edge.
+════════════════════════════════════════════════ */
+.pd-highlight-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.pd-highlight {
+    flex: 0 0 calc(25% - 9px);
+    /* 4 per row on desktop */
+    max-width: calc(25% - 9px);
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.pd-highlight img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: zoom-in;
+    display: block;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pd-highlight img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 16px rgba(80, 40, 160, 0.25);
+}
+
+.pd-highlight p {
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.35;
+}
+
+/* ════════════════════
+   ITINERARY
+════════════════════ */
+.pd-itinerary {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.pd-day {
+    display: grid;
+    grid-template-columns: 74px 1fr;
+    gap: 16px;
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(38, 0, 88, 0.08);
+}
+
+.pd-day:last-child {
+    border-bottom: none;
+}
+
+.pd-day-num {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 13px;
+    color: var(--purple-light);
+    padding-top: 2px;
+}
+
+.pd-day h4 {
+    font-size: 15px;
+    margin-bottom: 4px;
+    color: var(--font-color);
+}
+
+.pd-day p {
+    font-size: 13.5px;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+/* ════════════════════
+   LISTS
+════════════════════ */
+.pd-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    margin-bottom: 8px;
+}
+
+.pd-list li {
+    font-size: 13.5px;
+    line-height: 1.5;
+    padding-left: 22px;
+    position: relative;
+}
+
+.pd-list-columns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px 16px;
+}
+
+.pd-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 7px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--purple-light);
+}
+
+.pd-list-check li::before {
+    content: "✓";
+    width: auto;
+    height: auto;
+    background: none;
+    color: var(--purple-mid);
+    font-weight: 700;
+    top: 0;
+    font-size: 13px;
+}
+
+.pd-list-cross li::before {
+    content: "✕";
+    width: auto;
+    height: auto;
+    background: none;
+    color: rgba(38, 0, 88, 0.4);
+    font-weight: 700;
+    top: 0;
+    font-size: 12px;
+}
+
+.pd-include-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    margin-top: 28px;
+}
+
+.pd-include-grid h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+    margin-bottom: 12px;
+}
+
+/* ════════════════════
+   GALLERY
+════════════════════ */
+.pd-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.pd-gallery img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    cursor: zoom-in;
+    transition: transform 0.2s ease;
+}
+
+.pd-gallery img:hover {
+    transform: scale(1.03);
+}
+
+/* ════════════════════
+   SIDE QUICK-FACTS CARD (no pricing)
+════════════════════ */
+.pd-side {
+    position: sticky;
+    top: 24px;
+}
+
+.pd-card {
+    background: var(--white);
+    border-radius: 14px;
+    box-shadow: 0 2px 20px rgba(80, 40, 160, 0.14);
+    padding: 24px 22px;
+}
+
+.pd-card-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    margin-bottom: 14px;
+}
+
+.pd-mini-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.pd-mini-list li {
+    font-size: 13px;
+    opacity: 0.85;
+    padding-left: 18px;
+    position: relative;
+}
+
+.pd-mini-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--purple-light);
+}
+
+.pd-book-btn {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    color: var(--white);
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 0.12em;
+    cursor: pointer;
+    background: linear-gradient(-90deg, rgba(76, 0, 176, 1) 0%, rgba(109, 93, 246, 1) 50%, rgba(169, 156, 253, 1) 100%);
+    transition: background 0.3s ease;
+}
+
+.pd-book-btn:hover {
+    background: var(--purple-light);
+}
+
+/* ════════════════════
+   LIGHTBOX (image expand)
+════════════════════ */
+.pd-lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(20, 0, 40, 0.88);
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    cursor: zoom-out;
+}
+
+.pd-lightbox.active {
+    display: flex;
+}
+
+.pd-lightbox img {
+    max-width: 100%;
+    max-height: 90vh;
+    border-radius: 10px;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.5);
+    cursor: default;
+}
+
+.pd-lightbox-close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: var(--white);
+    font-size: 38px;
+    font-weight: 300;
+    cursor: pointer;
+    line-height: 1;
+}
+
+/* ════════════════════
+   RESPONSIVE
+════════════════════ */
+@media (max-width: 900px) {
+    .pd-body {
+        grid-template-columns: 1fr;
+        padding: 32px 20px 60px;
+        gap: 28px;
+    }
+
+    .pd-side {
+        position: static;
+    }
+
+    .pd-highlight {
+        flex-basis: calc(33.333% - 8px);
+        /* 3 per row on tablet */
+        max-width: calc(33.333% - 8px);
+    }
+
+    .pd-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .pd-list-columns {
+        grid-template-columns: 1fr;
+    }
+
+    .pd-include-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+}
+
+@media (max-width: 560px) {
+    .pd-hero {
+        height: 46vw;
+        min-height: 200px;
+        max-height: 320px;
+    }
+
+    .pd-hero-content {
+        padding: 0 18px;
+        bottom: 16px;
+    }
+
+    .pd-body {
+        padding: 24px 16px 48px;
+    }
+
+    .pd-section-title {
+        font-size: 19px;
+    }
+
+    .pd-highlight {
+        flex-basis: calc(50% - 6px);
+        /* 2 per row on mobile */
+        max-width: calc(50% - 6px);
+    }
+
+    .pd-gallery {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+    }
+
+    .pd-day {
+        grid-template-columns: 56px 1fr;
+        gap: 10px;
+    }
+
+    .pd-lightbox {
+        padding: 16px;
+    }
+
+    .pd-lightbox-close {
+        top: 10px;
+        right: 16px;
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 380px) {
+    .pd-back {
+        font-size: 12px;
+    }
+
+    .pd-highlight-grid {
+        gap: 8px;
+    }
+
+    .pd-highlight {
+        flex-basis: calc(50% - 4px);
+        max-width: calc(50% - 4px);
+    }
+}

@@ -306,28 +306,21 @@
         <!-- Card 1 -->
         <div class="pkg-card" data-index="0" onclick="selectCard(0)">
           <div class="card-top">
-            <h3 class="card-name" data-en="Basic Package" data-si="මූලික පැකේජය" data-ta="Basis pakket">Basic Package</h3>
-            <p class="card-sub" data-en="Perfect for starters" data-si="ආරම්භකයන් සඳහා සුදුසු" data-ta="Perfect voor starters">Perfect for starters</p>
-            <p class="card-price">Rs. 5,000.00</p>
+            <h3 class="card-name" data-en="👑 Grand Ceylon Experience" data-si="මූලික පැකේජය" data-ta="Basis pakket">👑 Grand Ceylon Experience</h3>
+            <p class="card-sub" data-en="Nature • Wildlife • Culture • Mountains • Beaches" data-si="ආරම්භකයන් සඳහා සුදුසු" data-ta="Perfect voor starters">Nature • Wildlife • Culture • Mountains • Beaches</p>
+            <p class="card-price">14 Days | 13 Nights</p>
             <a href="../packages/packages.php" class="card-btn" onclick="event.stopPropagation()" data-en="SEE MORE <span><img src='../resources/img/home/arrow_dark.png' id='btn-arrow-0' class='arrow--img'></span>" data-si="තව බලන්න <span><img src='../resources/img/home/arrow_dark.png' id='btn-arrow-0' class='arrow--img'></span>" data-ta="MEER ZIEN <span><img src='../resources/img/home/arrow_dark.png' id='btn-arrow-0' class='arrow--img'></span>">SEE MORE <span><img
                   src="../resources/img/home/arrow_dark.png" id="btn-arrow-0" class="arrow--img"></span></a>
           </div>
           <div class="card-features">
             <ul>
-              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Lorem Ipsum
-              </li>
-              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Lorem Ipsum
-                Sample Text</li>
-              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Lorem Ipsum
-              </li>
-              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Lorem Ipsum
-                Sample Text</li>
-              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Lorem Ipsum
-                Sample Text</li>
-              <li class="faded">
-                Lorem Ipsum Sample Text</li>
-              <li class="faded">
-                Lorem Ipsum Sample Text</li>
+              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Wilpattu National Park Safari</li>
+              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Yala National Park Safari</li>
+              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Sigiriya Rock Fortress</li>
+              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Pidurangala Rock</li>
+              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> LDambulla Cave Temple</li>
+              <li class="faded">Hot Air Balloon Ride</li>
+              <li class="faded">Lagoon Boat Safari</li>
             </ul>
           </div>
         </div>
@@ -335,28 +328,21 @@
         <!-- Card 2 (default active) -->
         <div class="pkg-card active" data-index="1" onclick="selectCard(1)">
           <div class="card-top">
-            <h3 class="card-name" data-en="Premium Package" data-si="ප්‍රිමියම් පැකේජය" data-ta="Premium pakket">Premium Package</h3>
-            <p class="card-sub" data-en="Most popular choice" data-si="වඩාත්ම ජනප්‍රිය තේරීම" data-ta="Meest populaire keuze">Most popular choice</p>
+            <h3 class="card-name" data-en="🌿 Ceylon Discovery" data-si="ප්‍රිමියම් පැකේජය" data-ta="Premium pakket">🌿 Ceylon Discovery</h3>
+            <p class="card-sub" data-en="Culture • Heritage • Ancient Kingdoms • Nature • Authentic Experiences" data-si="වඩාත්ම ජනප්‍රිය තේරීම" data-ta="Meest populaire keuze">Culture • Heritage • Ancient Kingdoms • Nature • Authentic Experiences</p>
             <p class="card-price">Rs. 10,000.00</p>
             <a href="../packages/packages.php" class="card-btn" onclick="event.stopPropagation()" data-en="SEE MORE <span><img src='../resources/img/home/arrow.png' id='btn-arrow-1' class='arrow--img'></span>" data-si="තව බලන්න <span><img src='../resources/img/home/arrow.png' id='btn-arrow-1' class='arrow--img'></span>" data-ta="MEER ZIEN <span><img src='../resources/img/home/arrow.png' id='btn-arrow-1' class='arrow--img'></span>">SEE MORE <span><img
                   src="../resources/img/home/arrow.png" id="btn-arrow-1" class="arrow--img"></span></a>
           </div>
           <div class="card-features">
             <ul>
-              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Lorem Ipsum
-              </li>
-              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Lorem Ipsum
-                Sample Text</li>
-              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Lorem Ipsum
-              </li>
-              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Lorem Ipsum
-                Sample Text</li>
-              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Lorem Ipsum
-                Sample Text</li>
-              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Lorem Ipsum
-                Sample Text</li>
-              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Lorem Ipsum
-                Sample Text</li>
+              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Ancient City of Anuradhapura</li>
+              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Sigiriya Rock Fortress</li>
+              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Ancient City of Polonnaruwa</li>
+              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Dambulla Cave Temple</li>
+              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Temple of the Sacred Tooth Relic</li>
+              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Mihintale Sacred Mountain</li>
+              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Ritigala Forest Monastery</li>
             </ul>
           </div>
         </div>
@@ -364,28 +350,20 @@
         <!-- Card 3 -->
         <div class="pkg-card" data-index="2" onclick="selectCard(2)">
           <div class="card-top">
-            <h3 class="card-name" data-en="Enterprise Package" data-si="ව්‍යාපාරික පැකේජය" data-ta="Enterprise pakket">Enterprise Package</h3>
-            <p class="card-sub" data-en="For large teams" data-si="විශාල කණ්ඩායම් සඳහා" data-ta="Voor grote teams">For large teams</p>
-            <p class="card-price">Rs. 20,000.00</p>
+            <h3 class="card-name" data-en="⭐ Signature Journey" data-si="ව්‍යාපාරික පැකේජය" data-ta="Enterprise pakket">⭐ Signature Journey</h3>
+            <p class="card-sub" data-en="Culture • Wildlife • Tea Country • Beaches • Heritage" data-si="විශාල කණ්ඩායම් සඳහා" data-ta="Voor grote teams">Culture • Wildlife • Tea Country • Beaches • Heritage</p>
+            <p class="card-price">9 Days | 8 Nights</p>
             <a href="../packages/packages.php" class="card-btn" onclick="event.stopPropagation()" data-en="SEE MORE <span><img src='../resources/img/home/arrow_dark.png' id='btn-arrow-2' class='arrow--img'></span>" data-si="තව බලන්න <span><img src='../resources/img/home/arrow_dark.png' id='btn-arrow-2' class='arrow--img'></span>" data-ta="MEER ZIEN <span><img src='../resources/img/home/arrow_dark.png' id='btn-arrow-2' class='arrow--img'></span>">SEE MORE <span><img
                   src="../resources/img/home/arrow_dark.png" id="btn-arrow-2" class="arrow--img"></span></a>
           </div>
           <div class="card-features">
             <ul>
-              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Lorem Ipsum
-              </li>
-              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Lorem Ipsum
-                Sample Text</li>
-              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Lorem Ipsum
-              </li>
-              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Lorem Ipsum
-                Sample Text</li>
-              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Lorem Ipsum
-                Sample Text</li>
-              <li class="faded">
-                Lorem Ipsum Sample Text</li>
-              <li class="faded">
-                Lorem Ipsum Sample Text</li>
+              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Sigiriya Rock Fortress</li>
+              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Ancient City of Polonnaruwa</li>
+              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Dambulla Cave Temple</li>
+              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Temple of the Sacred Tooth Relic</li>
+              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Minneriya National Park Safari</li>
+              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Tea Plantation & Tea Factory</li>
             </ul>
           </div>
         </div>

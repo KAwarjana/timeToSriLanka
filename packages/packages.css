@@ -172,10 +172,6 @@ body {
         height: 50px;
         width: 3px;
     }
-
-    /* .hero-title {
-        font-size: clamp(14px, 4vw, 20px);
-    } */
 }
 
 @media (max-width: 380px) {
@@ -199,8 +195,9 @@ body {
 }
 
 .packages-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
   max-width: 1160px;
   margin: 0 auto;
@@ -215,6 +212,9 @@ body {
   flex-direction: column;
   box-shadow: 0 2px 16px rgba(80, 40, 160, 0.10);
   z-index: 1;
+  flex: 0 0 calc(33.333% - 14px);
+  max-width: 370px;
+  min-width: 280px;
 }
 
 /* ===== Main Image — tall, full width, no gap ===== */
@@ -222,7 +222,6 @@ body {
   width: 100%;
   aspect-ratio: 3/2.2;
   overflow: hidden;
-  /* no border-radius — card handles it at top */
 }
 
 .pkg-main-img {
@@ -291,6 +290,15 @@ body {
   font-style: italic;
 }
 
+.pkg-tag {
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--purple-mid);
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
 .pkg-desc {
   font-size: 13px;
   line-height: 1.65;
@@ -298,39 +306,89 @@ body {
   flex: 1;
   margin-bottom: 14px;
   text-align: justify;
+  /* JS truncates the live text to 25 words; this is just a fallback clamp */
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
-/* ===== Book Button — rounded pill, inside body padding ===== */
+/* ===== Actions row — split into 2 columns: See More | Book Now ===== */
+.pkg-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+}
+
 .pkg-btn {
   width: 100%;
-  padding: 13px 15px;
-  background: linear-gradient(-90deg, rgba(76, 0, 176, 1) 0%, rgba(109, 93, 246, 1) 50%, rgba(169, 156, 253, 1) 100%);
+  padding: 13px 12px;
   color: var(--white);
   font-family: 'Source Sans 3', sans-serif;
-  font-size: 13px;
+  font-size: 12.5px;
   font-weight: bold;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.12em;
   border: none;
-  border-radius: 0 0 8px 8px;
   cursor: pointer;
-  transition: transform 0.3s ease;
-  text-align: right;
+  transition: background 0.3s ease, opacity 0.3s ease;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.pkg-btn:hover {
+/* Left column — See More (outlined / softer look) */
+.pkg-btn-more {
+  background: var(--purple-deep);
+  border-radius: 0 0 0 8px;
+}
+
+.pkg-btn-more:hover {
+  background: var(--purple-mid);
+}
+
+/* Right column — Book Now (filled gradient, primary action) */
+.pkg-btn-book {
+  background: linear-gradient(-90deg, rgba(76, 0, 176, 1) 0%, rgba(109, 93, 246, 1) 50%, rgba(169, 156, 253, 1) 100%);
+  border-radius: 0 0 8px 0;
+}
+
+.pkg-btn-book:hover {
   background: var(--purple-light);
 }
 
 /* ===== Responsive ===== */
 @media (max-width: 900px) {
   .packages-section { padding: 24px 20px; }
-  .packages-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
+
+  .pkg-card {
+    flex: 0 0 calc(50% - 10px);
+    max-width: none;
+    min-width: 260px;
   }
 }
 
 @media (max-width: 560px) {
   .packages-section { padding: 20px 14px; }
-  .packages-grid { grid-template-columns: 1fr; }
+
+  .pkg-card {
+    flex: 0 0 100%;
+    max-width: 420px;
+    min-width: auto;
+  }
+
+  .pkg-btn {
+    font-size: 11px;
+    padding: 12px 8px;
+    letter-spacing: 0.08em;
+  }
+}
+
+@media (max-width: 360px) {
+  .pkg-btn {
+    font-size: 10px;
+    padding: 11px 6px;
+    letter-spacing: 0.05em;
+  }
 }

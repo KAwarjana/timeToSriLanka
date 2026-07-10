@@ -31,3 +31,27 @@ function swapImage(thumb) {
     card.querySelectorAll('.pkg-thumb-row img').forEach(t => t.classList.remove('active'));
     thumb.classList.add('active');
 }
+
+/* ═══════════════════════════════════════
+   Truncate each package description to a
+   fixed word limit, appending "..." when
+   the original text is longer.
+═══════════════════════════════════════ */
+function truncateDescriptions(limit = 25) {
+    document.querySelectorAll('.pkg-desc').forEach(el => {
+        const fullText = el.textContent.replace(/\s+/g, ' ').trim();
+        // keep the untouched original text in case it's needed later
+        el.setAttribute('data-full-text', fullText);
+
+        const words = fullText.split(' ');
+        if (words.length > limit) {
+            el.textContent = words.slice(0, limit).join(' ') + '...';
+        } else {
+            el.textContent = fullText;
+        }
+    });
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    truncateDescriptions(25);
+});
