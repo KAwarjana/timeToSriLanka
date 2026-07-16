@@ -27,7 +27,7 @@
         <!-- Video background -->
         <div class="hero-video-wrap">
             <div class="hero-video">
-                <img src="../resources/img/experiences/1.jpeg" alt="Hero Video" class="hero-video-content">
+                <img src="../resources/img/pageBanners/pexels-batagov-29813522.jpg" alt="Hero Video" class="hero-video-content">
             </div>
             <div class="hero-overlay"></div>
         </div>
@@ -46,7 +46,7 @@
 
             <!-- Left: Main Image -->
             <div class="main-image-wrap">
-                <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=600&q=80"
+                <img src="../resources/img/experiences/experiences1.jpeg"
                     alt="Mountain trail adventure" class="main-img" />
             </div>
 
@@ -71,14 +71,14 @@
                 <!-- Bottom Gallery Row -->
                 <div class="gallery-row">
                     <div class="gallery-item">
-                        <img src="../resources/img/home/1.jpeg" alt="Tea plantation hiking" />
+                        <img src="../resources/img/experiences/experiences7.jpeg" alt="Tea plantation hiking" />
                     </div>
                     <div class="gallery-item">
-                        <img src="https://images.unsplash.com/photo-1469521669194-babb45599def?w=400&q=80"
+                        <img src="../resources/img/experiences/experiences8.jpeg"
                             alt="Summit view" />
                     </div>
                     <div class="gallery-item">
-                        <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=400&q=80"
+                        <img src="../resources/img/experiences/experiences9.jpeg"
                             alt="Waterfall trek" />
                     </div>
                 </div>

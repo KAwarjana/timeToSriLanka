@@ -216,6 +216,7 @@ body {
 .featured-img-wrap {
     flex-shrink: 0;
     width: 320px;
+    aspect-ratio: 2 / 3;
     min-height: 340px;
     position: relative;
     /* z-index: 2; */

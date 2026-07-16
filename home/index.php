@@ -25,7 +25,7 @@
     <!-- Video background -->
     <div class="hero-video-wrap">
       <video class="hero-video" autoplay muted loop playsinline>
-        <source src="../resources/img/home/corporate-video.mp4" type="video/mp4">
+        <source src="../resources/img/home/14462842_2560_1440_60fps.mp4" type="video/mp4">
       </video>
       <div class="hero-overlay"></div>
     </div>
@@ -106,42 +106,42 @@
           <div class="cards-track" id="cardsTrack">
 
             <div class="exp-card">
-              <img src="../resources/img/home/1.jpeg" alt="Experience 1">
+              <img src="../resources/img/home/experiences1.jpeg" alt="Experience 1">
               <div class="card-overlay">
                 <p class="card-label" data-en="Adventure" data-si="අභියෝගාත්මක ගමන" data-ta="Avontuur">Adventure</p>
               </div>
             </div>
 
             <div class="exp-card">
-              <img src="../resources/img/home/2.jpeg" alt="Experience 2">
+              <img src="../resources/img/home/experiences2.jpeg" alt="Experience 2">
               <div class="card-overlay">
                 <p class="card-label" data-en="Wildlife Safari" data-si="වනජීවී සෆාරි" data-ta="Wildlife safari">Wildlife Safari</p>
               </div>
             </div>
 
             <div class="exp-card">
-              <img src="../resources/img/home/3.jpeg" alt="Experience 3">
+              <img src="../resources/img/home/experiences3.jpeg" alt="Experience 3">
               <div class="card-overlay">
                 <p class="card-label" data-en="Cultural Discovery" data-si="සංස්කෘතික ගවේෂණය" data-ta="Culturele ontdekking">Cultural Discovery</p>
               </div>
             </div>
 
             <div class="exp-card">
-              <img src="../resources/img/home/1.jpeg" alt="Experience 4">
+              <img src="../resources/img/home/experiences4.jpeg" alt="Experience 4">
               <div class="card-overlay">
                 <p class="card-label" data-en="Ayurveda & Wellness" data-si="ආයුර්වේද සහ සුවය" data-ta="Ayurveda & wellness">Ayurveda & Wellness</p>
               </div>
             </div>
 
             <div class="exp-card">
-              <img src="../resources/img/home/2.jpeg" alt="Experience 5">
+              <img src="../resources/img/home/experiences5.jpeg" alt="Experience 5">
               <div class="card-overlay">
                 <p class="card-label" data-en="Scenic Journeys" data-si="රූපමය ගමන්" data-ta="Scenic reizen">Scenic Journeys</p>
               </div>
             </div>
 
             <div class="exp-card">
-              <img src="../resources/img/home/3.jpeg" alt="Experience 6">
+              <img src="../resources/img/home/experiences6.jpg" alt="Experience 6">
               <div class="card-overlay">
                 <p class="card-label" data-en="Coastal Escape" data-si="වෙරළ නිවාඩු" data-ta="Kustontsnapping">Coastal Escape</p>
               </div>
@@ -177,7 +177,7 @@
               </svg>
             </div>
             <div class="srv-divider"></div>
-            <h3 class="srv-title" data-en="Private Chauffeur Tours" data-si="පුද්ගලික චාෆර් ගමන්" data-ta="Privé chauffeur tours">Private Chauffeur Tours</h3>
+            <h3 class="srv-title" data-en="Private Chauffeur Services" data-si="පුද්ගලික චාෆර් සේවා" data-ta="Privé chauffeur Diensten">Private Chauffeur Services</h3>
             <p class="srv-desc" data-en="Explore Sri Lanka in complete comfort with our professional private drivers. Their extensive local knowledge ensures safe, efficient, and relaxed travel to the island’s most beautiful destinations." data-si="අපගේ වෘත්තීය පුද්ගලික ධාවකයින් සමඟ සම්පූර්ණ සුවතාවයෙන් ශ්‍රී ලංකාව ගවේෂණය කරන්න. ඔවුන්ගේ පුළුල් දේශීය දැනුම මගින් දූපතේ වඩාත්ම අලංකාර ගමනාන්ත වෙත ආරක්ෂිත, කාර්යක්ෂම හා සන්සුන් ගමනක් සපයයි." data-ta="Ontdek Sri Lanka in alle comfort met onze professionele privéchauffeurs. Dankzij hun uitgebreide lokale kennis reist u veilig, efficiënt en ontspannen naar de mooiste bestemmingen van het eiland.">
               Explore Sri Lanka in complete comfort with our professional private drivers. Their extensive local knowledge ensures safe, efficient, and relaxed travel to the island’s most beautiful destinations.
             </p>
@@ -318,7 +318,7 @@
               <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Yala National Park Safari</li>
               <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Sigiriya Rock Fortress</li>
               <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Pidurangala Rock</li>
-              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> LDambulla Cave Temple</li>
+              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Dambulla Cave Temple</li>
               <li class="faded">Hot Air Balloon Ride</li>
               <li class="faded">Lagoon Boat Safari</li>
             </ul>
@@ -330,7 +330,7 @@
           <div class="card-top">
             <h3 class="card-name" data-en="🌿 Ceylon Discovery" data-si="ප්‍රිමියම් පැකේජය" data-ta="Premium pakket">🌿 Ceylon Discovery</h3>
             <p class="card-sub" data-en="Culture • Heritage • Ancient Kingdoms • Nature • Authentic Experiences" data-si="වඩාත්ම ජනප්‍රිය තේරීම" data-ta="Meest populaire keuze">Culture • Heritage • Ancient Kingdoms • Nature • Authentic Experiences</p>
-            <p class="card-price">Rs. 10,000.00</p>
+            <p class="card-price">7 Days / 6 Nights</p>
             <a href="../packages/packages.php" class="card-btn" onclick="event.stopPropagation()" data-en="SEE MORE <span><img src='../resources/img/home/arrow.png' id='btn-arrow-1' class='arrow--img'></span>" data-si="තව බලන්න <span><img src='../resources/img/home/arrow.png' id='btn-arrow-1' class='arrow--img'></span>" data-ta="MEER ZIEN <span><img src='../resources/img/home/arrow.png' id='btn-arrow-1' class='arrow--img'></span>">SEE MORE <span><img
                   src="../resources/img/home/arrow.png" id="btn-arrow-1" class="arrow--img"></span></a>
           </div>
@@ -398,7 +398,7 @@
         <!-- c1 — dark mountain/castle (top-left) -->
         <!-- c1 — Sigiriya Rock Fortress (top-left) -->
         <div class="card c1 r1">
-          <img src="https://images.unsplash.com/photo-1533050487297-09b450131914?w=500&q=80" alt="Sigiriya Rock Fortress">
+          <img src="../resources/img/destinations/sigiriya/sigiriya1.jpeg" alt="Sigiriya Rock Fortress">
           <span class="lbl" data-en="Sigiriya" data-si="සිගිරිය" data-ta="Sigiriya">Sigiriya</span>
           <div class="card-hover"><span class="ch-name" data-en="Sigiriya<br>Rock Fortress" data-si="සිගිරිය<br>පාෂාණ කොටුව" data-ta="Sigiriya<br>Rotsfort">Sigiriya<br>Rock Fortress</span>
             <div class="ch-line"></div>
@@ -407,7 +407,7 @@
 
         <!-- c2 — Temple of the Tooth (top col2) -->
         <div class="card c2 r1">
-          <img src="https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=500&q=80" alt="Temple of the Tooth">
+          <img src="../resources/img/destinations/kandy/kandy1.jpg" alt="Temple of the Tooth">
           <span class="lbl" data-en="Kandy" data-si="මහනුවර" data-ta="Kandy">Kandy</span>
           <div class="card-hover"><span class="ch-name" data-en="Temple of<br>the Tooth" data-si="දන්ත<br>ධාතු මන්දිරය" data-ta="Tempel van<br>de Tandreliek">Temple of<br>the Tooth</span>
             <div class="ch-line"></div>
@@ -416,7 +416,7 @@
 
         <!-- c3 — Yala National Park (top col3) -->
         <div class="card c3 r1">
-          <img src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=500&q=80" alt="Yala National Park">
+          <img src="../resources/img/destinations/yala/yala1.jpg" alt="Yala National Park">
           <span class="lbl" data-en="Yala" data-si="යාල" data-ta="Yala">Yala</span>
           <div class="card-hover"><span class="ch-name" data-en="Yala<br>National Park" data-si="යාල<br>ජාතික වනෝද්‍යානය" data-ta="Yala<br>Nationaal Park">Yala<br>National Park</span>
             <div class="ch-line"></div>
@@ -425,7 +425,7 @@
 
         <!-- c4 — Galle Fort (top-right) -->
         <div class="card c4 r1">
-          <img src="https://images.unsplash.com/photo-1501854140801-50d01698950b?w=500&q=80" alt="Galle Fort">
+          <img src="../resources/img/destinations/galle/galle1.jpeg" alt="Galle Fort">
           <span class="lbl" data-en="Galle" data-si="ගාල්ල" data-ta="Galle">Galle</span>
           <div class="card-hover"><span class="ch-name" data-en="Galle<br>Fort" data-si="ගාල්ල<br>කොටුව" data-ta="Galle<br>Fort">Galle<br>Fort</span>
             <div class="ch-line"></div>
@@ -434,7 +434,7 @@
 
         <!-- c5 — Ella (bottom-left) -->
         <div class="card c5">
-          <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&q=80" alt="Ella">
+          <img src="../resources/img/destinations/ella/ella1.jpg" alt="Ella">
           <span class="lbl" data-en="Ella" data-si="ඇල්ල" data-ta="Ella">Ella</span>
           <div class="card-hover"><span class="ch-name" data-en="Ella<br>Valley" data-si="ඇල්ල<br>මහාච්චරකය" data-ta="Ella<br>Vallei">Ella<br>Valley</span>
             <div class="ch-line"></div>
@@ -443,7 +443,7 @@
 
         <!-- c6 — Mirissa Beach (bottom col2) -->
         <div class="card c6">
-          <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=500&q=80" alt="Mirissa Beach">
+          <img src="../resources/img/destinations/mirissa/mirissa1.jpeg" alt="Mirissa Beach">
           <span class="lbl" data-en="Mirissa" data-si="මිරිස්ස" data-ta="Mirissa">Mirissa</span>
           <div class="card-hover"><span class="ch-name" data-en="Mirissa<br>Beach" data-si="මිරිස්ස<br>වෙරළ" data-ta="Mirissa<br>Strand">Mirissa<br>Beach</span>
             <div class="ch-line"></div>
@@ -452,7 +452,7 @@
 
         <!-- c7 — Adam's Peak (bottom col3) -->
         <div class="card c7">
-          <img src="https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=500&q=80" alt="Adam's Peak">
+          <img src="../resources/img/destinations/adamspeak/adamspeak1.jpeg" alt="Adam's Peak">
           <span class="lbl" data-en="Adam's Peak" data-si="ශ්‍රී පාදස්ථානය" data-ta="Adam's Peak">Adam's Peak</span>
           <div class="card-hover"><span class="ch-name" data-en="Adam's<br>Peak" data-si="ශ්‍රී<br>පාදස්ථානය" data-ta="Adam's<br>Peak">Adam's<br>Peak</span>
             <div class="ch-line"></div>
@@ -461,7 +461,7 @@
 
         <!-- c8 — Anuradhapura (bottom-right) -->
         <div class="card c8">
-          <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=500&q=80" alt="Anuradhapura">
+          <img src="../resources/img/destinations/anuradhapura/anuradhapura1.jpeg" alt="Anuradhapura">
           <span class="lbl" data-en="Anuradhapura" data-si="අනුරාධපුරය" data-ta="Anuradhapura">Anuradhapura</span>
           <div class="card-hover"><span class="ch-name" data-en="Anuradhapura<br>Ancient City" data-si="අනුරාධපුරය<br>පුරාණ නගරය" data-ta="Anuradhapura<br>Oude Stad">Anuradhapura<br>Ancient City</span>
             <div class="ch-line"></div>

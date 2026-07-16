@@ -76,17 +76,17 @@ document.addEventListener('DOMContentLoaded', () => {
 const cardBackgrounds = [
   {
     type: 'image',
-    src: '../resources/img/home/2.jpeg',
+    src: '../resources/img/destinations/colombo/colombo01.jpg',
     fallback: 'linear-gradient(135deg,#3b0764,#7c3aed)'
   },
   {
     type: 'image',
-    src: '../resources/img/home/1.jpeg',
+    src: '../resources/img/destinations/horton/horton3.jpg',
     fallback: 'linear-gradient(135deg,#1e3a5f,#2563eb)'
   },
   {
     type: 'image',
-    src: '../resources/img/home/3.jpeg',
+    src: '../resources/img/destinations/wilpattu/wilpattu01.jpg',
     fallback: 'linear-gradient(135deg,#064e3b,#059669)'
   },
 ];

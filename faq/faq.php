@@ -27,7 +27,7 @@
     <!-- Video background -->
     <div class="hero-video-wrap">
       <div class="hero-video">
-        <img src="../resources/img/experiences/1.jpeg" alt="Hero Video" class="hero-video-content">
+        <img src="../resources/img/pageBanners/pexels-thilina-alagiyawanna-3266092-36873013.jpg" alt="Hero Video" class="hero-video-content">
       </div>
       <div class="hero-overlay"></div>
     </div>

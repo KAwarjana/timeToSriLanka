@@ -27,7 +27,7 @@
         <!-- Video background -->
         <div class="hero-video-wrap">
             <div class="hero-video">
-                <img src="../resources/img/experiences/1.jpeg" alt="Hero Video" class="hero-video-content">
+                <img src="../resources/img/pageBanners/pexels-yogeshkumar-392100.jpg" alt="Hero Video" class="hero-video-content">
             </div>
             <div class="hero-overlay"></div>
         </div>
@@ -44,13 +44,13 @@
         <!-- Card 1: Image Left -->
         <div class="card card--image-left">
             <div class="card__image-wrap">
-                <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=600&q=80"
+                <img src="../resources/img/services/download (37).jpeg"
                     alt="Private chauffeur tour vehicle" />
                 <div class="card__overlay"></div>
             </div>
             <div class="card__content">
                 <span class="card__label" data-en="SERVICE" data-si="සේවාව" data-ta="DIENST">SERVICE</span>
-                <h2 class="card__title" data-en="Private Chauffeur <em>Tours</em>" data-si="පුද්ගලික චාෆර් <em>ගමන්</em>" data-ta="Privé Chauffeur <em>Tours</em>">Private Chauffeur <em>Tours</em></h2>
+                <h2 class="card__title" data-en="Private Chauffeur <em>Services</em>" data-si="පුද්ගලික චාෆර් <em>ගමන්</em>" data-ta="Privé Chauffeur <em>Services</em>">Private Chauffeur <em>Services</em></h2>
                 <p data-en="Travel in comfort with our experienced local drivers who know every hidden gem across the island. Our modern fleet includes luxury sedans, spacious vans, and rugged jeeps suited for any terrain or group size you prefer." data-si="දූපත පුරා සිටින සෑම සැඟවුණු මැණිකක්ම දන්නා අපගේ අත්දැකීම් සහිත දේශීය රියදුරුවන් සමඟ සුවපහසුවෙන් ගමන් කරන්න. අපගේ නවීන රථ පෙළට සුඛෝපභෝගී සැලූන්, පළල් වෑන් සහ ඕනෑම භූමි තත්ත්වයකට හෝ කණ්ඩායම් ප්‍රමාණයකට සුදුසු දූර්ඝ ජීප් ඇතුළත් වේ." data-ta="Reis in alle comfort met onze ervaren lokale chauffeurs die elke verborgen parel op het eiland kennen. Onze moderne vloot omvat luxe sedans, ruime busjes en robuuste jeeps geschikt voor elk terrein of groepsformaat.">
                     Travel in comfort with our experienced local drivers who know every hidden gem across the island. Our modern fleet includes luxury sedans, spacious vans, and rugged jeeps suited for any terrain or group size you prefer.
                 </p>
@@ -63,7 +63,7 @@
         <!-- Card 2: Image Right -->
         <div class="card card--image-right">
             <div class="card__image-wrap">
-                <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=600&q=80"
+                <img src="../resources/img/services/Tea garden natural photo.jpeg"
                     alt="Tailor-made travel planning" />
                 <div class="card__overlay"></div>
             </div>
@@ -82,7 +82,7 @@
         <!-- Card 3: Image Left -->
         <div class="card card--image-left">
             <div class="card__image-wrap">
-                <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=600&q=80"
+                <img src="../resources/img/services/downloadH.jpeg"
                     alt="Boutique hotel accommodation" />
                 <div class="card__overlay"></div>
             </div>
@@ -100,7 +100,7 @@
 
         <div class="card card--image-right">
             <div class="card__image-wrap">
-                <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=600&q=80"
+                <img src="../resources/img/services/srilanka airport.jpeg"
                     alt="Airport transfer service" />
                 <div class="card__overlay"></div>
             </div>
@@ -118,7 +118,7 @@
 
         <div class="card card--image-left">
             <div class="card__image-wrap">
-                <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=600&q=80"
+                <img src="../resources/img/services/Apply for Hotel Management Jobs in Maldives – Resort Vacancies Open Now.jpeg"
                     alt="Local travel concierge" />
                 <div class="card__overlay"></div>
             </div>
@@ -136,7 +136,7 @@
 
         <div class="card card--image-right">
             <div class="card__image-wrap">
-                <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=600&q=80"
+                <img src="../resources/img/services/call center training in karachi pakistan.jpeg"
                     alt="24/7 guest assistance" />
                 <div class="card__overlay"></div>
             </div>

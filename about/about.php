@@ -22,7 +22,7 @@
   <section class="hero">
     <div class="hero-video-wrap">
       <div class="hero-video">
-        <img src="../resources/img/experiences/1.jpeg" alt="Hero" class="hero-video-content">
+        <img src="../resources/img/pageBanners/710799594_26950846217876749_2666989989260806944_n.jpg" alt="Hero" class="hero-video-content">
       </div>
       <div class="hero-overlay"></div>
     </div>
@@ -166,12 +166,15 @@
     <div class="contact-layout">
 
       <div class="text-wrap">
-        <p class="label" data-en="Contact" data-si="සම්බන්ධ කිරීම" data-ta="Kontak">Contact</p>
-        <h2 class="title">
-          <span class="t-white" data-en="Let Your Dream Journey <span class='t-accent'>Begin</span>" data-si="ඔබේ සිහිනයෙන් පිරුණු ගමන <span class='t-accent'>ආරම්භ වේ</span>" data-ta="Laat Uw Droomreis <span class='t-accent'>Beginnen</span>">Let Your Dream Journey <span class="t-accent">Begin</span></span>
+        <p class="label" data-en="Contact" data-si="සම්බන්ධතාවය" data-ta="Contact">Contact</p>
+        <h2 class="title" data-en="<span class='t-white'>Let's Plan </span><span class='t-accent'>Together</span>" data-si="<span class='t-white'>අප එක්ව </span><span class='t-accent'>සැලසුම් කරමු</span>" data-ta="<span class='t-white'>Laten We Samen </span><span class='t-accent'>Plannen</span>">
+          <span class="t-white">Let's Plan </span><span class="t-accent">Together</span>
         </h2>
-        <p class="body-text" data-en="Our team is ready to craft your ideal Sri Lanka experience with care, precision, and personal attention." data-si="අපගේ කණ්ඩායම ඔබගේ ඉලක්කමනින් පිරුණු ශ්‍රී ලංකා අත්දැකීම සකස් කිරීමට සූදානම් වේ." data-ta="Ons team staat klaar om uw ideale Sri Lanka ervaring met zorg, precisie en persoonlijke aandacht samen te stellen.">
-          Our team is ready to craft your ideal Sri Lanka experience with care, precision, and personal attention.
+        <p class="body-text" data-en="Reach out to us and share your travel dreams for Sri Lanka. Our team responds quickly with tailored suggestions, ensuring every detail of your journey is planned with comfort, care, and local expertise from beginning to end." data-si="ඔබේ ශ්‍රී ලංකා සංචාරක සිහින අප සමඟ බෙදාගන්න. අපගේ කණ්ඩායම ඉක්මනින් ප්‍රතිචාර දක්වමින් සුදුසු යෝජනා ලබා දෙයි, ඔබේ ගමනේ සෑම විස්තරයක්ම සුවපහසුව, සැලකිල්ල සහ දේශීය පළපුරුද්ද සමඟ ආරම්භයේ සිට අවසානය දක්වා සැලසුම් කරන බව සහතික කරයි." data-ta="Neem contact met ons op en deel uw reiswensen voor Sri Lanka. Ons team reageert snel met persoonlijke suggesties en zorgt ervoor dat elk detail van uw reis wordt gepland met comfort, zorg en lokale expertise van begin tot eind.">
+          Reach out to us and share your travel dreams for Sri
+          Lanka. Our team responds quickly with tailored suggestions, ensuring
+          every detail of your journey is planned with comfort, care,
+          and local expertise from beginning to end.
         </p>
       </div>
 
@@ -187,9 +190,12 @@
 
     <!-- bottom row: contact info (white zone) -->
     <div class="contact-info">
-      <h3 data-en="Contact Information" data-si="සම්බන්ධතා තොරතුරු" data-ta="Contact Informatie">Contact Information</h3>
-      <p class="info-desc" data-en="Connect with us for expert guidance and receive an exclusive travel proposal thoughtfully tailored to your wishes and expectations." data-si="විශේෂඥ මාර්ගදේශයක් සදහා අප හා සම්බන්ධ වන්න, ඔබගේ අපේක්ෂාවන්ට ගැලපෙන විශේෂිත ගමනේ යෝජනාවක් ලබා ගන්න." data-ta="Neem contact met ons op voor deskundig advies en ontvang een exclusief reisvoorstel dat volledig is afgestemd op uw wensen en verwachtingen.">
-        Connect with us for expert guidance and receive an exclusive travel proposal thoughtfully tailored to your wishes and expectations.
+      <h3 data-en="Contact Information" data-si="සම්බන්ධතා තොරතුරු" data-ta="Contactinformatie">Contact Information</h3>
+      <p class="info-desc" data-en="We would love to hear from you. Whether you have questions about a destination, need help planning an itinerary, or simply want advice, our friendly team is ready to assist you throughout every step of your trip." data-si="ඔබෙන් අසන්නට අපි කැමතියි. ඔබට ගමනාන්තයක් පිළිබඳ ප්‍රශ්න තිබුණත්, ගමන් සැලැස්මක් සැකසීමට උදව් අවශ්‍ය වුවත්, හෝ උපදෙස් අවශ්‍ය වුවත්, අපගේ මිත්‍රශීලී කණ්ඩායම ඔබේ සංචාරයේ සෑම පියවරකදීම උදව් කිරීමට සූදානම්." data-ta="We horen graag van u. Of u nu vragen heeft over een bestemming, hulp nodig heeft bij het plannen van een reisroute, of gewoon advies wilt, ons vriendelijke team staat klaar om u bij elke stap van uw reis te helpen.">
+        We would love to hear from you. Whether you have questions
+        about a destination, need help planning an itinerary, or simply
+        want advice, our friendly team is ready to assist you
+        throughout every step of your trip.
       </p>
       <div class="contact-cards">
 
@@ -200,8 +206,8 @@
               <path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z" />
             </svg>
           </div>
-          <strong>+ 94 77 123 4567</strong>
-          <span data-en="Call our travel specialists" data-si="අපගේ සංචාර විශේෂඥයින් අමතන්න" data-ta="Bel onze reisspecialisten">Call our travel specialists</span>
+          <strong>+ 0000000000</strong>
+          <span data-en="Available Every Single Day" data-si="සෑම දිනකම ලබාගත හැක" data-ta="Elke Dag Bereikbaar">Available Every Single Day</span>
         </div>
 
         <!-- Email -->
@@ -211,8 +217,8 @@
               <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
             </svg>
           </div>
-          <strong><a href="mailto:hello@timetoceylon.com">hello@timetoceylon.com</a></strong>
-          <span data-en="Send us your travel ideas" data-si="ඔබේ සංචාර අදහස් අපට යවන්න" data-ta="Stuur ons uw reisideeën">Send us your travel ideas</span>
+          <strong><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="e4858687a48389858d88ca878b89">[email&#160;protected]</a></strong>
+          <span data-en="We Reply Within Hours" data-si="පැය කිහිපයකින් පිළිතුරු දෙයි" data-ta="Wij Reageren Binnen Uren">We Reply Within Hours</span>
         </div>
 
         <!-- Location -->
@@ -223,7 +229,7 @@
             </svg>
           </div>
           <strong>Colombo, Sri Lanka</strong>
-          <span data-en="Visit our local office" data-si="අපගේ දේශීය කාර්යාලය පැමිණෙන්න" data-ta="Bezoek ons lokale kantoor">Visit our local office</span>
+          <span data-en="Based In Colombo City" data-si="කොළඹ නගරයේ පිහිටා ඇත" data-ta="Gevestigd In Colombo Stad">Based In Colombo City</span>
         </div>
 
       </div>

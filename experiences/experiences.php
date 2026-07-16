@@ -27,7 +27,7 @@
         <!-- Video background -->
         <div class="hero-video-wrap">
             <div class="hero-video">
-                <img src="../resources/img/experiences/1.jpeg" alt="Hero Video" class="hero-video-content">
+                <img src="../resources/img/pageBanners/pexels-nandhukumar-14844302.jpg" alt="Hero Video" class="hero-video-content">
             </div>
             <div class="hero-overlay"></div>
         </div>
@@ -46,7 +46,7 @@
         <div class="featured-inner">
             <!-- Left: image -->
             <div class="featured-img-wrap">
-                <img class="featured-img" src="../resources/img/home/1.jpeg" alt="Hiking and mountain trails">
+                <img class="featured-img" src="../resources/img/experiences/experiences1.jpeg" alt="Hiking and mountain trails">
             </div>
 
             <!-- Right: card -->
@@ -78,7 +78,7 @@
         <div class="featured-inner">
             <!-- Left: image -->
             <div class="featured-img-wrap">
-                <img class="featured-img" src="../resources/img/home/1.jpeg" alt="Wildlife Safari">
+                <img class="featured-img" src="../resources/img/experiences/experiences2.jpeg" alt="Wildlife Safari">
             </div>
 
             <!-- Right: card -->
@@ -110,7 +110,7 @@
         <div class="featured-inner">
             <!-- Left: image -->
             <div class="featured-img-wrap">
-                <img class="featured-img" src="../resources/img/home/1.jpeg" alt="Cultural Discovery">
+                <img class="featured-img" src="../resources/img/experiences/experiences3.jpeg" alt="Cultural Discovery">
             </div>
 
             <!-- Right: card -->
@@ -142,7 +142,7 @@
         <div class="featured-inner">
             <!-- Left: image -->
             <div class="featured-img-wrap">
-                <img class="featured-img" src="../resources/img/home/1.jpeg" alt="Ayurveda and Wellness">
+                <img class="featured-img" src="../resources/img/experiences/experiences4.jpeg" alt="Ayurveda and Wellness">
             </div>
 
             <!-- Right: card -->
@@ -174,7 +174,7 @@
         <div class="featured-inner">
             <!-- Left: image -->
             <div class="featured-img-wrap">
-                <img class="featured-img" src="../resources/img/home/1.jpeg" alt="Scenic Journeys">
+                <img class="featured-img" src="../resources/img/experiences/experiences5.jpeg" alt="Scenic Journeys">
             </div>
 
             <!-- Right: card -->
@@ -206,7 +206,7 @@
         <div class="featured-inner">
             <!-- Left: image -->
             <div class="featured-img-wrap">
-                <img class="featured-img" src="../resources/img/home/1.jpeg" alt="Coastal Escape">
+                <img class="featured-img" src="../resources/img/experiences/experiences6.jpg" alt="Coastal Escape">
             </div>
 
             <!-- Right: card -->

@@ -26,7 +26,7 @@
     <section class="hero">
         <div class="hero-video-wrap">
             <div class="hero-video">
-                <img src="../resources/img/experiences/1.jpeg" alt="Hero Video" class="hero-video-content">
+                <img src="../resources/img/pageBanners/pexels-nandakumarrajesh1312007-20169596.jpg" alt="Hero Video" class="hero-video-content">
             </div>
             <div class="hero-overlay"></div>
         </div>

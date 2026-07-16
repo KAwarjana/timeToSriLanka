@@ -220,6 +220,7 @@ body {
   transition: transform 0.35s ease, box-shadow 0.35s ease;
   position: relative;
   cursor: pointer;
+  height: 350px;
 }
 
 /* Hover: lift + shadow */
@@ -360,10 +361,14 @@ body {
   .card--image-right {
     flex-direction: column !important;
   }
+  
+  .card{
+    height: auto;
+  }
 
   .card__image-wrap {
-    flex: 0 0 220px;
-    height: 220px;
+    flex: 0 0 350px;
+    height: 350px;
     width: 100%;
   }
 
@@ -378,6 +383,7 @@ body {
   }
 
   .card__image-wrap {
-    height: 180px;
+    flex: 0 0 220px;
+    height: 220px;
   }
 }

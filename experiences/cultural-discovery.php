@@ -27,7 +27,7 @@
         <!-- Video background -->
         <div class="hero-video-wrap">
             <div class="hero-video">
-                <img src="../resources/img/experiences/1.jpeg" alt="Hero Video" class="hero-video-content">
+                <img src="../resources/img/pageBanners/pexels-malindabandaralk-16508231.jpg" alt="Hero Video" class="hero-video-content">
             </div>
             <div class="hero-overlay"></div>
         </div>
@@ -46,7 +46,7 @@
 
             <!-- Left: Main Image -->
             <div class="main-image-wrap">
-                <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=600&q=80"
+                <img src="../resources/img/experiences/experiences3.jpeg"
                     alt="Ancient temple ruins" class="main-img" />
             </div>
 
@@ -71,15 +71,13 @@
                 <!-- Bottom Gallery Row -->
                 <div class="gallery-row">
                     <div class="gallery-item">
-                        <img src="../resources/img/home/1.jpeg" alt="Sigiriya rock fortress" />
+                        <img src="../resources/img/experiences/experiences14.jpeg" alt="Sigiriya rock fortress" />
                     </div>
                     <div class="gallery-item">
-                        <img src="https://images.unsplash.com/photo-1469521669194-babb45599def?w=400&q=80"
-                            alt="Kandy temple ceremony" />
+                        <img src="../resources/img/experiences/experiences15.jpeg" alt="Kandy temple ceremony" />
                     </div>
                     <div class="gallery-item">
-                        <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=400&q=80"
-                            alt="Traditional dance performance" />
+                        <img src="../resources/img/experiences/experiences16.jpeg" alt="Traditional dance performance" />
                     </div>
                 </div>
 

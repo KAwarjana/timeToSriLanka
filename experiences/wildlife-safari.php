@@ -27,7 +27,7 @@
         <!-- Video background -->
         <div class="hero-video-wrap">
             <div class="hero-video">
-                <img src="../resources/img/experiences/1.jpeg" alt="Hero Video" class="hero-video-content">
+                <img src="../resources/img/pageBanners/pexels-thilina-alagiyawanna-3266092-18458139.jpg" alt="Hero Video" class="hero-video-content">
             </div>
             <div class="hero-overlay"></div>
         </div>
@@ -46,7 +46,7 @@
 
             <!-- Left: Main Image -->
             <div class="main-image-wrap">
-                <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=600&q=80"
+                <img src="../resources/img/experiences/experiences2.jpeg"
                     alt="Wildlife safari jeep" class="main-img" />
             </div>
 
@@ -71,14 +71,13 @@
                 <!-- Bottom Gallery Row -->
                 <div class="gallery-row">
                     <div class="gallery-item">
-                        <img src="../resources/img/home/1.jpeg" alt="Leopard spotting" />
+                        <img src="../resources/img/experiences/experiences10.jpeg" alt="Leopard spotting" />
                     </div>
                     <div class="gallery-item">
-                        <img src="https://images.unsplash.com/photo-1469521669194-babb45599def?w=400&q=80"
-                            alt="Elephant herd" />
+                        <img src="../resources/img/experiences/experiences11.jpeg" alt="Elephant herd" />
                     </div>
                     <div class="gallery-item">
-                        <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=400&q=80"
+                        <img src="../resources/img/experiences/experiences12.jpeg"
                             alt="Bird watching" />
                     </div>
                 </div>

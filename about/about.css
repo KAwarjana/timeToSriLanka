@@ -891,6 +891,18 @@ body {
   }
 }
 
+@media (min-width: 591px) and (max-width: 656px) {
+  .contact-info {
+    margin-top: 10rem;
+  }
+  .arch-wrap {
+    flex: 0 0 180px;
+    height: 300px;
+    margin-bottom: -180px;
+    margin-top: 200px;
+  }
+}
+
 /* Small mobile */
 @media (max-width: 590px) {
   .contact-layout {
