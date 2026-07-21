@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Time to Ceylon</title>
-  <link rel="icon" type="image/png" href="../resources/img/logo.png">
+  <link rel="icon" type="image/png" href="../resources/img/logo.webp">
 
   <link rel="stylesheet" href="../header/header.css">
   <link rel="stylesheet" href="home.css">
@@ -51,7 +51,7 @@
 
       <!-- Left: Single image -->
       <div class="about-images">
-        <img src="../resources/img/home/Beautiful 2.png" alt="Wildlife">
+        <img src="../resources/img/home/Beautiful 2.webp" alt="Wildlife">
       </div>
 
       <!-- Right: text content -->
@@ -76,9 +76,9 @@
           From airport transfers and private transportation to carefully selected accommodations, guided excursions, and personalized travel assistance, we take care of every detail so you can travel without stress. Our experienced local team is dedicated to delivering exceptional service, ensuring every part of your journey is smooth, comfortable, and memorable. Whether you're visiting for a short getaway or an extended holiday, we are committed to creating authentic experiences and unforgettable moments that you'll cherish long after your trip ends.
         </p>
 
-        <a href="../about/about.php" class="read-more-btn" data-en="READ MORE <span class='btn-arrows'><img src='../resources/img/home/arrow.png' class='arrow--img'></span>" data-si="තව කියවන්න <span class='btn-arrows'><img src='../resources/img/home/arrow.png' class='arrow--img'></span>" data-ta="LEES MEER <span class='btn-arrows'><img src='../resources/img/home/arrow.png' class='arrow--img'></span>">
+        <a href="../about/about.php" class="read-more-btn" data-en="READ MORE <span class='btn-arrows'><img src='../resources/img/home/arrow.webp' class='arrow--img'></span>" data-si="තව කියවන්න <span class='btn-arrows'><img src='../resources/img/home/arrow.webp' class='arrow--img'></span>" data-ta="LEES MEER <span class='btn-arrows'><img src='../resources/img/home/arrow.webp' class='arrow--img'></span>">
           READ MORE
-          <span class="btn-arrows"><img src="../resources/img/home/arrow.png" class="arrow--img"></span>
+          <span class="btn-arrows"><img src="../resources/img/home/arrow.webp" class="arrow--img"></span>
         </a>
       </div>
 
@@ -95,8 +95,8 @@
         <p class="exp-desc" data-en="From breathtaking adventures to serene relaxation, discover carefully selected experiences designed to make your journey through Sri Lanka unforgettable." data-si="අභියෝගාත්මක ගමනවල සිට සන්සුන් විවේකය දක්වා, ශ්‍රී ලංකාව හරහා ඔබේ ගමන අමතක නොවන ලෙස සූක්ෂමව තෝරාගත් අත්දැකීම් සොයා බලන්න." data-ta="Van indrukwekkende avonturen tot serene ontspanning, ontdek zorgvuldig geselecteerde ervaringen ontworpen om je reis door Sri Lanka onvergetelijk te maken.">
           From breathtaking adventures to serene relaxation, discover carefully selected experiences designed to make your journey through Sri Lanka unforgettable.
         </p>
-        <a href="../experiences/experiences.php" class="exp-btn" data-en="EXPLORE <span class='btn-arrows'><img src='../resources/img/home/arrow.png' class='arrow--img'></span>" data-si="ගවේෂණය කරන්න <span class='btn-arrows'><img src='../resources/img/home/arrow.png' class='arrow--img'></span>" data-ta="VERKEN <span class='btn-arrows'><img src='../resources/img/home/arrow.png' class='arrow--img'></span>">
-          EXPLORE <span class="btn-arrows"><img src="../resources/img/home/arrow.png" class="arrow--img"></span>
+        <a href="../experiences/experiences.php" class="exp-btn" data-en="EXPLORE <span class='btn-arrows'><img src='../resources/img/home/arrow.webp' class='arrow--img'></span>" data-si="ගවේෂණය කරන්න <span class='btn-arrows'><img src='../resources/img/home/arrow.webp' class='arrow--img'></span>" data-ta="VERKEN <span class='btn-arrows'><img src='../resources/img/home/arrow.webp' class='arrow--img'></span>">
+          EXPLORE <span class="btn-arrows"><img src="../resources/img/home/arrow.webp" class="arrow--img"></span>
         </a>
       </div>
 
@@ -106,42 +106,42 @@
           <div class="cards-track" id="cardsTrack">
 
             <div class="exp-card">
-              <img src="../resources/img/home/experiences1.jpeg" alt="Experience 1">
+              <img src="../resources/img/home/experiences1.webp" alt="Experience 1">
               <div class="card-overlay">
                 <p class="card-label" data-en="Adventure" data-si="අභියෝගාත්මක ගමන" data-ta="Avontuur">Adventure</p>
               </div>
             </div>
 
             <div class="exp-card">
-              <img src="../resources/img/home/experiences2.jpeg" alt="Experience 2">
+              <img src="../resources/img/home/experiences2.webp" alt="Experience 2">
               <div class="card-overlay">
                 <p class="card-label" data-en="Wildlife Safari" data-si="වනජීවී සෆාරි" data-ta="Wildlife safari">Wildlife Safari</p>
               </div>
             </div>
 
             <div class="exp-card">
-              <img src="../resources/img/home/experiences3.jpeg" alt="Experience 3">
+              <img src="../resources/img/home/experiences3.webp" alt="Experience 3">
               <div class="card-overlay">
                 <p class="card-label" data-en="Cultural Discovery" data-si="සංස්කෘතික ගවේෂණය" data-ta="Culturele ontdekking">Cultural Discovery</p>
               </div>
             </div>
 
             <div class="exp-card">
-              <img src="../resources/img/home/experiences4.jpeg" alt="Experience 4">
+              <img src="../resources/img/home/experiences4.webp" alt="Experience 4">
               <div class="card-overlay">
                 <p class="card-label" data-en="Ayurveda & Wellness" data-si="ආයුර්වේද සහ සුවය" data-ta="Ayurveda & wellness">Ayurveda & Wellness</p>
               </div>
             </div>
 
             <div class="exp-card">
-              <img src="../resources/img/home/experiences5.jpeg" alt="Experience 5">
+              <img src="../resources/img/home/experiences5.webp" alt="Experience 5">
               <div class="card-overlay">
                 <p class="card-label" data-en="Scenic Journeys" data-si="රූපමය ගමන්" data-ta="Scenic reizen">Scenic Journeys</p>
               </div>
             </div>
 
             <div class="exp-card">
-              <img src="../resources/img/home/experiences6.jpg" alt="Experience 6">
+              <img src="../resources/img/home/experiences6.webp" alt="Experience 6">
               <div class="card-overlay">
                 <p class="card-label" data-en="Coastal Escape" data-si="වෙරළ නිවාඩු" data-ta="Kustontsnapping">Coastal Escape</p>
               </div>
@@ -152,7 +152,7 @@
 
         <!-- Slide Button -->
         <button class="slide-btn" id="slideBtn" aria-label="Next slide">
-          <span><img src="../resources/img/home/arrow.png" class="arrow--img"></span>
+          <span><img src="../resources/img/home/arrow.webp" class="arrow--img"></span>
         </button>
       </div>
 
@@ -206,7 +206,7 @@
           <h2 class="srv-heading" data-en="Exclusive Travel Services for a <span class='accent'>Seamless Journey</span>" data-si="ඉතා සුවිශේෂී <span class='accent'>අති සරල ගමන</span> සඳහා වූ ගමන් සේවා" data-ta="Exclusieve reisdiensten voor een <span class='accent'>zorgeloze ervaring</span>">Exclusive Travel Services for a <span class="accent">Seamless Journey</span></h2>
           <p class="srv-lead" data-en="At TimetoCeylon, we offer premium travel services that make every journey through Sri Lanka effortless, comfortable, and unforgettable, with personalized service and local expertise." data-si="TimetoCeylon සමඟ, අපි ශ්‍රී ලංකාව හරහා සෑම ගමනක්ම සරල, සුවපහසු සහ අමතක නොවන ලෙස සකස් කරන ප්‍රිමියම් ගමන් සේවා සපයමු. පුද්ගලීකරණය කළ සේවාව සහ දේශීය දැනුම සමඟ." data-ta="Bij TimetoCeylon bieden wij hoogwaardige reisdiensten die ontworpen zijn om iedere reis door Sri Lanka moeiteloos, comfortabel en onvergetelijk te maken. Met persoonlijke aandacht, lokale expertise en premium service zorgen wij voor een reiservaring die volledig aansluit op uw wensen.">
             At TimetoCeylon, we offer premium travel services that make every journey through Sri Lanka effortless, comfortable, and unforgettable, with personalized service and local expertise.</p>
-          <a href="../services/services.php" class="srv-btn" data-en="SEE MORE <span class='btn-arrows'><img src='../resources/img/home/arrow.png' class='arrow--img'></span>" data-si="තව බලන්න <span class='btn-arrows'><img src='../resources/img/home/arrow.png' class='arrow--img'></span>" data-ta="MEER ZIEN <span class='btn-arrows'><img src='../resources/img/home/arrow.png' class='arrow--img'></span>">SEE MORE <span class="btn-arrows"><img src="../resources/img/home/arrow.png"
+          <a href="../services/services.php" class="srv-btn" data-en="SEE MORE <span class='btn-arrows'><img src='../resources/img/home/arrow.webp' class='arrow--img'></span>" data-si="තව බලන්න <span class='btn-arrows'><img src='../resources/img/home/arrow.webp' class='arrow--img'></span>" data-ta="MEER ZIEN <span class='btn-arrows'><img src='../resources/img/home/arrow.webp' class='arrow--img'></span>">SEE MORE <span class="btn-arrows"><img src="../resources/img/home/arrow.webp"
                 class="arrow--img"></span></a>
         </div>
 
@@ -309,16 +309,16 @@
             <h3 class="card-name" data-en="👑 Grand Ceylon Experience" data-si="මූලික පැකේජය" data-ta="Basis pakket">👑 Grand Ceylon Experience</h3>
             <p class="card-sub" data-en="Nature • Wildlife • Culture • Mountains • Beaches" data-si="ආරම්භකයන් සඳහා සුදුසු" data-ta="Perfect voor starters">Nature • Wildlife • Culture • Mountains • Beaches</p>
             <p class="card-price">14 Days | 13 Nights</p>
-            <a href="../packages/packages.php" class="card-btn" onclick="event.stopPropagation()" data-en="SEE MORE <span><img src='../resources/img/home/arrow_dark.png' id='btn-arrow-0' class='arrow--img'></span>" data-si="තව බලන්න <span><img src='../resources/img/home/arrow_dark.png' id='btn-arrow-0' class='arrow--img'></span>" data-ta="MEER ZIEN <span><img src='../resources/img/home/arrow_dark.png' id='btn-arrow-0' class='arrow--img'></span>">SEE MORE <span><img
-                  src="../resources/img/home/arrow_dark.png" id="btn-arrow-0" class="arrow--img"></span></a>
+            <a href="../packages/packages.php" class="card-btn" onclick="event.stopPropagation()" data-en="SEE MORE <span><img src='../resources/img/home/arrow_dark.webp' id='btn-arrow-0' class='arrow--img'></span>" data-si="තව බලන්න <span><img src='../resources/img/home/arrow_dark.webp' id='btn-arrow-0' class='arrow--img'></span>" data-ta="MEER ZIEN <span><img src='../resources/img/home/arrow_dark.webp' id='btn-arrow-0' class='arrow--img'></span>">SEE MORE <span><img
+                  src="../resources/img/home/arrow_dark.webp" id="btn-arrow-0" class="arrow--img"></span></a>
           </div>
           <div class="card-features">
             <ul>
-              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Wilpattu National Park Safari</li>
-              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Yala National Park Safari</li>
-              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Sigiriya Rock Fortress</li>
-              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Pidurangala Rock</li>
-              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Dambulla Cave Temple</li>
+              <li><span class="chk"><img src="../resources/img/home/tick.webp" class="arrow--img"></span> Wilpattu National Park Safari</li>
+              <li><span class="chk"><img src="../resources/img/home/tick.webp" class="arrow--img"></span> Yala National Park Safari</li>
+              <li><span class="chk"><img src="../resources/img/home/tick.webp" class="arrow--img"></span> Sigiriya Rock Fortress</li>
+              <li><span class="chk"><img src="../resources/img/home/tick.webp" class="arrow--img"></span> Pidurangala Rock</li>
+              <li><span class="chk"><img src="../resources/img/home/tick.webp" class="arrow--img"></span> Dambulla Cave Temple</li>
               <li class="faded">Hot Air Balloon Ride</li>
               <li class="faded">Lagoon Boat Safari</li>
             </ul>
@@ -331,18 +331,18 @@
             <h3 class="card-name" data-en="🌿 Ceylon Discovery" data-si="ප්‍රිමියම් පැකේජය" data-ta="Premium pakket">🌿 Ceylon Discovery</h3>
             <p class="card-sub" data-en="Culture • Heritage • Ancient Kingdoms • Nature • Authentic Experiences" data-si="වඩාත්ම ජනප්‍රිය තේරීම" data-ta="Meest populaire keuze">Culture • Heritage • Ancient Kingdoms • Nature • Authentic Experiences</p>
             <p class="card-price">7 Days / 6 Nights</p>
-            <a href="../packages/packages.php" class="card-btn" onclick="event.stopPropagation()" data-en="SEE MORE <span><img src='../resources/img/home/arrow.png' id='btn-arrow-1' class='arrow--img'></span>" data-si="තව බලන්න <span><img src='../resources/img/home/arrow.png' id='btn-arrow-1' class='arrow--img'></span>" data-ta="MEER ZIEN <span><img src='../resources/img/home/arrow.png' id='btn-arrow-1' class='arrow--img'></span>">SEE MORE <span><img
-                  src="../resources/img/home/arrow.png" id="btn-arrow-1" class="arrow--img"></span></a>
+            <a href="../packages/packages.php" class="card-btn" onclick="event.stopPropagation()" data-en="SEE MORE <span><img src='../resources/img/home/arrow.webp' id='btn-arrow-1' class='arrow--img'></span>" data-si="තව බලන්න <span><img src='../resources/img/home/arrow.webp' id='btn-arrow-1' class='arrow--img'></span>" data-ta="MEER ZIEN <span><img src='../resources/img/home/arrow.webp' id='btn-arrow-1' class='arrow--img'></span>">SEE MORE <span><img
+                  src="../resources/img/home/arrow.webp" id="btn-arrow-1" class="arrow--img"></span></a>
           </div>
           <div class="card-features">
             <ul>
-              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Ancient City of Anuradhapura</li>
-              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Sigiriya Rock Fortress</li>
-              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Ancient City of Polonnaruwa</li>
-              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Dambulla Cave Temple</li>
-              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Temple of the Sacred Tooth Relic</li>
-              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Mihintale Sacred Mountain</li>
-              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Ritigala Forest Monastery</li>
+              <li><span class="chk"><img src="../resources/img/home/tick.webp" class="arrow--img"></span> Ancient City of Anuradhapura</li>
+              <li><span class="chk"><img src="../resources/img/home/tick.webp" class="arrow--img"></span> Sigiriya Rock Fortress</li>
+              <li><span class="chk"><img src="../resources/img/home/tick.webp" class="arrow--img"></span> Ancient City of Polonnaruwa</li>
+              <li><span class="chk"><img src="../resources/img/home/tick.webp" class="arrow--img"></span> Dambulla Cave Temple</li>
+              <li><span class="chk"><img src="../resources/img/home/tick.webp" class="arrow--img"></span> Temple of the Sacred Tooth Relic</li>
+              <li><span class="chk"><img src="../resources/img/home/tick.webp" class="arrow--img"></span> Mihintale Sacred Mountain</li>
+              <li><span class="chk"><img src="../resources/img/home/tick.webp" class="arrow--img"></span> Ritigala Forest Monastery</li>
             </ul>
           </div>
         </div>
@@ -353,17 +353,17 @@
             <h3 class="card-name" data-en="⭐ Signature Journey" data-si="ව්‍යාපාරික පැකේජය" data-ta="Enterprise pakket">⭐ Signature Journey</h3>
             <p class="card-sub" data-en="Culture • Wildlife • Tea Country • Beaches • Heritage" data-si="විශාල කණ්ඩායම් සඳහා" data-ta="Voor grote teams">Culture • Wildlife • Tea Country • Beaches • Heritage</p>
             <p class="card-price">9 Days | 8 Nights</p>
-            <a href="../packages/packages.php" class="card-btn" onclick="event.stopPropagation()" data-en="SEE MORE <span><img src='../resources/img/home/arrow_dark.png' id='btn-arrow-2' class='arrow--img'></span>" data-si="තව බලන්න <span><img src='../resources/img/home/arrow_dark.png' id='btn-arrow-2' class='arrow--img'></span>" data-ta="MEER ZIEN <span><img src='../resources/img/home/arrow_dark.png' id='btn-arrow-2' class='arrow--img'></span>">SEE MORE <span><img
-                  src="../resources/img/home/arrow_dark.png" id="btn-arrow-2" class="arrow--img"></span></a>
+            <a href="../packages/packages.php" class="card-btn" onclick="event.stopPropagation()" data-en="SEE MORE <span><img src='../resources/img/home/arrow_dark.webp' id='btn-arrow-2' class='arrow--img'></span>" data-si="තව බලන්න <span><img src='../resources/img/home/arrow_dark.webp' id='btn-arrow-2' class='arrow--img'></span>" data-ta="MEER ZIEN <span><img src='../resources/img/home/arrow_dark.webp' id='btn-arrow-2' class='arrow--img'></span>">SEE MORE <span><img
+                  src="../resources/img/home/arrow_dark.webp" id="btn-arrow-2" class="arrow--img"></span></a>
           </div>
           <div class="card-features">
             <ul>
-              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Sigiriya Rock Fortress</li>
-              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Ancient City of Polonnaruwa</li>
-              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Dambulla Cave Temple</li>
-              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Temple of the Sacred Tooth Relic</li>
-              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Minneriya National Park Safari</li>
-              <li><span class="chk"><img src="../resources/img/home/tick.png" class="arrow--img"></span> Tea Plantation & Tea Factory</li>
+              <li><span class="chk"><img src="../resources/img/home/tick.webp" class="arrow--img"></span> Sigiriya Rock Fortress</li>
+              <li><span class="chk"><img src="../resources/img/home/tick.webp" class="arrow--img"></span> Ancient City of Polonnaruwa</li>
+              <li><span class="chk"><img src="../resources/img/home/tick.webp" class="arrow--img"></span> Dambulla Cave Temple</li>
+              <li><span class="chk"><img src="../resources/img/home/tick.webp" class="arrow--img"></span> Temple of the Sacred Tooth Relic</li>
+              <li><span class="chk"><img src="../resources/img/home/tick.webp" class="arrow--img"></span> Minneriya National Park Safari</li>
+              <li><span class="chk"><img src="../resources/img/home/tick.webp" class="arrow--img"></span> Tea Plantation & Tea Factory</li>
             </ul>
           </div>
         </div>
@@ -398,7 +398,7 @@
         <!-- c1 — dark mountain/castle (top-left) -->
         <!-- c1 — Sigiriya Rock Fortress (top-left) -->
         <div class="card c1 r1">
-          <img src="../resources/img/destinations/sigiriya/sigiriya1.jpeg" alt="Sigiriya Rock Fortress">
+          <img src="../resources/img/destinations/sigiriya/sigiriya1.webp" alt="Sigiriya Rock Fortress">
           <span class="lbl" data-en="Sigiriya" data-si="සිගිරිය" data-ta="Sigiriya">Sigiriya</span>
           <div class="card-hover"><span class="ch-name" data-en="Sigiriya<br>Rock Fortress" data-si="සිගිරිය<br>පාෂාණ කොටුව" data-ta="Sigiriya<br>Rotsfort">Sigiriya<br>Rock Fortress</span>
             <div class="ch-line"></div>
@@ -407,7 +407,7 @@
 
         <!-- c2 — Temple of the Tooth (top col2) -->
         <div class="card c2 r1">
-          <img src="../resources/img/destinations/kandy/kandy1.jpg" alt="Temple of the Tooth">
+          <img src="../resources/img/destinations/kandy/kandy1.webp" alt="Temple of the Tooth">
           <span class="lbl" data-en="Kandy" data-si="මහනුවර" data-ta="Kandy">Kandy</span>
           <div class="card-hover"><span class="ch-name" data-en="Temple of<br>the Tooth" data-si="දන්ත<br>ධාතු මන්දිරය" data-ta="Tempel van<br>de Tandreliek">Temple of<br>the Tooth</span>
             <div class="ch-line"></div>
@@ -416,7 +416,7 @@
 
         <!-- c3 — Yala National Park (top col3) -->
         <div class="card c3 r1">
-          <img src="../resources/img/destinations/yala/yala1.jpg" alt="Yala National Park">
+          <img src="../resources/img/destinations/yala/yala1.webp" alt="Yala National Park">
           <span class="lbl" data-en="Yala" data-si="යාල" data-ta="Yala">Yala</span>
           <div class="card-hover"><span class="ch-name" data-en="Yala<br>National Park" data-si="යාල<br>ජාතික වනෝද්‍යානය" data-ta="Yala<br>Nationaal Park">Yala<br>National Park</span>
             <div class="ch-line"></div>
@@ -425,7 +425,7 @@
 
         <!-- c4 — Galle Fort (top-right) -->
         <div class="card c4 r1">
-          <img src="../resources/img/destinations/galle/galle1.jpeg" alt="Galle Fort">
+          <img src="../resources/img/destinations/galle/galle1.webp" alt="Galle Fort">
           <span class="lbl" data-en="Galle" data-si="ගාල්ල" data-ta="Galle">Galle</span>
           <div class="card-hover"><span class="ch-name" data-en="Galle<br>Fort" data-si="ගාල්ල<br>කොටුව" data-ta="Galle<br>Fort">Galle<br>Fort</span>
             <div class="ch-line"></div>
@@ -434,7 +434,7 @@
 
         <!-- c5 — Ella (bottom-left) -->
         <div class="card c5">
-          <img src="../resources/img/destinations/ella/ella1.jpg" alt="Ella">
+          <img src="../resources/img/destinations/ella/ella1.webp" alt="Ella">
           <span class="lbl" data-en="Ella" data-si="ඇල්ල" data-ta="Ella">Ella</span>
           <div class="card-hover"><span class="ch-name" data-en="Ella<br>Valley" data-si="ඇල්ල<br>මහාච්චරකය" data-ta="Ella<br>Vallei">Ella<br>Valley</span>
             <div class="ch-line"></div>
@@ -443,7 +443,7 @@
 
         <!-- c6 — Mirissa Beach (bottom col2) -->
         <div class="card c6">
-          <img src="../resources/img/destinations/mirissa/mirissa1.jpeg" alt="Mirissa Beach">
+          <img src="../resources/img/destinations/mirissa/mirissa1.webp" alt="Mirissa Beach">
           <span class="lbl" data-en="Mirissa" data-si="මිරිස්ස" data-ta="Mirissa">Mirissa</span>
           <div class="card-hover"><span class="ch-name" data-en="Mirissa<br>Beach" data-si="මිරිස්ස<br>වෙරළ" data-ta="Mirissa<br>Strand">Mirissa<br>Beach</span>
             <div class="ch-line"></div>
@@ -452,7 +452,7 @@
 
         <!-- c7 — Adam's Peak (bottom col3) -->
         <div class="card c7">
-          <img src="../resources/img/destinations/adamspeak/adamspeak1.jpeg" alt="Adam's Peak">
+          <img src="../resources/img/destinations/adamspeak/adamspeak1.webp" alt="Adam's Peak">
           <span class="lbl" data-en="Adam's Peak" data-si="ශ්‍රී පාදස්ථානය" data-ta="Adam's Peak">Adam's Peak</span>
           <div class="card-hover"><span class="ch-name" data-en="Adam's<br>Peak" data-si="ශ්‍රී<br>පාදස්ථානය" data-ta="Adam's<br>Peak">Adam's<br>Peak</span>
             <div class="ch-line"></div>
@@ -461,7 +461,7 @@
 
         <!-- c8 — Anuradhapura (bottom-right) -->
         <div class="card c8">
-          <img src="../resources/img/destinations/anuradhapura/anuradhapura1.jpeg" alt="Anuradhapura">
+          <img src="../resources/img/destinations/anuradhapura/anuradhapura1.webp" alt="Anuradhapura">
           <span class="lbl" data-en="Anuradhapura" data-si="අනුරාධපුරය" data-ta="Anuradhapura">Anuradhapura</span>
           <div class="card-hover"><span class="ch-name" data-en="Anuradhapura<br>Ancient City" data-si="අනුරාධපුරය<br>පුරාණ නගරය" data-ta="Anuradhapura<br>Oude Stad">Anuradhapura<br>Ancient City</span>
             <div class="ch-line"></div>
@@ -512,9 +512,9 @@
           </div>
           <div class="nav-buttons">
             <button class="nav-btn" id="prevBtn" onclick="changeSlide('prev')"><img
-                src="../resources/img/home/arrow.png" class="arrow--img"></button>
+                src="../resources/img/home/arrow.webp" class="arrow--img"></button>
             <button class="nav-btn" id="nextBtn" onclick="changeSlide('next')"><img
-                src="../resources/img/home/arrow.png" class="arrow--img"></button>
+                src="../resources/img/home/arrow.webp" class="arrow--img"></button>
           </div>
         </div>
 

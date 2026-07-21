@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Time to Ceylon</title>
-    <link rel="icon" type="image/png" href="../resources/img/logo.png">
+    <link rel="icon" type="image/png" href="../resources/img/logo.webp">
 
     <link rel="stylesheet" href="../header/header.css">
     <link rel="stylesheet" href="experience-detail.css">
@@ -27,7 +27,7 @@
         <!-- Video background -->
         <div class="hero-video-wrap">
             <div class="hero-video">
-                <img src="../resources/img/pageBanners/pexels-malindabandaralk-16508230.jpg" alt="Hero Video" class="hero-video-content">
+                <img src="../resources/img/pageBanners/pexels-malindabandaralk-16508230.webp" alt="Hero Video" class="hero-video-content">
             </div>
             <div class="hero-overlay"></div>
         </div>
@@ -46,7 +46,7 @@
 
             <!-- Left: Main Image -->
             <div class="main-image-wrap">
-                <img src="../resources/img/experiences/experiences6.jpg"
+                <img src="../resources/img/experiences/experiences6.webp"
                     alt="Tropical beach sunset" class="main-img" />
             </div>
 
@@ -71,13 +71,13 @@
                 <!-- Bottom Gallery Row -->
                 <div class="gallery-row">
                     <div class="gallery-item">
-                        <img src="../resources/img/experiences/experiences23.jpeg" alt="Surfing waves" />
+                        <img src="../resources/img/experiences/experiences23.webp" alt="Surfing waves" />
                     </div>
                     <div class="gallery-item">
-                        <img src="../resources/img/experiences/experiences24.jpeg" alt="Whale watching" />
+                        <img src="../resources/img/experiences/experiences24.webp" alt="Whale watching" />
                     </div>
                     <div class="gallery-item">
-                        <img src="../resources/img/experiences/experiences25.jpeg" alt="Beachfront villa" />
+                        <img src="../resources/img/experiences/experiences25.webp" alt="Beachfront villa" />
                     </div>
                 </div>
 

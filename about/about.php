@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Time to Ceylon</title>
-  <link rel="icon" type="image/png" href="../resources/img/logo.png">
+  <link rel="icon" type="image/png" href="../resources/img/logo.webp">
 
   <link rel="stylesheet" href="../header/header.css">
   <link rel="stylesheet" href="about.css">
@@ -22,7 +22,7 @@
   <section class="hero">
     <div class="hero-video-wrap">
       <div class="hero-video">
-        <img src="../resources/img/pageBanners/710799594_26950846217876749_2666989989260806944_n.jpg" alt="Hero" class="hero-video-content">
+        <img src="../resources/img/pageBanners/710799594_26950846217876749_2666989989260806944_n.webp" alt="Hero" class="hero-video-content">
       </div>
       <div class="hero-overlay"></div>
     </div>
@@ -43,7 +43,7 @@
         <div class="card">
           <img
             class="card__img"
-            src="../resources/img/Beautiful.jpeg"
+            src="../resources/img/Beautiful.webp"
             alt="About us" />
           <div class="card__overlay">
             <div class="card__label">
@@ -51,9 +51,9 @@
             </div>
             <div class="card__clients">
               <div class="card__circles">
-                <div class="circle"><img src="../resources/img/clients/client1.jpg" alt="client 1" /></div>
-                <div class="circle"><img src="../resources/img/clients/client2.jpg" alt="client 2" /></div>
-                <div class="circle"><img src="../resources/img/clients/client3.jpg" alt="client 3" /></div>
+                <div class="circle"><img src="../resources/img/clients/client1.webp" alt="client 1" /></div>
+                <div class="circle"><img src="../resources/img/clients/client2.webp" alt="client 2" /></div>
+                <div class="circle"><img src="../resources/img/clients/client3.webp" alt="client 3" /></div>
               </div>
               <div class="card__clients-text">
                 <span class="clients-name" data-en="Happy Travelers" data-si="සතුටු සංචාරකයින්" data-ta="Blije reizigers">Happy Travelers</span>
@@ -182,7 +182,7 @@
       <div class="arch-wrap">
         <div class="arch-outline"></div>
         <div class="arch-photo">
-          <img src="../resources/img/home/3.jpeg" alt="Two hikers walking through forest" />
+          <img src="../resources/img/home/3.webp" alt="Two hikers walking through forest" />
         </div>
       </div>
 
@@ -217,7 +217,7 @@
               <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
             </svg>
           </div>
-          <strong><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="e4858687a48389858d88ca878b89">[email&#160;protected]</a></strong>
+          <strong><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="e4858687a48389858d88ca878b89">info@timetoceylon.com</a></strong>
           <span data-en="We Reply Within Hours" data-si="පැය කිහිපයකින් පිළිතුරු දෙයි" data-ta="Wij Reageren Binnen Uren">We Reply Within Hours</span>
         </div>
 

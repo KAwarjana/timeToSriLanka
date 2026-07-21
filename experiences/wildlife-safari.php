@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Time to Ceylon</title>
-    <link rel="icon" type="image/png" href="../resources/img/logo.png">
+    <link rel="icon" type="image/png" href="../resources/img/logo.webp">
 
     <link rel="stylesheet" href="../header/header.css">
     <link rel="stylesheet" href="experience-detail.css">
@@ -27,7 +27,7 @@
         <!-- Video background -->
         <div class="hero-video-wrap">
             <div class="hero-video">
-                <img src="../resources/img/pageBanners/pexels-thilina-alagiyawanna-3266092-18458139.jpg" alt="Hero Video" class="hero-video-content">
+                <img src="../resources/img/pageBanners/pexels-thilina-alagiyawanna-3266092-18458139.webp" alt="Hero Video" class="hero-video-content">
             </div>
             <div class="hero-overlay"></div>
         </div>
@@ -46,7 +46,7 @@
 
             <!-- Left: Main Image -->
             <div class="main-image-wrap">
-                <img src="../resources/img/experiences/experiences2.jpeg"
+                <img src="../resources/img/experiences/experiences2.webp"
                     alt="Wildlife safari jeep" class="main-img" />
             </div>
 
@@ -71,13 +71,13 @@
                 <!-- Bottom Gallery Row -->
                 <div class="gallery-row">
                     <div class="gallery-item">
-                        <img src="../resources/img/experiences/experiences10.jpeg" alt="Leopard spotting" />
+                        <img src="../resources/img/experiences/experiences10.webp" alt="Leopard spotting" />
                     </div>
                     <div class="gallery-item">
-                        <img src="../resources/img/experiences/experiences11.jpeg" alt="Elephant herd" />
+                        <img src="../resources/img/experiences/experiences11.webp" alt="Elephant herd" />
                     </div>
                     <div class="gallery-item">
-                        <img src="../resources/img/experiences/experiences12.jpeg"
+                        <img src="../resources/img/experiences/experiences12.webp"
                             alt="Bird watching" />
                     </div>
                 </div>

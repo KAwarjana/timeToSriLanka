@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Time to Ceylon</title>
-  <link rel="icon" type="image/png" href="../resources/img/logo.png">
+  <link rel="icon" type="image/png" href="../resources/img/logo.webp">
   
   <link rel="stylesheet" href="../header/header.css">
   <link rel="stylesheet" href="booking.css">
@@ -26,7 +26,7 @@
   <section class="hero">
     <div class="hero-video-wrap">
       <div class="hero-video">
-        <img src="../resources/img/pageBanners/pexels-akos-helgert-82252426-9013701.jpg" alt="Hero Video" class="hero-video-content">
+        <img src="../resources/img/pageBanners/pexels-akos-helgert-82252426-9013701.webp" alt="Hero Video" class="hero-video-content">
       </div>
       <div class="hero-overlay"></div>
     </div>
@@ -205,9 +205,9 @@
           </div>
           <div class="nav-buttons">
             <button class="nav-btn" id="prevBtn" onclick="changeSlide('prev')"><img
-                src="../resources/img/home/arrow.png" class="arrow--img"></button>
+                src="../resources/img/home/arrow.webp" class="arrow--img"></button>
             <button class="nav-btn" id="nextBtn" onclick="changeSlide('next')"><img
-                src="../resources/img/home/arrow.png" class="arrow--img"></button>
+                src="../resources/img/home/arrow.webp" class="arrow--img"></button>
           </div>
         </div>
       </div>

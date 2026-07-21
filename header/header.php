@@ -9,7 +9,7 @@
     href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500 ;700&family=Outfit:wght@300;400;500;600&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="header.css">
-  <link rel="icon" type="image/png" href="../resources/img/logo_single.png">
+  <link rel="icon" type="image/png" href="../resources/img/logo_single.webp">
 </head>
 
 <body>
@@ -51,7 +51,7 @@
           <polyline points="22,6 12,12 2,6" />
         </svg>
         <span class="__cf_email__"
-          data-cfemail="fa8e93979f8e95898893969b94919bba9d979b9396d4999597">[email&#160;protected]</span>
+          data-cfemail="fa8e93979f8e95898893969b94919bba9d979b9396d4999597">info@timetoceylon.com</span>
       </a>
     </div>
 
@@ -115,8 +115,8 @@
   <!-- MAIN NAVBAR -->
   <nav class="navbar">
     <div class="logo">
-      <img src="../resources/img/logo_banner.png" alt="Time to Ceylon Logo" class="header-logo-img logo-desktop-img">
-      <img src="../resources/img/logo_single.png" alt="Time to Ceylon Logo" class="header-logo-img logo-mobile-img">
+      <img src="../resources/img/logo_banner.webp" alt="Time to Ceylon Logo" class="header-logo-img logo-desktop-img">
+      <img src="../resources/img/logo_single.webp" alt="Time to Ceylon Logo" class="header-logo-img logo-mobile-img">
     </div>
 
     <ul class="nav-links" id="navLinks">
@@ -172,7 +172,7 @@
       <div class="panel-header">
         <div class="panel-logo">
           <div class="panel-logo-icon">
-            <img src="../resources/img/logo_banner.png" alt="Time to Ceylon Logo" class="header-logo-img">
+            <img src="../resources/img/logo_banner.webp" alt="Time to Ceylon Logo" class="header-logo-img">
           </div>
           <!-- <div>
             <div class="panel-logo-text" data-en="Time to Ceylon" data-si="Time to Ceylon" data-ta="Time to Ceylon">Time to Ceylon</div>
@@ -269,7 +269,7 @@
             </svg>
           </span>
           <span class="__cf_email__"
-            data-cfemail="cfbba6a2aabba0bcbda6a3aea1a4ae8fa8a2aea6a3e1aca0a2">[email&#160;protected]</span>
+            data-cfemail="cfbba6a2aabba0bcbda6a3aea1a4ae8fa8a2aea6a3e1aca0a2">info@timetoceylon.com</span>
         </a>
         <div class="panel-contact-item">
           <span class="panel-contact-icon">

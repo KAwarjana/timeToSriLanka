@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Time to Ceylon</title>
-    <link rel="icon" type="image/png" href="../resources/img/logo.png">
+    <link rel="icon" type="image/png" href="../resources/img/logo.webp">
 
     <link rel="stylesheet" href="../header/header.css">
     <link rel="stylesheet" href="experience-detail.css">
@@ -27,7 +27,7 @@
         <!-- Video background -->
         <div class="hero-video-wrap">
             <div class="hero-video">
-                <img src="../resources/img/pageBanners/pexels-batagov-29813522.jpg" alt="Hero Video" class="hero-video-content">
+                <img src="../resources/img/pageBanners/pexels-batagov-29813522.webp" alt="Hero Video" class="hero-video-content">
             </div>
             <div class="hero-overlay"></div>
         </div>
@@ -46,7 +46,7 @@
 
             <!-- Left: Main Image -->
             <div class="main-image-wrap">
-                <img src="../resources/img/experiences/experiences1.jpeg"
+                <img src="../resources/img/experiences/experiences1.webp"
                     alt="Mountain trail adventure" class="main-img" />
             </div>
 
@@ -71,14 +71,14 @@
                 <!-- Bottom Gallery Row -->
                 <div class="gallery-row">
                     <div class="gallery-item">
-                        <img src="../resources/img/experiences/experiences7.jpeg" alt="Tea plantation hiking" />
+                        <img src="../resources/img/experiences/experiences7.webp" alt="Tea plantation hiking" />
                     </div>
                     <div class="gallery-item">
-                        <img src="../resources/img/experiences/experiences8.jpeg"
+                        <img src="../resources/img/experiences/experiences8.webp"
                             alt="Summit view" />
                     </div>
                     <div class="gallery-item">
-                        <img src="../resources/img/experiences/experiences9.jpeg"
+                        <img src="../resources/img/experiences/experiences9.webp"
                             alt="Waterfall trek" />
                     </div>
                 </div>

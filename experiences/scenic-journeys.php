@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Time to Ceylon</title>
-    <link rel="icon" type="image/png" href="../resources/img/logo.png">
+    <link rel="icon" type="image/png" href="../resources/img/logo.webp">
 
     <link rel="stylesheet" href="../header/header.css">
     <link rel="stylesheet" href="experience-detail.css">
@@ -27,7 +27,7 @@
         <!-- Video background -->
         <div class="hero-video-wrap">
             <div class="hero-video">
-                <img src="../resources/img/pageBanners/pexels-tanhatamannasyed-35371184.jpg" alt="Hero Video" class="hero-video-content">
+                <img src="../resources/img/pageBanners/pexels-tanhatamannasyed-35371184.webp" alt="Hero Video" class="hero-video-content">
             </div>
             <div class="hero-overlay"></div>
         </div>
@@ -46,7 +46,7 @@
 
             <!-- Left: Main Image -->
             <div class="main-image-wrap">
-                <img src="../resources/img/experiences/experiences5.jpeg"
+                <img src="../resources/img/experiences/experiences5.webp"
                     alt="Scenic train journey" class="main-img" />
             </div>
 
@@ -71,14 +71,14 @@
                 <!-- Bottom Gallery Row -->
                 <div class="gallery-row">
                     <div class="gallery-item">
-                        <img src="../resources/img/experiences/experiences20.jpeg" alt="Nine arch bridge" />
+                        <img src="../resources/img/experiences/experiences20.webp" alt="Nine arch bridge" />
                     </div>
                     <div class="gallery-item">
-                        <img src="../resources/img/experiences/experiences21.jpeg"
+                        <img src="../resources/img/experiences/experiences21.webp"
                             alt="Tea plantation view" />
                     </div>
                     <div class="gallery-item">
-                        <img src="../resources/img/experiences/experiences22.jpeg"
+                        <img src="../resources/img/experiences/experiences22.webp"
                             alt="Mountain railway" />
                     </div>
                 </div>

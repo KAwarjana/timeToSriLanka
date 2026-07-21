@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Time to Ceylon</title>
-    <link rel="icon" type="image/png" href="../resources/img/logo.png">
+    <link rel="icon" type="image/png" href="../resources/img/logo.webp">
 
     <link rel="stylesheet" href="../header/header.css">
     <link rel="stylesheet" href="services.css">
@@ -27,7 +27,7 @@
         <!-- Video background -->
         <div class="hero-video-wrap">
             <div class="hero-video">
-                <img src="../resources/img/pageBanners/pexels-yogeshkumar-392100.jpg" alt="Hero Video" class="hero-video-content">
+                <img src="../resources/img/pageBanners/pexels-yogeshkumar-392100.webp" alt="Hero Video" class="hero-video-content">
             </div>
             <div class="hero-overlay"></div>
         </div>
@@ -44,7 +44,7 @@
         <!-- Card 1: Image Left -->
         <div class="card card--image-left">
             <div class="card__image-wrap">
-                <img src="../resources/img/services/download (37).jpeg"
+                <img src="../resources/img/services/download (37).webp"
                     alt="Private chauffeur tour vehicle" />
                 <div class="card__overlay"></div>
             </div>
@@ -63,7 +63,7 @@
         <!-- Card 2: Image Right -->
         <div class="card card--image-right">
             <div class="card__image-wrap">
-                <img src="../resources/img/services/Tea garden natural photo.jpeg"
+                <img src="../resources/img/services/Tea garden natural photo.webp"
                     alt="Tailor-made travel planning" />
                 <div class="card__overlay"></div>
             </div>
@@ -82,7 +82,7 @@
         <!-- Card 3: Image Left -->
         <div class="card card--image-left">
             <div class="card__image-wrap">
-                <img src="../resources/img/services/downloadH.jpeg"
+                <img src="../resources/img/services/downloadH.webp"
                     alt="Boutique hotel accommodation" />
                 <div class="card__overlay"></div>
             </div>
@@ -100,7 +100,7 @@
 
         <div class="card card--image-right">
             <div class="card__image-wrap">
-                <img src="../resources/img/services/srilanka airport.jpeg"
+                <img src="../resources/img/services/srilanka airport.webp"
                     alt="Airport transfer service" />
                 <div class="card__overlay"></div>
             </div>
@@ -118,7 +118,7 @@
 
         <div class="card card--image-left">
             <div class="card__image-wrap">
-                <img src="../resources/img/services/Apply for Hotel Management Jobs in Maldives – Resort Vacancies Open Now.jpeg"
+                <img src="../resources/img/services/Apply for Hotel Management Jobs in Maldives – Resort Vacancies Open Now.webp"
                     alt="Local travel concierge" />
                 <div class="card__overlay"></div>
             </div>
@@ -136,7 +136,7 @@
 
         <div class="card card--image-right">
             <div class="card__image-wrap">
-                <img src="../resources/img/services/call center training in karachi pakistan.jpeg"
+                <img src="../resources/img/services/call center training in karachi pakistan.webp"
                     alt="24/7 guest assistance" />
                 <div class="card__overlay"></div>
             </div>

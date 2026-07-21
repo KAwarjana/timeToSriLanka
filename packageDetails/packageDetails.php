@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Time to Ceylon — Package Details</title>
-    <link rel="icon" type="image/png" href="../resources/img/logo.png">
+    <title>Time to Ceylon</title>
+    <link rel="icon" type="image/png" href="../resources/img/logo.webp">
 
     <link rel="stylesheet" href="../header/header.css">
     <link rel="stylesheet" href="packageDetails.css">
@@ -20,17 +20,12 @@
 
     <div class="bg-blob" aria-hidden="true"></div>
 
-    <!-- Everything below lives on ONE physical page. Only the section
-         matching the ?pkg= URL parameter is revealed — packageDetails.js
-         hides the rest, so each "See More" link still feels like its
-         own dedicated page without needing 7 separate files. -->
-
     <!-- ═══════════════════════════════════════════════════════
          PACKAGE 1 — Grand Ceylon Experience (14 Days / 13 Nights)
     ═══════════════════════════════════════════════════════ -->
     <section class="pkg-detail-section" data-pkg="1">
         <div class="pd-hero">
-            <img src="https://images.unsplash.com/photo-1704797390901-e1d20bd46647?w=1600&q=80" class="pd-hero-img" alt="Grand Ceylon Experience">
+            <img src="../resources/img/pageBanners/pexels-lena-goncharova-78970252-8692685.webp" class="pd-hero-img" alt="Grand Ceylon Experience">
             <div class="pd-hero-overlay"></div>
             <div class="pd-hero-content">
                 <a href="../packages/packages.php" class="pd-back">← Back to Packages</a>
@@ -46,22 +41,22 @@
 
                 <h2 class="pd-section-title">Tour Highlights</h2>
                 <div class="pd-highlight-grid">
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?w=500&q=80" alt="Wilpattu National Park Safari" onclick="openLightbox(this.src)"><p>Wilpattu National Park Safari</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?w=500&q=80" alt="Yala National Park Safari" onclick="openLightbox(this.src)"><p>Yala National Park Safari</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1704797390901-e1d20bd46647?w=500&q=80" alt="Sigiriya Rock Fortress" onclick="openLightbox(this.src)"><p>Sigiriya Rock Fortress</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1704797390901-e1d20bd46647?w=500&q=80" alt="Pidurangala Rock" onclick="openLightbox(this.src)"><p>Pidurangala Rock</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1484373584673-b7f0ced4d46e?w=500&q=80" alt="Dambulla Cave Temple" onclick="openLightbox(this.src)"><p>Dambulla Cave Temple</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=500&q=80" alt="Temple of the Sacred Tooth Relic" onclick="openLightbox(this.src)"><p>Temple of the Sacred Tooth Relic</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1510312305653-8ed496efae75?w=500&q=80" alt="Tea Plantation & Tea Factory" onclick="openLightbox(this.src)"><p>Tea Plantation &amp; Tea Factory</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1469521669194-babb45599def?w=500&q=80" alt="Scenic Train Journey Nanu Oya to Ella" onclick="openLightbox(this.src)"><p>Scenic Train (Nanu Oya → Ella)</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1501554728187-ce583db33af7?w=500&q=80" alt="Horton Plains National Park" onclick="openLightbox(this.src)"><p>Horton Plains National Park</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1469521669194-babb45599def?w=500&q=80" alt="Little Adam's Peak" onclick="openLightbox(this.src)"><p>Little Adam's Peak</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1469521669194-babb45599def?w=500&q=80" alt="Nine Arch Bridge" onclick="openLightbox(this.src)"><p>Nine Arch Bridge</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500&q=80" alt="Ravana Falls" onclick="openLightbox(this.src)"><p>Ravana Falls</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500&q=80" alt="Upper Diyaluma Falls" onclick="openLightbox(this.src)"><p>Upper Diyaluma Falls</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=500&q=80" alt="Blue Whale Watching" onclick="openLightbox(this.src)"><p>Blue Whale Watching</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1496080174650-637e3f22fa03?w=500&q=80" alt="Galle Fort" onclick="openLightbox(this.src)"><p>Galle Fort</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=500&q=80" alt="Mirissa Beach" onclick="openLightbox(this.src)"><p>Mirissa Beach</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/wilpattu/wilpattu01.webp" alt="Wilpattu National Park Safari" onclick="openLightbox(this.src)"><p>Wilpattu National Park Safari</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/yala/yala1.webp" alt="Yala National Park Safari" onclick="openLightbox(this.src)"><p>Yala National Park Safari</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/sigiriya/sigiriya1.webp" alt="Sigiriya Rock Fortress" onclick="openLightbox(this.src)"><p>Sigiriya Rock Fortress</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/pidurangala/pidurangala1.webp" alt="Pidurangala Rock" onclick="openLightbox(this.src)"><p>Pidurangala Rock</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/dambulla/DambullaCaveTemple1.webp" alt="Dambulla Cave Temple" onclick="openLightbox(this.src)"><p>Dambulla Cave Temple</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/kandy/kandy1.webp" alt="Temple of the Sacred Tooth Relic" onclick="openLightbox(this.src)"><p>Temple of the Sacred Tooth Relic</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/packages/caption.webp" alt="Tea Plantation & Tea Factory" onclick="openLightbox(this.src)"><p>Tea Plantation &amp; Tea Factory</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/ella/ella1.webp" alt="Scenic Train Journey Nanu Oya to Ella" onclick="openLightbox(this.src)"><p>Scenic Train (Nanu Oya → Ella)</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/horton/horton1.webp" alt="Horton Plains National Park" onclick="openLightbox(this.src)"><p>Horton Plains National Park</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/packages/little-adams-peak-ella-1024x683.webp" alt="Little Adam's Peak" onclick="openLightbox(this.src)"><p>Little Adam's Peak</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/packages/nine-arch-bridge-ella-sri-lanka-0429.webp" alt="Nine Arch Bridge" onclick="openLightbox(this.src)"><p>Nine Arch Bridge</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/ravanafalls/ravanafalls1.webp" alt="Ravana Falls" onclick="openLightbox(this.src)"><p>Ravana Falls</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/packages/images (3).webp" alt="Upper Diyaluma Falls" onclick="openLightbox(this.src)"><p>Upper Diyaluma Falls</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/mirissa/mirissa4.webp" alt="Blue Whale Watching" onclick="openLightbox(this.src)"><p>Blue Whale Watching</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/galle/galle2.webp" alt="Galle Fort" onclick="openLightbox(this.src)"><p>Galle Fort</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/mirissa/mirissa1.webp" alt="Mirissa Beach" onclick="openLightbox(this.src)"><p>Mirissa Beach</p></div>
                 </div>
 
                 <h2 class="pd-section-title">Accommodation</h2>
@@ -150,7 +145,7 @@
     ═══════════════════════════════════════════════════════ -->
     <section class="pkg-detail-section" data-pkg="2">
         <div class="pd-hero">
-            <img src="https://images.unsplash.com/photo-1484373584673-b7f0ced4d46e?w=1600&q=80" class="pd-hero-img" alt="Ceylon Discovery">
+            <img src="../resources/img/pageBanners/pexels-thilina-alagiyawanna-3266092-34861048.webp" class="pd-hero-img" alt="Ceylon Discovery">
             <div class="pd-hero-overlay"></div>
             <div class="pd-hero-content">
                 <a href="../packages/packages.php" class="pd-back">← Back to Packages</a>
@@ -166,16 +161,16 @@
 
                 <h2 class="pd-section-title">Tour Highlights</h2>
                 <div class="pd-highlight-grid">
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1484373584673-b7f0ced4d46e?w=500&q=80" alt="Ancient City of Anuradhapura" onclick="openLightbox(this.src)"><p>Ancient City of Anuradhapura</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1704797390901-e1d20bd46647?w=500&q=80" alt="Sigiriya Rock Fortress" onclick="openLightbox(this.src)"><p>Sigiriya Rock Fortress</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1484373584673-b7f0ced4d46e?w=500&q=80" alt="Ancient City of Polonnaruwa" onclick="openLightbox(this.src)"><p>Ancient City of Polonnaruwa</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1484373584673-b7f0ced4d46e?w=500&q=80" alt="Dambulla Cave Temple" onclick="openLightbox(this.src)"><p>Dambulla Cave Temple</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=500&q=80" alt="Temple of the Sacred Tooth Relic" onclick="openLightbox(this.src)"><p>Temple of the Sacred Tooth Relic</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1484373584673-b7f0ced4d46e?w=500&q=80" alt="Mihintale Sacred Mountain" onclick="openLightbox(this.src)"><p>Mihintale Sacred Mountain</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1484373584673-b7f0ced4d46e?w=500&q=80" alt="Ritigala Forest Monastery" onclick="openLightbox(this.src)"><p>Ritigala Forest Monastery</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1501554728187-ce583db33af7?w=500&q=80" alt="Royal Botanical Gardens" onclick="openLightbox(this.src)"><p>Royal Botanical Gardens</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=500&q=80" alt="Kandy Cultural Dance Performance" onclick="openLightbox(this.src)"><p>Kandy Cultural Dance Performance</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1501554728187-ce583db33af7?w=500&q=80" alt="Colombo City Experience" onclick="openLightbox(this.src)"><p>Colombo City Experience</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/anuradhapura/anuradhapura1.webp" alt="Ancient City of Anuradhapura" onclick="openLightbox(this.src)"><p>Ancient City of Anuradhapura</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/sigiriya/sigiriya1.webp" alt="Sigiriya Rock Fortress" onclick="openLightbox(this.src)"><p>Sigiriya Rock Fortress</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/polonnaruwa/polonnaruwa1.webp" alt="Ancient City of Polonnaruwa" onclick="openLightbox(this.src)"><p>Ancient City of Polonnaruwa</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/dambulla/DambullaCaveTemple1.webp" alt="Dambulla Cave Temple" onclick="openLightbox(this.src)"><p>Dambulla Cave Temple</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/kandy/kandy1.webp" alt="Temple of the Sacred Tooth Relic" onclick="openLightbox(this.src)"><p>Temple of the Sacred Tooth Relic</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/packages/unnamed.webp" alt="Mihintale Sacred Mountain" onclick="openLightbox(this.src)"><p>Mihintale Sacred Mountain</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/packages/Ritigala-in-Sri-Lanka.webp" alt="Ritigala Forest Monastery" onclick="openLightbox(this.src)"><p>Ritigala Forest Monastery</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/packages/unnamed (1).webp" alt="Royal Botanical Gardens" onclick="openLightbox(this.src)"><p>Royal Botanical Gardens</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/experiences/experiences16.webp" alt="Kandy Cultural Dance Performance" onclick="openLightbox(this.src)"><p>Kandy Cultural Dance Performance</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/colombo/colombo01.webp" alt="Colombo City Experience" onclick="openLightbox(this.src)"><p>Colombo City Experience</p></div>
                 </div>
 
                 <h2 class="pd-section-title">Accommodation</h2>
@@ -253,7 +248,7 @@
     ═══════════════════════════════════════════════════════ -->
     <section class="pkg-detail-section" data-pkg="3">
         <div class="pd-hero">
-            <img src="https://images.unsplash.com/photo-1510312305653-8ed496efae75?w=1600&q=80" class="pd-hero-img" alt="Signature Journey">
+            <img src="../resources/img/pageBanners/pexels-dtravel-vlog-1025192350-27952349.webp" class="pd-hero-img" alt="Signature Journey">
             <div class="pd-hero-overlay"></div>
             <div class="pd-hero-content">
                 <a href="../packages/packages.php" class="pd-back">← Back to Packages</a>
@@ -269,16 +264,16 @@
 
                 <h2 class="pd-section-title">Tour Highlights</h2>
                 <div class="pd-highlight-grid">
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1704797390901-e1d20bd46647?w=500&q=80" alt="Sigiriya Rock Fortress" onclick="openLightbox(this.src)"><p>Sigiriya Rock Fortress</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1484373584673-b7f0ced4d46e?w=500&q=80" alt="Ancient City of Polonnaruwa" onclick="openLightbox(this.src)"><p>Ancient City of Polonnaruwa</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?w=500&q=80" alt="Minneriya National Park Safari" onclick="openLightbox(this.src)"><p>Minneriya National Park Safari</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1484373584673-b7f0ced4d46e?w=500&q=80" alt="Dambulla Cave Temple" onclick="openLightbox(this.src)"><p>Dambulla Cave Temple</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=500&q=80" alt="Temple of the Sacred Tooth Relic" onclick="openLightbox(this.src)"><p>Temple of the Sacred Tooth Relic</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1510312305653-8ed496efae75?w=500&q=80" alt="Tea Plantation & Tea Factory" onclick="openLightbox(this.src)"><p>Tea Plantation &amp; Tea Factory</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?w=500&q=80" alt="Yala National Park Safari" onclick="openLightbox(this.src)"><p>Yala National Park Safari</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500&q=80" alt="Ravana Falls" onclick="openLightbox(this.src)"><p>Ravana Falls</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1496080174650-637e3f22fa03?w=500&q=80" alt="Galle Fort" onclick="openLightbox(this.src)"><p>Galle Fort</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=500&q=80" alt="Southern Coast Experience" onclick="openLightbox(this.src)"><p>Southern Coast Experience</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/sigiriya/sigiriya1.webp" alt="Sigiriya Rock Fortress" onclick="openLightbox(this.src)"><p>Sigiriya Rock Fortress</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/polonnaruwa/polonnaruwa1.webp" alt="Ancient City of Polonnaruwa" onclick="openLightbox(this.src)"><p>Ancient City of Polonnaruwa</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/minneriya/minneriya1.webp" alt="Minneriya National Park Safari" onclick="openLightbox(this.src)"><p>Minneriya National Park Safari</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/dambulla/DambullaCaveTemple1.webp" alt="Dambulla Cave Temple" onclick="openLightbox(this.src)"><p>Dambulla Cave Temple</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/kandy/kandy1.webp" alt="Temple of the Sacred Tooth Relic" onclick="openLightbox(this.src)"><p>Temple of the Sacred Tooth Relic</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/packages/caption.webp" alt="Tea Plantation & Tea Factory" onclick="openLightbox(this.src)"><p>Tea Plantation &amp; Tea Factory</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/yala/yala1.webp" alt="Yala National Park Safari" onclick="openLightbox(this.src)"><p>Yala National Park Safari</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/ravanafalls/ravanafalls1.webp" alt="Ravana Falls" onclick="openLightbox(this.src)"><p>Ravana Falls</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/galle/galle2.webp" alt="Galle Fort" onclick="openLightbox(this.src)"><p>Galle Fort</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/pigeonisland/pigeonisland4.webp" alt="Southern Coast Experience" onclick="openLightbox(this.src)"><p>Southern Coast Experience</p></div>
                 </div>
 
                 <h2 class="pd-section-title">Accommodation</h2>
@@ -358,7 +353,7 @@
     ═══════════════════════════════════════════════════════ -->
     <section class="pkg-detail-section" data-pkg="4">
         <div class="pd-hero">
-            <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1600&q=80" class="pd-hero-img" alt="Bird Watching Tour">
+            <img src="../resources/img/pageBanners/pexels-freestockpro-11398739.webp" class="pd-hero-img" alt="Bird Watching Tour">
             <div class="pd-hero-overlay"></div>
             <div class="pd-hero-content">
                 <a href="../packages/packages.php" class="pd-back">← Back to Packages</a>
@@ -374,10 +369,10 @@
 
                 <h2 class="pd-section-title">Tour Highlights</h2>
                 <div class="pd-highlight-grid">
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=500&q=80" alt="UNESCO-listed Sinharaja Rainforest" onclick="openLightbox(this.src)"><p>UNESCO-listed Sinharaja Rainforest</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?w=500&q=80" alt="Rare and Endemic Bird Species" onclick="openLightbox(this.src)"><p>Rare &amp; Endemic Bird Species</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1469521669194-babb45599def?w=500&q=80" alt="Guided Rainforest Walk" onclick="openLightbox(this.src)"><p>Guided Rainforest Walk</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=500&q=80" alt="Tropical Wildlife and Butterflies" onclick="openLightbox(this.src)"><p>Tropical Wildlife &amp; Butterflies</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/sinharaja/sinharaja1.webp" alt="UNESCO-listed Sinharaja Rainforest" onclick="openLightbox(this.src)"><p>UNESCO-listed Sinharaja Rainforest</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/packages/Ceylon-Green-Pigeon-2.webp" alt="Rare and Endemic Bird Species" onclick="openLightbox(this.src)"><p>Rare &amp; Endemic Bird Species</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/packages/85.webp" alt="Guided Rainforest Walk" onclick="openLightbox(this.src)"><p>Guided Rainforest Walk</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/packages/provincial-butterflies-of-sri-lanka-8.webp" alt="Tropical Wildlife and Butterflies" onclick="openLightbox(this.src)"><p>Tropical Wildlife &amp; Butterflies</p></div>
                 </div>
 
                 <h2 class="pd-section-title">Tour Information</h2>
@@ -451,7 +446,7 @@
     ═══════════════════════════════════════════════════════ -->
     <section class="pkg-detail-section" data-pkg="5">
         <div class="pd-hero">
-            <img src="https://images.unsplash.com/photo-1469521669194-babb45599def?w=1600&q=80" class="pd-hero-img" alt="Ella Day Tour">
+            <img src="../resources/img/pageBanners/pexels-hiruna-wanninayake-2156204267-34927580.webp" class="pd-hero-img" alt="Ella Day Tour">
             <div class="pd-hero-overlay"></div>
             <div class="pd-hero-content">
                 <a href="../packages/packages.php" class="pd-back">← Back to Packages</a>
@@ -467,11 +462,11 @@
 
                 <h2 class="pd-section-title">Tour Highlights</h2>
                 <div class="pd-highlight-grid">
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1469521669194-babb45599def?w=500&q=80" alt="Nine Arch Bridge" onclick="openLightbox(this.src)"><p>Nine Arch Bridge</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1469521669194-babb45599def?w=500&q=80" alt="Little Adam's Peak" onclick="openLightbox(this.src)"><p>Little Adam's Peak</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500&q=80" alt="Ravana Falls" onclick="openLightbox(this.src)"><p>Ravana Falls</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1496080174650-637e3f22fa03?w=500&q=80" alt="Ella Town" onclick="openLightbox(this.src)"><p>Ella Town</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1510312305653-8ed496efae75?w=500&q=80" alt="Tea Plantations and Scenic Viewpoints" onclick="openLightbox(this.src)"><p>Tea Plantations &amp; Scenic Viewpoints</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/packages/nine-arch-bridge-ella-sri-lanka-0429.webp" alt="Nine Arch Bridge" onclick="openLightbox(this.src)"><p>Nine Arch Bridge</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/packages/little-adams-peak-ella-1024x683.webp" alt="Little Adam's Peak" onclick="openLightbox(this.src)"><p>Little Adam's Peak</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/ravanafalls/ravanafalls1.webp" alt="Ravana Falls" onclick="openLightbox(this.src)"><p>Ravana Falls</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/packages/Ella-Sri-Lanka.webp" alt="Ella Town" onclick="openLightbox(this.src)"><p>Ella Town</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/packages/caption.webp" alt="Tea Plantations and Scenic Viewpoints" onclick="openLightbox(this.src)"><p>Tea Plantations &amp; Scenic Viewpoints</p></div>
                 </div>
 
                 <h2 class="pd-section-title">Tour Information</h2>
@@ -546,7 +541,7 @@
     ═══════════════════════════════════════════════════════ -->
     <section class="pkg-detail-section" data-pkg="6">
         <div class="pd-hero">
-            <img src="https://images.unsplash.com/photo-1704797390901-e1d20bd46647?w=1600&q=80" class="pd-hero-img" alt="Sigiriya and Dambulla Day Tour">
+            <img src="../resources/img/pageBanners/pexels-thilina-alagiyawanna-3266092-38343572.webp" class="pd-hero-img" alt="Sigiriya and Dambulla Day Tour">
             <div class="pd-hero-overlay"></div>
             <div class="pd-hero-content">
                 <a href="../packages/packages.php" class="pd-back">← Back to Packages</a>
@@ -562,11 +557,11 @@
 
                 <h2 class="pd-section-title">Tour Highlights</h2>
                 <div class="pd-highlight-grid">
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1704797390901-e1d20bd46647?w=500&q=80" alt="Sigiriya Rock Fortress UNESCO" onclick="openLightbox(this.src)"><p>Sigiriya Rock Fortress (UNESCO)</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1484373584673-b7f0ced4d46e?w=500&q=80" alt="Dambulla Cave Temple UNESCO" onclick="openLightbox(this.src)"><p>Dambulla Cave Temple (UNESCO)</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1704797390901-e1d20bd46647?w=500&q=80" alt="Spectacular Panoramic Views" onclick="openLightbox(this.src)"><p>Spectacular Panoramic Views</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1484373584673-b7f0ced4d46e?w=500&q=80" alt="Ancient Frescoes and Palace Ruins" onclick="openLightbox(this.src)"><p>Ancient Frescoes &amp; Palace Ruins</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1501554728187-ce583db33af7?w=500&q=80" alt="Optional Village Experience" onclick="openLightbox(this.src)"><p>Optional Village Experience</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/sigiriya/sigiriya1.webp" alt="Sigiriya Rock Fortress UNESCO" onclick="openLightbox(this.src)"><p>Sigiriya Rock Fortress (UNESCO)</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/dambulla/DambullaCaveTemple1.webp" alt="Dambulla Cave Temple UNESCO" onclick="openLightbox(this.src)"><p>Dambulla Cave Temple (UNESCO)</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/packages/image_processing20200227-4-1ywg9yl.webp" alt="Spectacular Panoramic Views" onclick="openLightbox(this.src)"><p>Spectacular Panoramic Views</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/sigiriya/sigiriya4.webp" alt="Ancient Frescoes and Palace Ruins" onclick="openLightbox(this.src)"><p>Ancient Frescoes &amp; Palace Ruins</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/packages/hi-i-am-sumith-i-am-the.webp" alt="Optional Village Experience" onclick="openLightbox(this.src)"><p>Optional Village Experience</p></div>
                 </div>
 
                 <h2 class="pd-section-title">Tour Information</h2>
@@ -643,7 +638,7 @@
     ═══════════════════════════════════════════════════════ -->
     <section class="pkg-detail-section" data-pkg="7">
         <div class="pd-hero">
-            <img src="https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?w=1600&q=80" class="pd-hero-img" alt="Wilpattu National Park Day Tour">
+            <img src="../resources/img/pageBanners/pexels-roman-odintsov-4870604.webp" class="pd-hero-img" alt="Wilpattu National Park Day Tour">
             <div class="pd-hero-overlay"></div>
             <div class="pd-hero-content">
                 <a href="../packages/packages.php" class="pd-back">← Back to Packages</a>
@@ -659,11 +654,11 @@
 
                 <h2 class="pd-section-title">Tour Highlights</h2>
                 <div class="pd-highlight-grid">
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?w=500&q=80" alt="Private Wilpattu National Park Safari" onclick="openLightbox(this.src)"><p>Private Wilpattu Safari</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?w=500&q=80" alt="Sri Lankan Leopard" onclick="openLightbox(this.src)"><p>Sri Lankan Leopard</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500&q=80" alt="Asian Elephants and Sloth Bears" onclick="openLightbox(this.src)"><p>Asian Elephants &amp; Sloth Bears</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=500&q=80" alt="Famous Natural Villus" onclick="openLightbox(this.src)"><p>Famous Natural Villus</p></div>
-                    <div class="pd-highlight"><img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=500&q=80" alt="Private 4x4 Safari Jeep" onclick="openLightbox(this.src)"><p>Private 4x4 Safari Jeep</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/packages/LK50F01000-14-E.webp" alt="Private Wilpattu National Park Safari" onclick="openLightbox(this.src)"><p>Private Wilpattu Safari</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/packages/47.webp" alt="Sri Lankan Leopard" onclick="openLightbox(this.src)"><p>Sri Lankan Leopard</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/packages/736248696_27306282552333112_5851728031208810976_n.webp" alt="Asian Elephants and Sloth Bears" onclick="openLightbox(this.src)"><p>Asian Elephants &amp; Sloth Bears</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/packages/kumana-national-park-title-photo_orig.webp" alt="Famous Natural Villus" onclick="openLightbox(this.src)"><p>Famous Natural Villus</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/packages/WhatsApp Image 2026-07-18 at 14.49.27.webp" alt="Private 4x4 Safari Jeep" onclick="openLightbox(this.src)"><p>Private 4x4 Safari Jeep</p></div>
                 </div>
 
                 <h2 class="pd-section-title">Tour Information</h2>
@@ -730,6 +725,217 @@
                         <li>Duration: Full Day</li>
                         <li>Type: Private Tour</li>
                         <li>Departure: 7:00–7:30 AM &middot; Daily</li>
+                    </ul>
+                    <button class="pd-book-btn" onclick="window.location='../booking/booking.php';">BOOK NOW</button>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════
+         PACKAGE 8 — Cultural Heritage Tour (5 Days / 4 Nights)
+    ═══════════════════════════════════════════════════════ -->
+    <section class="pkg-detail-section" data-pkg="8">
+        <div class="pd-hero">
+            <img src="../resources/img/pageBanners/pexels-eslames1-32398183.webp" class="pd-hero-img" alt="Cultural Heritage Tour">
+            <div class="pd-hero-overlay"></div>
+            <div class="pd-hero-content">
+                <a href="../packages/packages.php" class="pd-back">← Back to Packages</a>
+                <h1 class="pd-title">🏛️ Cultural Heritage <span>Tour</span></h1>
+                <p class="pd-subtitle">5 Days | 4 Nights &middot; Culture &middot; Heritage &middot; UNESCO &middot; History</p>
+            </div>
+        </div>
+
+        <div class="pd-body">
+            <div class="pd-main">
+                <h2 class="pd-section-title">Tour Overview</h2>
+                <p class="pd-desc">Discover the rich cultural heritage of Sri Lanka on our carefully curated 5-day private journey. Explore ancient UNESCO World Heritage Sites, sacred temples, and historic cities while experiencing the island's fascinating history, Buddhist traditions, and authentic local culture. This tour is fully customizable to match your travel style and interests, all while enjoying the comfort of your own private chauffeur guide.</p>
+
+                <h2 class="pd-section-title">Tour Highlights</h2>
+                <div class="pd-highlight-grid">
+                    <div class="pd-highlight"><img src="../resources/img/destinations/sigiriya/sigiriya1.webp" alt="Sigiriya Rock Fortress" onclick="openLightbox(this.src)"><p>Sigiriya Rock Fortress</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/anuradhapura/anuradhapura1.webp" alt="Ancient City of Anuradhapura" onclick="openLightbox(this.src)"><p>Ancient City of Anuradhapura</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/dambulla/DambullaCaveTemple1.webp" alt="Dambulla Cave Temple" onclick="openLightbox(this.src)"><p>Dambulla Cave Temple</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/kandy/kandy1.webp" alt="Temple of the Sacred Tooth Relic" onclick="openLightbox(this.src)"><p>Temple of the Sacred Tooth Relic</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/pinnawala/pinnawala1.webp" alt="Pinnawala Elephant Orphanage" onclick="openLightbox(this.src)"><p>Pinnawala Elephant Orphanage</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/packages/unnamed (1).webp" alt="Royal Botanical Gardens" onclick="openLightbox(this.src)"><p>Royal Botanical Gardens</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/experiences/experiences3.webp" alt="Kandyan Cultural Dance Show" onclick="openLightbox(this.src)"><p>Kandyan Cultural Dance Show</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/packages/spicegarden-768x576.webp" alt="Traditional Spice Garden" onclick="openLightbox(this.src)"><p>Traditional Spice Garden</p></div>
+                </div>
+
+                <h2 class="pd-section-title">Accommodation</h2>
+                <p class="pd-desc">Your accommodation can be fully customized to suit your travel style and budget — choose from Boutique Heritage Hotels, Luxury Hotels, Premium Resorts, Eco Lodges, or Cultural Boutique Hotels. Already booked your own hotels? No problem — we can provide private transportation, chauffeur guide services, sightseeing, and activities while using your own accommodation.</p>
+
+                <h2 class="pd-section-title">Tour Itinerary</h2>
+                <div class="pd-itinerary">
+                    <div class="pd-day"><span class="pd-day-num">Day 1</span><div><h4>Arrival in Sri Lanka</h4><p>Meet your private chauffeur at Bandaranaike International Airport before travelling to Negombo. Relax after your flight and enjoy Sri Lanka's beautiful west coast. Optional: Negombo Beach, Local Fishing Village.</p></div></div>
+                    <div class="pd-day"><span class="pd-day-num">Day 2</span><div><h4>Negombo → Sigiriya</h4><p>Travel towards Sri Lanka's Cultural Triangle, visiting the Pinnawala Elephant Orphanage and the Sigiriya Rock Fortress.</p></div></div>
+                    <div class="pd-day"><span class="pd-day-num">Day 3</span><div><h4>Sigiriya → Anuradhapura</h4><p>Explore Sri Lanka's first ancient capital — Sri Maha Bodhi, Ruwanwelisaya, Jetavanaramaya, Abhayagiri Monastery, Isurumuniya Temple, and ancient archaeological ruins.</p></div></div>
+                    <div class="pd-day"><span class="pd-day-num">Day 4</span><div><h4>Anuradhapura → Kandy</h4><p>Travel towards Kandy with cultural stops at Dambulla Cave Temple and Matale Spice Garden before visiting the Temple of the Sacred Tooth Relic. Evening: traditional Kandyan Cultural Dance Performance.</p></div></div>
+                    <div class="pd-day"><span class="pd-day-num">Day 5</span><div><h4>Kandy → Departure</h4><p>Before your departure, visit the Royal Botanical Gardens. Optional: Colombo City Tour. Transfer to Bandaranaike International Airport.</p></div></div>
+                </div>
+
+                <h2 class="pd-section-title">Optional Experiences</h2>
+                <ul class="pd-list pd-list-columns">
+                    <li>Ayurveda Spa Treatment</li><li>Traditional Village Experience</li><li>Hot Air Balloon Ride (Seasonal)</li><li>Cooking Class</li><li>Tea Plantation Visit</li>
+                </ul>
+
+                <div class="pd-include-grid">
+                    <div>
+                        <h3>What's Included</h3>
+                        <ul class="pd-list pd-list-check">
+                            <li>Private air-conditioned vehicle</li>
+                            <li>Professional English-speaking chauffeur guide</li>
+                            <li>Accommodation (optional)</li>
+                            <li>Airport pickup &amp; drop-off</li>
+                            <li>Hotel pickup &amp; drop-off</li>
+                            <li>Complimentary bottled water</li>
+                            <li>Fuel charges</li>
+                            <li>Expressway tolls</li>
+                            <li>Government taxes</li>
+                            <li>Passenger insurance</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>What's Excluded</h3>
+                        <ul class="pd-list pd-list-cross">
+                            <li>Accommodation (if not booked through us)</li>
+                            <li>Meals</li>
+                            <li>Entrance fees</li>
+                            <li>Personal expenses</li>
+                            <li>Travel insurance</li>
+                            <li>Tips &amp; gratuities</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h2 class="pd-section-title">Gallery</h2>
+                <div class="pd-gallery">
+                    <img src="https://images.unsplash.com/photo-1704797390901-e1d20bd46647?w=600&q=80" onclick="openLightbox(this.src)" alt="Gallery image">
+                    <img src="https://images.unsplash.com/photo-1484373584673-b7f0ced4d46e?w=600&q=80" onclick="openLightbox(this.src)" alt="Gallery image">
+                    <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=600&q=80" onclick="openLightbox(this.src)" alt="Gallery image">
+                    <img src="https://images.unsplash.com/photo-1501554728187-ce583db33af7?w=600&q=80" onclick="openLightbox(this.src)" alt="Gallery image">
+                </div>
+            </div>
+
+            <aside class="pd-side">
+                <div class="pd-card">
+                    <h3 class="pd-card-title">Quick Facts</h3>
+                    <ul class="pd-mini-list">
+                        <li>Duration: 5 Days / 4 Nights</li>
+                        <li>Type: Private, chauffeur-guided</li>
+                        <li>Fully customizable itinerary</li>
+                    </ul>
+                    <button class="pd-book-btn" onclick="window.location='../booking/booking.php';">BOOK NOW</button>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════
+         PACKAGE 9 — Scenic Sri Lanka Tour (10 Days / 9 Nights)
+    ═══════════════════════════════════════════════════════ -->
+    <section class="pkg-detail-section" data-pkg="9">
+        <div class="pd-hero">
+            <img src="../resources/img/pageBanners/pexels-thilina-alagiyawanna-3266092-30725274.webp" class="pd-hero-img" alt="Scenic Sri Lanka Tour">
+            <div class="pd-hero-overlay"></div>
+            <div class="pd-hero-content">
+                <a href="../packages/packages.php" class="pd-back">← Back to Packages</a>
+                <h1 class="pd-title">🌄 Scenic Sri Lanka <span>Tour</span></h1>
+                <p class="pd-subtitle">10 Days | 9 Nights &middot; Culture &middot; Mountains &middot; Wildlife &middot; Beaches &middot; Adventure</p>
+            </div>
+        </div>
+
+        <div class="pd-body">
+            <div class="pd-main">
+                <h2 class="pd-section-title">Tour Overview</h2>
+                <p class="pd-desc">Discover the very best of Sri Lanka on our carefully curated 10-day private journey. From ancient UNESCO World Heritage Sites and misty tea plantations to breathtaking mountain landscapes, exciting wildlife safaris, and beautiful southern beaches, every experience is thoughtfully designed to create the perfect balance of culture, nature, adventure, and relaxation. This tour is fully customizable to match your travel style, interests, and pace while enjoying the comfort of your own private chauffeur guide.</p>
+
+                <h2 class="pd-section-title">Tour Highlights</h2>
+                <div class="pd-highlight-grid">
+                    <div class="pd-highlight"><img src="../resources/img/destinations/sigiriya/sigiriya1.webp" alt="Sigiriya Rock Fortress" onclick="openLightbox(this.src)"><p>Sigiriya Rock Fortress</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/packages/imagesH.webp" alt="Habarana Village Experience" onclick="openLightbox(this.src)"><p>Habarana Village Experience</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/dambulla/DambullaCaveTemple1.webp" alt="Dambulla Cave Temple" onclick="openLightbox(this.src)"><p>Dambulla Cave Temple</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/kandy/kandy1.webp" alt="Temple of the Sacred Tooth Relic" onclick="openLightbox(this.src)"><p>Temple of the Sacred Tooth Relic</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/pinnawala/pinnawala1.webp" alt="Pinnawala Elephant Orphanage" onclick="openLightbox(this.src)"><p>Pinnawala Elephant Orphanage</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/packages/unnamed (1).webp" alt="Royal Botanical Gardens" onclick="openLightbox(this.src)"><p>Royal Botanical Gardens</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/packages/caption.webp" alt="Tea Plantation and Tea Factory" onclick="openLightbox(this.src)"><p>Tea Plantation &amp; Tea Factory</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/horton/horton1.webp" alt="Horton Plains National Park" onclick="openLightbox(this.src)"><p>Horton Plains National Park</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/ravanafalls/ravanafalls1.webp" alt="Ella and Ravana Falls" onclick="openLightbox(this.src)"><p>Ella &amp; Ravana Falls</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/yala/yala1.webp" alt="Yala National Park Safari" onclick="openLightbox(this.src)"><p>Yala National Park Safari</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/galle/galle1.webp" alt="Galle Dutch Fort" onclick="openLightbox(this.src)"><p>Galle Dutch Fort</p></div>
+                    <div class="pd-highlight"><img src="../resources/img/destinations/mirissa/mirissa1.webp" alt="Southern Beaches" onclick="openLightbox(this.src)"><p>Southern Beaches</p></div>
+                </div>
+
+                <h2 class="pd-section-title">Accommodation</h2>
+                <p class="pd-desc">Your accommodation can be fully customized to suit your travel style and budget — choose from Luxury Hotels, Boutique Hotels, Premium Resorts, Eco Lodges, or Beachfront Resorts. Already booked your own hotels? No problem — we can provide private transportation, chauffeur guide services, safaris, sightseeing, and activities while using your own accommodation.</p>
+
+                <h2 class="pd-section-title">Tour Itinerary</h2>
+                <div class="pd-itinerary">
+                    <div class="pd-day"><span class="pd-day-num">Day 1</span><div><h4>Arrival in Sri Lanka</h4><p>Meet your private chauffeur at Bandaranaike International Airport before travelling to Negombo. Relax after your flight and enjoy Sri Lanka's beautiful west coast. Optional: Negombo Beach, Fishing Village.</p></div></div>
+                    <div class="pd-day"><span class="pd-day-num">Day 2</span><div><h4>Negombo → Sigiriya</h4><p>Travel to Sri Lanka's Cultural Triangle — Sigiriya Rock Fortress, Habarana Village Experience, Bullock Cart Ride, Catamaran Ride.</p></div></div>
+                    <div class="pd-day"><span class="pd-day-num">Day 3</span><div><h4>Sigiriya → Kandy</h4><p>Travel towards Kandy with cultural stops at Dambulla Cave Temple and the Temple of the Sacred Tooth Relic. Evening: traditional Kandyan Cultural Dance Performance.</p></div></div>
+                    <div class="pd-day"><span class="pd-day-num">Day 4</span><div><h4>Kandy Exploration</h4><p>Discover the highlights of Sri Lanka's cultural capital — Pinnawala Elephant Orphanage, Royal Botanical Gardens, Kandy City Tour, Kandy Lake, Kandy Viewpoint.</p></div></div>
+                    <div class="pd-day"><span class="pd-day-num">Day 5</span><div><h4>Kandy → Nuwara Eliya</h4><p>Journey through Sri Lanka's beautiful hill country — Tea Plantation, Tea Factory, Ramboda Waterfall, Nuwara Eliya.</p></div></div>
+                    <div class="pd-day"><span class="pd-day-num">Day 6</span><div><h4>Nuwara Eliya → Ella</h4><p>Explore Sri Lanka's breathtaking mountain landscapes — Horton Plains National Park, World's End, Baker's Falls, Ella.</p></div></div>
+                    <div class="pd-day"><span class="pd-day-num">Day 7</span><div><h4>Ella → Yala</h4><p>Travel towards Yala with scenic stops at Ella Gap and Ravana Falls. Afternoon: private safari in Yala National Park.</p></div></div>
+                    <div class="pd-day"><span class="pd-day-num">Day 8</span><div><h4>Yala → Southern Coast</h4><p>Travel along Sri Lanka's spectacular southern coastline — Galle Dutch Fort, Turtle Conservation Project, Southern Beaches.</p></div></div>
+                    <div class="pd-day"><span class="pd-day-num">Day 9</span><div><h4>Leisure Day</h4><p>Relax on Sri Lanka's beautiful southern coast. Optional: whale watching, snorkeling, surfing, jet ski, boat tours, beach relaxation.</p></div></div>
+                    <div class="pd-day"><span class="pd-day-num">Day 10</span><div><h4>Departure</h4><p>Transfer to Bandaranaike International Airport. Your unforgettable Scenic Sri Lanka Tour comes to an end.</p></div></div>
+                </div>
+
+                <h2 class="pd-section-title">Optional Experiences</h2>
+                <ul class="pd-list pd-list-columns">
+                    <li>Whale Watching</li><li>Ayurveda Spa Treatment</li><li>Tea Tasting Experience</li><li>Cooking Class</li><li>Lagoon Boat Safari</li><li>Surf Lessons</li><li>Scenic Photography Tour</li>
+                </ul>
+
+                <div class="pd-include-grid">
+                    <div>
+                        <h3>What's Included</h3>
+                        <ul class="pd-list pd-list-check">
+                            <li>Private air-conditioned vehicle</li>
+                            <li>Professional English-speaking chauffeur guide</li>
+                            <li>Accommodation (optional)</li>
+                            <li>Airport pickup &amp; drop-off</li>
+                            <li>Hotel pickup &amp; drop-off</li>
+                            <li>Complimentary bottled water</li>
+                            <li>Fuel charges</li>
+                            <li>Expressway tolls</li>
+                            <li>Government taxes</li>
+                            <li>Passenger insurance</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>What's Excluded</h3>
+                        <ul class="pd-list pd-list-cross">
+                            <li>Accommodation (if not booked through us)</li>
+                            <li>Meals</li>
+                            <li>Entrance fees</li>
+                            <li>Safari jeep charges</li>
+                            <li>Optional activities</li>
+                            <li>Personal expenses</li>
+                            <li>Travel insurance</li>
+                            <li>Tips &amp; gratuities</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h2 class="pd-section-title">Gallery</h2>
+                <div class="pd-gallery">
+                    <img src="https://images.unsplash.com/photo-1469521669194-babb45599def?w=600&q=80" onclick="openLightbox(this.src)" alt="Gallery image">
+                    <img src="https://images.unsplash.com/photo-1510312305653-8ed496efae75?w=600&q=80" onclick="openLightbox(this.src)" alt="Gallery image">
+                    <img src="https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?w=600&q=80" onclick="openLightbox(this.src)" alt="Gallery image">
+                    <img src="https://images.unsplash.com/photo-1496080174650-637e3f22fa03?w=600&q=80" onclick="openLightbox(this.src)" alt="Gallery image">
+                </div>
+            </div>
+
+            <aside class="pd-side">
+                <div class="pd-card">
+                    <h3 class="pd-card-title">Quick Facts</h3>
+                    <ul class="pd-mini-list">
+                        <li>Duration: 10 Days / 9 Nights</li>
+                        <li>Type: Private, chauffeur-guided</li>
+                        <li>Fully customizable itinerary</li>
                     </ul>
                     <button class="pd-book-btn" onclick="window.location='../booking/booking.php';">BOOK NOW</button>
                 </div>

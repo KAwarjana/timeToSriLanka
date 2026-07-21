@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Time to Ceylon</title>
-    <link rel="icon" type="image/png" href="../resources/img/logo.png">
+    <link rel="icon" type="image/png" href="../resources/img/logo.webp">
 
     <link rel="stylesheet" href="../header/header.css">
     <link rel="stylesheet" href="experience-detail.css">
@@ -107,7 +107,7 @@
     <section class="hero">
         <div class="hero-video-wrap">
             <div class="hero-video">
-                <img src="../resources/img/experiences/1.jpeg" alt="Hero Video" class="hero-video-content">
+                <img src="../resources/img/experiences/1.webp" alt="Hero Video" class="hero-video-content">
             </div>
             <div class="hero-overlay"></div>
         </div>
@@ -153,7 +153,7 @@
                         <p data-en="Sri Lanka's diverse landscapes make it a trekker's paradise within a compact island nation. You can start your morning in cool mountain mist and end the day in warm lowland forest, passing through working tea estates and ancient pathways used for centuries by local villagers." data-si="ශ්‍රී ලංකාවේ විවිධ ලන්ඩස්කේප් එක සංකීර්ණ දූපත් ජාතියක් තුළ ට්‍රෙකර්වරයෙකුගේ ස්වර්ගය බවට පත් කරයි." data-ta="De diverse landschappen van Sri Lanka maken het een trekkersparadijs binnen een compacte eilandnatie.">Sri Lanka's diverse landscapes make it a trekker's paradise within a compact island nation. You can start your morning in cool mountain mist and end the day in warm lowland forest, passing through working tea estates and ancient pathways used for centuries by local villagers.</p>
                     </div>
                     <div class="gallery-row">
-                        <div class="gallery-item"><img src="../resources/img/home/1.jpeg" alt="Tea plantation hiking" /></div>
+                        <div class="gallery-item"><img src="../resources/img/home/1.webp" alt="Tea plantation hiking" /></div>
                         <div class="gallery-item"><img src="https://images.unsplash.com/photo-1469521669194-babb45599def?w=400&q=80" alt="Summit view" /></div>
                         <div class="gallery-item"><img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=400&q=80" alt="Waterfall trek" /></div>
                     </div>
@@ -183,7 +183,7 @@
                         <p data-en="A typical safari includes a guided tour in a specially designed open-top jeep with a knowledgeable naturalist guide. Most operators offer early morning or late afternoon drives lasting two to three hours, which is when animals congregate around water sources and are easiest to spot." data-si="සාමාන්‍ය සෆාරියකට විශේෂිතව නිර්මාණය කරන ලද විවෘත-ඉහළ ජීප් එකක මඟපෙන්වීමේ සංචාරයක් ඇතුළත් වේ. සතුන් ජල මූලාශ්‍ර වටා රැස්වන අවස්ථාව වන අතර, ඒවා සොයාගැනීමට පහසුම කාලයයි." data-ta="Een typische safari omvat een rondleiding in een speciaal ontworpen open jeep met een deskundige natuurgids. Dit is wanneer dieren zich rond waterbronnen verzamelen en het gemakkelijkst te zien zijn.">A typical safari includes a guided tour in a specially designed open-top jeep with a knowledgeable naturalist guide. Most operators offer early morning or late afternoon drives lasting two to three hours, which is when animals congregate around water sources and are easiest to spot.</p>
                     </div>
                     <div class="gallery-row">
-                        <div class="gallery-item"><img src="../resources/img/home/1.jpeg" alt="Leopard spotting" /></div>
+                        <div class="gallery-item"><img src="../resources/img/home/1.webp" alt="Leopard spotting" /></div>
                         <div class="gallery-item"><img src="https://images.unsplash.com/photo-1469521669194-babb45599def?w=400&q=80" alt="Elephant herd" /></div>
                         <div class="gallery-item"><img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=400&q=80" alt="Bird watching" /></div>
                     </div>
@@ -213,7 +213,7 @@
                         <p data-en="Every stone tells stories of civilizations that shaped Asian culture over two millennia of rich history. From the massive dagobas of Anuradhapura to the colonial charm of Galle Fort, Sri Lanka offers an unparalleled journey through history, spirituality, and architectural genius." data-si="සෑම ගලකම ආසියානු සංස්කෘතිය හැඩගස්වා ඇති ශිෂ්ටාචාරවල කතා කියයි. අනුරාධපුරයේ විශාල දාගැබ් වල සිට ගාල්ල කොටුවේ යටත්විජිත ආකර්ෂණය දක්වා." data-ta="Elke steen vertelt verhalen van beschavingen die de Aziatische cultuur hebben gevormd. Van de dagoba's van Anuradhapura tot de koloniale charme van Galle Fort.">Every stone tells stories of civilizations that shaped Asian culture over two millennia of rich history. From the massive dagobas of Anuradhapura to the colonial charm of Galle Fort, Sri Lanka offers an unparalleled journey through history, spirituality, and architectural genius.</p>
                     </div>
                     <div class="gallery-row">
-                        <div class="gallery-item"><img src="../resources/img/home/1.jpeg" alt="Sigiriya rock fortress" /></div>
+                        <div class="gallery-item"><img src="../resources/img/home/1.webp" alt="Sigiriya rock fortress" /></div>
                         <div class="gallery-item"><img src="https://images.unsplash.com/photo-1469521669194-babb45599def?w=400&q=80" alt="Kandy temple ceremony" /></div>
                         <div class="gallery-item"><img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=400&q=80" alt="Traditional dance performance" /></div>
                     </div>
@@ -243,7 +243,7 @@
                         <p data-en="Wellness retreats range from five to twenty-one days, offering beauty and detox packages customized to your dosha type. Each morning begins with yoga and meditation, followed by healing treatments, Ayurvedic cuisine, and peaceful moments surrounded by verdant jungle and tranquil rice paddies." data-si="සුවය නිවාඩු නිකේතන පහේ සිට විසි එක දක්වා දින ගණනක් පවතින අතර, ඔබගේ දෝෂ වර්ගයට අනුව පුද්ගලීකරණය කළ පැකේජ ලබා දෙයි." data-ta="Wellness-retraites variëren van vijf tot eenentwintig dagen en bieden pakketten aangepast aan uw dosha-type.">Wellness retreats range from five to twenty-one days, offering beauty and detox packages customized to your dosha type. Each morning begins with yoga and meditation, followed by healing treatments, Ayurvedic cuisine, and peaceful moments surrounded by verdant jungle and tranquil rice paddies.</p>
                     </div>
                     <div class="gallery-row">
-                        <div class="gallery-item"><img src="../resources/img/home/1.jpeg" alt="Yoga session" /></div>
+                        <div class="gallery-item"><img src="../resources/img/home/1.webp" alt="Yoga session" /></div>
                         <div class="gallery-item"><img src="https://images.unsplash.com/photo-1469521669194-babb45599def?w=400&q=80" alt="Herbal massage" /></div>
                         <div class="gallery-item"><img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=400&q=80" alt="Wellness retreat" /></div>
                     </div>
@@ -273,7 +273,7 @@
                         <p data-en="Scenic railway routes connect colonial hill stations with coastal towns, offering a unique perspective of Sri Lanka's diverse landscapes. From the cool central highlands to warm coastal plains, each journey reveals changing scenery within just a few hours of comfortable and affordable travel." data-si="රූපමය දුම්රිය මාර්ග යටත්විජිත කඳු නිවාස සහ වෙරළබඩ නගර සම්බන්ධ කරමින් ශ්‍රී ලංකාවේ විවිධ ලන්ඩස්කේප් වල අද්විතීය දෘෂ්ටිකෝණයක් ලබා දෙයි." data-ta="Schilderachtige spoorwegroutes verbinden koloniale bergstations met kustplaatsen en bieden een uniek perspectief op de diverse landschappen van Sri Lanka.">Scenic railway routes connect colonial hill stations with coastal towns, offering a unique perspective of Sri Lanka's diverse landscapes. From the cool central highlands to warm coastal plains, each journey reveals changing scenery within just a few hours of comfortable and affordable travel.</p>
                     </div>
                     <div class="gallery-row">
-                        <div class="gallery-item"><img src="../resources/img/home/1.jpeg" alt="Nine arch bridge" /></div>
+                        <div class="gallery-item"><img src="../resources/img/home/1.webp" alt="Nine arch bridge" /></div>
                         <div class="gallery-item"><img src="https://images.unsplash.com/photo-1469521669194-babb45599def?w=400&q=80" alt="Tea plantation view" /></div>
                         <div class="gallery-item"><img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=400&q=80" alt="Mountain railway" /></div>
                     </div>
@@ -303,7 +303,7 @@
                         <p data-en="From the colonial charm of Galle Fort to the laid-back vibes of Hiriketiya, each coastal town has its own unique character. Relax in boutique villas overlooking the Indian Ocean, take a traditional catamaran ride at dawn, and let the rhythm of the waves wash your worries away completely." data-si="ගාල්ල කොටුවේ යටත්විජිත ආකර්ෂණයේ සිට හිරිකෙටියේ නිදහස් වාතාවරණය දක්වා, සෑම වෙරළබඩ නගරයකටම තමන්ගේම අද්විතීය ලක්ෂණ ඇත. ඉන්දීය සාගරය දෙස බලා සිටින බුටික් විලා වල විවේක ගන්න, අලුයම් වරුවේ සාම්ප්‍රදායික කැටමරාන් යාත්‍රා පැදීමක් කරන්න, සහ රළවල තාලය ඔබගේ කාරණා සම්පූර්ණයෙන් සේ සේදී යනු ඇත." data-ta="Van de koloniale charme van Galle Fort tot de relaxte sfeer van Hiriketiya, elke kustplaats heeft zijn eigen unieke karakter. Ontspan in boutique villa's met uitzicht op de Indische Oceaan, maak een traditionele catamaranrit bij dageraad.">From the colonial charm of Galle Fort to the laid-back vibes of Hiriketiya, each coastal town has its own unique character. Relax in boutique villas overlooking the Indian Ocean, take a traditional catamaran ride at dawn, and let the rhythm of the waves wash your worries away completely.</p>
                     </div>
                     <div class="gallery-row">
-                        <div class="gallery-item"><img src="../resources/img/home/1.jpeg" alt="Surfing waves" /></div>
+                        <div class="gallery-item"><img src="../resources/img/home/1.webp" alt="Surfing waves" /></div>
                         <div class="gallery-item"><img src="https://images.unsplash.com/photo-1469521669194-babb45599def?w=400&q=80" alt="Whale watching" /></div>
                         <div class="gallery-item"><img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=400&q=80" alt="Beachfront villa" /></div>
                     </div>

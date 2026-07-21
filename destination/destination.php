@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Time to Ceylon - Destinations</title>
-    <link rel="icon" type="image/png" href="../resources/img/logo.png">
+    <link rel="icon" type="image/png" href="../resources/img/logo.webp">
 
     <link rel="stylesheet" href="../header/header.css">
     <link rel="stylesheet" href="destination.css">
@@ -27,7 +27,7 @@
         <!-- Video background -->
         <div class="hero-video-wrap">
             <div class="hero-video">
-                <img src="../resources/img/pageBanners/pexels-anas-mohamed-nuski-3784747-5620146.jpg" alt="Hero Video" class="hero-video-content">
+                <img src="../resources/img/pageBanners/pexels-anas-mohamed-nuski-3784747-5620146.webp" alt="Hero Video" class="hero-video-content">
             </div>
             <div class="hero-overlay"></div>
         </div>
@@ -55,7 +55,7 @@
                     <!-- Left 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/sigiriya/sigiriya1.jpeg"
+                            <img src="../resources/img/destinations/sigiriya/sigiriya1.webp"
                                 alt="SIGIRIYA" />
                         </div>
                     </div>
@@ -105,15 +105,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/sigiriya/sigiriya5.jpeg"
+                                <img src="../resources/img/destinations/sigiriya/sigiriya5.webp"
                                     alt="SIGIRIYA" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/sigiriya/sigiriya4.jpeg"
+                                <img src="../resources/img/destinations/sigiriya/sigiriya4.webp"
                                     alt="SIGIRIYA" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/sigiriya/sigiriya3.jpeg"
+                                <img src="../resources/img/destinations/sigiriya/sigiriya3.webp"
                                     alt="SIGIRIYA" />
                             </div>
                         </div>
@@ -162,7 +162,7 @@
                     <!-- Right 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/kandy/kandy1.jpg"
+                            <img src="../resources/img/destinations/kandy/kandy1.webp"
                                 alt="TEMPLE OF TOOTH" />
                         </div>
                     </div>
@@ -176,15 +176,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/kandy/kandy2.jpeg"
+                                <img src="../resources/img/destinations/kandy/kandy2.webp"
                                     alt="TEMPLE OF TOOTH" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/kandy/kandy3.jpeg"
+                                <img src="../resources/img/destinations/kandy/kandy3.webp"
                                     alt="TEMPLE OF TOOTH" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/kandy/kandy4.jpeg"
+                                <img src="../resources/img/destinations/kandy/kandy4.webp"
                                     alt="TEMPLE OF TOOTH" />
                             </div>
                         </div>
@@ -221,7 +221,7 @@
                     <!-- Left 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/yala/yala1.jpg"
+                            <img src="../resources/img/destinations/yala/yala1.webp"
                                 alt="YALA NATIONAL PARK" />
                         </div>
                     </div>
@@ -271,15 +271,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/yala/yala2.jpeg"
+                                <img src="../resources/img/destinations/yala/yala2.webp"
                                     alt="YALA NATIONAL PARK" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/yala/yala3.jpeg"
+                                <img src="../resources/img/destinations/yala/yala3.webp"
                                     alt="YALA NATIONAL PARK" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/yala/yala4.jpeg"
+                                <img src="../resources/img/destinations/yala/yala4.webp"
                                     alt="YALA NATIONAL PARK" />
                             </div>
                         </div>
@@ -328,7 +328,7 @@
                     <!-- Right 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/galle/galle1.jpeg"
+                            <img src="../resources/img/destinations/galle/galle1.webp"
                                 alt="GALLE FORT" />
                         </div>
                     </div>
@@ -342,15 +342,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/galle/galle2.jpg"
+                                <img src="../resources/img/destinations/galle/galle2.webp"
                                     alt="GALLE FORT" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/galle/galle3.jpeg"
+                                <img src="../resources/img/destinations/galle/galle3.webp"
                                     alt="GALLE FORT" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/galle/galle4.jpeg"
+                                <img src="../resources/img/destinations/galle/galle4.webp"
                                     alt="GALLE FORT" />
                             </div>
                         </div>
@@ -387,7 +387,7 @@
                     <!-- Left 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/ella/ella1.jpg"
+                            <img src="../resources/img/destinations/ella/ella1.webp"
                                 alt="ELLA" />
                         </div>
                     </div>
@@ -437,15 +437,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/ella/ella2.jpeg"
+                                <img src="../resources/img/destinations/ella/ella2.webp"
                                     alt="ELLA" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/ella/ella3.jpeg"
+                                <img src="../resources/img/destinations/ella/ella3.webp"
                                     alt="ELLA" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/ella/ella4.jpeg"
+                                <img src="../resources/img/destinations/ella/ella4.webp"
                                     alt="ELLA" />
                             </div>
                         </div>
@@ -494,7 +494,7 @@
                     <!-- Right 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/pinnawala/pinnawala1.jpeg"
+                            <img src="../resources/img/destinations/pinnawala/pinnawala1.webp"
                                 alt="PINNAWALA ELEPHANT ORPHANAGE" />
                         </div>
                     </div>
@@ -508,15 +508,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/pinnawala/pinnawala2.jpeg"
+                                <img src="../resources/img/destinations/pinnawala/pinnawala2.webp"
                                     alt="PINNAWALA ELEPHANT ORPHANAGE" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/pinnawala/pinnawala4.jpeg"
+                                <img src="../resources/img/destinations/pinnawala/pinnawala4.webp"
                                     alt="PINNAWALA ELEPHANT ORPHANAGE" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/pinnawala/pinnawala3.jpeg"
+                                <img src="../resources/img/destinations/pinnawala/pinnawala3.webp"
                                     alt="PINNAWALA ELEPHANT ORPHANAGE" />
                             </div>
                         </div>
@@ -553,7 +553,7 @@
                     <!-- Left 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/dambulla/DambullaCaveTemple1.jpg"
+                            <img src="../resources/img/destinations/dambulla/DambullaCaveTemple1.webp"
                                 alt="DAMBULLA CAVE TEMPLE" />
                         </div>
                     </div>
@@ -603,15 +603,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/dambulla/DambullaCaveTemple2.jpeg"
+                                <img src="../resources/img/destinations/dambulla/DambullaCaveTemple2.webp"
                                     alt="DAMBULLA CAVE TEMPLE" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/dambulla/DambullaCaveTemple3.jpeg"
+                                <img src="../resources/img/destinations/dambulla/DambullaCaveTemple3.webp"
                                     alt="DAMBULLA CAVE TEMPLE" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/dambulla/DambullaCaveTemple4.jpeg"
+                                <img src="../resources/img/destinations/dambulla/DambullaCaveTemple4.webp"
                                     alt="DAMBULLA CAVE TEMPLE" />
                             </div>
                         </div>
@@ -660,7 +660,7 @@
                     <!-- Right 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/adamspeak/adamspeak1.jpeg"
+                            <img src="../resources/img/destinations/adamspeak/adamspeak1.webp"
                                 alt="ADAM'S PEAK" />
                         </div>
                     </div>
@@ -674,15 +674,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/adamspeak/adamspeak2.jpg"
+                                <img src="../resources/img/destinations/adamspeak/adamspeak2.webp"
                                     alt="ADAM'S PEAK" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/adamspeak/adamspeak3.jpeg"
+                                <img src="../resources/img/destinations/adamspeak/adamspeak3.webp"
                                     alt="ADAM'S PEAK" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/adamspeak/adamspeak4.jpeg"
+                                <img src="../resources/img/destinations/adamspeak/adamspeak4.webp"
                                     alt="ADAM'S PEAK" />
                             </div>
                         </div>
@@ -719,7 +719,7 @@
                     <!-- Left 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/mirissa/mirissa1.jpeg"
+                            <img src="../resources/img/destinations/mirissa/mirissa1.webp"
                                 alt="MIRISSA BEACH" />
                         </div>
                     </div>
@@ -769,15 +769,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/mirissa/mirissa2.jpeg"
+                                <img src="../resources/img/destinations/mirissa/mirissa2.webp"
                                     alt="MIRISSA BEACH" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/mirissa/mirissa3.jpeg"
+                                <img src="../resources/img/destinations/mirissa/mirissa3.webp"
                                     alt="MIRISSA BEACH" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/mirissa/mirissa4.jpeg"
+                                <img src="../resources/img/destinations/mirissa/mirissa4.webp"
                                     alt="MIRISSA BEACH" />
                             </div>
                         </div>
@@ -826,7 +826,7 @@
                     <!-- Right 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/polonnaruwa/polonnaruwa1.jpeg"
+                            <img src="../resources/img/destinations/polonnaruwa/polonnaruwa1.webp"
                                 alt="ANCIENT CITY OF POLONNARUWA" />
                         </div>
                     </div>
@@ -840,15 +840,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/polonnaruwa/polonnaruwa2.jpeg"
+                                <img src="../resources/img/destinations/polonnaruwa/polonnaruwa2.webp"
                                     alt="ANCIENT CITY OF POLONNARUWA" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/polonnaruwa/polonnaruwa3.jpeg"
+                                <img src="../resources/img/destinations/polonnaruwa/polonnaruwa3.webp"
                                     alt="ANCIENT CITY OF POLONNARUWA" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/polonnaruwa/polonnaruwa4.jpeg"
+                                <img src="../resources/img/destinations/polonnaruwa/polonnaruwa4.webp"
                                     alt="ANCIENT CITY OF POLONNARUWA" />
                             </div>
                         </div>
@@ -885,7 +885,7 @@
                     <!-- Left 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/anuradhapura/anuradhapura1.jpeg"
+                            <img src="../resources/img/destinations/anuradhapura/anuradhapura1.webp"
                                 alt="ANURADHAPURA" />
                         </div>
                     </div>
@@ -935,15 +935,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/anuradhapura/anuradhapura2.jpeg"
+                                <img src="../resources/img/destinations/anuradhapura/anuradhapura2.webp"
                                     alt="ANURADHAPURA" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/anuradhapura/anuradhapura3.jpeg"
+                                <img src="../resources/img/destinations/anuradhapura/anuradhapura3.webp"
                                     alt="ANURADHAPURA" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/anuradhapura/anuradhapura4.jpeg"
+                                <img src="../resources/img/destinations/anuradhapura/anuradhapura4.webp"
                                     alt="ANURADHAPURA" />
                             </div>
                         </div>
@@ -992,7 +992,7 @@
                     <!-- Right 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/horton/horton1.jpeg"
+                            <img src="../resources/img/destinations/horton/horton1.webp"
                                 alt="HORTON PLAINS" />
                         </div>
                     </div>
@@ -1006,15 +1006,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/horton/horton2.jpeg"
+                                <img src="../resources/img/destinations/horton/horton2.webp"
                                     alt="HORTON PLAINS" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/horton/horton3.jpg"
+                                <img src="../resources/img/destinations/horton/horton3.webp"
                                     alt="HORTON PLAINS" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/horton/horton4.jpg"
+                                <img src="../resources/img/destinations/horton/horton4.webp"
                                     alt="HORTON PLAINS" />
                             </div>
                         </div>
@@ -1051,7 +1051,7 @@
                     <!-- Left 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/udawalawa/udawalawa1.jpeg"
+                            <img src="../resources/img/destinations/udawalawa/udawalawa1.webp"
                                 alt="UDAWALAWE NATIONAL PARK" />
                         </div>
                     </div>
@@ -1101,15 +1101,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/udawalawa/udawalawa2.jpeg"
+                                <img src="../resources/img/destinations/udawalawa/udawalawa2.webp"
                                     alt="UDAWALAWE NATIONAL PARK" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/udawalawa/udawalawa3.jpeg"
+                                <img src="../resources/img/destinations/udawalawa/udawalawa3.webp"
                                     alt="UDAWALAWE NATIONAL PARK" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/udawalawa/udawalawa4.jpeg"
+                                <img src="../resources/img/destinations/udawalawa/udawalawa4.webp"
                                     alt="UDAWALAWE NATIONAL PARK" />
                             </div>
                         </div>
@@ -1158,7 +1158,7 @@
                     <!-- Right 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/bentota/bentota1.jpeg"
+                            <img src="../resources/img/destinations/bentota/bentota1.webp"
                                 alt="BENTOTA BEACH" />
                         </div>
                     </div>
@@ -1172,15 +1172,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/bentota/bentota2.jpeg"
+                                <img src="../resources/img/destinations/bentota/bentota2.webp"
                                     alt="BENTOTA BEACH" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/bentota/bentota3.jpeg"
+                                <img src="../resources/img/destinations/bentota/bentota3.webp"
                                     alt="BENTOTA BEACH" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/bentota/bentota4.jpeg"
+                                <img src="../resources/img/destinations/bentota/bentota4.webp"
                                     alt="BENTOTA BEACH" />
                             </div>
                         </div>
@@ -1217,7 +1217,7 @@
                     <!-- Left 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/nuwaraeliya/nuwaraeliya1.jpeg"
+                            <img src="../resources/img/destinations/nuwaraeliya/nuwaraeliya1.webp"
                                 alt="NUWARA ELIYA" />
                         </div>
                     </div>
@@ -1267,15 +1267,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/nuwaraeliya/nuwaraeliya2.jpeg"
+                                <img src="../resources/img/destinations/nuwaraeliya/nuwaraeliya2.webp"
                                     alt="NUWARA ELIYA" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/nuwaraeliya/nuwaraeliya3.jpeg"
+                                <img src="../resources/img/destinations/nuwaraeliya/nuwaraeliya3.webp"
                                     alt="NUWARA ELIYA" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/nuwaraeliya/nuwaraeliya4.jpeg"
+                                <img src="../resources/img/destinations/nuwaraeliya/nuwaraeliya4.webp"
                                     alt="NUWARA ELIYA" />
                             </div>
                         </div>
@@ -1324,7 +1324,7 @@
                     <!-- Right 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/arugambay/arugambay1.jpg"
+                            <img src="../resources/img/destinations/arugambay/arugambay1.webp"
                                 alt="ARUGAM BAY" />
                         </div>
                     </div>
@@ -1338,15 +1338,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/arugambay/arugambay2.jpg"
+                                <img src="../resources/img/destinations/arugambay/arugambay2.webp"
                                     alt="ARUGAM BAY" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/arugambay/arugambay3.jpeg"
+                                <img src="../resources/img/destinations/arugambay/arugambay3.webp"
                                     alt="ARUGAM BAY" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/arugambay/arugambay4.jpeg"
+                                <img src="../resources/img/destinations/arugambay/arugambay4.webp"
                                     alt="ARUGAM BAY" />
                             </div>
                         </div>
@@ -1383,7 +1383,7 @@
                     <!-- Left 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/trincomalee/trincomalee3.jpeg"
+                            <img src="../resources/img/destinations/trincomalee/trincomalee3.webp"
                                 alt="TRINCOMALEE" />
                         </div>
                     </div>
@@ -1433,15 +1433,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/trincomalee/trincomalee2.jpeg"
+                                <img src="../resources/img/destinations/trincomalee/trincomalee2.webp"
                                     alt="TRINCOMALEE" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/trincomalee/trincomalee1.jpeg"
+                                <img src="../resources/img/destinations/trincomalee/trincomalee1.webp"
                                     alt="TRINCOMALEE" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/trincomalee/trincomalee4.jpeg"
+                                <img src="../resources/img/destinations/trincomalee/trincomalee4.webp"
                                     alt="TRINCOMALEE" />
                             </div>
                         </div>
@@ -1490,7 +1490,7 @@
                     <!-- Right 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/jaffna/jaffna1.jpeg"
+                            <img src="../resources/img/destinations/jaffna/jaffna1.webp"
                                 alt="JAFFNA" />
                         </div>
                     </div>
@@ -1504,15 +1504,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/jaffna/jaffna2.jpeg"
+                                <img src="../resources/img/destinations/jaffna/jaffna2.webp"
                                     alt="JAFFNA" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/jaffna/jaffna3.jpeg"
+                                <img src="../resources/img/destinations/jaffna/jaffna3.webp"
                                     alt="JAFFNA" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/jaffna/jaffna4.jpeg"
+                                <img src="../resources/img/destinations/jaffna/jaffna4.webp"
                                     alt="JAFFNA" />
                             </div>
                         </div>
@@ -1549,7 +1549,7 @@
                     <!-- Left 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/sinharaja/sinharaja1.jpeg"
+                            <img src="../resources/img/destinations/sinharaja/sinharaja1.webp"
                                 alt="SINHARAJA FOREST" />
                         </div>
                     </div>
@@ -1599,15 +1599,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/sinharaja/sinharaja2.jpeg"
+                                <img src="../resources/img/destinations/sinharaja/sinharaja2.webp"
                                     alt="SINHARAJA FOREST" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/sinharaja/sinharaja3.jpeg"
+                                <img src="../resources/img/destinations/sinharaja/sinharaja3.webp"
                                     alt="SINHARAJA FOREST" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/sinharaja/sinharaja4.jpeg"
+                                <img src="../resources/img/destinations/sinharaja/sinharaja4.webp"
                                     alt="SINHARAJA FOREST" />
                             </div>
                         </div>
@@ -1656,7 +1656,7 @@
                     <!-- Right 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/kithulgala/kithulgala1.jpeg"
+                            <img src="../resources/img/destinations/kithulgala/kithulgala1.webp"
                                 alt="KITULGALA" />
                         </div>
                     </div>
@@ -1670,15 +1670,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/kithulgala/kithulgala2.jpeg"
+                                <img src="../resources/img/destinations/kithulgala/kithulgala2.webp"
                                     alt="KITULGALA" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/kithulgala/kithulgala3.jpeg"
+                                <img src="../resources/img/destinations/kithulgala/kithulgala3.webp"
                                     alt="KITULGALA" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/kithulgala/kithulgala4.jpeg"
+                                <img src="../resources/img/destinations/kithulgala/kithulgala4.webp"
                                     alt="KITULGALA" />
                             </div>
                         </div>
@@ -1715,7 +1715,7 @@
                     <!-- Left 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/minneriya/minneriya1.jpeg"
+                            <img src="../resources/img/destinations/minneriya/minneriya1.webp"
                                 alt="MINNERIYA NATIONAL PARK" />
                         </div>
                     </div>
@@ -1765,15 +1765,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/minneriya/minneriya2.jpeg"
+                                <img src="../resources/img/destinations/minneriya/minneriya2.webp"
                                     alt="MINNERIYA NATIONAL PARK" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/minneriya/minneriya3.jpeg"
+                                <img src="../resources/img/destinations/minneriya/minneriya3.webp"
                                     alt="MINNERIYA NATIONAL PARK" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/minneriya/minneriya4.jpeg"
+                                <img src="../resources/img/destinations/minneriya/minneriya4.webp"
                                     alt="MINNERIYA NATIONAL PARK" />
                             </div>
                         </div>
@@ -1822,7 +1822,7 @@
                     <!-- Right 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/colombo/colombo01.jpg"
+                            <img src="../resources/img/destinations/colombo/colombo01.webp"
                                 alt="COLOMBO" />
                         </div>
                     </div>
@@ -1836,15 +1836,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/colombo/colombo2.jpg"
+                                <img src="../resources/img/destinations/colombo/colombo2.webp"
                                     alt="COLOMBO" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/colombo/colombo3.jpeg"
+                                <img src="../resources/img/destinations/colombo/colombo3.webp"
                                     alt="COLOMBO" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/colombo/colombo4.jpeg"
+                                <img src="../resources/img/destinations/colombo/colombo4.webp"
                                     alt="COLOMBO" />
                             </div>
                         </div>
@@ -1881,7 +1881,7 @@
                     <!-- Left 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/ravanafalls/ravanafalls1.jpeg"
+                            <img src="../resources/img/destinations/ravanafalls/ravanafalls1.webp"
                                 alt="RAVANA FALLS" />
                         </div>
                     </div>
@@ -1931,15 +1931,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/ravanafalls/ravanafalls2.jpeg"
+                                <img src="../resources/img/destinations/ravanafalls/ravanafalls2.webp"
                                     alt="RAVANA FALLS" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/ravanafalls/ravanafalls3.jpeg"
+                                <img src="../resources/img/destinations/ravanafalls/ravanafalls3.webp"
                                     alt="RAVANA FALLS" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/ravanafalls/ravanafalls4.jpeg"
+                                <img src="../resources/img/destinations/ravanafalls/ravanafalls4.webp"
                                     alt="RAVANA FALLS" />
                             </div>
                         </div>
@@ -1988,7 +1988,7 @@
                     <!-- Right 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/pigeonisland/pigeonisland1.jpeg"
+                            <img src="../resources/img/destinations/pigeonisland/pigeonisland1.webp"
                                 alt="PIGEON ISLAND" />
                         </div>
                     </div>
@@ -2002,15 +2002,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/pigeonisland/pigeonisland2.jpeg"
+                                <img src="../resources/img/destinations/pigeonisland/pigeonisland2.webp"
                                     alt="PIGEON ISLAND" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/pigeonisland/pigeonisland3.jpeg"
+                                <img src="../resources/img/destinations/pigeonisland/pigeonisland3.webp"
                                     alt="PIGEON ISLAND" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/pigeonisland/pigeonisland4.jpeg"
+                                <img src="../resources/img/destinations/pigeonisland/pigeonisland4.webp"
                                     alt="PIGEON ISLAND" />
                             </div>
                         </div>
@@ -2047,7 +2047,7 @@
                     <!-- Left 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/kaudulla/kaudulla1.jpeg"
+                            <img src="../resources/img/destinations/kaudulla/kaudulla1.webp"
                                 alt="KAUDULLA NATIONAL PARK" />
                         </div>
                     </div>
@@ -2097,15 +2097,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/kaudulla/kaudulla2.jpeg"
+                                <img src="../resources/img/destinations/kaudulla/kaudulla2.webp"
                                     alt="KAUDULLA NATIONAL PARK" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/kaudulla/kaudulla3.jpeg"
+                                <img src="../resources/img/destinations/kaudulla/kaudulla3.webp"
                                     alt="KAUDULLA NATIONAL PARK" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/kaudulla/kaudulla4.jpeg"
+                                <img src="../resources/img/destinations/kaudulla/kaudulla4.webp"
                                     alt="KAUDULLA NATIONAL PARK" />
                             </div>
                         </div>
@@ -2154,7 +2154,7 @@
                     <!-- Right 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/srimahabodi/srimahabodhi4.jpeg"
+                            <img src="../resources/img/destinations/srimahabodi/srimahabodhi4.webp"
                                 alt="SRI MAHA BODHI" />
                         </div>
                     </div>
@@ -2168,15 +2168,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/srimahabodi/srimahabodhi1.jpeg"
+                                <img src="../resources/img/destinations/srimahabodi/srimahabodhi1.webp"
                                     alt="SRI MAHA BODHI" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/srimahabodi/srimahabodhi3.jpeg"
+                                <img src="../resources/img/destinations/srimahabodi/srimahabodhi3.webp"
                                     alt="SRI MAHA BODHI" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/srimahabodi/srimahabodhi2.jpeg"
+                                <img src="../resources/img/destinations/srimahabodi/srimahabodhi2.webp"
                                     alt="SRI MAHA BODHI" />
                             </div>
                         </div>
@@ -2213,7 +2213,7 @@
                     <!-- Left 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/hikkaduwa/hikkaduwa1.jpeg"
+                            <img src="../resources/img/destinations/hikkaduwa/hikkaduwa1.webp"
                                 alt="HIKKADUWA BEACH" />
                         </div>
                     </div>
@@ -2263,15 +2263,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/hikkaduwa/hikkaduwa2.jpeg"
+                                <img src="../resources/img/destinations/hikkaduwa/hikkaduwa2.webp"
                                     alt="HIKKADUWA BEACH" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/hikkaduwa/hikkaduwa3.jpeg"
+                                <img src="../resources/img/destinations/hikkaduwa/hikkaduwa3.webp"
                                     alt="HIKKADUWA BEACH" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/hikkaduwa/hikkaduwa4.jpeg"
+                                <img src="../resources/img/destinations/hikkaduwa/hikkaduwa4.webp"
                                     alt="HIKKADUWA BEACH" />
                             </div>
                         </div>
@@ -2320,7 +2320,7 @@
                     <!-- Right 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/kelaniya/kelaniya1.jpeg"
+                            <img src="../resources/img/destinations/kelaniya/kelaniya1.webp"
                                 alt="KELANIYA RAJA MAHA VIHARA" />
                         </div>
                     </div>
@@ -2334,15 +2334,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/kelaniya/kelaniya2.jpeg"
+                                <img src="../resources/img/destinations/kelaniya/kelaniya2.webp"
                                     alt="KELANIYA RAJA MAHA VIHARA" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/kelaniya/kelaniya3.jpeg"
+                                <img src="../resources/img/destinations/kelaniya/kelaniya3.webp"
                                     alt="KELANIYA RAJA MAHA VIHARA" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/kelaniya/kelaniya4.jpeg"
+                                <img src="../resources/img/destinations/kelaniya/kelaniya4.webp"
                                     alt="KELANIYA RAJA MAHA VIHARA" />
                             </div>
                         </div>
@@ -2379,7 +2379,7 @@
                     <!-- Left 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/bundala/bundala1.jpeg"
+                            <img src="../resources/img/destinations/bundala/bundala1.webp"
                                 alt="BUNDALA NATIONAL PARK" />
                         </div>
                     </div>
@@ -2429,15 +2429,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/bundala/bundala2.jpeg"
+                                <img src="../resources/img/destinations/bundala/bundala2.webp"
                                     alt="BUNDALA NATIONAL PARK" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/bundala/bundala3.jpeg"
+                                <img src="../resources/img/destinations/bundala/bundala3.webp"
                                     alt="BUNDALA NATIONAL PARK" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/bundala/bundala4.jpeg"
+                                <img src="../resources/img/destinations/bundala/bundala4.webp"
                                     alt="BUNDALA NATIONAL PARK" />
                             </div>
                         </div>
@@ -2486,7 +2486,7 @@
                     <!-- Right 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/knuckles/knuckles1.jpeg"
+                            <img src="../resources/img/destinations/knuckles/knuckles1.webp"
                                 alt="KNUCKLES MOUNTAIN RANGE" />
                         </div>
                     </div>
@@ -2500,15 +2500,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/knuckles/knuckles3.jpeg"
+                                <img src="../resources/img/destinations/knuckles/knuckles3.webp"
                                     alt="KNUCKLES MOUNTAIN RANGE" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/knuckles/knuckles2.jpeg"
+                                <img src="../resources/img/destinations/knuckles/knuckles2.webp"
                                     alt="KNUCKLES MOUNTAIN RANGE" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/knuckles/knuckles4.jpg"
+                                <img src="../resources/img/destinations/knuckles/knuckles4.webp"
                                     alt="KNUCKLES MOUNTAIN RANGE" />
                             </div>
                         </div>
@@ -2545,7 +2545,7 @@
                     <!-- Left 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/kalpitiya/kalpitiya1.jpeg"
+                            <img src="../resources/img/destinations/kalpitiya/kalpitiya1.webp"
                                 alt="KALPITIYA" />
                         </div>
                     </div>
@@ -2595,15 +2595,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/kalpitiya/kalpitiya2.jpeg"
+                                <img src="../resources/img/destinations/kalpitiya/kalpitiya2.webp"
                                     alt="KALPITIYA" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/kalpitiya/kalpitiya3.jpeg"
+                                <img src="../resources/img/destinations/kalpitiya/kalpitiya3.webp"
                                     alt="KALPITIYA" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/kalpitiya/kalpitiya4.jpeg"
+                                <img src="../resources/img/destinations/kalpitiya/kalpitiya4.webp"
                                     alt="KALPITIYA" />
                             </div>
                         </div>
@@ -2652,7 +2652,7 @@
                     <!-- Right 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/delf/delf1.jpeg"
+                            <img src="../resources/img/destinations/delf/delf1.webp"
                                 alt="DELFT ISLAND" />
                         </div>
                     </div>
@@ -2666,15 +2666,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/delf/delf2.jpeg"
+                                <img src="../resources/img/destinations/delf/delf2.webp"
                                     alt="DELFT ISLAND" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/delf/delf3.jpeg"
+                                <img src="../resources/img/destinations/delf/delf3.webp"
                                     alt="DELFT ISLAND" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/delf/delf4.jpeg"
+                                <img src="../resources/img/destinations/delf/delf4.webp"
                                     alt="DELFT ISLAND" />
                             </div>
                         </div>
@@ -2711,7 +2711,7 @@
                     <!-- Left 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/gregory/gregory1.jpg"
+                            <img src="../resources/img/destinations/gregory/gregory1.webp"
                                 alt="GREGORY LAKE" />
                         </div>
                     </div>
@@ -2761,15 +2761,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/gregory/gregory2.jpg"
+                                <img src="../resources/img/destinations/gregory/gregory2.webp"
                                     alt="GREGORY LAKE" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/gregory/gregory3.jpg"
+                                <img src="../resources/img/destinations/gregory/gregory3.webp"
                                     alt="GREGORY LAKE" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/gregory/gregory4.jpg"
+                                <img src="../resources/img/destinations/gregory/gregory4.webp"
                                     alt="GREGORY LAKE" />
                             </div>
                         </div>
@@ -2818,7 +2818,7 @@
                     <!-- Right 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/mahiyanganaya/mahiyanganaya1.jpeg"
+                            <img src="../resources/img/destinations/mahiyanganaya/mahiyanganaya1.webp"
                                 alt="MAHIYANGANAYA" />
                         </div>
                     </div>
@@ -2832,15 +2832,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/mahiyanganaya/mahiyanganaya2.jpeg"
+                                <img src="../resources/img/destinations/mahiyanganaya/mahiyanganaya2.webp"
                                     alt="MAHIYANGANAYA" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/mahiyanganaya/mahiyanganaya3.jpeg"
+                                <img src="../resources/img/destinations/mahiyanganaya/mahiyanganaya3.webp"
                                     alt="MAHIYANGANAYA" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/mahiyanganaya/mahiyanganaya4.jpeg"
+                                <img src="../resources/img/destinations/mahiyanganaya/mahiyanganaya4.webp"
                                     alt="MAHIYANGANAYA" />
                             </div>
                         </div>
@@ -2877,7 +2877,7 @@
                     <!-- Left 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/badulla/badulla1.jpeg"
+                            <img src="../resources/img/destinations/badulla/badulla1.webp"
                                 alt="BADULLA" />
                         </div>
                     </div>
@@ -2927,15 +2927,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/badulla/badulla2.jpeg"
+                                <img src="../resources/img/destinations/badulla/badulla2.webp"
                                     alt="BADULLA" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/badulla/badulla3.jpeg"
+                                <img src="../resources/img/destinations/badulla/badulla3.webp"
                                     alt="BADULLA" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/badulla/badulla4.jpeg"
+                                <img src="../resources/img/destinations/badulla/badulla4.webp"
                                     alt="BADULLA" />
                             </div>
                         </div>
@@ -2984,7 +2984,7 @@
                     <!-- Right 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/avukana/avukana1.jpeg"
+                            <img src="../resources/img/destinations/avukana/avukana1.webp"
                                 alt="AVUKANA BUDDHA STATUE" />
                         </div>
                     </div>
@@ -2998,15 +2998,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/avukana/avukana2.jpeg"
+                                <img src="../resources/img/destinations/avukana/avukana2.webp"
                                     alt="AVUKANA BUDDHA STATUE" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/avukana/avukana3.jpeg"
+                                <img src="../resources/img/destinations/avukana/avukana3.webp"
                                     alt="AVUKANA BUDDHA STATUE" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/avukana/avukana4.jpeg"
+                                <img src="../resources/img/destinations/avukana/avukana4.webp"
                                     alt="AVUKANA BUDDHA STATUE" />
                             </div>
                         </div>
@@ -3043,7 +3043,7 @@
                     <!-- Left 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/munneswaram/munneswaram1.jpeg"
+                            <img src="../resources/img/destinations/munneswaram/munneswaram1.webp"
                                 alt="MUNNESWARAM TEMPLE" />
                         </div>
                     </div>
@@ -3093,15 +3093,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/munneswaram/munneswaram2.jpg"
+                                <img src="../resources/img/destinations/munneswaram/munneswaram2.webp"
                                     alt="MUNNESWARAM TEMPLE" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/munneswaram/munneswaram3.jpeg"
+                                <img src="../resources/img/destinations/munneswaram/munneswaram3.webp"
                                     alt="MUNNESWARAM TEMPLE" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/munneswaram/munneswaram4.jpg"
+                                <img src="../resources/img/destinations/munneswaram/munneswaram4.webp"
                                     alt="MUNNESWARAM TEMPLE" />
                             </div>
                         </div>
@@ -3150,7 +3150,7 @@
                     <!-- Right 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/galleface/galleface1.jpg"
+                            <img src="../resources/img/destinations/galleface/galleface1.webp"
                                 alt="GALLE FACE GREEN" />
                         </div>
                     </div>
@@ -3164,15 +3164,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/galleface/galleface2.jpg"
+                                <img src="../resources/img/destinations/galleface/galleface2.webp"
                                     alt="GALLE FACE GREEN" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/galleface/galleface3.jpg"
+                                <img src="../resources/img/destinations/galleface/galleface3.webp"
                                     alt="GALLE FACE GREEN" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/galleface/galleface4.jpeg"
+                                <img src="../resources/img/destinations/galleface/galleface4.webp"
                                     alt="GALLE FACE GREEN" />
                             </div>
                         </div>
@@ -3209,7 +3209,7 @@
                     <!-- Left 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/pidurangala/pidurangala1.jpeg"
+                            <img src="../resources/img/destinations/pidurangala/pidurangala1.webp"
                                 alt="PIDURANGALA ROCK" />
                         </div>
                     </div>
@@ -3259,15 +3259,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/pidurangala/pidurangala2.jpeg"
+                                <img src="../resources/img/destinations/pidurangala/pidurangala2.webp"
                                     alt="PIDURANGALA ROCK" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/pidurangala/pidurangala3.jpeg"
+                                <img src="../resources/img/destinations/pidurangala/pidurangala3.webp"
                                     alt="PIDURANGALA ROCK" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/pidurangala/pidurangala4.jpeg"
+                                <img src="../resources/img/destinations/pidurangala/pidurangala4.webp"
                                     alt="PIDURANGALA ROCK" />
                             </div>
                         </div>
@@ -3316,7 +3316,7 @@
                     <!-- Right 40%: single image -->
                     <div class="dest-col col-img">
                         <div class="main-img-wrap">
-                            <img src="../resources/img/destinations/seethaamman/seethamman1.jpeg"
+                            <img src="../resources/img/destinations/seethaamman/seethamman1.webp"
                                 alt="SEETHA AMMAN TEMPLE" />
                         </div>
                     </div>
@@ -3330,15 +3330,15 @@
                     <div class="dest-col col-imgs">
                         <div class="triple-imgs">
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/seethaamman/seethamman2.jpeg"
+                                <img src="../resources/img/destinations/seethaamman/seethamman2.webp"
                                     alt="SEETHA AMMAN TEMPLE" />
                             </div>
                             <div class="tri-img tri-img--wide">
-                                <img src="../resources/img/destinations/seethaamman/seethamman3.jpg"
+                                <img src="../resources/img/destinations/seethaamman/seethamman3.webp"
                                     alt="SEETHA AMMAN TEMPLE" />
                             </div>
                             <div class="tri-img tri-img--sm">
-                                <img src="../resources/img/destinations/seethaamman/seethamman4.jpeg"
+                                <img src="../resources/img/destinations/seethaamman/seethamman4.webp"
                                     alt="SEETHA AMMAN TEMPLE" />
                             </div>
                         </div>

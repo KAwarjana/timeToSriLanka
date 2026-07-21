@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Time to Ceylon</title>
-    <link rel="icon" type="image/png" href="../resources/img/logo.png">
+    <link rel="icon" type="image/png" href="../resources/img/logo.webp">
 
     <link rel="stylesheet" href="../header/header.css">
     <link rel="stylesheet" href="experience-detail.css">
@@ -27,7 +27,7 @@
         <!-- Video background -->
         <div class="hero-video-wrap">
             <div class="hero-video">
-                <img src="../resources/img/pageBanners/pexels-malindabandaralk-16508231.jpg" alt="Hero Video" class="hero-video-content">
+                <img src="../resources/img/pageBanners/pexels-malindabandaralk-16508231.webp" alt="Hero Video" class="hero-video-content">
             </div>
             <div class="hero-overlay"></div>
         </div>
@@ -46,7 +46,7 @@
 
             <!-- Left: Main Image -->
             <div class="main-image-wrap">
-                <img src="../resources/img/experiences/experiences3.jpeg"
+                <img src="../resources/img/experiences/experiences3.webp"
                     alt="Ancient temple ruins" class="main-img" />
             </div>
 
@@ -71,13 +71,13 @@
                 <!-- Bottom Gallery Row -->
                 <div class="gallery-row">
                     <div class="gallery-item">
-                        <img src="../resources/img/experiences/experiences14.jpeg" alt="Sigiriya rock fortress" />
+                        <img src="../resources/img/experiences/experiences14.webp" alt="Sigiriya rock fortress" />
                     </div>
                     <div class="gallery-item">
-                        <img src="../resources/img/experiences/experiences15.jpeg" alt="Kandy temple ceremony" />
+                        <img src="../resources/img/experiences/experiences15.webp" alt="Kandy temple ceremony" />
                     </div>
                     <div class="gallery-item">
-                        <img src="../resources/img/experiences/experiences16.jpeg" alt="Traditional dance performance" />
+                        <img src="../resources/img/experiences/experiences16.webp" alt="Traditional dance performance" />
                     </div>
                 </div>
 

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Time to Ceylon</title>
-    <link rel="icon" type="image/png" href="../resources/img/logo.png">
+    <link rel="icon" type="image/png" href="../resources/img/logo.webp">
 
     <link rel="stylesheet" href="../header/header.css">
     <link rel="stylesheet" href="experiences.css">
@@ -27,7 +27,7 @@
         <!-- Video background -->
         <div class="hero-video-wrap">
             <div class="hero-video">
-                <img src="../resources/img/pageBanners/pexels-nandhukumar-14844302.jpg" alt="Hero Video" class="hero-video-content">
+                <img src="../resources/img/pageBanners/pexels-nandhukumar-14844302.webp" alt="Hero Video" class="hero-video-content">
             </div>
             <div class="hero-overlay"></div>
         </div>
@@ -46,7 +46,7 @@
         <div class="featured-inner">
             <!-- Left: image -->
             <div class="featured-img-wrap">
-                <img class="featured-img" src="../resources/img/experiences/experiences1.jpeg" alt="Hiking and mountain trails">
+                <img class="featured-img" src="../resources/img/experiences/experiences1.webp" alt="Hiking and mountain trails">
             </div>
 
             <!-- Right: card -->
@@ -64,8 +64,8 @@
                         Sri Lanka's diverse landscapes make it a trekker's paradise within a compact island nation. You can start your morning in cool mountain mist and end the day in warm lowland forest, passing through working tea estates and ancient pathways used for centuries by local villagers.
                     </p>
                 </div>
-                <a href="../experiences/adventure.php" class="featured-btn" data-en="EXPLORE MORE<img src='../resources/img/home/arrow.png' class='arrow--img'>" data-si="තවත් ගවේෂණය කරන්න<img src='../resources/img/home/arrow.png' class='arrow--img'>" data-ta="ONTDEK MEER<img src='../resources/img/home/arrow.png' class='arrow--img'>">
-                    EXPLORE MORE<img src="../resources/img/home/arrow.png" class="arrow--img">
+                <a href="../experiences/adventure.php" class="featured-btn" data-en="EXPLORE MORE<img src='../resources/img/home/arrow.webp' class='arrow--img'>" data-si="තවත් ගවේෂණය කරන්න<img src='../resources/img/home/arrow.webp' class='arrow--img'>" data-ta="ONTDEK MEER<img src='../resources/img/home/arrow.webp' class='arrow--img'>">
+                    EXPLORE MORE<img src="../resources/img/home/arrow.webp" class="arrow--img">
                 </a>
             </div>
         </div>
@@ -78,7 +78,7 @@
         <div class="featured-inner">
             <!-- Left: image -->
             <div class="featured-img-wrap">
-                <img class="featured-img" src="../resources/img/experiences/experiences2.jpeg" alt="Wildlife Safari">
+                <img class="featured-img" src="../resources/img/experiences/experiences2.webp" alt="Wildlife Safari">
             </div>
 
             <!-- Right: card -->
@@ -96,8 +96,8 @@
                         A typical safari includes a guided tour in a specially designed open-top jeep with a knowledgeable naturalist guide. Most operators offer early morning or late afternoon drives lasting two to three hours, which is when animals congregate around water sources and are easiest to spot.
                     </p>
                 </div>
-                <a href="../experiences/wildlife-safari.php" class="featured-btn" data-en="EXPLORE MORE<img src='../resources/img/home/arrow.png' class='arrow--img'>" data-si="තවත් ගවේෂණය කරන්න<img src='../resources/img/home/arrow.png' class='arrow--img'>" data-ta="ONTDEK MEER<img src='../resources/img/home/arrow.png' class='arrow--img'>">
-                    EXPLORE MORE<img src="../resources/img/home/arrow.png" class="arrow--img">
+                <a href="../experiences/wildlife-safari.php" class="featured-btn" data-en="EXPLORE MORE<img src='../resources/img/home/arrow.webp' class='arrow--img'>" data-si="තවත් ගවේෂණය කරන්න<img src='../resources/img/home/arrow.webp' class='arrow--img'>" data-ta="ONTDEK MEER<img src='../resources/img/home/arrow.webp' class='arrow--img'>">
+                    EXPLORE MORE<img src="../resources/img/home/arrow.webp" class="arrow--img">
                 </a>
             </div>
         </div>
@@ -110,7 +110,7 @@
         <div class="featured-inner">
             <!-- Left: image -->
             <div class="featured-img-wrap">
-                <img class="featured-img" src="../resources/img/experiences/experiences3.jpeg" alt="Cultural Discovery">
+                <img class="featured-img" src="../resources/img/experiences/experiences3.webp" alt="Cultural Discovery">
             </div>
 
             <!-- Right: card -->
@@ -128,8 +128,8 @@
                         Every stone tells stories of civilizations that shaped Asian culture over two millennia of rich history. From the massive dagobas of Anuradhapura to the colonial charm of Galle Fort, Sri Lanka offers an unparalleled journey through history, spirituality, and architectural genius that continues to inspire visitors.
                     </p>
                 </div>
-                <a href="../experiences/cultural-discovery.php" class="featured-btn" data-en="EXPLORE MORE<img src='../resources/img/home/arrow.png' class='arrow--img'>" data-si="තවත් ගවේෂණය කරන්න<img src='../resources/img/home/arrow.png' class='arrow--img'>" data-ta="ONTDEK MEER<img src='../resources/img/home/arrow.png' class='arrow--img'>">
-                    EXPLORE MORE<img src="../resources/img/home/arrow.png" class="arrow--img">
+                <a href="../experiences/cultural-discovery.php" class="featured-btn" data-en="EXPLORE MORE<img src='../resources/img/home/arrow.webp' class='arrow--img'>" data-si="තවත් ගවේෂණය කරන්න<img src='../resources/img/home/arrow.webp' class='arrow--img'>" data-ta="ONTDEK MEER<img src='../resources/img/home/arrow.webp' class='arrow--img'>">
+                    EXPLORE MORE<img src="../resources/img/home/arrow.webp" class="arrow--img">
                 </a>
             </div>
         </div>
@@ -142,7 +142,7 @@
         <div class="featured-inner">
             <!-- Left: image -->
             <div class="featured-img-wrap">
-                <img class="featured-img" src="../resources/img/experiences/experiences4.jpeg" alt="Ayurveda and Wellness">
+                <img class="featured-img" src="../resources/img/experiences/experiences4.webp" alt="Ayurveda and Wellness">
             </div>
 
             <!-- Right: card -->
@@ -160,8 +160,8 @@
                         Wellness retreats range from five to twenty-one days, offering beauty and detox packages customized to your dosha type. Each morning begins with yoga and meditation, followed by healing treatments, Ayurvedic cuisine, and peaceful moments surrounded by verdant jungle and tranquil rice paddies.
                     </p>
                 </div>
-                <a href="../experiences/ayurveda-wellness.php" class="featured-btn" data-en="EXPLORE MORE<img src='../resources/img/home/arrow.png' class='arrow--img'>" data-si="තවත් ගවේෂණය කරන්න<img src='../resources/img/home/arrow.png' class='arrow--img'>" data-ta="ONTDEK MEER<img src='../resources/img/home/arrow.png' class='arrow--img'>">
-                    EXPLORE MORE<img src="../resources/img/home/arrow.png" class="arrow--img">
+                <a href="../experiences/ayurveda-wellness.php" class="featured-btn" data-en="EXPLORE MORE<img src='../resources/img/home/arrow.webp' class='arrow--img'>" data-si="තවත් ගවේෂණය කරන්න<img src='../resources/img/home/arrow.webp' class='arrow--img'>" data-ta="ONTDEK MEER<img src='../resources/img/home/arrow.webp' class='arrow--img'>">
+                    EXPLORE MORE<img src="../resources/img/home/arrow.webp" class="arrow--img">
                 </a>
             </div>
         </div>
@@ -174,7 +174,7 @@
         <div class="featured-inner">
             <!-- Left: image -->
             <div class="featured-img-wrap">
-                <img class="featured-img" src="../resources/img/experiences/experiences5.jpeg" alt="Scenic Journeys">
+                <img class="featured-img" src="../resources/img/experiences/experiences5.webp" alt="Scenic Journeys">
             </div>
 
             <!-- Right: card -->
@@ -192,8 +192,8 @@
                         Scenic railway routes connect colonial hill stations with coastal towns, offering a unique perspective of Sri Lanka's diverse landscapes. From the cool central highlands to warm coastal plains, each journey reveals changing scenery within just a few hours of comfortable and affordable travel.
                     </p>
                 </div>
-                <a href="../experiences/scenic-journeys.php" class="featured-btn" data-en="EXPLORE MORE<img src='../resources/img/home/arrow.png' class='arrow--img'>" data-si="තවත් ගවේෂණය කරන්න<img src='../resources/img/home/arrow.png' class='arrow--img'>" data-ta="ONTDEK MEER<img src='../resources/img/home/arrow.png' class='arrow--img'>">
-                    EXPLORE MORE<img src="../resources/img/home/arrow.png" class="arrow--img">
+                <a href="../experiences/scenic-journeys.php" class="featured-btn" data-en="EXPLORE MORE<img src='../resources/img/home/arrow.webp' class='arrow--img'>" data-si="තවත් ගවේෂණය කරන්න<img src='../resources/img/home/arrow.webp' class='arrow--img'>" data-ta="ONTDEK MEER<img src='../resources/img/home/arrow.webp' class='arrow--img'>">
+                    EXPLORE MORE<img src="../resources/img/home/arrow.webp" class="arrow--img">
                 </a>
             </div>
         </div>
@@ -206,7 +206,7 @@
         <div class="featured-inner">
             <!-- Left: image -->
             <div class="featured-img-wrap">
-                <img class="featured-img" src="../resources/img/experiences/experiences6.jpg" alt="Coastal Escape">
+                <img class="featured-img" src="../resources/img/experiences/experiences6.webp" alt="Coastal Escape">
             </div>
 
             <!-- Right: card -->
@@ -224,8 +224,8 @@
                         From the colonial charm of Galle Fort to the laid-back vibes of Hiriketiya, each coastal town has its own unique character. Relax in boutique villas overlooking the Indian Ocean, take a traditional catamaran ride at dawn, and let the rhythm of the waves wash your worries away completely.
                     </p>
                 </div>
-                <a href="../experiences/coastal-escape.php" class="featured-btn" data-en="EXPLORE MORE<img src='../resources/img/home/arrow.png' class='arrow--img'>" data-si="තවත් ගවේෂණය කරන්න<img src='../resources/img/home/arrow.png' class='arrow--img'>" data-ta="ONTDEK MEER<img src='../resources/img/home/arrow.png' class='arrow--img'>">
-                    EXPLORE MORE<img src="../resources/img/home/arrow.png" class="arrow--img">
+                <a href="../experiences/coastal-escape.php" class="featured-btn" data-en="EXPLORE MORE<img src='../resources/img/home/arrow.webp' class='arrow--img'>" data-si="තවත් ගවේෂණය කරන්න<img src='../resources/img/home/arrow.webp' class='arrow--img'>" data-ta="ONTDEK MEER<img src='../resources/img/home/arrow.webp' class='arrow--img'>">
+                    EXPLORE MORE<img src="../resources/img/home/arrow.webp" class="arrow--img">
                 </a>
             </div>
         </div>

@@ -76,17 +76,17 @@ document.addEventListener('DOMContentLoaded', () => {
 const cardBackgrounds = [
   {
     type: 'image',
-    src: '../resources/img/destinations/colombo/colombo01.jpg',
+    src: '../resources/img/destinations/colombo/colombo01.webp',
     fallback: 'linear-gradient(135deg,#3b0764,#7c3aed)'
   },
   {
     type: 'image',
-    src: '../resources/img/destinations/horton/horton3.jpg',
+    src: '../resources/img/destinations/horton/horton3.webp',
     fallback: 'linear-gradient(135deg,#1e3a5f,#2563eb)'
   },
   {
     type: 'image',
-    src: '../resources/img/destinations/wilpattu/wilpattu01.jpg',
+    src: '../resources/img/destinations/wilpattu/wilpattu01.webp',
     fallback: 'linear-gradient(135deg,#064e3b,#059669)'
   },
 ];
@@ -185,9 +185,9 @@ function updateCardPositions() {
     const icon = card.querySelector('.arrow--img');
     if (!icon) return;
     if (i === activeIndex) {
-      icon.src = '../resources/img/home/arrow.png'; // active icon (light)
+      icon.src = '../resources/img/home/arrow.webp'; // active icon (light)
     } else {
-      icon.src = '../resources/img/home/arrow_dark.png'; // inactive icon (dark)
+      icon.src = '../resources/img/home/arrow_dark.webp'; // inactive icon (dark)
     }
   });
 

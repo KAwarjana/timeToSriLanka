@@ -24,14 +24,14 @@ body {
     right: -5%;
     width: 50%;
     height: 110vh;
-    background-image: url("../resources/img/experiences/Ellipse.png");
+    background-image: url("../resources/img/experiences/Ellipse.webp");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     pointer-events: none;
     z-index: 0;
 }
 
-/* All sections start hidden — package-details.js reveals
+/* All sections start hidden — packageDetails.js reveals
    only the one that matches the ?pkg= URL parameter. */
 .pkg-detail-section {
     display: none;
