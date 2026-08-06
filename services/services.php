@@ -44,7 +44,7 @@
         <!-- Card 1: Image Left -->
         <div class="card card--image-left">
             <div class="card__image-wrap">
-                <img src="../resources/img/services/download (37).webp"
+                <img src="../resources/img/services/private.webp"
                     alt="Private chauffeur tour vehicle" />
                 <div class="card__overlay"></div>
             </div>
@@ -100,7 +100,7 @@
 
         <div class="card card--image-right">
             <div class="card__image-wrap">
-                <img src="../resources/img/services/srilanka airport.webp"
+                <img src="../resources/img/services/1735658008644.webp"
                     alt="Airport transfer service" />
                 <div class="card__overlay"></div>
             </div>
