@@ -84,7 +84,7 @@
         <div class="footer-col">
           <div class="footer-col-title" data-en="Policies" data-si="ප්‍රතිපත්ති" data-ta="Beleid">Policies</div>
           <ul>
-            <li><a href="../faq/faq.php#panel-privacy" data-en="Privacy Policy" data-si="පෞද්ගලිකත්ව ප්‍රතිපත්තිය" data-ta="Privacybeleid">Privacy Policy</a></li>
+            <li><a href="../faq/faq.php#panel-privacy" data-en="Privacy Policy" data-si="පෞද්ගලිකත්ව ප්‍රතිපත්ති" data-ta="Privacy Beleid">Privacy Policy</a></li>
             <li><a href="../faq/faq.php#panel-terms" data-en="Terms &amp; Conditions" data-si="නියම සහ කොන්දේසි" data-ta="Algemene voorwaarden">Terms &amp; Conditions</a></li>
             <li><a href="../faq/faq.php#panel-faq" data-en="FAQ" data-si="නිතර අසන ප්‍රශ්න" data-ta="Veelgestelde vragen">FAQ</a></li>
           </ul>
