@@ -857,3 +857,38 @@ rotate: calc(180deg);
     align-self: flex-end;
   }
 }
+/* ── Booking form toast + disabled state (added for backend submission) ── */
+.bk-toast {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  max-width: 320px;
+  background: #ffffff;
+  border-left: 4px solid var(--purple-mid);
+  border-radius: 10px;
+  padding: 14px 22px;
+  box-shadow: 0 8px 32px rgba(109, 93, 246, 0.18);
+  font-family: 'Outfit', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--font-color);
+  z-index: 999;
+  transform: translateY(80px);
+  opacity: 0;
+  transition: transform 0.35s ease, opacity 0.35s ease;
+}
+.bk-toast.show { transform: translateY(0); opacity: 1; }
+.book-now-btn.bk-disabled { opacity: 0.6; pointer-events: none; }
+
+.bk-spinner {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  margin-right: 8px;
+  vertical-align: -2px;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-top-color: #ffffff;
+  border-radius: 50%;
+  animation: bk-spin 0.7s linear infinite;
+}
+@keyframes bk-spin { to { transform: rotate(360deg); } }

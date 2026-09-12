@@ -50,25 +50,25 @@
 
         <div class="field-row two-col">
           <div class="field-box">
-            <label class="field-label" data-en="Your Name" data-si="ඔබේ නම" data-ta="Uw Naam">Your Name</label>
-            <input class="field-input" type="text" data-placeholder-en="Please Enter Your Name" data-placeholder-si="ඔබේ නම ඇතුලත් කරන්න" data-placeholder-ta="Vul uw naam in" />
+            <label class="field-label" data-en="Your Name *" data-si="ඔබේ නම *" data-ta="Uw Naam *">Your Name *</label>
+            <input class="field-input" id="bkFullName" type="text" minlength="2" maxlength="100" data-placeholder-en="Please Enter Your Name" data-placeholder-si="ඔබේ නම ඇතුලත් කරන්න" data-placeholder-ta="Vul uw naam in" />
           </div>
           <div class="field-box">
-            <label class="field-label" data-en="Your Mobile Number" data-si="ඔබේ ජංගම අංකය" data-ta="Uw Mobiele Nummer">Your Mobile Number</label>
-            <input class="field-input" type="tel" data-placeholder-en="Please Enter Your Mobile Number" data-placeholder-si="ඔබේ ජංගම අංකය ඇතුලත් කරන්න" data-placeholder-ta="Vul uw mobiele nummer in" />
+            <label class="field-label" data-en="Your Mobile Number *" data-si="ඔබේ ජංගම අංකය *" data-ta="Uw Mobiele Nummer *">Your Mobile Number *</label>
+            <input class="field-input" id="bkMobile" type="tel" minlength="7" maxlength="20" data-placeholder-en="Please Enter Your Mobile Number" data-placeholder-si="ඔබේ ජංගම අංකය ඇතුලත් කරන්න" data-placeholder-ta="Vul uw mobiele nummer in" />
           </div>
         </div>
 
         <div class="field-row one-col">
           <div class="field-box">
-            <label class="field-label" data-en="Your Email" data-si="ඔබේ විද්‍යුත් තැපෑල" data-ta="Uw Email">Your Email</label>
-            <input class="field-input" type="email" data-placeholder-en="Please Enter Your Email" data-placeholder-si="ඔබේ විද්‍යුත් තැපෑල ඇතුලත් කරන්න" data-placeholder-ta="Vul uw e-mail in" />
+            <label class="field-label" data-en="Your Email *" data-si="ඔබේ විද්‍යුත් තැපෑල *" data-ta="Uw Email *">Your Email *</label>
+            <input class="field-input" id="bkEmail" type="email" maxlength="150" data-placeholder-en="Please Enter Your Email" data-placeholder-si="ඔබේ විද්‍යුත් තැපෑල ඇතුලත් කරන්න" data-placeholder-ta="Vul uw e-mail in" />
           </div>
         </div>
 
         <div class="field-row two-col">
           <div class="field-box" id="box-date-from">
-            <label class="field-label" data-en="Date From" data-si="ආරම්භ දිනය" data-ta="Vanaf datum">Date From</label>
+            <label class="field-label" data-en="Date From *" data-si="ආරම්භ දිනය *" data-ta="Vanaf datum *">Date From *</label>
             <div class="custom-date" id="cd-from" onclick="openDatePicker('from')">
               <span class="date-display" id="cd-from-display">dd / mm / yyyy</span>
               <svg class="date-icon" viewBox="0 0 20 20" fill="none">
@@ -80,7 +80,7 @@
             <div class="cal-popup" id="cal-from"></div>
           </div>
           <div class="field-box" id="box-date-to">
-            <label class="field-label" data-en="Date To" data-si="අවසන් දිනය" data-ta="Tot datum">Date To</label>
+            <label class="field-label" data-en="Date To *" data-si="අවසන් දිනය *" data-ta="Tot datum *">Date To *</label>
             <div class="custom-date" id="cd-to" onclick="openDatePicker('to')">
               <span class="date-display" id="cd-to-display">dd / mm / yyyy</span>
               <svg class="date-icon" viewBox="0 0 20 20" fill="none">
@@ -95,11 +95,11 @@
 
         <div class="field-row two-col">
           <div class="field-box">
-            <label class="field-label" data-en="Destination" data-si="ගමනාන්තය" data-ta="Bestemming">Destination</label>
-            <input class="field-input" type="text" data-placeholder-en="Please Enter Your Destination" data-placeholder-si="ඔබගේ ගමනාන්තය ඇතුලත් කරන්න" data-placeholder-ta="Vul uw bestemming in" />
+            <label class="field-label" data-en="Destination *" data-si="ගමනාන්තය *" data-ta="Bestemming *">Destination *</label>
+            <input class="field-input" id="bkDestination" type="text" minlength="2" maxlength="150" data-placeholder-en="Please Enter Your Destination" data-placeholder-si="ඔබගේ ගමනාන්තය ඇතුලත් කරන්න" data-placeholder-ta="Vul uw bestemming in" />
           </div>
           <div class="field-box">
-            <label class="field-label" data-en="Persons" data-si="පිරිස" data-ta="Personen">Persons</label>
+            <label class="field-label" data-en="Persons *" data-si="පිරිස *" data-ta="Personen *">Persons *</label>
             <div class="custom-select" id="sel-persons">
               <div class="cs-display" onclick="toggleDropdown('sel-persons')">
                 <span class="cs-value">1 Person</span>
@@ -121,7 +121,7 @@
 
         <div class="field-row two-col">
           <div class="field-box">
-            <label class="field-label" data-en="Kids" data-si="ළමයින්" data-ta="Kinderen">Kids</label>
+            <label class="field-label" data-en="Kids (Optional)" data-si="ළමයින් (විකල්ප)" data-ta="Kinderen (Optioneel)">Kids (Optional)</label>
             <div class="custom-select" id="sel-kids">
               <div class="cs-display" onclick="toggleDropdown('sel-kids')">
                 <span class="cs-value">None</span>
@@ -139,7 +139,7 @@
             </div>
           </div>
           <div class="field-box" id="box-age">
-            <label class="field-label" data-en="Average Age Of Children" data-si="ළමයින්ගේ සාමාන්‍ය වයස" data-ta="Gemiddelde leeftijd van kinderen">Average Age Of Children</label>
+            <label class="field-label" data-en="Average Age Of Children (Optional)" data-si="ළමයින්ගේ සාමාන්‍ය වයස (විකල්ප)" data-ta="Gemiddelde leeftijd van kinderen (Optioneel)">Average Age Of Children (Optional)</label>
             <div class="custom-select disabled" id="sel-age">
               <div class="cs-display" onclick="toggleDropdown('sel-age')">
                 <span class="cs-value placeholder">Please Select The Age</span>
@@ -160,12 +160,12 @@
 
         <div class="field-row one-col">
           <div class="field-box">
-            <label class="field-label" data-en="Special Request" data-si="විශේෂ ඉල්ලීම" data-ta="Speciale aanvraag">Special Request</label>
-            <textarea class="field-input field-textarea" data-placeholder-en="Please Enter Your Special Request" data-placeholder-si="ඔබගේ විශේෂ ඉල්ලීම ඇතුලත් කරන්න" data-placeholder-ta="Vul uw speciale aanvraag in"></textarea>
+            <label class="field-label" data-en="Special Request (Optional)" data-si="විශේෂ ඉල්ලීම (විකල්ප)" data-ta="Speciale aanvraag (Optioneel)">Special Request (Optional)</label>
+            <textarea class="field-input field-textarea" id="bkSpecialRequest" maxlength="1000" data-placeholder-en="Please Enter Your Special Request" data-placeholder-si="ඔබගේ විශේෂ ඉල්ලීම ඇතුලත් කරන්න" data-placeholder-ta="Vul uw speciale aanvraag in"></textarea>
           </div>
         </div>
 
-        <div class="book-now-btn" data-en="BOOK NOW" data-si="දැන් වෙන්කරන්න" data-ta="BOEK NU">BOOK NOW</div>
+        <div class="book-now-btn" id="bkSubmitBtn" onclick="bkHandleSend()" data-en="BOOK NOW" data-si="දැන් වෙන්කරන්න" data-ta="BOEK NU">BOOK NOW</div>
 
       </div>
     </div>
@@ -213,6 +213,9 @@
       </div>
     </div>
   </section>
+
+  <!-- Toast notification -->
+  <div class="bk-toast" id="bkToast"></div>
 
   <!-- ------------footer----------- -->
   <?php include('../footer/footer.php'); ?>

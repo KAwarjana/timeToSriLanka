@@ -278,3 +278,119 @@ buildDots();
 updateCard(direction);
 window.addEventListener('langChanged', () => updateCard(direction));
 resetTimer();
+// ── Booking Form Submission (added for backend integration) ─────
+function bkFormatDate(d) {
+  if (!d) return '';
+  const dd = String(d.getDate()).padStart(2, '0');
+  const mm = String(d.getMonth() + 1).padStart(2, '0');
+  return `${dd}/${mm}/${d.getFullYear()}`;
+}
+
+function bkShowToast(msg, color) {
+  const toast = document.getElementById('bkToast');
+  if (!toast) return;
+  toast.textContent = msg;
+  toast.style.borderLeftColor = color;
+  toast.classList.add('show');
+  setTimeout(() => toast.classList.remove('show'), 3500);
+}
+
+function bkHandleSend() {
+  const fullName    = document.getElementById('bkFullName').value.trim();
+  const mobile      = document.getElementById('bkMobile').value.trim();
+  const email       = document.getElementById('bkEmail').value.trim();
+  const destination = document.getElementById('bkDestination').value.trim();
+  const specialRequest = document.getElementById('bkSpecialRequest').value.trim();
+
+  const persons = document.querySelector('#sel-persons .cs-value').textContent.trim();
+  const kids    = document.querySelector('#sel-kids .cs-value').textContent.trim();
+  const ageEl   = document.querySelector('#sel-age .cs-value');
+  const kidsAgeGroup = (ageEl && !ageEl.classList.contains('placeholder')) ? ageEl.textContent.trim() : '';
+
+  const dateFrom = bkFormatDate(dateState.from);
+  const dateTo   = bkFormatDate(dateState.to);
+
+  const mobilePattern = /^[0-9+\-\s()]{7,20}$/;
+  const emailPattern  = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+  // ── Client-side validation (mirrors the server-side rules in booking-submit.php) ──
+  if (fullName.length < 2 || fullName.length > 100) {
+    bkShowToast('⚠ Name must be between 2 and 100 characters.', '#e53e3e');
+    return;
+  }
+  if (!mobilePattern.test(mobile)) {
+    bkShowToast('⚠ Mobile number must be 7 to 20 digits.', '#e53e3e');
+    return;
+  }
+  if (!emailPattern.test(email) || email.length > 150) {
+    bkShowToast('⚠ Please enter a valid email address.', '#e53e3e');
+    return;
+  }
+  if (!dateFrom) {
+    bkShowToast('⚠ Please select your travel start date.', '#e53e3e');
+    return;
+  }
+  if (!dateTo) {
+    bkShowToast('⚠ Please select your travel end date.', '#e53e3e');
+    return;
+  }
+  if (destination.length < 2 || destination.length > 150) {
+    bkShowToast('⚠ Destination must be between 2 and 150 characters.', '#e53e3e');
+    return;
+  }
+  if (specialRequest.length > 1000) {
+    bkShowToast('⚠ Special request must be under 1000 characters.', '#e53e3e');
+    return;
+  }
+
+  const btn = document.getElementById('bkSubmitBtn');
+  const btnOriginalHTML = btn ? btn.innerHTML : '';
+  if (btn) {
+    btn.classList.add('bk-disabled');
+    btn.innerHTML = '<span class="bk-spinner"></span>Sending...';
+  }
+
+  const formData = new FormData();
+  formData.append('fullName', fullName);
+  formData.append('mobile', mobile);
+  formData.append('email', email);
+  formData.append('dateFrom', dateFrom);
+  formData.append('dateTo', dateTo);
+  formData.append('destination', destination);
+  formData.append('persons', persons);
+  formData.append('kids', kids);
+  formData.append('kidsAgeGroup', kidsAgeGroup);
+  formData.append('specialRequest', specialRequest);
+
+  fetch('booking-submit.php', { method: 'POST', body: formData })
+    .then(res => res.text().then(text => ({ ok: res.ok, status: res.status, text })))
+    .then(({ ok, status, text }) => {
+      let data;
+      try {
+        data = JSON.parse(text);
+      } catch (parseErr) {
+        // The server didn't return valid JSON — log the raw response so it's easy to
+        // see the real cause (e.g. a PHP path issue) in the browser console.
+        console.error('booking-submit.php did not return valid JSON. HTTP status:', status, 'Response:', text);
+        bkShowToast('⚠ Server returned an unexpected response (see browser console for details).', '#e53e3e');
+        return;
+      }
+      if (data.success) {
+        ['bkFullName','bkMobile','bkEmail','bkDestination','bkSpecialRequest']
+          .forEach(id => { document.getElementById(id).value = ''; });
+        bkShowToast('✓ ' + data.message, '#7c3aed');
+      } else {
+        bkShowToast('⚠ ' + data.message, '#e53e3e');
+      }
+    })
+    .catch(err => {
+      console.error('booking-submit.php request failed:', err);
+      bkShowToast('⚠ Could not reach the server. Check that booking-submit.php is reachable.', '#e53e3e');
+    })
+    .finally(() => {
+      if (btn) {
+        btn.classList.remove('bk-disabled');
+        btn.innerHTML = btnOriginalHTML;
+      }
+    });
+}

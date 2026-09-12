@@ -1237,3 +1237,17 @@ body {
     font-size: 24px;
   }
 }
+/* ── Contact form sending-state spinner (added for backend submission) ── */
+.cf-send-btn:disabled { opacity: 0.6; cursor: not-allowed; transform: none; }
+.cf-spinner {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  margin-right: 8px;
+  vertical-align: -2px;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-top-color: #ffffff;
+  border-radius: 50%;
+  animation: cf-spin 0.7s linear infinite;
+}
+@keyframes cf-spin { to { transform: rotate(360deg); } }

@@ -256,40 +256,40 @@
           <!-- Row 1: First Name + Last Name -->
           <div class="cf-row cf-two">
             <div class="cf-box">
-              <label class="cf-label" data-en="Your First Name" data-si="ඔබේ මුල් නම" data-ta="Uw Eerste Naam">Your First Name</label>
-              <input class="cf-input" type="text" id="cfFirstName" placeholder="Please Enter Your First Name" />
+              <label class="cf-label" data-en="Your First Name *" data-si="ඔබේ මුල් නම *" data-ta="Uw Eerste Naam *">Your First Name *</label>
+              <input class="cf-input" type="text" id="cfFirstName" minlength="2" maxlength="100" placeholder="Please Enter Your First Name" />
             </div>
             <div class="cf-box">
-              <label class="cf-label" data-en="Your Last Name" data-si="ඔබේ අවසාන නම" data-ta="Uw Laatste Naam">Your Last Name</label>
-              <input class="cf-input" type="text" id="cfLastName" placeholder="Please Enter Your Last Name" />
+              <label class="cf-label" data-en="Your Last Name (Optional)" data-si="ඔබේ අවසාන නම (විකල්ප)" data-ta="Uw Laatste Naam (Optioneel)">Your Last Name (Optional)</label>
+              <input class="cf-input" type="text" id="cfLastName" maxlength="100" placeholder="Please Enter Your Last Name" />
             </div>
           </div>
 
           <!-- Row 2: Email + Mobile -->
           <div class="cf-row cf-two">
             <div class="cf-box">
-              <label class="cf-label" data-en="Your Email" data-si="ඔබේ විද්‍යුත් තැපෑල" data-ta="Uw Email">Your Email</label>
-              <input class="cf-input" type="email" id="cfEmail" placeholder="Please Enter Your Email" />
+              <label class="cf-label" data-en="Your Email *" data-si="ඔබේ විද්‍යුත් තැපෑල *" data-ta="Uw Email *">Your Email *</label>
+              <input class="cf-input" type="email" id="cfEmail" maxlength="150" placeholder="Please Enter Your Email" />
             </div>
             <div class="cf-box">
-              <label class="cf-label" data-en="Your Mobile Number" data-si="ඔබේ ජංගම අංකය" data-ta="Uw Mobiele Nummer">Your Mobile Number</label>
-              <input class="cf-input" type="tel" id="cfMobile" placeholder="Please Enter Your Mobile Number" />
+              <label class="cf-label" data-en="Your Mobile Number (Optional)" data-si="ඔබේ ජංගම අංකය (විකල්ප)" data-ta="Uw Mobiele Nummer (Optioneel)">Your Mobile Number (Optional)</label>
+              <input class="cf-input" type="tel" id="cfMobile" minlength="7" maxlength="20" placeholder="Please Enter Your Mobile Number" />
             </div>
           </div>
 
           <!-- Row 3: Subject -->
           <div class="cf-row cf-one">
             <div class="cf-box">
-              <label class="cf-label" data-en="Your Subject" data-si="ඔබේ විෂය" data-ta="Uw Onderwerp">Your Subject</label>
-              <input class="cf-input" type="text" id="cfSubject" placeholder="Please Enter Your Subject" />
+              <label class="cf-label" data-en="Your Subject (Optional)" data-si="ඔබේ විෂය (විකල්ප)" data-ta="Uw Onderwerp (Optioneel)">Your Subject (Optional)</label>
+              <input class="cf-input" type="text" id="cfSubject" maxlength="150" placeholder="Please Enter Your Subject" />
             </div>
           </div>
 
           <!-- Row 4: Message -->
           <div class="cf-row cf-one">
             <div class="cf-box">
-              <label class="cf-label" data-en="Your Message" data-si="ඔබේ පණිවිඩය" data-ta="Uw Bericht">Your Message</label>
-              <textarea class="cf-input cf-textarea" id="cfMessage" placeholder="Please Enter Your Message"></textarea>
+              <label class="cf-label" data-en="Your Message *" data-si="ඔබේ පණිවිඩය *" data-ta="Uw Bericht *">Your Message *</label>
+              <textarea class="cf-input cf-textarea" id="cfMessage" minlength="10" maxlength="2000" placeholder="Please Enter Your Message"></textarea>
             </div>
           </div>
 
