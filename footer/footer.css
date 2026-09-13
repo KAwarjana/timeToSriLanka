@@ -381,14 +381,14 @@ body {
 }
 
 
-.footer-dev-link {
+.footer-bottom-design a {
   font-weight: 700;
   color: inherit;
   text-decoration: none;
   transition: ease-out 0.3s;
 }
 
-.footer-dev-link:hover {
+.footer-bottom-design a:hover {
   color: #8572fd;
   cursor: pointer;
 }

@@ -80,9 +80,9 @@ try {
     );
 
     $successMsg = 'Message sent successfully!';
-    if (DEBUG_MODE) {
-        $successMsg .= ' [DEBUG: ' . ttc_mail_debug_summary() . ']';
-    }
+    // if (DEBUG_MODE) {
+    //     $successMsg .= ' [DEBUG: ' . ttc_mail_debug_summary() . ']';
+    // }
     json_response(true, $successMsg);
 
 } catch (Throwable $e) {
