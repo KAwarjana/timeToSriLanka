@@ -46,11 +46,20 @@ try {
         $errors[] = 'Please enter a valid email address.';
     }
 
-    if ($dateFrom === '') {
-        $errors[] = 'Please select your travel start date.';
+    $fromDateObj = ttc_parse_date($dateFrom);
+    $toDateObj   = ttc_parse_date($dateTo);
+    $today       = new DateTime('today'); // midnight, in the Asia/Colombo timezone set in config.php
+
+    if (!$fromDateObj) {
+        $errors[] = 'Please select a valid travel start date.';
+    } elseif ($fromDateObj < $today) {
+        $errors[] = 'Travel start date cannot be in the past.';
     }
-    if ($dateTo === '') {
-        $errors[] = 'Please select your travel end date.';
+
+    if (!$toDateObj) {
+        $errors[] = 'Please select a valid travel end date.';
+    } elseif ($fromDateObj && $toDateObj < $fromDateObj) {
+        $errors[] = 'Travel end date cannot be before the start date.';
     }
 
     if (ttc_strlen($destination) < 2 || ttc_strlen($destination) > 150) {
@@ -101,7 +110,11 @@ try {
         tpl_client_quotation_received($quotation)
     );
 
-    json_response(true, 'Your request has been sent successfully! We will get back to you shortly with a quotation.');
+    $successMsg = 'Your request has been sent successfully! We will get back to you shortly with a quotation.';
+    if (DEBUG_MODE) {
+        $successMsg .= ' [DEBUG: ' . ttc_mail_debug_summary() . ']';
+    }
+    json_response(true, $successMsg);
 
 } catch (Throwable $e) {
     json_response(false, DEBUG_MODE

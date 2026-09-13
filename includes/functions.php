@@ -67,6 +67,22 @@ function generate_order_id() {
 }
 
 /**
+ * Parses a "dd/mm/yyyy" string (the format booking.js sends) into a DateTime
+ * at midnight, or null if it's missing/malformed/not a real calendar date.
+ */
+function ttc_parse_date($str) {
+    if (!is_string($str) || !preg_match('/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/', trim($str), $m)) {
+        return null;
+    }
+    [, $d, $mo, $y] = $m;
+    if (!checkdate((int) $mo, (int) $d, (int) $y)) {
+        return null;
+    }
+    $date = DateTime::createFromFormat('!d/m/Y', sprintf('%02d/%02d/%04d', $d, $mo, $y));
+    return $date ?: null;
+}
+
+/**
  * Call this once, right at the top of any *-submit.php AJAX endpoint (after
  * requiring config.php). It guarantees the endpoint ALWAYS returns valid JSON,
  * even if a PHP fatal error happens — instead of a broken page that shows

@@ -114,7 +114,7 @@
 
   <!-- MAIN NAVBAR -->
   <nav class="navbar">
-    <div class="logo">
+    <div class="logo" onclick="window.location='../home/index.php';" style="cursor:pointer;">
       <img src="../resources/img/logo_banner.webp" alt="Time to Ceylon Logo" class="header-logo-img logo-desktop-img">
       <img src="../resources/img/logo_single.webp" alt="Time to Ceylon Logo" class="header-logo-img logo-mobile-img">
     </div>

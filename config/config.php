@@ -21,14 +21,20 @@ define('SITE_BASE_PATH', '');
 define('SITE_LOGO_URL', SITE_URL . SITE_BASE_PATH . '/resources/img/logo_banner.webp');
 
 // ── Company contact info (shown in emails) ─────────────────────
-define('COMPANY_EMAIL', 'kawarjanagunasekara@gmail.com');   // owner / admin inbox — all notifications go here
+// This is just the "To" inbox for owner notifications — it CAN be a Gmail/any
+// address you personally check, that's totally fine.
+define('COMPANY_EMAIL', 'info@timetoceylon.com');   // owner / admin inbox — all notifications go here
 define('COMPANY_PHONE', '+94 255 528 956');
 define('COMPANY_ADDRESS', 'Colombo, Sri Lanka');
 
 // ── Outgoing mail "From" address ───────────────────────────────
-// IMPORTANT: this must be an address @ your own domain (e.g. kawarjanagunasekara@gmail.com)
-// for PHP's mail() to be accepted by most mail servers / avoid spam folders.
-define('MAIL_FROM_ADDRESS', 'kawarjanagunasekara@gmail.com');
+// ⚠ CRITICAL — this is the #1 reason emails silently disappear:
+// This MUST be a real mailbox on YOUR OWN hosting domain, created in your
+// DreamHost panel (Email → Manage Email → Create Email Address) — e.g.
+// info@yourdomain.com. It must NEVER be a Gmail/Yahoo/Outlook/Hotmail address —
+// sending "From" a free provider through a different server gets silently
+// rejected as spoofing, even though PHP's mail() will still report success.
+define('MAIL_FROM_ADDRESS', 'info@timetoceylon.com');
 define('MAIL_FROM_NAME', 'TimetoCeylon');
 
 // ── Secret signing key ──────────────────────────────────────────

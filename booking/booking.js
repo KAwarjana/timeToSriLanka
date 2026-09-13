@@ -31,6 +31,23 @@ const dateState = { from: null, to: null, active: null };
 const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 let calView = { from: new Date(), to: new Date() };
 
+// A trip must start today or later, and the return date can't be earlier than
+// the start date (same day is allowed — a single-day trip).
+function isDateDisabled(which, date) {
+    const day = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    if (day.getTime() < today.getTime()) return true;
+
+    if (which === 'to' && dateState.from) {
+        const from = new Date(dateState.from.getFullYear(), dateState.from.getMonth(), dateState.from.getDate());
+        if (day.getTime() < from.getTime()) return true;
+    }
+
+    return false;
+}
+
 function openDatePicker(which) {
     closeAll();
     dateState.active = which;
@@ -64,10 +81,13 @@ function renderCal(which) {
         const isToday = thisDate.getTime() === today.getTime();
         const sel = dateState[which];
         const isSelected = sel && sel.getFullYear() === year && sel.getMonth() === month && sel.getDate() === day;
+        const isDisabled = isDateDisabled(which, thisDate);
         let cls = 'cal-day';
         if (isToday) cls += ' today';
         if (isSelected) cls += ' selected';
-        html += `<div class="${cls}" onclick="pickDay('${which}',${year},${month},${day})">${day}</div>`;
+        if (isDisabled) cls += ' disabled';
+        const clickHandler = isDisabled ? '' : `onclick="pickDay('${which}',${year},${month},${day})"`;
+        html += `<div class="${cls}" ${clickHandler}>${day}</div>`;
     }
 
     html += '</div>';
@@ -86,11 +106,19 @@ function shiftMonth(which, dir) {
 
 function pickDay(which, y, m, d) {
     const picked = new Date(y, m, d);
+    if (isDateDisabled(which, picked)) return; // safety net — shouldn't happen since disabled days have no click handler
+
     dateState[which] = picked;
     const display = String(d).padStart(2, '0') + ' / ' + String(m + 1).padStart(2, '0') + ' / ' + y;
     document.getElementById('cd-' + which + '-display').textContent = display;
     document.getElementById('cd-' + which + '-display').classList.remove('placeholder-text');
     document.getElementById('cal-' + which).classList.remove('open');
+
+    // If picking a new "From" date pushes it past the already-selected "To" date,
+    // that combination is no longer valid — clear "To" so nothing invalid lingers.
+    if (which === 'from' && dateState.to && dateState.to.getTime() < picked.getTime()) {
+        clearDate('to');
+    }
 }
 
 function pickToday(which) {
@@ -332,6 +360,16 @@ function bkHandleSend() {
   }
   if (!dateTo) {
     bkShowToast('⚠ Please select your travel end date.', '#e53e3e');
+    return;
+  }
+  const todayMidnight = new Date();
+  todayMidnight.setHours(0, 0, 0, 0);
+  if (dateState.from && dateState.from.getTime() < todayMidnight.getTime()) {
+    bkShowToast('⚠ Travel start date cannot be in the past.', '#e53e3e');
+    return;
+  }
+  if (dateState.from && dateState.to && dateState.to.getTime() < dateState.from.getTime()) {
+    bkShowToast('⚠ Travel end date cannot be before the start date.', '#e53e3e');
     return;
   }
   if (destination.length < 2 || destination.length > 150) {

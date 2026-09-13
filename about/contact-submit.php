@@ -79,7 +79,11 @@ try {
         tpl_client_contact_feedback($contact)
     );
 
-    json_response(true, 'Message sent successfully!');
+    $successMsg = 'Message sent successfully!';
+    if (DEBUG_MODE) {
+        $successMsg .= ' [DEBUG: ' . ttc_mail_debug_summary() . ']';
+    }
+    json_response(true, $successMsg);
 
 } catch (Throwable $e) {
     json_response(false, DEBUG_MODE
