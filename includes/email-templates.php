@@ -19,7 +19,7 @@ function build_email_html($heading, $bodyHtml, $ctaText = null, $ctaUrl = null) 
         <tr>
           <td align="center" style="padding:8px 0 30px 0;">
             <a href="' . htmlspecialchars($ctaUrl) . '" target="_blank"
-               style="background:#260058;color:#ffffff;text-decoration:none;font-family:Arial,sans-serif;
+               style="background-image:linear-gradient(135deg, #4C00B0 0%, #A99CFD 100%);color:#ffffff;text-decoration:none;font-family:Arial,sans-serif;
                       font-size:15px;font-weight:bold;padding:14px 34px;border-radius:30px;display:inline-block;">
               ' . htmlspecialchars($ctaText) . '
             </a>
@@ -46,7 +46,7 @@ function build_email_html($heading, $bodyHtml, $ctaText = null, $ctaUrl = null) 
 
           <!-- Banner -->
           <tr>
-            <td align="center" style="background:#260058;padding:26px 20px;">
+            <td align="center" style="background-image:linear-gradient(135deg, #4C00B0 0%, #A99CFD 100%);padding:26px 20px;">
               <img src="' . htmlspecialchars($logo) . '" alt="' . SITE_NAME . '" style="max-width:190px;height:auto;display:block;">
             </td>
           </tr>
@@ -74,8 +74,11 @@ function build_email_html($heading, $bodyHtml, $ctaText = null, $ctaUrl = null) 
                 <strong style="color:#260058;">' . SITE_NAME . '</strong><br>
                 ' . COMPANY_ADDRESS . ' &nbsp;|&nbsp; ' . COMPANY_PHONE . ' &nbsp;|&nbsp; ' . COMPANY_EMAIL . '
               </p>
-              <p style="margin:10px 0 0 0;font-size:11px;color:#999;font-family:Arial,sans-serif;">
+              <p style="margin:10px 0 0 0;font-size:11px;color:#999;font-family:Arial,sans-serif;align:center;">
                 &copy; ' . $year . ' ' . SITE_NAME . '. All rights reserved. This is an automated email, please do not reply directly unless needed.
+              </p>
+              <p style="margin:10px 0 0 0;font-size:11px;color:#999;font-family:Arial,sans-serif;align:center;">
+                Design &amp; Developed by <a href="https://evotechsoftwaresolutions.com" style="color:#4C00B0;text-decoration:none;font-weight:bold;">Evon Technologies Software Solutions (PVT) Ltd.</a>
               </p>
             </td>
           </tr>

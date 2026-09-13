@@ -102,8 +102,8 @@
         </script>&nbsp;<span data-en="Time to Ceylon. All rights reserved." data-si="Time to Ceylon. සියලුම හිමිකම් ඇවරණය වේ." data-ta="Time to Ceylon. Alle rechten voorbehouden.">Time to Ceylon. All rights reserved.</span> 
       </div>
       <div class="footer-bottom-design" data-en="Design &amp; Developed by" data-si="නිර්මාණය කර ඇත්තේ" data-ta="Ontworpen en ontwikkeld door">
-      Design &amp; Developed by <span data-en="Evon Technologies Software Solutions (PVT) Ltd." data-si="Evon Technologies Software Solutions (PVT) Ltd." data-ta="Evon Technologies Software Solutions (PVT) Ltd.">Evon Technologies Software Solutions (PVT) Ltd.</span>
-      </div>
+Design &amp; Developed by <a class="footer-dev-link" href="https://evotechsoftwaresolutions.com" target="_blank" rel="noopener noreferrer" data-en="Evon Technologies Software Solutions (PVT) Ltd." data-si="Evon Technologies Software Solutions (PVT) Ltd." data-ta="Evon Technologies Software Solutions (PVT) Ltd.">Evon Technologies Software Solutions (PVT) Ltd.</a>
+</div>
     </div>
   </footer>
 

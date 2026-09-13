@@ -25,7 +25,7 @@ define('SITE_LOGO_URL', SITE_URL . SITE_BASE_PATH . '/resources/img/logo_banner.
 // address you personally check, that's totally fine.
 define('COMPANY_EMAIL', 'info@timetoceylon.com');   // owner / admin inbox — all notifications go here
 define('COMPANY_PHONE', '+94 255 528 956');
-define('COMPANY_ADDRESS', 'Colombo, Sri Lanka');
+define('COMPANY_ADDRESS', 'No. 16 A 2nd cross street, Uyanwatta, Matara, Sri Lanka');
 
 // ── Outgoing mail "From" address ───────────────────────────────
 // ⚠ CRITICAL — this is the #1 reason emails silently disappear:

@@ -279,7 +279,7 @@
               <path d="M12 2a8 8 0 018 8c0 5.25-8 12-8 12S4 15.25 4 10a8 8 0 018-8z" />
             </svg>
           </span>
-          No. 57, Jethawana Road, Colombo 14
+          No. 16 A 2nd cross street, Uyanwatta, Matara, Sri Lanka
         </div>
       </div>
 

@@ -228,8 +228,8 @@
               <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
             </svg>
           </div>
-          <strong>Colombo, Sri Lanka</strong>
-          <span data-en="Based In Colombo City" data-si="කොළඹ නගරයේ පිහිටා ඇත" data-ta="Gevestigd In Colombo Stad">Based In Colombo City</span>
+          <strong>No.16 A 2nd cross street, Uyanwatta, Matara, Sri Lanka</strong>
+          <span data-en="Based On Entire Country" data-si="මුළු රටම පදනම් කරගෙන" data-ta="Gebaseerd op het hele land">Based On Entire Country</span>
         </div>
 
       </div>
@@ -310,12 +310,7 @@
             From the heart of Sri Lanka, we guide travelers with local expertise, personal attention, and exceptional service.
           </p>
           <div class="cf-map-wrap">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63371.81778384754!2d79.82126!3d6.92748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae253d10f7a7003%3A0x320b2e4d32d3838d!2sColombo%2C%20Sri%20Lanka!5e0!3m2!1sen!2slk!4v1700000000000"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4707.138716833097!2d80.5463982756784!3d5.959228129461921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae138cc0febe8db%3A0x599b0ed9ce05c!2s48%2F16%202nd%20Cross%20Rd%2C%20Matara!5e1!3m2!1sen!2slk!4v1789337212054!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
           </div>
         </div>
 
