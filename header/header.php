@@ -18,7 +18,7 @@
   <div class="topbar">
     <div class="topbar-left">
       <div class="topbar-phones">
-        <a class="topbar-item" href="tel:+94255528956">
+        <a class="topbar-item" href="tel:+94773614654">
           <span class="topbar-flag">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 45">
               <rect width="90" height="45" fill="#8D153A" />
@@ -29,10 +29,10 @@
               <text x="55" y="33" font-size="22" text-anchor="middle" fill="#FC0">🦁</text>
             </svg>
           </span>
-          +94 255 528 956
+          +94 77 3614654
         </a>
         <div class="topbar-divider"></div>
-        <a class="topbar-item" href="https://wa.me/31612345678" target="_blank" rel="noreferrer">
+        <a class="topbar-item" href="https://wa.me/31618324770" target="_blank" rel="noreferrer">
           <span class="topbar-flag">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
               <rect fill="#AE1C28" width="900" height="200" />
@@ -40,7 +40,7 @@
               <rect fill="#21468B" y="400" width="900" height="200" />
             </svg>
           </span>
-          +31 6 12345678
+          +31 6 18324770
         </a>
       </div>
       <div class="topbar-divider"></div>
@@ -257,7 +257,8 @@
                 d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.05 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
             </svg>
           </span>
-          +94 255 528 956
+          +94 77 3614654 / 
+          +31 6 18324770
         </a>
         <a class="panel-contact-item"
           href="/cdn-cgi/l/email-protection#087c61656d7c677b7a616469666369486f65696164266b6765">
