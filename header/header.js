@@ -162,7 +162,7 @@
 
   // Normalise: strip trailing slash, lowercase
   function norm(p) {
-    return p.replace(/\/+$/, '').toLowerCase();
+    return p.replace(/\/+$/, '').replace(/\.php$/i, '').replace(/\/index$/i, '').replace(/^(.*)\/([^/]+)\/\2$/i, '$1/$2').toLowerCase();
   }
 
   // All nav + panel links

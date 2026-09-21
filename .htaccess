@@ -1,0 +1,28 @@
+# ── Clean URLs ───────────────────────────────────────────────────
+#   /about/about.php   ->  shown as  /about/
+#   /home/index.php    ->  shown as  /home/
+#   /experiences/adventure.php -> shown as /experiences/adventure
+# Nothing else in the site is changed; existing links keep working.
+RewriteEngine On
+
+# 1) Direct hits on the main page of a folder (about/about.php, about/about,
+#    home/index.php) -> redirect to the folder URL. GET/HEAD only, so forms
+#    (POST) are untouched. Query strings (?pkg=3) are kept.
+RewriteCond %{THE_REQUEST} ^(GET|HEAD)\s+(\S*/)([^/\s?]+)/(?:\3|index)(?:\.php)?(?:\?\S*)?\s
+RewriteRule ^ %2%3/ [R=301,L]
+
+# 2) Any other .php URL (adventure.php, payment-return.php ...) -> without .php
+RewriteCond %{THE_REQUEST} ^(GET|HEAD)\s+(\S+?)\.php(\?\S*)?\s
+RewriteRule ^ %2 [R=301,L]
+
+# 3) Folder URL (/about/) quietly serves about/about.php
+#    (home/ is already handled by index.php)
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{REQUEST_FILENAME}$1.php -f
+RewriteRule ^([^/]+)/$ $1/$1.php [L]
+
+# 4) Any other /something quietly serves /something.php
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+)$ $1.php [L]
