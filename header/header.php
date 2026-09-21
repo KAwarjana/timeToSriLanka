@@ -29,7 +29,7 @@
               <text x="55" y="33" font-size="22" text-anchor="middle" fill="#FC0">🦁</text>
             </svg>
           </span>
-          +94 77 3614654
+          +94 71 1112208
         </a>
         <div class="topbar-divider"></div>
         <a class="topbar-item" href="https://wa.me/31618324770" target="_blank" rel="noreferrer">
@@ -44,7 +44,7 @@
         </a>
       </div>
       <div class="topbar-divider"></div>
-      <a class="topbar-item" href="/cdn-cgi/l/email-protection#384c51555d4c574b4a515459565359785f55595154165b5755">
+      <a class="topbar-item" href="mailto:info@timetoceylon.com">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="#F4F0FB" stroke="#4C00B0" stroke-width="1"
           stroke-linecap="round" stroke-linejoin="round">
           <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
@@ -257,11 +257,11 @@
                 d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.05 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
             </svg>
           </span>
-          +94 77 3614654 / 
+          +94 71 1112208 / 
           +31 6 18324770
         </a>
         <a class="panel-contact-item"
-          href="/cdn-cgi/l/email-protection#087c61656d7c677b7a616469666369486f65696164266b6765">
+          href="mailto:info@timetoceylon.com">
           <span class="panel-contact-icon">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.7)"
               stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
