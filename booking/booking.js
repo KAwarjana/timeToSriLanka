@@ -32,7 +32,7 @@ const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'Jul
 let calView = { from: new Date(), to: new Date() };
 
 // A trip must start today or later, and the return date can't be earlier than
-// the start date (same day is allowed — a single-day trip).
+// the start date (same day is allowed - a single-day trip).
 function isDateDisabled(which, date) {
     const day = new Date(date.getFullYear(), date.getMonth(), date.getDate());
     const today = new Date();
@@ -106,7 +106,7 @@ function shiftMonth(which, dir) {
 
 function pickDay(which, y, m, d) {
     const picked = new Date(y, m, d);
-    if (isDateDisabled(which, picked)) return; // safety net — shouldn't happen since disabled days have no click handler
+    if (isDateDisabled(which, picked)) return; // safety net - shouldn't happen since disabled days have no click handler
 
     dateState[which] = picked;
     const display = String(d).padStart(2, '0') + ' / ' + String(m + 1).padStart(2, '0') + ' / ' + y;
@@ -115,7 +115,7 @@ function pickDay(which, y, m, d) {
     document.getElementById('cal-' + which).classList.remove('open');
 
     // If picking a new "From" date pushes it past the already-selected "To" date,
-    // that combination is no longer valid — clear "To" so nothing invalid lingers.
+    // that combination is no longer valid - clear "To" so nothing invalid lingers.
     if (which === 'from' && dateState.to && dateState.to.getTime() < picked.getTime()) {
         clearDate('to');
     }
@@ -407,7 +407,7 @@ function bkHandleSend() {
       try {
         data = JSON.parse(text);
       } catch (parseErr) {
-        // The server didn't return valid JSON — log the raw response so it's easy to
+        // The server didn't return valid JSON - log the raw response so it's easy to
         // see the real cause (e.g. a PHP path issue) in the browser console.
         console.error('booking-submit.php did not return valid JSON. HTTP status:', status, 'Response:', text);
         bkShowToast('⚠ Server returned an unexpected response (see browser console for details).', '#e53e3e');

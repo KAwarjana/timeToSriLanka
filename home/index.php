@@ -19,7 +19,7 @@
   <!-- ------------header----------- -->
 
   <!-- ══════════════════════════════════════
-     SECTION 1 — HERO (video background)
+     SECTION 1 - HERO (video background)
 ══════════════════════════════════════ -->
   <section class="hero">
     <!-- Video background -->
@@ -44,7 +44,7 @@
   </section>
 
   <!-- ══════════════════════════════════════
-     SECTION 2 — ABOUT US
+     SECTION 2 - ABOUT US
 ══════════════════════════════════════ -->
   <section class="about">
     <div class="about-inner">
@@ -388,15 +388,15 @@
       <div class="hdr">
         <p class="eyebrow" data-en="Destinations" data-si="ගමනාන්ත" data-ta="Bestemmingen">Destinations</p>
         <h2 class="h-title" data-en="Discover Sri Lanka’s Most <span class='accent'>Enchanting Destinations</span>" data-si="ශ්‍රී ලංකාවේ වඩාත්ම <span class='accent'>මනස්කාන්ත ගමනාන්ත</span> සොයා බලන්න" data-ta="Ontdek Sri Lanka’s Meest <span class='accent'>Betoverende Bestemmingen</span>">Discover Sri Lanka’s Most <span class="accent">Enchanting Destinations</span></h2>
-        <p class="h-body" data-en="From the world-famous Sigiriya and ancient royal cities to breathtaking train journeys, spectacular waterfalls, tropical coastlines, hidden paradise beaches, and the enchanting Sinharaja Rainforest — discover carefully selected destinations that bring Sri Lanka’s unique beauty, rich culture, and natural diversity to life in unforgettable ways." data-si="ලොව සුප්‍රසිද්ධ සිගිරිය සහ පුරාණ රාජධානී නගරවල සිට අතිමහත් දුම්රිය ගමන්, මනාව පෙනෙන ජලවැලි, නිවීගිය නිරිත සහිත වෙරළ තීර, සඟවා ඇති පරපුරාත්මක වෙරළවල් සහ මනහර සිංහරාජ වනාන්තරය දක්වා — ශ්‍රී ලංකාවේ අනන්ය සුන්දරත්වය, පොහොසත් සංස්කෘතිය සහ ස්වභාවික විවිධත්වය අමතක නොවන ආකාරයෙන් පෙන්වන සූක්ෂමව තෝරාගත් ගමනාන්ත සොයා බලන්න." data-ta="Van het wereldberoemde Sigiriya en eeuwenoude koningssteden tot adembenemende treinreizen, indrukwekkende watervallen, tropische kustlijnen, verborgen paradijselijke stranden en het betoverende Sinharaja Rainforest – ontdek zorgvuldig geselecteerde bestemmingen die de unieke schoonheid, rijke cultuur en natuurlijke diversiteit van Sri Lanka op onvergetelijke wijze tot leven brengen.">
-          From the world-famous Sigiriya and ancient royal cities to breathtaking train journeys, spectacular waterfalls, tropical coastlines, hidden paradise beaches, and the enchanting Sinharaja Rainforest — discover carefully selected destinations that bring Sri Lanka’s unique beauty, rich culture, and natural diversity to life in unforgettable ways.</p>
+        <p class="h-body" data-en="From the world-famous Sigiriya and ancient royal cities to breathtaking train journeys, spectacular waterfalls, tropical coastlines, hidden paradise beaches, and the enchanting Sinharaja Rainforest - discover carefully selected destinations that bring Sri Lanka’s unique beauty, rich culture, and natural diversity to life in unforgettable ways." data-si="ලොව සුප්‍රසිද්ධ සිගිරිය සහ පුරාණ රාජධානී නගරවල සිට අතිමහත් දුම්රිය ගමන්, මනාව පෙනෙන ජලවැලි, නිවීගිය නිරිත සහිත වෙරළ තීර, සඟවා ඇති පරපුරාත්මක වෙරළවල් සහ මනහර සිංහරාජ වනාන්තරය දක්වා - ශ්‍රී ලංකාවේ අනන්ය සුන්දරත්වය, පොහොසත් සංස්කෘතිය සහ ස්වභාවික විවිධත්වය අමතක නොවන ආකාරයෙන් පෙන්වන සූක්ෂමව තෝරාගත් ගමනාන්ත සොයා බලන්න." data-ta="Van het wereldberoemde Sigiriya en eeuwenoude koningssteden tot adembenemende treinreizen, indrukwekkende watervallen, tropische kustlijnen, verborgen paradijselijke stranden en het betoverende Sinharaja Rainforest – ontdek zorgvuldig geselecteerde bestemmingen die de unieke schoonheid, rijke cultuur en natuurlijke diversiteit van Sri Lanka op onvergetelijke wijze tot leven brengen.">
+          From the world-famous Sigiriya and ancient royal cities to breathtaking train journeys, spectacular waterfalls, tropical coastlines, hidden paradise beaches, and the enchanting Sinharaja Rainforest - discover carefully selected destinations that bring Sri Lanka’s unique beauty, rich culture, and natural diversity to life in unforgettable ways.</p>
       </div>
 
       <!-- Mosaic Grid -->
       <div class="mosaic">
 
-        <!-- c1 — dark mountain/castle (top-left) -->
-        <!-- c1 — Sigiriya Rock Fortress (top-left) -->
+        <!-- c1 - dark mountain/castle (top-left) -->
+        <!-- c1 - Sigiriya Rock Fortress (top-left) -->
         <div class="card c1 r1">
           <img src="../resources/img/destinations/sigiriya/sigiriya1.webp" alt="Sigiriya Rock Fortress">
           <span class="lbl" data-en="Sigiriya" data-si="සිගිරිය" data-ta="Sigiriya">Sigiriya</span>
@@ -405,7 +405,7 @@
           </div>
         </div>
 
-        <!-- c2 — Temple of the Tooth (top col2) -->
+        <!-- c2 - Temple of the Tooth (top col2) -->
         <div class="card c2 r1">
           <img src="../resources/img/destinations/kandy/kandy1.webp" alt="Temple of the Tooth">
           <span class="lbl" data-en="Kandy" data-si="මහනුවර" data-ta="Kandy">Kandy</span>
@@ -414,7 +414,7 @@
           </div>
         </div>
 
-        <!-- c3 — Yala National Park (top col3) -->
+        <!-- c3 - Yala National Park (top col3) -->
         <div class="card c3 r1">
           <img src="../resources/img/destinations/yala/yala1.webp" alt="Yala National Park">
           <span class="lbl" data-en="Yala" data-si="යාල" data-ta="Yala">Yala</span>
@@ -423,7 +423,7 @@
           </div>
         </div>
 
-        <!-- c4 — Galle Fort (top-right) -->
+        <!-- c4 - Galle Fort (top-right) -->
         <div class="card c4 r1">
           <img src="../resources/img/destinations/galle/galle1.webp" alt="Galle Fort">
           <span class="lbl" data-en="Galle" data-si="ගාල්ල" data-ta="Galle">Galle</span>
@@ -432,7 +432,7 @@
           </div>
         </div>
 
-        <!-- c5 — Ella (bottom-left) -->
+        <!-- c5 - Ella (bottom-left) -->
         <div class="card c5">
           <img src="../resources/img/destinations/ella/ella1.webp" alt="Ella">
           <span class="lbl" data-en="Ella" data-si="ඇල්ල" data-ta="Ella">Ella</span>
@@ -441,7 +441,7 @@
           </div>
         </div>
 
-        <!-- c6 — Mirissa Beach (bottom col2) -->
+        <!-- c6 - Mirissa Beach (bottom col2) -->
         <div class="card c6">
           <img src="../resources/img/destinations/mirissa/mirissa1.webp" alt="Mirissa Beach">
           <span class="lbl" data-en="Mirissa" data-si="මිරිස්ස" data-ta="Mirissa">Mirissa</span>
@@ -450,7 +450,7 @@
           </div>
         </div>
 
-        <!-- c7 — Adam's Peak (bottom col3) -->
+        <!-- c7 - Adam's Peak (bottom col3) -->
         <div class="card c7">
           <img src="../resources/img/destinations/adamspeak/adamspeak1.webp" alt="Adam's Peak">
           <span class="lbl" data-en="Adam's Peak" data-si="ශ්‍රී පාදස්ථානය" data-ta="Adam's Peak">Adam's Peak</span>
@@ -459,7 +459,7 @@
           </div>
         </div>
 
-        <!-- c8 — Anuradhapura (bottom-right) -->
+        <!-- c8 - Anuradhapura (bottom-right) -->
         <div class="card c8">
           <img src="../resources/img/destinations/anuradhapura/anuradhapura1.webp" alt="Anuradhapura">
           <span class="lbl" data-en="Anuradhapura" data-si="අනුරාධපුරය" data-ta="Anuradhapura">Anuradhapura</span>

@@ -81,7 +81,7 @@ body {
             rgba(245, 240, 255, 1.0) 100%);
 }
 
-/* Content — bottom-left with purple left bar */
+/* Content - bottom-left with purple left bar */
 .hero-content {
     position: absolute;
     z-index: 2;
@@ -212,7 +212,7 @@ body {
     position: relative;
 }
 
-/* Left image — overlaps the card */
+/* Left image - overlaps the card */
 .featured-img-wrap {
     flex-shrink: 0;
     width: 320px;
@@ -333,7 +333,7 @@ body {
 }
 
 /* ════════════════════
-   RESPONSIVE — FEATURED
+   RESPONSIVE - FEATURED
 ════════════════════ */
 @media (max-width: 850px) {
     .featured {

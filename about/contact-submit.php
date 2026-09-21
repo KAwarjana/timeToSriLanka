@@ -1,8 +1,8 @@
 <?php
 /**
  * Handles the "SEND MESSAGE" submission on about.php (#contact section).
- * Called via fetch() from about.js — always returns JSON.
- * Nothing is stored — this just validates the input and sends 2 emails.
+ * Called via fetch() from about.js - always returns JSON.
+ * Nothing is stored - this just validates the input and sends 2 emails.
  */
 
 require_once __DIR__ . '/../config/config.php';
@@ -40,7 +40,7 @@ try {
         $errors[] = 'Message must be between 10 and 2000 characters.';
     }
 
-    // ── Optional fields — validated only if the visitor typed something ──
+    // ── Optional fields - validated only if the visitor typed something ──
     if ($lastName !== '' && ttc_strlen($lastName) > 100) {
         $errors[] = 'Last name must be under 100 characters.';
     }
@@ -64,18 +64,18 @@ try {
         'message'    => $message,
     ];
 
-    // Email 1 — to the site owner
+    // Email 1 - to the site owner
     send_mail(
         COMPANY_EMAIL,
-        'New Contact Message — ' . ($subject !== '' ? $subject : $firstName),
+        'New Contact Message - ' . ($subject !== '' ? $subject : $firstName),
         tpl_admin_new_contact($contact),
         $email
     );
 
-    // Email 2 — auto-reply to the client
+    // Email 2 - auto-reply to the client
     send_mail(
         $email,
-        'We\'ve Received Your Message — ' . SITE_NAME,
+        'We\'ve Received Your Message - ' . SITE_NAME,
         tpl_client_contact_feedback($contact)
     );
 

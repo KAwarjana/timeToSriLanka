@@ -1,10 +1,10 @@
 <?php
 /**
- * Public "Make a Payment" page — fully self-serve, no admin tool involved.
+ * Public "Make a Payment" page - fully self-serve, no admin tool involved.
  * The owner personally emails the client a quotation (from his own inbox) and
  * tells them the amount to pay and shares this page's link. The client fills
  * in their own details and amount here and pays via PayHere.
- * Nothing is stored anywhere — client details only travel through this one
+ * Nothing is stored anywhere - client details only travel through this one
  * request and through PayHere's custom fields back to the notify handler.
  */
 
@@ -42,7 +42,7 @@ if (($_SERVER['REQUEST_METHOD'] ?? '') === 'POST') {
         $lastName  = $nameParts[1] ?? '.';
 
         // Everything the notify handler needs later is packed into custom_1/custom_2
-        // (PayHere echoes these back verbatim) — no database lookup needed.
+        // (PayHere echoes these back verbatim) - no database lookup needed.
         $customToken = encode_signed_payload([
             'name'     => $name,
             'email'    => $email,
@@ -59,7 +59,7 @@ if (($_SERVER['REQUEST_METHOD'] ?? '') === 'POST') {
             'cancel_url'   => SITE_URL . SITE_BASE_PATH . '/payment/payment-cancel.php',
             'notify_url'   => SITE_URL . SITE_BASE_PATH . '/payment/payhere-notify.php',
             'order_id'     => $orderId,
-            'items'        => SITE_NAME . ' — Sri Lanka Tour Payment' . ($note !== '' ? ' (' . $note . ')' : ''),
+            'items'        => SITE_NAME . ' - Sri Lanka Tour Payment' . ($note !== '' ? ' (' . $note . ')' : ''),
             'currency'     => $currency,
             'amount'       => $amountFormatted,
             'first_name'   => $firstName,
@@ -81,7 +81,7 @@ if (($_SERVER['REQUEST_METHOD'] ?? '') === 'POST') {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Make a Payment — TimetoCeylon</title>
+  <title>Make a Payment - TimetoCeylon</title>
   <link rel="icon" type="image/png" href="../resources/img/logo_single.webp">
   <link rel="stylesheet" href="payment.css">
 </head>
@@ -131,7 +131,7 @@ if (($_SERVER['REQUEST_METHOD'] ?? '') === 'POST') {
           </div>
           <div class="pay-form-box">
             <label>Reference / What is this payment for? (optional)</label>
-            <input type="text" name="note" maxlength="150" placeholder="e.g. 30% Advance — Ella &amp; Kandy Trip" value="<?= htmlspecialchars($_POST['note'] ?? '') ?>">
+            <input type="text" name="note" maxlength="150" placeholder="e.g. 30% Advance - Ella &amp; Kandy Trip" value="<?= htmlspecialchars($_POST['note'] ?? '') ?>">
           </div>
           <button type="submit" class="pay-btn">Proceed to Payment</button>
         </form>

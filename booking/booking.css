@@ -81,7 +81,7 @@ body {
             rgba(245, 240, 255, 1.0) 100%);
 }
 
-/* Content — bottom-left with purple left bar */
+/* Content - bottom-left with purple left bar */
 .hero-content {
     position: absolute;
     z-index: 2;

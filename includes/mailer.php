@@ -1,6 +1,6 @@
 <?php
 /**
- * Plain PHP mail() sender — same approach as the site's existing contact form
+ * Plain PHP mail() sender - same approach as the site's existing contact form
  * (no SMTP, no app passwords). Requires the hosting server to have a working
  * mail() / sendmail setup, which is standard on cPanel/DreamHost-style shared hosting.
  */
@@ -21,7 +21,7 @@ function send_mail($to, $subject, $htmlBody, $replyTo = null) {
     }
 
     // The 5th parameter sets the envelope sender (Return-Path) to match the From
-    // address. Several hosts, including DreamHost, use this for SPF alignment —
+    // address. Several hosts, including DreamHost, use this for SPF alignment -
     // without it, mail TO providers like Gmail is more likely to land in spam.
     $ok = @mail($to, $subject, $htmlBody, $headers, '-f' . MAIL_FROM_ADDRESS);
 
@@ -42,7 +42,7 @@ function send_mail($to, $subject, $htmlBody, $replyTo = null) {
 
 /**
  * Returns a short human-readable summary of every send_mail() call made so far
- * in this request — only used when DEBUG_MODE is on, to help diagnose why an
+ * in this request - only used when DEBUG_MODE is on, to help diagnose why an
  * email didn't arrive (e.g. on a fresh hosting account).
  */
 function ttc_mail_debug_summary() {
@@ -50,13 +50,13 @@ function ttc_mail_debug_summary() {
 
     // The #1 cause of "mail() returned true but nothing arrives": sending FROM a
     // free email provider (Gmail/Yahoo/Outlook) through a different server. The
-    // receiving server sees this as spoofing and silently drops it — mail() still
+    // receiving server sees this as spoofing and silently drops it - mail() still
     // reports success because the LOCAL handoff worked, the rejection happens later.
     $fromDomain = strtolower(substr(strrchr(MAIL_FROM_ADDRESS, '@'), 1));
     $freeProviders = ['gmail.com', 'yahoo.com', 'outlook.com', 'hotmail.com', 'live.com', 'icloud.com'];
     if (in_array($fromDomain, $freeProviders, true)) {
         $lines[] = '⚠ MAIL_FROM_ADDRESS (' . MAIL_FROM_ADDRESS . ') is a ' . $fromDomain
-            . ' address — sending FROM a free email provider through your hosting server will be '
+            . ' address - sending FROM a free email provider through your hosting server will be '
             . 'silently rejected by ' . $fromDomain . "'s spam filters. Change MAIL_FROM_ADDRESS in "
             . 'config.php to a real mailbox on your OWN hosting domain (create it in your DreamHost '
             . 'panel first, e.g. info@yourdomain.com). COMPANY_EMAIL (where you receive mail) can stay Gmail.';
@@ -68,7 +68,7 @@ function ttc_mail_debug_summary() {
     }
     foreach ($GLOBALS['ttc_mail_log'] as $entry) {
         $lines[] = 'to ' . $entry['to'] . ': ' . ($entry['result'] ? 'mail() returned true' : 'mail() returned FALSE')
-            . ($entry['php_msg'] ? ' — PHP said: ' . $entry['php_msg'] : '');
+            . ($entry['php_msg'] ? ' - PHP said: ' . $entry['php_msg'] : '');
     }
     return implode(' | ', $lines);
 }

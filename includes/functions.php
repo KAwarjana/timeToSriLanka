@@ -1,7 +1,7 @@
 <?php
 /**
  * Shared small helper functions.
- * This whole system is stateless — nothing is ever written to disk or a database.
+ * This whole system is stateless - nothing is ever written to disk or a database.
  * Data needed later (client name, amount, etc.) travels inside signed links/fields.
  */
 
@@ -16,7 +16,7 @@ function format_money($amount, $currency = 'LKR') {
     return $currency . ' ' . number_format((float) $amount, 2);
 }
 
-// Sends a JSON response and stops execution — used by the *-submit.php AJAX endpoints
+// Sends a JSON response and stops execution - used by the *-submit.php AJAX endpoints
 function json_response($success, $message, $extra = []) {
     header('Content-Type: application/json');
     echo json_encode(array_merge(['success' => $success, 'message' => $message], $extra));
@@ -25,7 +25,7 @@ function json_response($success, $message, $extra = []) {
 
 /**
  * Encodes an array into a compact, URL-safe, tamper-proof string signed with
- * APP_SECRET_KEY. No database or file is used — the data lives entirely inside
+ * APP_SECRET_KEY. No database or file is used - the data lives entirely inside
  * the string itself. Use decode_signed_payload() to read it back safely.
  */
 function encode_signed_payload(array $data) {
@@ -61,7 +61,7 @@ function ttc_strlen($str) {
     return function_exists('mb_strlen') ? mb_strlen($str, 'UTF-8') : strlen($str);
 }
 
-/** Short unique-enough order id for PayHere — doesn't need to be looked up anywhere */
+/** Short unique-enough order id for PayHere - doesn't need to be looked up anywhere */
 function generate_order_id() {
     return 'TTC' . date('ymd') . strtoupper(bin2hex(random_bytes(4)));
 }
@@ -85,7 +85,7 @@ function ttc_parse_date($str) {
 /**
  * Call this once, right at the top of any *-submit.php AJAX endpoint (after
  * requiring config.php). It guarantees the endpoint ALWAYS returns valid JSON,
- * even if a PHP fatal error happens — instead of a broken page that shows
+ * even if a PHP fatal error happens - instead of a broken page that shows
  * "Something went wrong" because the JS couldn't parse the response.
  * When DEBUG_MODE is true, the real PHP error message is included so you can
  * see exactly what went wrong while testing locally.

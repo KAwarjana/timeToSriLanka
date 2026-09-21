@@ -1,8 +1,8 @@
 <?php
 /**
- * All outgoing email templates live here — one wrapper (matching the
+ * All outgoing email templates live here - one wrapper (matching the
  * TimetoCeylon brand) plus a small builder function per email.
- * Nothing here touches a database — every function just takes an array of
+ * Nothing here touches a database - every function just takes an array of
  * values and returns HTML.
  */
 
@@ -106,7 +106,7 @@ function email_detail_table(array $rows) {
 }
 
 /* ══════════════════════════════════════════════════════════════
-   1) ADMIN — new quotation request received (from booking.php)
+   1) ADMIN - new quotation request received (from booking.php)
    ══════════════════════════════════════════════════════════════ */
 function tpl_admin_new_quotation(array $q) {
     $body = '<p>You have received a new quotation request through the website booking form.</p>'
@@ -123,14 +123,14 @@ function tpl_admin_new_quotation(array $q) {
             'Special Request' => $q['special_request'],
         ])
         . '<p>You can reply directly to this email to send the client a quotation. Once they\'re ready to pay, '
-        . 'just share our payment page link with them: <a href="' . SITE_URL . SITE_BASE_PATH . '/payment/payment.php">'
-        . SITE_URL . SITE_BASE_PATH . '/payment/payment.php</a></p>';
+        . 'just share our payment page link with them: <a href="' . SITE_URL . SITE_BASE_PATH . '/payment">'
+        . SITE_URL . SITE_BASE_PATH . '/payment</a></p>';
 
     return build_email_html('New Quotation Request', $body);
 }
 
 /* ══════════════════════════════════════════════════════════════
-   2) CLIENT — confirmation that their quotation request was received
+   2) CLIENT - confirmation that their quotation request was received
    ══════════════════════════════════════════════════════════════ */
 function tpl_client_quotation_received(array $q) {
     $body = '<p>Hi ' . htmlspecialchars($q['full_name']) . ',</p>'
@@ -149,7 +149,7 @@ function tpl_client_quotation_received(array $q) {
 }
 
 /* ══════════════════════════════════════════════════════════════
-   3) CLIENT — payment successful
+   3) CLIENT - payment successful
    ══════════════════════════════════════════════════════════════ */
 function tpl_client_payment_success(array $person, array $payment) {
     $body = '<p>Hi ' . htmlspecialchars($person['name']) . ',</p>'
@@ -162,11 +162,11 @@ function tpl_client_payment_success(array $person, array $payment) {
         . '<p>Our team will contact you shortly to confirm the final details of your itinerary and answer any questions you may have.</p>'
         . '<p>We can\'t wait to welcome you to Sri Lanka!</p>';
 
-    return build_email_html('Payment Received — Thank You!', $body, 'VISIT US', SITE_URL . SITE_BASE_PATH);
+    return build_email_html('Payment Received - Thank You!', $body, 'VISIT US', SITE_URL . SITE_BASE_PATH);
 }
 
 /* ══════════════════════════════════════════════════════════════
-   4) ADMIN — payment received
+   4) ADMIN - payment received
    ══════════════════════════════════════════════════════════════ */
 function tpl_admin_payment_received(array $person, array $payment) {
     $body = '<p>A payment has just been completed through the website. Please contact the client as soon as possible.</p>'
@@ -184,7 +184,7 @@ function tpl_admin_payment_received(array $person, array $payment) {
 }
 
 /* ══════════════════════════════════════════════════════════════
-   5) ADMIN — new contact form message (about.php)
+   5) ADMIN - new contact form message (about.php)
    ══════════════════════════════════════════════════════════════ */
 function tpl_admin_new_contact(array $c) {
     $body = '<p>You have received a new message through the website contact form.</p>'
@@ -200,7 +200,7 @@ function tpl_admin_new_contact(array $c) {
 }
 
 /* ══════════════════════════════════════════════════════════════
-   6) CLIENT — auto-reply after submitting the contact form
+   6) CLIENT - auto-reply after submitting the contact form
    ══════════════════════════════════════════════════════════════ */
 function tpl_client_contact_feedback(array $c) {
     $body = '<p>Hi ' . htmlspecialchars($c['first_name']) . ',</p>'

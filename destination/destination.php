@@ -21,7 +21,7 @@
     <div class="bg-blob" aria-hidden="true"></div>
 
     <!-- ══════════════════════════════════════
-     SECTION 1 — HERO (video background)
+     SECTION 1 - HERO (video background)
 ══════════════════════════════════════ -->
     <section class="hero">
         <!-- Video background -->
@@ -42,7 +42,7 @@
     <section class="destinations-section">
 
         <!-- ════════════════════════════════
-         CARD 1 — SIGIRIYA
+         CARD 1 - SIGIRIYA
          Row 1: 40% img LEFT | 60% text RIGHT
          Row 2: 40% para LEFT | 60% 3-images RIGHT
     ════════════════════════════════ -->
@@ -125,7 +125,7 @@
         </div>
 
         <!-- ════════════════════════════════
-         CARD 2 — TEMPLE OF TOOTH
+         CARD 2 - TEMPLE OF TOOTH
          Row 1: 60% text LEFT | 40% img RIGHT
          Row 2: 60% 3-images LEFT | 40% para RIGHT
     ════════════════════════════════ -->
@@ -208,7 +208,7 @@
         </div>
 
         <!-- ════════════════════════════════
-         CARD 3 — YALA NATIONAL PARK
+         CARD 3 - YALA NATIONAL PARK
          Row 1: 40% img LEFT | 60% text RIGHT
          Row 2: 40% para LEFT | 60% 3-images RIGHT
     ════════════════════════════════ -->
@@ -291,7 +291,7 @@
         </div>
 
         <!-- ════════════════════════════════
-         CARD 4 — GALLE FORT
+         CARD 4 - GALLE FORT
          Row 1: 60% text LEFT | 40% img RIGHT
          Row 2: 60% 3-images LEFT | 40% para RIGHT
     ════════════════════════════════ -->
@@ -374,7 +374,7 @@
         </div>
 
         <!-- ════════════════════════════════
-         CARD 5 — ELLA
+         CARD 5 - ELLA
          Row 1: 40% img LEFT | 60% text RIGHT
          Row 2: 40% para LEFT | 60% 3-images RIGHT
     ════════════════════════════════ -->
@@ -457,7 +457,7 @@
         </div>
 
         <!-- ════════════════════════════════
-         CARD 6 — PINNAWALA ELEPHANT ORPHANAGE
+         CARD 6 - PINNAWALA ELEPHANT ORPHANAGE
          Row 1: 60% text LEFT | 40% img RIGHT
          Row 2: 60% 3-images LEFT | 40% para RIGHT
     ════════════════════════════════ -->
@@ -540,7 +540,7 @@
         </div>
 
         <!-- ════════════════════════════════
-         CARD 7 — DAMBULLA CAVE TEMPLE
+         CARD 7 - DAMBULLA CAVE TEMPLE
          Row 1: 40% img LEFT | 60% text RIGHT
          Row 2: 40% para LEFT | 60% 3-images RIGHT
     ════════════════════════════════ -->
@@ -623,7 +623,7 @@
         </div>
 
         <!-- ════════════════════════════════
-         CARD 8 — ADAM'S PEAK
+         CARD 8 - ADAM'S PEAK
          Row 1: 60% text LEFT | 40% img RIGHT
          Row 2: 60% 3-images LEFT | 40% para RIGHT
     ════════════════════════════════ -->
@@ -706,7 +706,7 @@
         </div>
 
         <!-- ════════════════════════════════
-         CARD 9 — MIRISSA BEACH
+         CARD 9 - MIRISSA BEACH
          Row 1: 40% img LEFT | 60% text RIGHT
          Row 2: 40% para LEFT | 60% 3-images RIGHT
     ════════════════════════════════ -->
@@ -789,7 +789,7 @@
         </div>
 
         <!-- ════════════════════════════════
-         CARD 10 — ANCIENT CITY OF POLONNARUWA
+         CARD 10 - ANCIENT CITY OF POLONNARUWA
          Row 1: 60% text LEFT | 40% img RIGHT
          Row 2: 60% 3-images LEFT | 40% para RIGHT
     ════════════════════════════════ -->
@@ -872,7 +872,7 @@
         </div>
 
         <!-- ════════════════════════════════
-         CARD 11 — ANURADHAPURA
+         CARD 11 - ANURADHAPURA
          Row 1: 40% img LEFT | 60% text RIGHT
          Row 2: 40% para LEFT | 60% 3-images RIGHT
     ════════════════════════════════ -->
@@ -955,7 +955,7 @@
         </div>
 
         <!-- ════════════════════════════════
-         CARD 12 — HORTON PLAINS
+         CARD 12 - HORTON PLAINS
          Row 1: 60% text LEFT | 40% img RIGHT
          Row 2: 60% 3-images LEFT | 40% para RIGHT
     ════════════════════════════════ -->
@@ -1038,7 +1038,7 @@
         </div>
 
         <!-- ════════════════════════════════
-         CARD 13 — UDAWALAWE NATIONAL PARK
+         CARD 13 - UDAWALAWE NATIONAL PARK
          Row 1: 40% img LEFT | 60% text RIGHT
          Row 2: 40% para LEFT | 60% 3-images RIGHT
     ════════════════════════════════ -->
@@ -1121,7 +1121,7 @@
         </div>
 
         <!-- ════════════════════════════════
-         CARD 14 — BENTOTA BEACH
+         CARD 14 - BENTOTA BEACH
          Row 1: 60% text LEFT | 40% img RIGHT
          Row 2: 60% 3-images LEFT | 40% para RIGHT
     ════════════════════════════════ -->
@@ -1204,7 +1204,7 @@
         </div>
 
         <!-- ════════════════════════════════
-         CARD 15 — NUWARA ELIYA
+         CARD 15 - NUWARA ELIYA
          Row 1: 40% img LEFT | 60% text RIGHT
          Row 2: 40% para LEFT | 60% 3-images RIGHT
     ════════════════════════════════ -->
@@ -1287,7 +1287,7 @@
         </div>
 
         <!-- ════════════════════════════════
-         CARD 16 — ARUGAM BAY
+         CARD 16 - ARUGAM BAY
          Row 1: 60% text LEFT | 40% img RIGHT
          Row 2: 60% 3-images LEFT | 40% para RIGHT
     ════════════════════════════════ -->
@@ -1370,7 +1370,7 @@
         </div>
 
         <!-- ════════════════════════════════
-         CARD 17 — TRINCOMALEE
+         CARD 17 - TRINCOMALEE
          Row 1: 40% img LEFT | 60% text RIGHT
          Row 2: 40% para LEFT | 60% 3-images RIGHT
     ════════════════════════════════ -->
@@ -1453,7 +1453,7 @@
         </div>
 
         <!-- ════════════════════════════════
-         CARD 18 — JAFFNA
+         CARD 18 - JAFFNA
          Row 1: 60% text LEFT | 40% img RIGHT
          Row 2: 60% 3-images LEFT | 40% para RIGHT
     ════════════════════════════════ -->
@@ -1536,7 +1536,7 @@
         </div>
 
         <!-- ════════════════════════════════
-         CARD 19 — SINHARAJA FOREST
+         CARD 19 - SINHARAJA FOREST
          Row 1: 40% img LEFT | 60% text RIGHT
          Row 2: 40% para LEFT | 60% 3-images RIGHT
     ════════════════════════════════ -->
@@ -1619,7 +1619,7 @@
         </div>
 
         <!-- ════════════════════════════════
-         CARD 20 — KITULGALA
+         CARD 20 - KITULGALA
          Row 1: 60% text LEFT | 40% img RIGHT
          Row 2: 60% 3-images LEFT | 40% para RIGHT
     ════════════════════════════════ -->
@@ -1702,7 +1702,7 @@
         </div>
 
         <!-- ════════════════════════════════
-         CARD 21 — MINNERIYA NATIONAL PARK
+         CARD 21 - MINNERIYA NATIONAL PARK
          Row 1: 40% img LEFT | 60% text RIGHT
          Row 2: 40% para LEFT | 60% 3-images RIGHT
     ════════════════════════════════ -->
@@ -1785,7 +1785,7 @@
         </div>
 
         <!-- ════════════════════════════════
-         CARD 22 — COLOMBO
+         CARD 22 - COLOMBO
          Row 1: 60% text LEFT | 40% img RIGHT
          Row 2: 60% 3-images LEFT | 40% para RIGHT
     ════════════════════════════════ -->
@@ -1868,7 +1868,7 @@
         </div>
 
         <!-- ════════════════════════════════
-         CARD 23 — RAVANA FALLS
+         CARD 23 - RAVANA FALLS
          Row 1: 40% img LEFT | 60% text RIGHT
          Row 2: 40% para LEFT | 60% 3-images RIGHT
     ════════════════════════════════ -->
@@ -1951,7 +1951,7 @@
         </div>
 
         <!-- ════════════════════════════════
-         CARD 24 — PIGEON ISLAND
+         CARD 24 - PIGEON ISLAND
          Row 1: 60% text LEFT | 40% img RIGHT
          Row 2: 60% 3-images LEFT | 40% para RIGHT
     ════════════════════════════════ -->
@@ -2034,7 +2034,7 @@
         </div>
 
         <!-- ════════════════════════════════
-         CARD 25 — KAUDULLA NATIONAL PARK
+         CARD 25 - KAUDULLA NATIONAL PARK
          Row 1: 40% img LEFT | 60% text RIGHT
          Row 2: 40% para LEFT | 60% 3-images RIGHT
     ════════════════════════════════ -->
@@ -2117,7 +2117,7 @@
         </div>
 
         <!-- ════════════════════════════════
-         CARD 26 — SRI MAHA BODHI
+         CARD 26 - SRI MAHA BODHI
          Row 1: 60% text LEFT | 40% img RIGHT
          Row 2: 60% 3-images LEFT | 40% para RIGHT
     ════════════════════════════════ -->
@@ -2200,7 +2200,7 @@
         </div>
 
         <!-- ════════════════════════════════
-         CARD 27 — HIKKADUWA BEACH
+         CARD 27 - HIKKADUWA BEACH
          Row 1: 40% img LEFT | 60% text RIGHT
          Row 2: 40% para LEFT | 60% 3-images RIGHT
     ════════════════════════════════ -->
@@ -2283,7 +2283,7 @@
         </div>
 
         <!-- ════════════════════════════════
-         CARD 28 — KELANIYA RAJA MAHA VIHARA
+         CARD 28 - KELANIYA RAJA MAHA VIHARA
          Row 1: 60% text LEFT | 40% img RIGHT
          Row 2: 60% 3-images LEFT | 40% para RIGHT
     ════════════════════════════════ -->
@@ -2366,7 +2366,7 @@
         </div>
 
         <!-- ════════════════════════════════
-         CARD 29 — BUNDALA NATIONAL PARK
+         CARD 29 - BUNDALA NATIONAL PARK
          Row 1: 40% img LEFT | 60% text RIGHT
          Row 2: 40% para LEFT | 60% 3-images RIGHT
     ════════════════════════════════ -->
@@ -2449,7 +2449,7 @@
         </div>
 
         <!-- ════════════════════════════════
-         CARD 30 — KNUCKLES MOUNTAIN RANGE
+         CARD 30 - KNUCKLES MOUNTAIN RANGE
          Row 1: 60% text LEFT | 40% img RIGHT
          Row 2: 60% 3-images LEFT | 40% para RIGHT
     ════════════════════════════════ -->
@@ -2532,7 +2532,7 @@
         </div>
 
         <!-- ════════════════════════════════
-         CARD 31 — KALPITIYA
+         CARD 31 - KALPITIYA
          Row 1: 40% img LEFT | 60% text RIGHT
          Row 2: 40% para LEFT | 60% 3-images RIGHT
     ════════════════════════════════ -->
@@ -2615,7 +2615,7 @@
         </div>
 
         <!-- ════════════════════════════════
-         CARD 32 — DELFT ISLAND
+         CARD 32 - DELFT ISLAND
          Row 1: 60% text LEFT | 40% img RIGHT
          Row 2: 60% 3-images LEFT | 40% para RIGHT
     ════════════════════════════════ -->
@@ -2698,7 +2698,7 @@
         </div>
 
         <!-- ════════════════════════════════
-         CARD 33 — GREGORY LAKE
+         CARD 33 - GREGORY LAKE
          Row 1: 40% img LEFT | 60% text RIGHT
          Row 2: 40% para LEFT | 60% 3-images RIGHT
     ════════════════════════════════ -->
@@ -2781,7 +2781,7 @@
         </div>
 
         <!-- ════════════════════════════════
-         CARD 34 — MAHIYANGANAYA
+         CARD 34 - MAHIYANGANAYA
          Row 1: 60% text LEFT | 40% img RIGHT
          Row 2: 60% 3-images LEFT | 40% para RIGHT
     ════════════════════════════════ -->
@@ -2864,7 +2864,7 @@
         </div>
 
         <!-- ════════════════════════════════
-         CARD 35 — BADULLA
+         CARD 35 - BADULLA
          Row 1: 40% img LEFT | 60% text RIGHT
          Row 2: 40% para LEFT | 60% 3-images RIGHT
     ════════════════════════════════ -->
@@ -2947,7 +2947,7 @@
         </div>
 
         <!-- ════════════════════════════════
-         CARD 36 — AVUKANA BUDDHA STATUE
+         CARD 36 - AVUKANA BUDDHA STATUE
          Row 1: 60% text LEFT | 40% img RIGHT
          Row 2: 60% 3-images LEFT | 40% para RIGHT
     ════════════════════════════════ -->
@@ -3030,7 +3030,7 @@
         </div>
 
         <!-- ════════════════════════════════
-         CARD 37 — MUNNESWARAM TEMPLE
+         CARD 37 - MUNNESWARAM TEMPLE
          Row 1: 40% img LEFT | 60% text RIGHT
          Row 2: 40% para LEFT | 60% 3-images RIGHT
     ════════════════════════════════ -->
@@ -3113,7 +3113,7 @@
         </div>
 
         <!-- ════════════════════════════════
-         CARD 38 — GALLE FACE GREEN
+         CARD 38 - GALLE FACE GREEN
          Row 1: 60% text LEFT | 40% img RIGHT
          Row 2: 60% 3-images LEFT | 40% para RIGHT
     ════════════════════════════════ -->
@@ -3196,7 +3196,7 @@
         </div>
 
         <!-- ════════════════════════════════
-         CARD 39 — PIDURANGALA ROCK
+         CARD 39 - PIDURANGALA ROCK
          Row 1: 40% img LEFT | 60% text RIGHT
          Row 2: 40% para LEFT | 60% 3-images RIGHT
     ════════════════════════════════ -->
@@ -3279,7 +3279,7 @@
         </div>
 
         <!-- ════════════════════════════════
-         CARD 40 — SEETHA AMMAN TEMPLE
+         CARD 40 - SEETHA AMMAN TEMPLE
          Row 1: 60% text LEFT | 40% img RIGHT
          Row 2: 60% 3-images LEFT | 40% para RIGHT
     ════════════════════════════════ -->

@@ -81,7 +81,7 @@ body {
             rgba(245, 240, 255, 1.0) 100%);
 }
 
-/* Content — bottom-left with purple left bar */
+/* Content - bottom-left with purple left bar */
 .hero-content {
     position: absolute;
     z-index: 2;
@@ -207,7 +207,7 @@ body {
 }
 
 /* ════════════════════════════════════════
-   CARD — default #f5f0ff, hover purple gradient
+   CARD - default #f5f0ff, hover purple gradient
 ════════════════════════════════════════ */
 .dest-card {
   width: 100%;
@@ -242,7 +242,7 @@ body {
 }
 
 /* ════════════════════════════════════════
-   INNER WRAPPER — above overlay
+   INNER WRAPPER - above overlay
 ════════════════════════════════════════ */
 .dest-inner {
   position: relative;
@@ -263,33 +263,33 @@ body {
   width: 100%;
 }
 
-/* Card 1 — Row 1: 40% | 60% */
+/* Card 1 - Row 1: 40% | 60% */
 .row1-card1 {
   grid-template-columns: 40% 1fr;
 }
 
-/* Card 1 — Row 2: 40% | 60% */
+/* Card 1 - Row 2: 40% | 60% */
 .row2-card1 {
   grid-template-columns: 40% 1fr;
   align-items: stretch;
 }
 
-/* Card 2 — Row 1: 60% | 40% */
+/* Card 2 - Row 1: 60% | 40% */
 .row1-card2 {
   grid-template-columns: 1fr 40%;
 }
 
-/* Card 2 — Row 2: 60% | 40% */
+/* Card 2 - Row 2: 60% | 40% */
 .row2-card2 {
   grid-template-columns: 1fr 40%;
   align-items: stretch;
 }
 
 /* ════════════════════════════════════════
-   MAIN SINGLE IMAGE (Row 1) — stretch to text height
+   MAIN SINGLE IMAGE (Row 1) - stretch to text height
 ════════════════════════════════════════ */
 
-/* Row: text stretches, but image column does NOT stretch — it stays a fixed height */
+/* Row: text stretches, but image column does NOT stretch - it stays a fixed height */
 .row1-card1,
 .row1-card2 {
   align-items: center;
@@ -305,12 +305,12 @@ body {
   border-radius: 12px;
   overflow: hidden;
   display: block;
-  height: 300px;         /* fixed height — always the same regardless of the image used */
+  height: 300px;         /* fixed height - always the same regardless of the image used */
 }
 
 .main-img-wrap img {
   width: 100%;
-  height: 300px;         /* fixed height — always the same regardless of the image used */
+  height: 300px;         /* fixed height - always the same regardless of the image used */
   object-fit: cover;
   object-position: center 40%;
   display: block;
@@ -332,14 +332,14 @@ body {
   grid-template-columns: 1fr 1.6fr 1fr;
   gap: 8px;
   align-items: stretch;
-  height: 220px;   /* fixed height — independent of the images used */
+  height: 220px;   /* fixed height - independent of the images used */
 }
 
 .tri-img {
   border-radius: 10px;
   overflow: hidden;
   display: flex;
-  height: 220px;   /* fixed height — independent of the images used */
+  height: 220px;   /* fixed height - independent of the images used */
 }
 
 .tri-img img {
@@ -355,7 +355,7 @@ body {
 }
 
 /* ════════════════════════════════════════
-   TYPOGRAPHY — default
+   TYPOGRAPHY - default
 ════════════════════════════════════════ */
 .dest-label {
   font-family: 'Outfit', sans-serif;
@@ -399,7 +399,7 @@ body {
 }
 
 /* ════════════════════════════════════════
-   TYPOGRAPHY — hover (white)
+   TYPOGRAPHY - hover (white)
 ════════════════════════════════════════ */
 .dest-card:hover .dest-label {
   color: rgba(255, 255, 255, 0.75);
@@ -418,7 +418,7 @@ body {
 }
 
 /* ════════════════════════════════════════
-   RESPONSIVE — Tablet 641–960px
+   RESPONSIVE - Tablet 641–960px
 ════════════════════════════════════════ */
 @media (max-width: 960px) and (min-width: 641px) {
   .destinations-section {
@@ -456,7 +456,7 @@ body {
 }
 
 /* ════════════════════════════════════════
-   RESPONSIVE — Mobile ≤ 640px
+   RESPONSIVE - Mobile ≤ 640px
    Everything stacks to single column
 ════════════════════════════════════════ */
 @media (max-width: 700px) {
@@ -532,7 +532,7 @@ body {
 }
 
 /* ════════════════════════════════════════
-   RESPONSIVE — Small mobile ≤ 400px
+   RESPONSIVE - Small mobile ≤ 400px
 ════════════════════════════════════════ */
 @media (max-width: 400px) {
   .destinations-section {

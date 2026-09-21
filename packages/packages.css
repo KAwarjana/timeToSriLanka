@@ -81,7 +81,7 @@ body {
             rgba(245, 240, 255, 1.0) 100%);
 }
 
-/* Content — bottom-left with purple left bar */
+/* Content - bottom-left with purple left bar */
 .hero-content {
     position: absolute;
     z-index: 2;
@@ -217,7 +217,7 @@ body {
   min-width: 280px;
 }
 
-/* ===== Main Image — tall, full width, no gap ===== */
+/* ===== Main Image - tall, full width, no gap ===== */
 .pkg-main-img-wrap {
   width: 100%;
   aspect-ratio: 3/2.2;
@@ -313,7 +313,7 @@ body {
   overflow: hidden;
 }
 
-/* ===== Actions row — split into 2 columns: See More | Book Now ===== */
+/* ===== Actions row - split into 2 columns: See More | Book Now ===== */
 .pkg-actions {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -338,7 +338,7 @@ body {
   justify-content: center;
 }
 
-/* Left column — See More (outlined / softer look) */
+/* Left column - See More (outlined / softer look) */
 .pkg-btn-more {
   background: var(--purple-deep);
   border-radius: 0 0 0 8px;
@@ -348,7 +348,7 @@ body {
   background: var(--purple-mid);
 }
 
-/* Right column — Book Now (filled gradient, primary action) */
+/* Right column - Book Now (filled gradient, primary action) */
 .pkg-btn-book {
   background: linear-gradient(-90deg, rgba(76, 0, 176, 1) 0%, rgba(109, 93, 246, 1) 50%, rgba(169, 156, 253, 1) 100%);
   border-radius: 0 0 8px 0;

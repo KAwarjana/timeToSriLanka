@@ -1141,7 +1141,7 @@ body {
 }
 
 /* ═══════════════════════════
-       CARDS WRAPPER — 3D scene
+       CARDS WRAPPER - 3D scene
 ═══════════════════════════ */
 .pkg-cards-wrap {
   position: relative;
@@ -1253,7 +1253,7 @@ body {
   color: var(--white);
 }
 
-/* Button — inactive */
+/* Button - inactive */
 .card-btn {
   display: inline-flex;
   align-items: center;
@@ -1277,7 +1277,7 @@ body {
   transform: translateX(4px);
 }
 
-/* Button — active: solid dark purple */
+/* Button - active: solid dark purple */
 .pkg-card.active .card-btn {
   border: var(--white) 3px solid;
   color: var(--white);
@@ -1327,7 +1327,7 @@ body {
   font-size: 11px;
 }
 
-/* Outlined circle with checkmark — inactive */
+/* Outlined circle with checkmark - inactive */
 /* .chk {
   width: 22px;
   height: 22px;
@@ -1343,7 +1343,7 @@ body {
   transition: background 0.3s, color 0.3s, border-color 0.3s;
 } */
 
-/* Filled purple circle — active card features */
+/* Filled purple circle - active card features */
 /* .pkg-card.active .card-features .chk {
   background: var(--purple-gradient);
   border-color: transparent;
@@ -1410,7 +1410,7 @@ body {
   }
 }
 
-/* Mobile — horizontal swipe */
+/* Mobile - horizontal swipe */
 @media (max-width: 540px) {
   .packages {
     padding: 50px 0 70px;
@@ -1513,7 +1513,7 @@ body {
 }
 
 /* ══════════════════════════════════════
-   GRID  —  exact from image:
+   GRID  -  exact from image:
 
    4 columns, 2 rows
    Col ratio: 1 : 1.22 : 1 : 0.94
@@ -1521,7 +1521,7 @@ body {
    Gap = 8px
 
    c1  → r1 c1          (dark mountain castle, ~258px)
-   c2  → r1 c2          (red temple, NOT spanning — just row1=258px tall)
+   c2  → r1 c2          (red temple, NOT spanning - just row1=258px tall)
    c3  → r1 c3          (stone ruins)
    c4  → r1 c4          (arch bridge)
    c5  → r2 c1          (misty valley, full 200px)
@@ -1539,7 +1539,7 @@ body {
   align-items: end;
 }
 
-/* override — row1 cards should align top */
+/* override - row1 cards should align top */
 .card.r1 {
   align-self: stretch;
 }
@@ -1564,7 +1564,7 @@ body {
   transform: scale(1.07);
 }
 
-/* purple-blue tint overlay — matches image exactly */
+/* purple-blue tint overlay - matches image exactly */
 .card::after {
   content: '';
   position: absolute;
@@ -1659,7 +1659,7 @@ body {
 }
 
 /* ── individual card heights ── */
-/* row1 — all stretch to 258px naturally */
+/* row1 - all stretch to 258px naturally */
 .c1 {
   grid-area: 1/1/2/2;
   height: 258px;
@@ -1691,7 +1691,7 @@ body {
   height: 148px;
 }
 
-/* shorter — bottom aligned via align-items:end */
+/* shorter - bottom aligned via align-items:end */
 .c7 {
   grid-area: 2/3/3/4;
   height: 238px;
@@ -1740,7 +1740,7 @@ body {
     height: 190px;
   }
 
-  /* row4+5 — c6 double height left, c8 right spans rows 4+5 */
+  /* row4+5 - c6 double height left, c8 right spans rows 4+5 */
   .c6 {
     grid-area: 4/1/6/2;
     height: auto;

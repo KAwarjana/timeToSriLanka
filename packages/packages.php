@@ -21,7 +21,7 @@
     <div class="bg-blob" aria-hidden="true"></div>
 
     <!-- ══════════════════════════════════════
-     SECTION 1 — HERO (video background)
+     SECTION 1 - HERO (video background)
 ══════════════════════════════════════ -->
     <section class="hero">
         <div class="hero-video-wrap">
@@ -41,7 +41,7 @@
     <section class="packages-section">
         <div class="packages-grid">
 
-            <!-- Package 1 — Grand Ceylon Experience -->
+            <!-- Package 1 - Grand Ceylon Experience -->
             <div class="pkg-card" data-pkg="1">
                 <div class="pkg-main-img-wrap">
                     <img src="../resources/img/packages/caption.webp" class="pkg-main-img" alt="Grand Ceylon Experience" />
@@ -63,7 +63,7 @@
                 </div>
             </div>
 
-            <!-- Package 2 — Ceylon Discovery -->
+            <!-- Package 2 - Ceylon Discovery -->
             <div class="pkg-card" data-pkg="2">
                 <div class="pkg-main-img-wrap">
                     <img src="../resources/img/destinations/anuradhapura/anuradhapura1.webp" class="pkg-main-img" alt="Ceylon Discovery" />
@@ -85,7 +85,7 @@
                 </div>
             </div>
 
-            <!-- Package 3 — Signature Journey -->
+            <!-- Package 3 - Signature Journey -->
             <div class="pkg-card" data-pkg="3">
                 <div class="pkg-main-img-wrap">
                     <img src="../resources/img/destinations/minneriya/minneriya1.webp" class="pkg-main-img" alt="Signature Journey" />
@@ -107,7 +107,7 @@
                 </div>
             </div>
 
-            <!-- Package 4 — Bird Watching Tour -->
+            <!-- Package 4 - Bird Watching Tour -->
             <div class="pkg-card" data-pkg="4">
                 <div class="pkg-main-img-wrap">
                     <img src="../resources/img/destinations/sinharaja/sinharaja1.webp" class="pkg-main-img" alt="Bird Watching Tour" />
@@ -129,7 +129,7 @@
                 </div>
             </div>
 
-            <!-- Package 5 — Ella Day Tour -->
+            <!-- Package 5 - Ella Day Tour -->
             <div class="pkg-card" data-pkg="5">
                 <div class="pkg-main-img-wrap">
                     <img src="../resources/img/packages/nine-arch-bridge-ella-sri-lanka-0429.webp" class="pkg-main-img" alt="Ella Day Tour" />
@@ -151,7 +151,7 @@
                 </div>
             </div>
 
-            <!-- Package 6 — Sigiriya & Dambulla Day Tour -->
+            <!-- Package 6 - Sigiriya & Dambulla Day Tour -->
             <div class="pkg-card" data-pkg="6">
                 <div class="pkg-main-img-wrap">
                     <img src="../resources/img/packages/image_processing20200227-4-1ywg9yl.webp" class="pkg-main-img" alt="Sigiriya and Dambulla Day Tour" />
@@ -173,7 +173,7 @@
                 </div>
             </div>
 
-            <!-- Package 7 — Wilpattu National Park Day Tour -->
+            <!-- Package 7 - Wilpattu National Park Day Tour -->
             <div class="pkg-card" data-pkg="7">
                 <div class="pkg-main-img-wrap">
                     <img src="../resources/img/packages/LK50F01000-14-E.webp" class="pkg-main-img" alt="Wilpattu National Park Day Tour" />
@@ -195,7 +195,7 @@
                 </div>
             </div>
 
-            <!-- Package 8 — Cultural Heritage Tour -->
+            <!-- Package 8 - Cultural Heritage Tour -->
             <div class="pkg-card" data-pkg="8">
                 <div class="pkg-main-img-wrap">
                     <img src="../resources/img/destinations/kandy/kandy1.webp" class="pkg-main-img" alt="Cultural Heritage Tour" />
@@ -217,7 +217,7 @@
                 </div>
             </div>
 
-            <!-- Package 9 — Scenic Sri Lanka Tour -->
+            <!-- Package 9 - Scenic Sri Lanka Tour -->
             <div class="pkg-card" data-pkg="9">
                 <div class="pkg-main-img-wrap">
                     <img src="../resources/img/destinations/pinnawala/pinnawala1.webp" class="pkg-main-img" alt="Scenic Sri Lanka Tour" />

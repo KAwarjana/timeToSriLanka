@@ -58,7 +58,7 @@ function cfHandleSend() {
       try {
         data = JSON.parse(text);
       } catch (parseErr) {
-        // The server didn't return valid JSON — log the raw response so it's easy to
+        // The server didn't return valid JSON - log the raw response so it's easy to
         // see the real cause (e.g. a PHP path issue) in the browser console.
         console.error('contact-submit.php did not return valid JSON. HTTP status:', status, 'Response:', text);
         cfShowToast('⚠ Server returned an unexpected response (see browser console for details).', '#e53e3e');

@@ -1,6 +1,6 @@
 <?php
 /**
- * Friendly page shown after PayHere redirects the client back (browser redirect —
+ * Friendly page shown after PayHere redirects the client back (browser redirect -
  * not authoritative). The real confirmation email is sent by payhere-notify.php
  * on the server side, so we just point the client to their inbox here.
  */
@@ -11,7 +11,7 @@ require_once __DIR__ . '/../config/config.php';
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Payment Status — TimetoCeylon</title>
+  <title>Payment Status - TimetoCeylon</title>
   <link rel="icon" type="image/png" href="../resources/img/logo_single.webp">
   <link rel="stylesheet" href="payment.css">
 </head>

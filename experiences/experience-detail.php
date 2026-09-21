@@ -102,7 +102,7 @@
     <div class="bg-blob" aria-hidden="true"></div>
 
     <!-- ══════════════════════════════════════
-     SECTION 1 — HERO (video background)
+     SECTION 1 - HERO (video background)
 ══════════════════════════════════════ -->
     <section class="hero">
         <div class="hero-video-wrap">

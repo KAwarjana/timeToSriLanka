@@ -31,7 +31,7 @@ body {
     z-index: 0;
 }
 
-/* All sections start hidden — packageDetails.js reveals
+/* All sections start hidden - packageDetails.js reveals
    only the one that matches the ?pkg= URL parameter. */
 .pkg-detail-section {
     display: none;

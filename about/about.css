@@ -454,7 +454,7 @@ body {
   white-space: nowrap;
 }
 
-/* divider flush top-to-bottom — no margin, no padding */
+/* divider flush top-to-bottom - no margin, no padding */
 .stat-divider {
   width: 2px;
   background: linear-gradient(180deg, #f5f0ff 0%, #6D5DF6 50%, #f5f0ff 100%);
@@ -492,7 +492,7 @@ body {
     border-radius: 12px;
   }
 
-  /* hide vertical dividers — borders handled by layout */
+  /* hide vertical dividers - borders handled by layout */
   .stat-divider {
     display: none;
   }
@@ -1048,7 +1048,7 @@ body {
 .cf-two { grid-template-columns: 1fr 1fr; }
 .cf-one { grid-template-columns: 1fr; }
 
-/* Field box — matches booking.css exactly */
+/* Field box - matches booking.css exactly */
 .cf-box {
   background: #fff;
   border: 1.5px solid #e6e0f8;
@@ -1091,7 +1091,7 @@ body {
   line-height: 1.6;
 }
 
-/* Send button — matches booking.css .book-now-btn */
+/* Send button - matches booking.css .book-now-btn */
 .cf-send-btn {
   width: 100%;
   padding: 15px 0;
@@ -1140,7 +1140,7 @@ body {
   display: block;
 }
 
-/* Social icons — match contact-icon pill style */
+/* Social icons - match contact-icon pill style */
 .cf-social-icons {
   display: flex;
   gap: 14px;

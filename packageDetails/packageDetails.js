@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 /* ═══════════════════════════════════════
-   Lightbox — click any highlight or
+   Lightbox - click any highlight or
    gallery image to view it enlarged.
 ═══════════════════════════════════════ */
 function openLightbox(src) {

@@ -1,8 +1,8 @@
 <?php
 /**
  * Handles the "BOOK NOW" submission on booking.php.
- * Called via fetch() from booking.js — always returns JSON.
- * Nothing is stored — this just validates the input and sends 2 emails.
+ * Called via fetch() from booking.js - always returns JSON.
+ * Nothing is stored - this just validates the input and sends 2 emails.
  */
 
 require_once __DIR__ . '/../config/config.php';
@@ -70,7 +70,7 @@ try {
         $errors[] = 'Please select the number of persons.';
     }
 
-    // ── Optional fields — validated only if the visitor typed something ──
+    // ── Optional fields - validated only if the visitor typed something ──
     if ($specialRequest !== '' && ttc_strlen($specialRequest) > 1000) {
         $errors[] = 'Special request must be under 1000 characters.';
     }
@@ -95,18 +95,18 @@ try {
         'special_request' => $specialRequest,
     ];
 
-    // Email 1 — to the site owner (includes everything needed to price the trip)
+    // Email 1 - to the site owner (includes everything needed to price the trip)
     send_mail(
         COMPANY_EMAIL,
-        'New Quotation Request — ' . $fullName,
+        'New Quotation Request - ' . $fullName,
         tpl_admin_new_quotation($quotation),
         $email
     );
 
-    // Email 2 — to the client, confirming receipt
+    // Email 2 - to the client, confirming receipt
     send_mail(
         $email,
-        'We Received Your Quotation Request — ' . SITE_NAME,
+        'We Received Your Quotation Request - ' . SITE_NAME,
         tpl_client_quotation_received($quotation)
     );
 

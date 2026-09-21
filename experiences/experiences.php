@@ -21,7 +21,7 @@
     <div class="bg-blob" aria-hidden="true"></div>
 
     <!-- ══════════════════════════════════════
-     SECTION 1 — HERO (video background)
+     SECTION 1 - HERO (video background)
 ══════════════════════════════════════ -->
     <section class="hero">
         <!-- Video background -->
@@ -40,7 +40,7 @@
     </section>
 
     <!-- ══════════════════════════════════════
-     SECTION 2 — FEATURED CARD (ADVENTURE)
+     SECTION 2 - FEATURED CARD (ADVENTURE)
 ══════════════════════════════════════ -->
     <section class="featured">
         <div class="featured-inner">
@@ -72,7 +72,7 @@
     </section>
 
     <!-- ══════════════════════════════════════
-     SECTION 3 — FEATURED CARD (WILDLIFE SAFARI)
+     SECTION 3 - FEATURED CARD (WILDLIFE SAFARI)
 ══════════════════════════════════════ -->
     <section class="featured featured--reverse">
         <div class="featured-inner">
@@ -104,7 +104,7 @@
     </section>
 
     <!-- ══════════════════════════════════════
-     SECTION 4 — FEATURED CARD (CULTURAL DISCOVERY)
+     SECTION 4 - FEATURED CARD (CULTURAL DISCOVERY)
 ══════════════════════════════════════ -->
     <section class="featured">
         <div class="featured-inner">
@@ -136,7 +136,7 @@
     </section>
 
     <!-- ══════════════════════════════════════
-     SECTION 5 — FEATURED CARD (AYURVEDA & WELLNESS)
+     SECTION 5 - FEATURED CARD (AYURVEDA & WELLNESS)
 ══════════════════════════════════════ -->
     <section class="featured featured--reverse">
         <div class="featured-inner">
@@ -168,7 +168,7 @@
     </section>
 
     <!-- ══════════════════════════════════════
-     SECTION 6 — FEATURED CARD (SCENIC JOURNEYS)
+     SECTION 6 - FEATURED CARD (SCENIC JOURNEYS)
 ══════════════════════════════════════ -->
     <section class="featured">
         <div class="featured-inner">
@@ -200,7 +200,7 @@
     </section>
 
     <!-- ══════════════════════════════════════
-     SECTION 7 — FEATURED CARD (COASTAL ESCAPE)
+     SECTION 7 - FEATURED CARD (COASTAL ESCAPE)
 ══════════════════════════════════════ -->
     <section class="featured featured--reverse">
         <div class="featured-inner">

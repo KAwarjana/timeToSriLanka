@@ -1,10 +1,10 @@
 <?php
 /**
  * ══════════════════════════════════════════════════════════════
- *  TimetoCeylon — Central Configuration
+ *  TimetoCeylon - Central Configuration
  * ══════════════════════════════════════════════════════════════
  *  Fill in the TODO values below before going live.
- *  This file is included by every backend script — do not delete.
+ *  This file is included by every backend script - do not delete.
  * ══════════════════════════════════════════════════════════════
  */
 
@@ -21,17 +21,17 @@ define('SITE_BASE_PATH', '');
 define('SITE_LOGO_URL', SITE_URL . SITE_BASE_PATH . '/resources/img/logo_banner.webp');
 
 // ── Company contact info (shown in emails) ─────────────────────
-// This is just the "To" inbox for owner notifications — it CAN be a Gmail/any
+// This is just the "To" inbox for owner notifications - it CAN be a Gmail/any
 // address you personally check, that's totally fine.
-define('COMPANY_EMAIL', 'info@timetoceylon.com');   // owner / admin inbox — all notifications go here
+define('COMPANY_EMAIL', 'info@timetoceylon.com');   // owner / admin inbox - all notifications go here
 define('COMPANY_PHONE', '+94 255 528 956');
 define('COMPANY_ADDRESS', 'No. 16 A 2nd cross street, Uyanwatta, Matara, Sri Lanka');
 
 // ── Outgoing mail "From" address ───────────────────────────────
-// ⚠ CRITICAL — this is the #1 reason emails silently disappear:
+// ⚠ CRITICAL - this is the #1 reason emails silently disappear:
 // This MUST be a real mailbox on YOUR OWN hosting domain, created in your
-// DreamHost panel (Email → Manage Email → Create Email Address) — e.g.
-// info@yourdomain.com. It must NEVER be a Gmail/Yahoo/Outlook/Hotmail address —
+// DreamHost panel (Email → Manage Email → Create Email Address) - e.g.
+// info@yourdomain.com. It must NEVER be a Gmail/Yahoo/Outlook/Hotmail address -
 // sending "From" a free provider through a different server gets silently
 // rejected as spoofing, even though PHP's mail() will still report success.
 define('MAIL_FROM_ADDRESS', 'info@timetoceylon.com');
@@ -39,7 +39,7 @@ define('MAIL_FROM_NAME', 'TimetoCeylon');
 
 // ── Secret signing key ──────────────────────────────────────────
 // Used to sign the payment link's hidden data (client name, amount, etc.) so
-// it can travel safely through PayHere WITHOUT any database — nothing is
+// it can travel safely through PayHere WITHOUT any database - nothing is
 // ever stored on the server.
 // TODO: change this to your own long random string (and never share it).
 define('APP_SECRET_KEY', 'CHANGE_THIS_TO_A_LONG_RANDOM_SECRET_STRING_1234567890');
@@ -60,7 +60,7 @@ date_default_timezone_set('Asia/Colombo');
 
 // ── Debug mode ─────────────────────────────────────────────────
 // While true, the booking/contact/payment endpoints will return the REAL
-// PHP error message in the JSON response when something fails — very useful
+// PHP error message in the JSON response when something fails - very useful
 // while testing on localhost.
 // TODO: set this to false before going live (so real errors aren't exposed to visitors).
 define('DEBUG_MODE', true);
