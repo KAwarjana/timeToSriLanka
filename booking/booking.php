@@ -33,19 +33,19 @@
 
     <div class="hero-content">
       <span class="hero-bar"></span>
-       <h1 class="hero-title" data-en="Book Your Journey" data-si="ඔබේ ගමන වෙන්කරවා ගන්න" data-ta="Boek Uw Reis">Book Your Journey</h1>
+       <h1 class="hero-title" data-en="Book Your Journey" data-si="ඔබේ ගමන වෙන්කරවා ගන්න" data-ta="Plan Uw Reis">Book Your Journey</h1>
     </div>
   </section>
 
   <section class="booking-section">
     <div class="booking-left">
-      <div class="booking-label" data-en="BOOKING" data-si="බුක් කිරීම" data-ta="BOEKING">BOOKING</div>
+      <div class="booking-label" data-en="BOOKING" data-si="බුක් කිරීම" data-ta="UW REISAANVRAAG">BOOKING</div>
       <h2 class="booking-title" data-en="Plan Your <span>Dream Escape</span>" data-si="ඔබගේ <span>සිහිනයෙන් පිරුණු ගමන</span> සැලසුම් කරන්න" data-ta="Plan Uw <span>Droomreis</span>">Plan Your <span>Dream Escape</span></h2>
-      <p class="booking-desc" data-en="Let us design a seamless Sri Lanka escape around your pace, interests, and travel dreams." data-si="ඔබේ වේගය, උනන්දුව සහ සංචාර සිහිනය අනුව ශ්‍රී ලංකාවේ සරල හා මනකැලැම්මක් පිරුණු ගමනක් අපි ඔබ වෙනුවෙන් සකස් කර දෙමු." data-ta="Laat ons een naadloze Sri Lanka-reis ontwerpen rond uw tempo, interesses en reisdromen.">Let us design a seamless Sri Lanka escape around your pace, interests, and travel dreams.</p>
+      <p class="booking-desc" data-en="Let us design a seamless Sri Lanka escape around your pace, interests, and travel dreams." data-si="ඔබේ ගමන් පහසුව, රුචිකත්වයන් සහ සංචාරක සිහිනවලට ගැළපෙන පරිදි, ශ්‍රී ලංකාවේ අමතක නොවන සංචාරයක් අපි ඔබ වෙනුවෙන් සැලසුම් කරමු." data-ta="Laat ons een zorgeloze rondreis door Sri Lanka samenstellen die past bij uw tempo, interesses en reiswensen.">Let us design a seamless Sri Lanka escape around your pace, interests, and travel dreams.</p>
     </div>
 
     <div class="booking-right">
-      <div class="form-heading" data-en="BOOK A TOUR" data-si="ගමනක් වෙන්කරන්න" data-ta="BOEK EEN REIS">BOOK A TOUR</div>
+      <div class="form-heading" data-en="BOOK A TOUR" data-si="ගමනක් වෙන්කරන්න" data-ta="VRAAG EEN REIS AAN">BOOK A TOUR</div>
       <div class="fields-wrap">
 
         <div class="field-row two-col">
@@ -54,21 +54,21 @@
             <input class="field-input" id="bkFullName" type="text" minlength="2" maxlength="100" data-placeholder-en="Please Enter Your Name" data-placeholder-si="ඔබේ නම ඇතුලත් කරන්න" data-placeholder-ta="Vul uw naam in" />
           </div>
           <div class="field-box">
-            <label class="field-label" data-en="Your Mobile Number *" data-si="ඔබේ ජංගම අංකය *" data-ta="Uw Mobiele Nummer *">Your Mobile Number *</label>
-            <input class="field-input" id="bkMobile" type="tel" minlength="7" maxlength="20" data-placeholder-en="Please Enter Your Mobile Number" data-placeholder-si="ඔබේ ජංගම අංකය ඇතුලත් කරන්න" data-placeholder-ta="Vul uw mobiele nummer in" />
+            <label class="field-label" data-en="Your Mobile Number *" data-si="ඔබේ දුරකතන අංකය *" data-ta="Uw Mobiele Nummer *">Your Mobile Number *</label>
+            <input class="field-input" id="bkMobile" type="tel" minlength="7" maxlength="20" data-placeholder-en="Please Enter Your Mobile Number" data-placeholder-si="ඔබේ දුරකතන අංකය ඇතුලත් කරන්න" data-placeholder-ta="Vul uw mobiele nummer in" />
           </div>
         </div>
 
         <div class="field-row one-col">
           <div class="field-box">
-            <label class="field-label" data-en="Your Email *" data-si="ඔබේ විද්‍යුත් තැපෑල *" data-ta="Uw Email *">Your Email *</label>
-            <input class="field-input" id="bkEmail" type="email" maxlength="150" data-placeholder-en="Please Enter Your Email" data-placeholder-si="ඔබේ විද්‍යුත් තැපෑල ඇතුලත් කරන්න" data-placeholder-ta="Vul uw e-mail in" />
+            <label class="field-label" data-en="Your Email *" data-si="ඔබේ විද්‍යුත් තැපැල් ලිපිනය *" data-ta="Uw E-mailadres *">Your Email *</label>
+            <input class="field-input" id="bkEmail" type="email" maxlength="150" data-placeholder-en="Please Enter Your Email" data-placeholder-si="ඔබේ විද්‍යුත් තැපැල් ලිපිනය ඇතුලත් කරන්න" data-placeholder-ta="Vul uw e-mailadres in" />
           </div>
         </div>
 
         <div class="field-row two-col">
           <div class="field-box" id="box-date-from">
-            <label class="field-label" data-en="Date From *" data-si="ආරම්භ දිනය *" data-ta="Vanaf datum *">Date From *</label>
+            <label class="field-label" data-en="Date From *" data-si="ආරම්භක දිනය *" data-ta="Vertrekdatum *">Date From *</label>
             <div class="custom-date" id="cd-from" onclick="openDatePicker('from')">
               <span class="date-display" id="cd-from-display">dd / mm / yyyy</span>
               <svg class="date-icon" viewBox="0 0 20 20" fill="none">
@@ -80,7 +80,7 @@
             <div class="cal-popup" id="cal-from"></div>
           </div>
           <div class="field-box" id="box-date-to">
-            <label class="field-label" data-en="Date To *" data-si="අවසන් දිනය *" data-ta="Tot datum *">Date To *</label>
+            <label class="field-label" data-en="Date To *" data-si="අවසන් දිනය *" data-ta="Einddatum *">Date To *</label>
             <div class="custom-date" id="cd-to" onclick="openDatePicker('to')">
               <span class="date-display" id="cd-to-display">dd / mm / yyyy</span>
               <svg class="date-icon" viewBox="0 0 20 20" fill="none">
@@ -95,11 +95,11 @@
 
         <div class="field-row two-col">
           <div class="field-box">
-            <label class="field-label" data-en="Destination *" data-si="ගමනාන්තය *" data-ta="Bestemming *">Destination *</label>
-            <input class="field-input" id="bkDestination" type="text" minlength="2" maxlength="150" data-placeholder-en="Please Enter Your Destination" data-placeholder-si="ඔබගේ ගමනාන්තය ඇතුලත් කරන්න" data-placeholder-ta="Vul uw bestemming in" />
+            <label class="field-label" data-en="Destination *" data-si="ගමනාන්තය *" data-ta="Gewenste Bestemming *">Destination *</label>
+            <input class="field-input" id="bkDestination" type="text" minlength="2" maxlength="150" data-placeholder-en="Please Enter Your Destination" data-placeholder-si="ඔබගේ ගමනාන්තය ඇතුලත් කරන්න" data-placeholder-ta="Vul uw gewenste bestemming in" />
           </div>
           <div class="field-box">
-            <label class="field-label" data-en="Persons *" data-si="පිරිස *" data-ta="Personen *">Persons *</label>
+            <label class="field-label" data-en="Persons *" data-si="පිරිස *" data-ta="Aantal Reizigers *">Persons *</label>
             <div class="custom-select" id="sel-persons">
               <div class="cs-display" onclick="toggleDropdown('sel-persons')">
                 <span class="cs-value">1 Person</span>
@@ -121,7 +121,7 @@
 
         <div class="field-row two-col">
           <div class="field-box">
-            <label class="field-label" data-en="Kids (Optional)" data-si="ළමයින් (විකල්ප)" data-ta="Kinderen (Optioneel)">Kids (Optional)</label>
+            <label class="field-label" data-en="Kids (Optional)" data-si="ළමයින් (විකල්ප)" data-ta="Aantal kinderen (optioneel)">Kids (Optional)</label>
             <div class="custom-select" id="sel-kids">
               <div class="cs-display" onclick="toggleDropdown('sel-kids')">
                 <span class="cs-value">None</span>
@@ -139,7 +139,7 @@
             </div>
           </div>
           <div class="field-box" id="box-age">
-            <label class="field-label" data-en="Average Age Of Children (Optional)" data-si="ළමයින්ගේ සාමාන්‍ය වයස (විකල්ප)" data-ta="Gemiddelde leeftijd van kinderen (Optioneel)">Average Age Of Children (Optional)</label>
+            <label class="field-label" data-en="Average Age Of Children (Optional)" data-si="ළමයින්ගේ සාමාන්‍ය වයස (විකල්ප)" data-ta="Gemiddelde leeftijd van de kinderen (optioneel)">Average Age Of Children (Optional)</label>
             <div class="custom-select disabled" id="sel-age">
               <div class="cs-display" onclick="toggleDropdown('sel-age')">
                 <span class="cs-value placeholder">Please Select The Age</span>
@@ -160,8 +160,8 @@
 
         <div class="field-row one-col">
           <div class="field-box">
-            <label class="field-label" data-en="Special Request (Optional)" data-si="විශේෂ ඉල්ලීම (විකල්ප)" data-ta="Speciale aanvraag (Optioneel)">Special Request (Optional)</label>
-            <textarea class="field-input field-textarea" id="bkSpecialRequest" maxlength="1000" data-placeholder-en="Please Enter Your Special Request" data-placeholder-si="ඔබගේ විශේෂ ඉල්ලීම ඇතුලත් කරන්න" data-placeholder-ta="Vul uw speciale aanvraag in"></textarea>
+            <label class="field-label" data-en="Special Request (Optional)" data-si="විශේෂ ඉල්ලීම (විකල්ප)" data-ta="Bijzondere wensen (optioneel)">Special Request (Optional)</label>
+            <textarea class="field-input field-textarea" id="bkSpecialRequest" maxlength="1000" data-placeholder-en="Please Enter Your Special Request" data-placeholder-si="ඔබගේ විශේෂ ඉල්ලීම ඇතුලත් කරන්න" data-placeholder-ta="Vertel ons uw bijzondere wensen"></textarea>
           </div>
         </div>
 
@@ -172,18 +172,23 @@
   </section>
 
   <section class="testimonials">
+
     <div class="testimonials-wrapper">
       <div class="inner-grid">
+
+        <!-- LEFT: Testimonial Card -->
         <div class="left-card" id="testimonialCard">
           <div class="profile-row">
             <div class="profile-img-placeholder" id="profileInitial">A</div>
             <div class="profile-info">
-              <h3 id="customerName">Amal Perera</h3>
-              <span id="customerCountry">Sri Lanka</span>
+              <h3 id="customerName" data-en="Amal Perera" data-si="අමල් පෙරේරා" data-ta="Amal Perera">Amal Perera</h3>
+              <span id="customerCountry" data-en="Sri Lanka" data-si="ශ්‍රී ලංකාව" data-ta="Sri Lanka">Sri Lanka</span>
             </div>
           </div>
-          <p class="testimonial-text" id="testimonialText">
-            The itinerary felt effortless from the moment we landed. Every stop was thoughtfully arranged and the local guidance made the trip feel personal and relaxing.
+          <p class="testimonial-text" id="testimonialText" data-en="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem Ipsum is simply dummy text of the printing and typesetting industry." data-si="ලොරිම් ඉප්සම් යනු මුද්‍රණ හා වර්ගලේඛන කර්මාන්තයේ සරලව භාවිතා වන දර්ශක වචන සමූහයකි. ලොරිම් ඉප්සම් 1500 ගණන්වල සිට සම්මත පෙළක් ලෙස භාවිතා වී ඇත." data-ta="Lorem Ipsum is gewoon dummytekst van de druk- en zetindustrie. Lorem Ipsum is al sinds de 1500s de standaard dummytekst in de industrie.">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry.
           </p>
           <div class="stars" id="starsContainer">
             <span class="star">★</span>
@@ -194,13 +199,14 @@
           </div>
         </div>
 
+        <!-- RIGHT: Title + Description + Buttons -->
         <div class="right-section">
           <div>
-            <p class="section-label" data-en="Testimonials" data-si="සந்தේශයන්" data-ta="Getuigenissen">Testimonials</p>
-            <h2 class="section-title" data-en="What Our <span class='accent'>Clients Say</span>" data-si="අපගේ <span class='accent'>අමුත්තන්</span> කියන්නේ කුමක්ද" data-ta="Wat Onze <span class='accent'>Klanten Zeggen</span>">What Our <span class="accent">Clients Say</span></h2>
+            <p class="section-label" data-en="Testimonials" data-si="සමාලෝචන" data-ta="Getuigenissen">Testimonials</p>
+            <h2 class="section-title" data-en="Create Your Perfect <span class='accent'>Travel Experience</span>" data-si="ඔබේ <span class='accent'>සිහින සංචාරය</span> නිර්මාණය කරගන්න" data-ta="Laat Ons Uw Ideale Rondreis <span class='accent'>Samenstellen</span>">Create Your Perfect <span class="accent">Travel Experience</span></h2>
             <div class="progress-dots" id="progressDots"></div>
-            <p class="right-text" id="rightText">
-              Amal's story reflects the calm, polished experience we create for travelers who want comfort, culture, and memorable moments in Sri Lanka.
+            <p class="right-text" id="rightText" data-en="Share your travel aspirations with us and let TimetoCeylon create an exclusive, fully tailored journey designed around your desires. From carefully selected destinations to personalized service in every detail, we craft an unforgettable Sri Lanka experience that perfectly matches your expectations." data-si="ඔබ සිතේ ඇති සංචාරක සිහින සහ බලාපොරොත්තු අප සමඟ බෙදාගන්න. ඔබේ රුචිකත්වයන් සහ අවශ්‍යතාවලට ගැළපෙන පරිදි සෑම දෙයක්ම සැලසුම් කළ සුවිශේෂී සංචාරයක් TimetoCeylon සමඟින් අත්විඳින්න. සැලකිල්ලෙන් තෝරාගත් ගමනාන්තයන්ගේ සිට, සෑම විස්තරයකටම ගැළපෙන පුද්ගලික සේවාව දක්වා, ඔබේ බලාපොරොත්තු සමඟ මනාව ගැළපෙන අමතක නොවන ශ්‍රී ලංකා සංචාරක අත්දැකීමක් අපි ඔබ වෙනුවෙන් නිර්මාණය කරමු." data-ta="Deel uw reiswensen met ons en laat TimetoCeylon een exclusieve, volledig op maat gemaakte reis samenstellen. Van zorgvuldig geselecteerde bestemmingen tot persoonlijke service in elk detail – wij creëren een onvergetelijke Sri Lanka ervaring die perfect aansluit bij uw verwachtingen.">
+              Share your travel aspirations with us and let TimetoCeylon create an exclusive, fully tailored journey designed around your desires. From carefully selected destinations to personalized service in every detail, we craft an unforgettable Sri Lanka experience that perfectly matches your expectations.
             </p>
           </div>
           <div class="nav-buttons">
@@ -210,6 +216,7 @@
                 src="../resources/img/home/arrow.webp" class="arrow--img"></button>
           </div>
         </div>
+
       </div>
     </div>
   </section>

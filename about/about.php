@@ -28,7 +28,7 @@
     </div>
     <div class="hero-content">
       <span class="hero-bar"></span>
-      <h1 class="hero-title" data-en="Your Sri Lanka Story Begins Here" data-si="ඔබගේ ශ්‍රී ලංකා කතාව මෙතනින් ආරම්භ වේ" data-ta="Uw Sri Lanka-verhaal begint hier">Your Sri Lanka Story Begins Here</h1>
+      <h1 class="hero-title" data-en="Your Sri Lanka Story Begins Here" data-si="ඔබගේ ශ්‍රී ලංකා කතාව මෙතනින් ආරම්භ වේ" data-ta="Uw reis door Sri Lanka begint hier">Your Sri Lanka Story Begins Here</h1>
     </div>
   </section>
 
@@ -56,7 +56,7 @@
                 <div class="circle"><img src="../resources/img/clients/client3.webp" alt="client 3" /></div>
               </div>
               <div class="card__clients-text">
-                <span class="clients-name" data-en="Happy Travelers" data-si="සතුටු සංචාරකයින්" data-ta="Blije reizigers">Happy Travelers</span>
+                <span class="clients-name" data-en="Happy Travelers" data-si="සතුටු සංචාරකයින්" data-ta="Tevreden reizigers">Happy Travelers</span>
                 <span class="clients-count">+ 500</span>
               </div>
             </div>
@@ -67,11 +67,11 @@
       <!-- RIGHT: text -->
       <div class="about-content">
         <span class="about-eyebrow">About Us</span>
-        <h2 class="about-heading" data-en="Discover the Essence of <span>TimetoCeylon</span>" data-si="TimetoCeylon හි මූලික සාරය සොයාගන්න" data-ta="Ontdek De Essentie van <span>TimetoCeylon</span>">Discover the Essence of <span>TimetoCeylon</span></h2>
+        <h2 class="about-heading" data-en="Discover the Essence of <span>TimetoCeylon</span>" data-si="TimetoCeylon හි මූලික සාරය" data-ta="Ontdek Waar <span>TimetoCeylon</span> Voor Staat">Discover the Essence of <span>TimetoCeylon</span></h2>
         <div class="about-body">
-          <p data-en="TimetoCeylon creates thoughtfully curated journeys that blend comfort, culture, and discovery across the most beautiful corners of Sri Lanka." data-si="TimetoCeylon සුව පහසුකම්, සංස්කෘතිය සහ ගවේෂණය එකට පොහොසත් කරමින් ශ්‍රී ලංකාවේ ලස්සනම කෙළවරවල් හරහා සලකා සකස් කළ ගමන් සපයයි." data-ta="TimetoCeylon creëert zorgvuldig samengestelde reizen die comfort, cultuur en ontdekking combineren in de mooiste hoeken van Sri Lanka.">TimetoCeylon creates thoughtfully curated journeys that blend comfort, culture, and discovery across the most beautiful corners of Sri Lanka.</p>
-          <p data-en="From scenic train rides to hidden beaches and heritage sites, every itinerary is designed to feel personal, seamless, and memorable." data-si="දර්ශනීය දුම්රිය ගමන් සිට සැඟවුණු වෙරළවල්, උරුම ස්ථාන දක්වා සෑම ගමනක්ම පුද්ගලික, සුසටහන් හා මතකයට පත්වන ලෙස සකසා ඇත." data-ta="Van scenerische treinritten tot verborgen stranden en erfgoedlocaties, elke reisroute is ontworpen om persoonlijk, naadloos en onvergetelijk te voelen.">From scenic train rides to hidden beaches and heritage sites, every itinerary is designed to feel personal, seamless, and memorable.</p>
-          <p data-en="We are passionate about helping travelers experience Sri Lanka with warmth, local insight, and complete peace of mind." data-si="අපි දේශීය දැනුම, උණුසුම් සේවාව සහ සම්පූර්ණ සාමය සමඟ ශ්‍රී ලංකාව අත්දැකීමට සංචාරකයින්ට උදව් කිරීමට ප්‍රීතියෙන් කටයුතු කරමු." data-ta="We zijn gepassioneerd over het helpen van reizigers Sri Lanka te ervaren met warmte, lokale kennis en complete gemoedsrust.">We are passionate about helping travelers experience Sri Lanka with warmth, local insight, and complete peace of mind.</p>
+          <p data-en="TimetoCeylon creates thoughtfully curated journeys that blend comfort, culture, and discovery across the most beautiful corners of Sri Lanka." data-si="TimetoCeylon, ශ්‍රී ලංකාවේ සුන්දරම ගමනාන්ත වෙත ඔබව රැගෙන යන අතර, සුවපහසුව, සංස්කෘතිය සහ නව අත්දැකීම් එකට එක්වන සුවිශේෂී සංචාර අපි සැලසුම් කරමු." data-ta="Time to Ceylon stelt met aandacht persoonlijke rondreizen samen waarin comfort, cultuur en ontdekking samenkomen op de mooiste plekken van Sri Lanka.">TimetoCeylon creates thoughtfully curated journeys that blend comfort, culture, and discovery across the most beautiful corners of Sri Lanka.</p>
+          <p data-en="From scenic train rides to hidden beaches and heritage sites, every itinerary is designed to feel personal, seamless, and memorable." data-si="මනරම් දුම්රිය ගමන්වල සිට සැඟවුණු සුන්දර වෙරළ තීරයන් සහ ඓතිහාසික ස්ථාන දක්වා, සෑම සංචාරයක්ම ඔබටම ගැළපෙන පරිදි සැලසුම් කරන්නේ සෑම මොහොතක්ම පහසුවෙන් සහ සතුටින් අත්විඳිය හැකි ලෙසයි." data-ta="Van indrukwekkende treinreizen en verborgen stranden tot bijzonder cultureel erfgoed: iedere route wordt persoonlijk samengesteld voor een zorgeloze en onvergetelijke reis.">From scenic train rides to hidden beaches and heritage sites, every itinerary is designed to feel personal, seamless, and memorable.</p>
+          <p data-en="We are passionate about helping travelers experience Sri Lanka with warmth, local insight, and complete peace of mind." data-si="ශ්‍රී ලංකාවේ සැබෑ සුන්දරත්වය උණුසුම් පිළිගැනීමක් සහ දේශීය දැනුම සමඟින් අත්විඳීමට ඔබට අවස්ථාව ලබාදීම අපගේ විශේෂත්වයකි. ඔබේ සංචාරය පුරාම කිසිදු කරදරයකින් තොරව සැහැල්ලුවෙන් ගමන් කළ හැකි බවට අපි වගබලා ගනිමු." data-ta="Wij laten reizigers graag kennismaken met het echte Sri Lanka, met persoonlijke aandacht, lokale kennis en de zekerheid dat alles goed geregeld is.">We are passionate about helping travelers experience Sri Lanka with warmth, local insight, and complete peace of mind.</p>
         </div>
       </div>
 
@@ -79,7 +79,7 @@
 
     <!-- bottom: full-width paragraph -->
     <div class="about-bottom-text">
-      <p data-en="Every journey with TimetoCeylon is shaped around your interests, schedule, and sense of wonder, ensuring that your time in Sri Lanka feels effortless, enriching, and truly unforgettable." data-si="TimetoCeylon සමඟ සෑම ගමනක්ම ඔබගේ උනන්දුව, කාලසටහන සහ විස්මය අනුව සකස් කර ඇති අතර ශ්‍රී ලංකාවේ ඔබේ කාලය අසීරු නොවී, පූර්ණ සහ අමතක නොවන ලෙස ගත වේ." data-ta="Elke reis met TimetoCeylon wordt gevormd rond uw interesses, planning en nieuwsgierigheid, zodat uw tijd in Sri Lanka moeiteloos, verrijkend en echt onvergetelijk voelt.">Every journey with TimetoCeylon is shaped around your interests, schedule, and sense of wonder, ensuring that your time in Sri Lanka feels effortless, enriching, and truly unforgettable.</p>
+      <p data-en="Every journey with TimetoCeylon is shaped around your interests, schedule, and sense of wonder, ensuring that your time in Sri Lanka feels effortless, enriching, and truly unforgettable." data-si="TimetoCeylon සමඟ සෑම සංචාරයක්ම සැලසුම් වන්නේ ඔබේ රුචිකත්වයන්, කාලසටහන සහ ඔබ අත්විඳීමට කැමති දේ අනුවයි. ඒ නිසා ශ්‍රී ලංකාවේ ගත කරන සෑම මොහොතක්ම සැහැල්ලුවෙන්, සුන්දර අත්දැකීම්වලින් පිරුණු සහ ජීවිතයට අමතක නොවන මතකයක් බවට පත්වේ." data-ta="Iedere reis met Time to Ceylon wordt afgestemd op uw interesses, planning en reistempo. Zo ontdekt u Sri Lanka op een ontspannen, bijzondere en onvergetelijke manier.">Every journey with TimetoCeylon is shaped around your interests, schedule, and sense of wonder, ensuring that your time in Sri Lanka feels effortless, enriching, and truly unforgettable.</p>
     </div>
 
     <!-- stats row -->
@@ -156,10 +156,10 @@
 
       <div class="text-wrap">
         <p class="label" data-en="Contact" data-si="සම්බන්ධතාවය" data-ta="Contact">Contact</p>
-        <h2 class="title" data-en="<span class='t-white'>Let's Plan </span><span class='t-accent'>Together</span>" data-si="<span class='t-white'>අප එක්ව </span><span class='t-accent'>සැලසුම් කරමු</span>" data-ta="<span class='t-white'>Laten We Samen </span><span class='t-accent'>Plannen</span>">
+        <h2 class="title" data-en="<span class='t-white'>Let's Plan </span><span class='t-accent'>Together</span>" data-si="<span class='t-white'>අප එක්ව </span><span class='t-accent'>සැලසුම් කරමු</span>" data-ta="<span class='t-white'>Laten We Samen Uw </span><span class='t-accent'>Reis Plannen</span>">
           <span class="t-white">Let's Plan </span><span class="t-accent">Together</span>
         </h2>
-        <p class="body-text" data-en="Reach out to us and share your travel dreams for Sri Lanka. Our team responds quickly with tailored suggestions, ensuring every detail of your journey is planned with comfort, care, and local expertise from beginning to end." data-si="ඔබේ ශ්‍රී ලංකා සංචාරක සිහින අප සමඟ බෙදාගන්න. අපගේ කණ්ඩායම ඉක්මනින් ප්‍රතිචාර දක්වමින් සුදුසු යෝජනා ලබා දෙයි, ඔබේ ගමනේ සෑම විස්තරයක්ම සුවපහසුව, සැලකිල්ල සහ දේශීය පළපුරුද්ද සමඟ ආරම්භයේ සිට අවසානය දක්වා සැලසුම් කරන බව සහතික කරයි." data-ta="Neem contact met ons op en deel uw reiswensen voor Sri Lanka. Ons team reageert snel met persoonlijke suggesties en zorgt ervoor dat elk detail van uw reis wordt gepland met comfort, zorg en lokale expertise van begin tot eind.">
+        <p class="body-text" data-en="Reach out to us and share your travel dreams for Sri Lanka. Our team responds quickly with tailored suggestions, ensuring every detail of your journey is planned with comfort, care, and local expertise from beginning to end." data-si="ශ්‍රී ලංකාව තුළ ඔබ අත්විඳීමට බලාපොරොත්තු වන සංචාරය ගැන අප සමඟ කතා කරන්න. ඔබේ අවශ්‍යතාවලට ගැළපෙන සංචාරක යෝජනා සමඟින් අපගේ කණ්ඩායම ඉක්මනින් ඔබ වෙත ප්‍රතිචාර දක්වනු ඇත. ඔබේ සංචාරයේ ආරම්භයේ සිට අවසානය දක්වා සෑම විස්තරයක්ම සුවපහසුව, සැලකිල්ල සහ දේශීය දැනුම සමඟින් සැලසුම් කිරීමට අපි කටයුතු කරමු." data-ta="Vertel ons hoe uw ideale reis door Sri Lanka eruitziet. Ons team reageert snel met persoonlijke voorstellen en zorgt ervoor dat ieder onderdeel van uw reis van begin tot eind comfortabel en zorgvuldig wordt geregeld.">
           Reach out to us and share your travel dreams for Sri
           Lanka. Our team responds quickly with tailored suggestions, ensuring
           every detail of your journey is planned with comfort, care,
@@ -179,8 +179,8 @@
 
     <!-- bottom row: contact info (white zone) -->
     <div class="contact-info">
-      <h3 data-en="Contact Information" data-si="සම්බන්ධතා තොරතුරු" data-ta="Contactinformatie">Contact Information</h3>
-      <p class="info-desc" data-en="We would love to hear from you. Whether you have questions about a destination, need help planning an itinerary, or simply want advice, our friendly team is ready to assist you throughout every step of your trip." data-si="ඔබෙන් අසන්නට අපි කැමතියි. ඔබට ගමනාන්තයක් පිළිබඳ ප්‍රශ්න තිබුණත්, ගමන් සැලැස්මක් සැකසීමට උදව් අවශ්‍ය වුවත්, හෝ උපදෙස් අවශ්‍ය වුවත්, අපගේ මිත්‍රශීලී කණ්ඩායම ඔබේ සංචාරයේ සෑම පියවරකදීම උදව් කිරීමට සූදානම්." data-ta="We horen graag van u. Of u nu vragen heeft over een bestemming, hulp nodig heeft bij het plannen van een reisroute, of gewoon advies wilt, ons vriendelijke team staat klaar om u bij elke stap van uw reis te helpen.">
+      <h3 data-en="Contact Information" data-si="සම්බන්ධතා තොරතුරු" data-ta="Contactgegevens">Contact Information</h3>
+      <p class="info-desc" data-en="We would love to hear from you. Whether you have questions about a destination, need help planning an itinerary, or simply want advice, our friendly team is ready to assist you throughout every step of your trip." data-si="ඔබට යම් ගමනාන්තයක් පිළිබඳව තොරතුරු අවශ්‍ය වුවත්, ඔබේ සංචාරයට ගැළපෙන ගමන් සැලසුමක් සකස් කරගැනීමට සහාය අවශ්‍ය වුවත්, නැතිනම් සංචාරය පිළිබඳ උපදෙසක් අවශ්‍ය වුවත්, අපගේ මිත්‍රශීලී කණ්ඩායම ඔබට අවශ්‍ය සෑම අවස්ථාවකදීම සහාය වීමට සූදානම්." data-ta="We horen graag van u. Of u nu vragen heeft over een bestemming, hulp nodig heeft bij het plannen van een reisroute, of gewoon advies wilt, ons vriendelijke team staat klaar om u bij elke stap van uw reis te helpen.">
         We would love to hear from you. Whether you have questions
         about a destination, need help planning an itinerary, or simply
         want advice, our friendly team is ready to assist you
@@ -196,7 +196,7 @@
             </svg>
           </div>
           <strong>+94 71 1112208 / +31 6 18324770</strong>
-          <span data-en="Available Every Single Day" data-si="සෑම දිනකම ලබාගත හැක" data-ta="Elke Dag Bereikbaar">Available Every Single Day</span>
+          <span data-en="Available Every Single Day" data-si="සෑම දිනකම සම්බන්ධ විය හැකියි" data-ta="Elke Dag Bereikbaar">Available Every Single Day</span>
         </div>
 
         <!-- Email -->
@@ -207,7 +207,7 @@
             </svg>
           </div>
           <strong><a href="mailto:info@timetoceylon.com" class="__cf_email__" data-cfemail="e4858687a48389858d88ca878b89">info@timetoceylon.com</a></strong>
-          <span data-en="We Reply Within Hours" data-si="පැය කිහිපයකින් පිළිතුරු දෙයි" data-ta="Wij Reageren Binnen Uren">We Reply Within Hours</span>
+          <span data-en="We Reply Within 24 Hours" data-si="පැය 24ක් ඇතුළත ප්‍රතිචාරය" data-ta="Wij reageren binnen 24 uur">We Reply Within 24 Hours</span>
         </div>
 
         <!-- Location -->
@@ -218,7 +218,7 @@
             </svg>
           </div>
           <strong>No.16 A 2nd cross street, Uyanwatta, Matara, Sri Lanka</strong>
-          <span data-en="Based On Entire Country" data-si="මුළු රටම පදනම් කරගෙන" data-ta="Gebaseerd op het hele land">Based On Entire Country</span>
+          <span data-en="Based On Entire Country" data-si="මුළු රටම පදනම් කරගෙන" data-ta="Actief in heel Sri Lanka">Based On Entire Country</span>
         </div>
 
       </div>
@@ -235,8 +235,8 @@
       <!-- LEFT: Get In Touch Form -->
       <div class="cf-left">
         <!-- <p class="cf-eyebrow">Reach Out</p> -->
-        <h3 class="cf-heading" data-en="Get In Touch" data-si="අප හා සම්බන්ධ වන්න" data-ta="Neem Contact Op">Get In <span>Touch</span></h3>
-        <p class="cf-desc" data-en="Share your travel aspirations with us and let TimetoCeylon create an exclusive, fully tailored Sri Lanka experience, thoughtfully designed to exceed your expectations." data-si="ඔබේ සංචාර අභිලාෂ අප වෙත බෙදා ගන්න, TimetoCeylon ඔබගේ අපේක්ෂාවන්ට සම්පූර්ණයෙන් ගැලපෙන ශ්‍රී ලංකා අත්දැකීමක් නිර්මාණය කර දෙනු ඇත." data-ta="Deel uw reiswensen met ons en laat TimetoCeylon een exclusieve, volledig op maat gemaakte Sri Lanka ervaring creëren, zorgvuldig ontworpen om uw verwachtingen te overtreffen.">
+        <h3 class="cf-heading" data-en="Get In Touch" data-si="අප හා සම්බන්ධ වන්න" data-ta="Neem contact met ons op">Get In <span>Touch</span></h3>
+        <p class="cf-desc" data-en="Share your travel aspirations with us and let TimetoCeylon create an exclusive, fully tailored Sri Lanka experience, thoughtfully designed to exceed your expectations." data-si="ඔබේ සංචාරක සිහින අප සමඟ බෙදාගන්න. ඔබේ රුචිකත්වයන්ට ගැළපෙන, ඔබ වෙනුවෙන්ම සැලසුම් කළ සුවිශේෂී ශ්‍රී ලංකා සංචාරයක් TimetoCeylon සමඟින් අත්විඳින්න." data-ta="Deel uw reiswensen met ons en laat Time to Ceylon een exclusieve reis op maat samenstellen die helemaal aansluit bij uw verwachtingen.">
           Share your travel aspirations with us and let TimetoCeylon create an exclusive, fully tailored Sri Lanka experience, thoughtfully designed to exceed your expectations.
         </p>
 
@@ -249,7 +249,7 @@
               <input class="cf-input" type="text" id="cfFirstName" minlength="2" maxlength="100" placeholder="Please Enter Your First Name" />
             </div>
             <div class="cf-box">
-              <label class="cf-label" data-en="Your Last Name (Optional)" data-si="ඔබේ අවසාන නම (විකල්ප)" data-ta="Uw Laatste Naam (Optioneel)">Your Last Name (Optional)</label>
+              <label class="cf-label" data-en="Your Last Name (Optional)" data-si="ඔබේ අවසාන නම (විකල්ප)" data-ta="Uw Achternaam (Optioneel)">Your Last Name (Optional)</label>
               <input class="cf-input" type="text" id="cfLastName" maxlength="100" placeholder="Please Enter Your Last Name" />
             </div>
           </div>
@@ -257,7 +257,7 @@
           <!-- Row 2: Email + Mobile -->
           <div class="cf-row cf-two">
             <div class="cf-box">
-              <label class="cf-label" data-en="Your Email *" data-si="ඔබේ විද්‍යුත් තැපෑල *" data-ta="Uw Email *">Your Email *</label>
+              <label class="cf-label" data-en="Your Email *" data-si="ඔබේ විද්‍යුත් තැපෑල *" data-ta="Uw E-mailadres *">Your Email *</label>
               <input class="cf-input" type="email" id="cfEmail" maxlength="150" placeholder="Please Enter Your Email" />
             </div>
             <div class="cf-box">
@@ -269,7 +269,7 @@
           <!-- Row 3: Subject -->
           <div class="cf-row cf-one">
             <div class="cf-box">
-              <label class="cf-label" data-en="Your Subject (Optional)" data-si="ඔබේ විෂය (විකල්ප)" data-ta="Uw Onderwerp (Optioneel)">Your Subject (Optional)</label>
+              <label class="cf-label" data-en="Your Subject (Optional)" data-si="ඔබේ විෂය (විකල්ප)" data-ta="Onderwerp (Optioneel)">Your Subject (Optional)</label>
               <input class="cf-input" type="text" id="cfSubject" maxlength="150" placeholder="Please Enter Your Subject" />
             </div>
           </div>
@@ -283,7 +283,7 @@
           </div>
 
           <!-- Submit -->
-          <button class="cf-send-btn" onclick="cfHandleSend()" data-en="SEND MESSAGE" data-si="පණිවිඩය යවන්න" data-ta="VERSTUUR BERICHT">SEND MESSAGE</button>
+          <button class="cf-send-btn" onclick="cfHandleSend()" data-en="SEND MESSAGE" data-si="පණිවිඩය යවන්න" data-ta="BERICHT VERSTUREN">SEND MESSAGE</button>
 
         </div>
       </div>
@@ -294,8 +294,8 @@
         <!-- Our Location -->
         <div class="cf-location">
           <!-- <p class="cf-eyebrow">Find Us</p> -->
-          <h3 class="cf-heading" data-en="Our Location" data-si="අපගේ ස්ථානය" data-ta="Ons Locatie">Our <span>Location</span></h3>
-          <p class="cf-desc" data-en="From the heart of Sri Lanka, we guide travelers with local expertise, personal attention, and exceptional service." data-si="ශ්‍රී ලංකාවේ හදවත් සිට අපි දේශීය විශේෂඥතාවය, පුද්ගලික අවධානය සහ විශිෂ්ට සේවාව සමඟ සංචාරකයින්ට මාර්ගෝපදේශ කරමු." data-ta="Vanuit het hart van Sri Lanka begeleiden wij reizigers met lokale expertise, persoonlijke aandacht en uitzonderlijke service.">
+          <h3 class="cf-heading" data-en="Our Location" data-si="අපගේ ස්ථානය" data-ta="Onze locatie">Our <span>Location</span></h3>
+          <p class="cf-desc" data-en="From the heart of Sri Lanka, we guide travelers with local expertise, personal attention, and exceptional service." data-si="හදවතින්ම, දේශීය දැනුම, පෞද්ගලික අවධානය සහ විශිෂ්ට සේවාව සමඟින් ශ්‍රී ලංකාවේ ඔබේ සංචාරයට අපි මඟ පෙන්වමු." data-ta="Vanuit Sri Lanka begeleiden wij onze reizigers met lokale kennis, persoonlijke aandacht en uitstekende service.">
             From the heart of Sri Lanka, we guide travelers with local expertise, personal attention, and exceptional service.
           </p>
           <div class="cf-map-wrap">
@@ -307,7 +307,7 @@
         <div class="cf-social">
           <!-- <p class="cf-eyebrow">Connect</p> -->
           <h3 class="cf-heading" data-en="Social Media" data-si="සමාජ මාධ්‍ය" data-ta="Sociale Media">Social <span>Media</span></h3>
-          <p class="cf-desc" data-en="Discover the beauty of Sri Lanka through our travel stories, exclusive destinations, and inspiring experiences." data-si="අපගේ සංචාර කතන්දර, විශේෂිත ගමනාන්ත හා අභිප්‍රේරණීය අත්දැකීම් හරහා ශ්‍රී ලංකාවේ ලස්සන ගවේෂණය කරන්න." data-ta="Ontdek de schoonheid van Sri Lanka via onze reisverhalen, exclusieve bestemmingen en inspirerende ervaringen.">
+          <p class="cf-desc" data-en="Discover the beauty of Sri Lanka through our travel stories, exclusive destinations, and inspiring experiences." data-si="අපගේ සංචාරක කතා, සුවිශේෂී ගමනාන්ත සහ ආස්වාදජනක අත්දැකීම් හරහා ශ්‍රී ලංකාවේ සුන්දරත්වය සොයා යන්න." data-ta="Laat u inspireren door onze reisverhalen, bijzondere bestemmingen en authentieke ervaringen in Sri Lanka.">
             Discover the beauty of Sri Lanka through our travel stories, exclusive destinations, and inspiring experiences.
           </p>
           <div class="cf-social-icons">
@@ -344,7 +344,7 @@
   </section>
 
   <!-- Toast notification -->
-  <div class="cf-toast" id="cfToast" data-en="✓ Message sent successfully!" data-si="✓ පණිවිඩය සාර්ථකව යවන ලදී!" data-ta="✓ Bericht succesvol verzonden!">✓ Message sent successfully!</div>
+  <div class="cf-toast" id="cfToast" data-en="✓ Message sent successfully!" data-si="✓ පණිවිඩය සාර්ථකව යවන ලදී!" data-ta="✓ Uw bericht is succesvol verzonden!">✓ Message sent successfully!</div>
 
   <?php include('../footer/footer.php'); ?>
 

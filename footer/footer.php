@@ -23,7 +23,7 @@
           <div class="footer-logo">
             <img src="../resources/img/logo_banner.webp" alt="Time to Ceylon Logo" class="footer-logo-img">
           </div>
-          <p class="footer-desc" data-en="TimetoCeylon brings together luxury, authenticity, and carefully curated travel experiences to create unforgettable memories in Sri Lanka." data-si="TimetoCeylon සිරස, සත්‍යතාවය සහ අවධානයෙන් තෝරාගත් යාත්‍රා අත්දැකීම් එකට එකතු කරමින් ශ්‍රී ලංකාවේ අමතක නොවන මතක නිර්මාණය කරයි." data-ta="TimetoCeylon brengt luxe, authenticiteit en zorgvuldig samengestelde reiservaringen samen om onvergetelijke herinneringen in Sri Lanka te creëren.">
+          <p class="footer-desc" data-en="TimetoCeylon brings together luxury, authenticity, and carefully curated travel experiences to create unforgettable memories in Sri Lanka." data-si="TimetoCeylon, ශ්‍රී ලංකාවේ සුන්දරත්වය, සුඛෝපභෝගීත්වය සහ අව්‍යාජ සංචාරක අත්දැකීම් එකට එක් කරමින්, අමතක නොවන සංචාරක මතකයන් නිර්මාණය කරයි." data-ta="Time to Ceylon combineert comfort en authenticiteit met zorgvuldig samengestelde reiservaringen voor onvergetelijke herinneringen aan Sri Lanka.">
             TimetoCeylon brings together luxury, authenticity, and carefully curated travel experiences to create unforgettable memories in Sri Lanka.
           </p>
           <div class="footer-socials">
@@ -61,7 +61,7 @@
             <li><a href="../destination/destination.php" data-en="Destinations" data-si="ගමනාන්ත" data-ta="Bestemmingen">Destinations</a></li>
             <li><a href="../gallery/gallery.php" data-en="Gallery" data-si="ගැලරිය" data-ta="Galerij">Gallery</a></li>
             <li><a href="../about/about.php" data-en="About Us" data-si="අපි ගැන" data-ta="Over ons">About Us</a></li>
-            <li><a href="../about/about.php#contact" data-en="Contact Us" data-si="අපට සම්බන්ධ වන්න" data-ta="Neem contact op">Contact Us</a></li>
+            <li><a href="../about/about.php#contact" data-en="Contact Us" data-si="අප හා සම්බන්ධ වන්න" data-ta="Neem contact met ons op">Contact Us</a></li>
           </ul>
         </div>
 
@@ -70,11 +70,11 @@
           <div class="footer-col-title" data-en="Navigations" data-si="සංචාලන" data-ta="Navigatie">Navigations</div>
           <ul>
             <li><a href="../experiences/adventure.php" data-en="Adventure" data-si="ඇඩ්වෙන්චර්" data-ta="Avontuur">Adventure</a></li>
-            <li><a href="../experiences/wildlife-safari.php" data-en="Wildlife Safari" data-si="වනජීවී සෆාරි" data-ta="Wildlife safaritocht">Wildlife Safari</a></li>
-            <li><a href="../experiences/cultural-discovery.php" data-en="Cultural Discovery" data-si="සංස්කෘතික ගවේෂණය" data-ta="Culturele ontdekking">Cultural Discovery</a></li>
-            <li><a href="../experiences/ayurveda-wellness.php" data-en="Ayurveda &amp; Wellness" data-si="අයුර්වේදා සහ සෞඛ්‍ය" data-ta="Ayurveda &amp; wellness">Ayurveda &amp; Wellness</a></li>
-            <li><a href="../experiences/scenic-journeys.php" data-en="Scenic Journeys" data-si="ද්‍රුපීත ගමන්" data-ta="Scenische reizen">Scenic Journeys</a></li>
-            <li><a href="../experiences/coastal-escape.php" data-en="Coastal Escape" data-si="වෙරළ තාටා ගමන" data-ta="Kustontsnapping">Coastal Escape</a></li>
+            <li><a href="../experiences/wildlife-safari.php" data-en="Wildlife Safari" data-si="වනජීවී සෆාරි" data-ta="Wildlifesafari">Wildlife Safari</a></li>
+            <li><a href="../experiences/cultural-discovery.php" data-en="Cultural Discovery" data-si="සංස්කෘතික ගවේෂණය" data-ta="Cultuur en erfgoed">Cultural Discovery</a></li>
+            <li><a href="../experiences/ayurveda-wellness.php" data-en="Ayurveda &amp; Wellness" data-si="අයුර්වේද සහ සෞඛ්‍ය" data-ta="Ayurveda &amp; wellness">Ayurveda &amp; Wellness</a></li>
+            <li><a href="../experiences/scenic-journeys.php" data-en="Scenic Journeys" data-si="සුන්දර ගමන්" data-ta="Bijzondere rondreizen">Scenic Journeys</a></li>
+            <li><a href="../experiences/coastal-escape.php" data-en="Coastal Escape" data-si="මුහුදු වෙරළේ විවේකය" data-ta="Kust en stranden">Coastal Escape</a></li>
           </ul>
         </div>
 
@@ -82,7 +82,7 @@
         <div class="footer-col">
           <div class="footer-col-title" data-en="Policies" data-si="ප්‍රතිපත්ති" data-ta="Beleid">Policies</div>
           <ul>
-            <li><a href="../faq/faq.php#panel-privacy" data-en="Privacy Policy" data-si="පෞද්ගලිකත්ව ප්‍රතිපත්ති" data-ta="Privacy Beleid">Privacy Policy</a></li>
+            <li><a href="../faq/faq.php#panel-privacy" data-en="Privacy Policy" data-si="පෞද්ගලිකත්ව ප්‍රතිපත්ති" data-ta="PrivacyBeleid">Privacy Policy</a></li>
             <li><a href="../faq/faq.php#panel-terms" data-en="Terms &amp; Conditions" data-si="නියම සහ කොන්දේසි" data-ta="Algemene voorwaarden">Terms &amp; Conditions</a></li>
             <li><a href="../faq/faq.php#panel-faq" data-en="FAQ" data-si="නිතර අසන ප්‍රශ්න" data-ta="Veelgestelde vragen">FAQ</a></li>
           </ul>
@@ -93,11 +93,11 @@
 
     <!-- Bottom bar -->
     <div class="footer-bottom">
-      <div class="footer-bottom-copy" data-en="© 2026 Time to Ceylon. All rights reserved." data-si="© 2026 Time to Ceylon. සියලුම හිමිකම් ඇවරණය වේ." data-ta="© 2026 Time to Ceylon. Alle rechten voorbehouden.">
+      <div class="footer-bottom-copy" data-en="© 2026 Time to Ceylon. All rights reserved." data-si="© 2026 Time to Ceylon. සියලුම හිමිකම් ආවරණය වේ." data-ta="© 2026 Time to Ceylon. Alle rechten voorbehouden.">
         &copy;
         <script>
           document.write(new Date().getFullYear())
-        </script>&nbsp;<span data-en="Time to Ceylon. All rights reserved." data-si="Time to Ceylon. සියලුම හිමිකම් ඇවරණය වේ." data-ta="Time to Ceylon. Alle rechten voorbehouden.">Time to Ceylon. All rights reserved.</span> 
+        </script>&nbsp;<span data-en="Time to Ceylon. All rights reserved." data-si="Time to Ceylon. සියලුම හිමිකම් ආවරණය වේ." data-ta="Time to Ceylon. Alle rechten voorbehouden.">Time to Ceylon. All rights reserved.</span> 
       </div>
       <div class="footer-bottom-design" data-en='Design &amp; Developed by <a href="https://evotechsoftwaresolutions.com" target="_blank" rel="noopener noreferrer">Evon Technologies Software Solutions (PVT) Ltd.</a>' data-si='නිර්මාණය කර ඇත්තේ <a href="https://evotechsoftwaresolutions.com" target="_blank" rel="noopener noreferrer">Evon Technologies Software Solutions (PVT) Ltd.</a>' data-ta='Ontworpen en ontwikkeld door <a href="https://evotechsoftwaresolutions.com" target="_blank" rel="noopener noreferrer">Evon Technologies Software Solutions (PVT) Ltd.</a>'>
       Design &amp; Developed by <a href="https://evotechsoftwaresolutions.com" target="_blank" rel="noopener noreferrer">Evon Technologies Software Solutions (PVT) Ltd.</a>

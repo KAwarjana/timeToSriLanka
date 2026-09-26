@@ -122,16 +122,16 @@
     <ul class="nav-links" id="navLinks">
       <li><a href="../home/index.php" class="active" data-en="Home" data-si="මුල් පිටුව" data-ta="Home">Home</a></li>
       <li class="has-sub" id="expDropdown">
-        <a href="../experiences/experiences.php" data-en="Experience <span class='arrow'>" data-si="අත්දැකීම <span class='arrow'>" data-ta="Ervaring <span class='arrow'>">
+        <a href="../experiences/experiences.php" data-en="Experience <span class='arrow'>" data-si="අත්දැකීම් <span class='arrow'>" data-ta="Belevenissen <span class='arrow'>">
           Experience <span class="arrow"></span>
         </a>
         <ul class="subnav">
           <li><a href="../experiences/adventure.php" data-en="Adventure" data-si="ඇඩ්වෙන්චර්" data-ta="Avontuur">Adventure</a></li>
-          <li><a href="../experiences/wildlife-safari.php" data-en="Wildlife Safari" data-si="වනජීවී සෆාරි" data-ta="Wildlife safaritocht">Wildlife Safari</a></li>
-          <li><a href="../experiences/cultural-discovery.php" data-en="Cultural Discovery" data-si="සංස්කෘතික ගවේෂණය" data-ta="Culturele Ontdekking">Cultural Discovery</a></li>
+          <li><a href="../experiences/wildlife-safari.php" data-en="Wildlife Safari" data-si="වනජීවී සෆාරි" data-ta="Wildlifesafari">Wildlife Safari</a></li>
+          <li><a href="../experiences/cultural-discovery.php" data-en="Cultural Discovery" data-si="සංස්කෘතික ගවේෂණය" data-ta="Cultuur en erfgoed">Cultural Discovery</a></li>
           <li><a href="../experiences/ayurveda-wellness.php" data-en="Ayurveda & Wellness" data-si="ආයුර්වේද හා සුවතා" data-ta="Ayurveda & Welzijn">Ayurveda & Wellness</a></li>
-          <li><a href="../experiences/scenic-journeys.php" data-en="Scenic Journeys" data-si="ද්‍රුපීත ගමන්" data-ta="Scenische reizen">Scenic Journeys</a></li>
-          <li><a href="../experiences/coastal-escape.php" data-en="Coastal Escape" data-si="වෙරළ තාටා ගමන" data-ta="Kustontsnapping">Coastal Escape</a></li>
+          <li><a href="../experiences/scenic-journeys.php" data-en="Scenic Journeys" data-si="සුන්දර ගමන්" data-ta="Bijzondere rondreizen">Scenic Journeys</a></li>
+          <li><a href="../experiences/coastal-escape.php" data-en="Coastal Escape" data-si="මුහුදු වෙරළේ විවේකය" data-ta="Kust en stranden">Coastal Escape</a></li>
         </ul>
       </li>
       <li class="has-sub" id="svcDropdown">
@@ -139,11 +139,11 @@
           Services <span class="arrow"></span>
         </a>
         <ul class="subnav">
-          <li><a href="../services/services.php#hotel" data-en="Private Chauffeur Tours" data-si="පුද්ගලික චෛෆුවර් චාරිකා" data-ta="Privé chauffeurtochten">Private Chauffeur Tours</a></li>
-          <li><a href="../services/services.php#transport" data-en="Tailor-Made Itineraries" data-si="අභිරුචි සැලසුම් ගමන්" data-ta="Gepersonaliseerde itineraries">Tailor-Made Itineraries</a></li>
-          <li><a href="../services/services.php#guided" data-en="Handpicked Accommodations" data-si="තෝරාගත් නවාතැන්" data-ta="Handpicked accommodaties">Handpicked Accommodations</a></li>
-          <li><a href="../services/services.php#guided" data-en="Airport Meet & Transfer" data-si="වායුගත මුණගැස්ම සහ මාරු කිරීම" data-ta="Luchthavenontvangst en transfer">Airport Meet & Transfer</a></li>
-          <li><a href="../services/services.php#guided" data-en="Local Travel Concierge" data-si="දේශීය සංචාර උපදේශක" data-ta="Lokale reisconcierge">Local Travel Concierge</a></li>
+          <li><a href="../services/services.php#hotel" data-en="Private Chauffeur Tours" data-si="පුද්ගලික චෛෆුවර් චාරිකා" data-ta="Privérondreizen met chauffeur">Private Chauffeur Tours</a></li>
+          <li><a href="../services/services.php#transport" data-en="Tailor-Made Itineraries" data-si="අභිරුචි සැලසුම් ගමන්" data-ta="Reizen op maat">Tailor-Made Itineraries</a></li>
+          <li><a href="../services/services.php#guided" data-en="Handpicked Accommodations" data-si="තෝරාගත් නවාතැන්" data-ta="Zorgvuldig geselecteerde accommodaties">Handpicked Accommodations</a></li>
+          <li><a href="../services/services.php#guided" data-en="Airport Meet & Transfer" data-si="වායුගත මුණගැස්ම සහ මාරු කිරීම" data-ta="Ontvangst en transfer vanaf de luchthaven">Airport Meet & Transfer</a></li>
+          <li><a href="../services/services.php#guided" data-en="Local Travel Concierge" data-si="දේශීය සංචාර උපදේශක" data-ta="Persoonlijke reisassistentie ter plaatse">Local Travel Concierge</a></li>
           <li><a href="../services/services.php#guided" data-en="24/7 Guest Assistance" data-si="24/7 අමුත්තන්ට සහාය" data-ta="24/7 gastondersteuning">24/7 Guest Assistance</a></li>
         </ul>
       </li>
@@ -176,7 +176,7 @@
           </div>
           <!-- <div>
             <div class="panel-logo-text" data-en="Time to Ceylon" data-si="Time to Ceylon" data-ta="Time to Ceylon">Time to Ceylon</div>
-            <div class="panel-logo-sub" data-en="Your Island Experience" data-si="ඔබේ දූපත් අත්දැකීම" data-ta="Uw eilandervaring">Your Island Experience</div>
+            <div class="panel-logo-sub" data-en="Your Island Experience" data-si="ඔබේ දූපත් අත්දැකීම" data-ta="Uw eiland Belevenissen">Your Island Experience</div>
           </div> -->
         </div>
         <button class="panel-close" onclick="closePanel()">✕</button>
@@ -192,9 +192,9 @@
             </a>
           </li>
           <li class="panel-nav-item" id="pExp">
-            <a href="../experiences/experiences.php" onclick="togglePanelSub('pExp',event)" data-en="Experience" data-si="අත්දැකීම"
-              data-ta="Ervaring">
-              🌴 <span data-en="Experience" data-si="අත්දැකීම" data-ta="Ervaring">Experience</span>
+            <a href="../experiences/experiences.php" onclick="togglePanelSub('pExp',event)" data-en="Experience" data-si="අත්දැකීම්"
+              data-ta="Belevenissen">
+              🌴 <span data-en="Experience" data-si="අත්දැකීම්" data-ta="Belevenissen">Experience</span>
               <span class="panel-chevron"></span>
             </a>
             <ul class="panel-subnav">
@@ -237,8 +237,8 @@
                 data-si="අප ගැන" data-ta="Over ons">About Us</span></a>
           </li>
           <li class="panel-nav-item">
-            <a href="../about/about.php#contact" data-en="Contact" data-si="සම්බන්ධ කරන්න" data-ta="Contact">📞 <span data-en="Contact"
-                data-si="සම්බන්ධ කරන්න" data-ta="Contact">Contact</span></a>
+            <a href="../about/about.php#contact" data-en="Contact" data-si="සම්බන්ධ වන්න" data-ta="Contact">📞 <span data-en="Contact"
+                data-si="සම්බන්ධ වන්න" data-ta="Contact">Contact</span></a>
           </li>
         </ul>
       </div>
@@ -333,7 +333,7 @@
       <!-- Panel Book Button -->
       <div class="panel-book-wrap">
         <button class="panel-book-btn" data-en="✈ BOOK YOUR JOURNEY NOW" data-si="✈ දැන් ඔබේ ගමන වෙන් කරන්න"
-          data-ta="✈ BOEK UW REIS NU" onclick="window.location='../booking/booking.php';">✈ BOOK YOUR JOURNEY NOW</button>
+          data-ta="✈ PLAN UW REIS" onclick="window.location='../booking/booking.php';">✈ BOOK YOUR JOURNEY NOW</button>
       </div>
 
     </div>
