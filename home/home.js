@@ -1,37 +1,51 @@
-document.addEventListener('DOMContentLoaded', () => {
+function initExperienceSlider() {
   const track = document.getElementById('cardsTrack');
+  if (!track) return;
   const btn = document.getElementById('slideBtn');
   const viewport = track.parentElement;
 
+  // Set inline so dragging still works even if a cached/old home.css is served
+  viewport.style.touchAction = 'pan-y';   // let JS handle horizontal swipes, page keeps vertical scroll
+  viewport.style.cursor = 'grab';
+  viewport.style.userSelect = 'none';
+  viewport.style.webkitUserSelect = 'none';
+  Array.prototype.forEach.call(track.querySelectorAll('img'), (img) => {
+    img.draggable = false;
+    img.style.webkitUserDrag = 'none';
+  });
+
+  const GAP = 14;
+  const totalCards = track.children.length;
+
   let currentIndex = 0;
-
-  function getVisibleCount() {
-    const vw = viewport.offsetWidth;
-    const cardStyle = getComputedStyle(track.children[0]);
-    const gap = 14;
-    // Match CSS: 3 on large, 2 on medium/mobile
-    if (window.innerWidth >= 1024) return 3;
-    if (window.innerWidth >= 400) return 2;
-    return 1;
-  }
-
-  const totalCards = track.children.length; // 5
 
   function getCardWidth() {
     const card = track.children[0];
-    return card.offsetWidth + 14; // width + gap
+    return card.offsetWidth + GAP; // width + gap
+  }
+
+  // Furthest the track can move left (0 when every card already fits)
+  function getMaxOffset() {
+    const contentWidth = totalCards * getCardWidth() - GAP;
+    return Math.max(0, contentWidth - viewport.offsetWidth);
+  }
+
+  function getMaxIndex() {
+    return Math.ceil(getMaxOffset() / getCardWidth());
+  }
+
+  function getOffsetForIndex(index) {
+    return Math.min(index * getCardWidth(), getMaxOffset());
   }
 
   function updateSlider() {
-    const visibleCount = getVisibleCount();
-    const maxIndex = totalCards - visibleCount;
+    const maxIndex = getMaxIndex();
 
     // Clamp
     if (currentIndex > maxIndex) currentIndex = maxIndex;
     if (currentIndex < 0) currentIndex = 0;
 
-    const offset = currentIndex * getCardWidth();
-    track.style.transform = `translateX(-${offset}px)`;
+    track.style.transform = `translateX(-${getOffsetForIndex(currentIndex)}px)`;
 
     // Toggle arrow direction
     if (currentIndex >= maxIndex) {
@@ -44,10 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   btn.addEventListener('click', () => {
-    const visibleCount = getVisibleCount();
-    const maxIndex = totalCards - visibleCount;
-
-    if (currentIndex >= maxIndex) {
+    if (currentIndex >= getMaxIndex()) {
       currentIndex = 0;
     } else {
       currentIndex += 1;
@@ -55,6 +66,107 @@ document.addEventListener('DOMContentLoaded', () => {
 
     updateSlider();
   });
+
+  // ── Drag / swipe support (mouse, touch, pen) ──
+  const DRAG_THRESHOLD = 6;   // px before a press counts as a drag
+  const RUBBER_BAND = 0.35;   // resistance when pulling past either end
+  const FLICK_SPEED = 0.4;    // px/ms – fast swipes travel further
+
+  let pointerId = null;
+  let isDragging = false;
+  let startX = 0;
+  let startOffset = 0;
+  let lastX = 0;
+  let lastTime = 0;
+  let velocity = 0;
+  let justDragged = false;
+
+  function clampWithResistance(value) {
+    const max = getMaxOffset();
+    if (value < 0) return value * RUBBER_BAND;
+    if (value > max) return max + (value - max) * RUBBER_BAND;
+    return value;
+  }
+
+  viewport.addEventListener('pointerdown', (e) => {
+    if (pointerId !== null) return;
+    if (e.pointerType === 'mouse' && e.button !== 0) return;
+
+    pointerId = e.pointerId;
+    isDragging = false;
+    startX = lastX = e.clientX;
+    lastTime = performance.now();
+    velocity = 0;
+    startOffset = getOffsetForIndex(currentIndex);
+  });
+
+  viewport.addEventListener('pointermove', (e) => {
+    if (e.pointerId !== pointerId) return;
+
+    const dx = e.clientX - startX;
+
+    if (!isDragging) {
+      if (Math.abs(dx) < DRAG_THRESHOLD) return;
+      isDragging = true;
+      track.style.transition = 'none';
+      viewport.classList.add('is-dragging');
+      viewport.style.cursor = 'grabbing';
+      try { viewport.setPointerCapture(pointerId); } catch (err) { /* ignore */ }
+    }
+
+    const now = performance.now();
+    const dt = now - lastTime;
+    if (dt > 0) velocity = (e.clientX - lastX) / dt;
+    lastX = e.clientX;
+    lastTime = now;
+
+    track.style.transform = `translateX(-${clampWithResistance(startOffset - dx)}px)`;
+  });
+
+  function endDrag(e) {
+    if (e.pointerId !== pointerId) return;
+
+    const wasDragging = isDragging;
+    const dx = e.clientX - startX;
+
+    if (wasDragging) {
+      try { viewport.releasePointerCapture(pointerId); } catch (err) { /* ignore */ }
+    }
+
+    pointerId = null;
+    isDragging = false;
+    viewport.classList.remove('is-dragging');
+    viewport.style.cursor = 'grab';
+
+    if (!wasDragging) return;
+
+    track.style.transition = ''; // back to the CSS ease for the snap
+
+    let target = startOffset - dx;
+    if (e.type !== 'pointercancel' && Math.abs(velocity) > FLICK_SPEED) {
+      target -= velocity * 150; // carry a quick flick a bit further
+    }
+
+    currentIndex = Math.round(target / getCardWidth());
+    updateSlider();
+
+    // Swallow the click that follows a drag
+    justDragged = true;
+    setTimeout(() => { justDragged = false; }, 0);
+  }
+
+  viewport.addEventListener('pointerup', endDrag);
+  viewport.addEventListener('pointercancel', endDrag);
+
+  viewport.addEventListener('click', (e) => {
+    if (justDragged) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+  }, true);
+
+  // Stop the browser's native image drag ghost
+  viewport.addEventListener('dragstart', (e) => e.preventDefault());
 
   // Recalculate on resize
   let resizeTimer;
@@ -67,7 +179,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Init
   updateSlider();
-});
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initExperienceSlider);
+} else {
+  initExperienceSlider();
+}
 
 
 

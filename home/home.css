@@ -606,6 +606,26 @@ body {
   transform: rotate(180deg);
 }
 
+/* Draggable / swipeable cards */
+.cards-viewport {
+  touch-action: pan-y;
+  cursor: grab;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.cards-viewport.is-dragging {
+  cursor: grabbing;
+}
+
+.cards-viewport .exp-card {
+  cursor: inherit;
+}
+
+.cards-viewport .exp-card img {
+  -webkit-user-drag: none;
+}
+
 /* ═══════════════════════════
    RESPONSIVE
 ═══════════════════════════ */

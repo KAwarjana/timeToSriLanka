@@ -8,7 +8,7 @@
   <link rel="icon" type="image/png" href="../resources/img/logo.webp">
 
   <link rel="stylesheet" href="../header/header.css">
-  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="home.css?v=<?php echo filemtime(__DIR__ . '/home.css'); ?>">
   <link rel="stylesheet" href="../footer/footer.css">
 </head>
 
@@ -527,7 +527,7 @@
   <!-- ------------footer----------- -->
 
   <script src="../header/header.js"></script>
-  <script src="home.js"></script>
+  <script src="home.js?v=<?php echo filemtime(__DIR__ . '/home.js'); ?>"></script>
 
 </body>
 

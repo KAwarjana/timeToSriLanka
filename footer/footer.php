@@ -80,12 +80,18 @@
 
         <!-- Policies -->
         <div class="footer-col">
-          <div class="footer-col-title" data-en="Policies" data-si="ප්‍රතිපත්ති" data-ta="Beleid">Policies</div>
-          <ul>
-            <li><a href="../faq/faq.php#panel-privacy" data-en="Privacy Policy" data-si="පෞද්ගලිකත්ව ප්‍රතිපත්ති" data-ta="PrivacyBeleid">Privacy Policy</a></li>
-            <li><a href="../faq/faq.php#panel-terms" data-en="Terms &amp; Conditions" data-si="නියම සහ කොන්දේසි" data-ta="Algemene voorwaarden">Terms &amp; Conditions</a></li>
-            <li><a href="../faq/faq.php#panel-faq" data-en="FAQ" data-si="නිතර අසන ප්‍රශ්න" data-ta="Veelgestelde vragen">FAQ</a></li>
-          </ul>
+          <div>
+            <div class="footer-col-title" data-en="Policies" data-si="ප්‍රතිපත්ති" data-ta="Beleid">Policies</div>
+            <ul>
+              <li><a href="../faq/faq.php#panel-privacy" data-en="Privacy Policy" data-si="පෞද්ගලිකත්ව ප්‍රතිපත්ති" data-ta="PrivacyBeleid">Privacy Policy</a></li>
+              <li><a href="../faq/faq.php#panel-terms" data-en="Terms &amp; Conditions" data-si="නියම සහ කොන්දේසි" data-ta="Algemene voorwaarden">Terms &amp; Conditions</a></li>
+              <li><a href="../faq/faq.php#panel-faq" data-en="FAQ" data-si="නිතර අසන ප්‍රශ්න" data-ta="Veelgestelde vragen">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="footer-payments">
+            <div class="footer-col-title" data-en="Payments" data-si="ගෙවීම්" data-ta="Betalingen">Payments</div>
+            <a href="https://www.timetoceylon.com/payment/payment.php" target="_blank"><img src="https://www.payhere.lk/downloads/images/payhere_short_banner_dark.png" alt="PayHere" class="footer-payhere-img" width="250" /></a>
+          </div>
         </div>
 
       </div>
@@ -97,10 +103,10 @@
         &copy;
         <script>
           document.write(new Date().getFullYear())
-        </script>&nbsp;<span data-en="Time to Ceylon. All rights reserved." data-si="Time to Ceylon. සියලුම හිමිකම් ආවරණය වේ." data-ta="Time to Ceylon. Alle rechten voorbehouden.">Time to Ceylon. All rights reserved.</span> 
+        </script>&nbsp;<span data-en="Time to Ceylon. All rights reserved." data-si="Time to Ceylon. සියලුම හිමිකම් ආවරණය වේ." data-ta="Time to Ceylon. Alle rechten voorbehouden.">Time to Ceylon. All rights reserved.</span>
       </div>
       <div class="footer-bottom-design" data-en='Design &amp; Developed by <a href="https://evotechsoftwaresolutions.com" target="_blank" rel="noopener noreferrer">Evon Technologies Software Solutions (PVT) Ltd.</a>' data-si='නිර්මාණය කර ඇත්තේ <a href="https://evotechsoftwaresolutions.com" target="_blank" rel="noopener noreferrer">Evon Technologies Software Solutions (PVT) Ltd.</a>' data-ta='Ontworpen en ontwikkeld door <a href="https://evotechsoftwaresolutions.com" target="_blank" rel="noopener noreferrer">Evon Technologies Software Solutions (PVT) Ltd.</a>'>
-      Design &amp; Developed by <a href="https://evotechsoftwaresolutions.com" target="_blank" rel="noopener noreferrer">Evon Technologies Software Solutions (PVT) Ltd.</a>
+        Design &amp; Developed by <a href="https://evotechsoftwaresolutions.com" target="_blank" rel="noopener noreferrer">Evon Technologies Software Solutions (PVT) Ltd.</a>
       </div>
     </div>
   </footer>

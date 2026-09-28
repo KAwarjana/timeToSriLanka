@@ -133,6 +133,18 @@ body {
   letter-spacing: 0.1rem;
 }
 
+/* ── PAYMENTS ── */
+.footer-payments {
+  margin-top: 40px;
+}
+
+.footer-payhere-img {
+  display: block;
+  width: 250px;
+  max-width: 100%;
+  height: auto;
+}
+
 /* ── BOTTOM BAR ── */
 .footer-bottom {
   background: #f0eaff;
