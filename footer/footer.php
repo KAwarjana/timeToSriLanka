@@ -88,9 +88,9 @@
               <li><a href="../faq/faq.php#panel-faq" data-en="FAQ" data-si="නිතර අසන ප්‍රශ්න" data-ta="Veelgestelde vragen">FAQ</a></li>
             </ul>
           </div>
-          <div class="footer-payments">
+          <div class="footer-payments" style="margin-top: 2.5rem;">
             <div class="footer-col-title" data-en="Payments" data-si="ගෙවීම්" data-ta="Betalingen">Payments</div>
-            <a href="https://www.timetoceylon.com/payment/payment.php" target="_blank"><img src="https://www.payhere.lk/downloads/images/payhere_short_banner_dark.png" alt="PayHere" class="footer-payhere-img" width="250" /></a>
+            <a href="https://www.timetoceylon.com/payment/payment.php" target="_blank"><img src="../resources/img/payhere_short_banner_dark.png" alt="PayHere" class="footer-payhere-img" width="250" /></a>
           </div>
         </div>
 
