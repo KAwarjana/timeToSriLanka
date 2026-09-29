@@ -321,7 +321,7 @@ body {
   font-size: 0.88rem;
   line-height: 1.65;
   color: var(--font-color);
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 .card:hover .card__label {

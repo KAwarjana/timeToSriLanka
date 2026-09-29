@@ -305,7 +305,7 @@ body {
   color: var(--font-color);
   flex: 1;
   margin-bottom: 14px;
-  text-align: justify;
+  /* text-align: justify; */
   /* JS truncates the live text to 25 words; this is just a fallback clamp */
   display: -webkit-box;
   -webkit-line-clamp: 5;

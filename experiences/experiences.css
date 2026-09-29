@@ -286,7 +286,7 @@ body {
     font-weight: 400;
     color: var(--white);
     line-height: 1.65;
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 .featured-btn {

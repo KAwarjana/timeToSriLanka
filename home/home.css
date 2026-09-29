@@ -177,7 +177,7 @@ body {
   flex-direction: column;
   gap: 16px;
   margin-bottom: 36px;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 .about-body p {
