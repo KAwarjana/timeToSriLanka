@@ -149,66 +149,82 @@ document.addEventListener('click', function (e) {
 // -------------testimonials----------------
 const testimonials = [
   {
-    name: { en: "Amal Perera", si: "අමල් පෙරේරා", ta: "Amal Perera" },
-    country: { en: "Sri Lanka", si: "ශ්‍රී ලංකාව", ta: "Sri Lanka" },
-    initial: "A",
-    text: {
-      en: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      si: "ලොරිම් ඉප්සම් යනු මුද්‍රණ හා වර්ගලේඛන කර්මාන්තයේ සරලව භාවිතා වන දර්ශක වචන සමූහයකි. ලොරිම් ඉප්සම් 1500 ගණන්වල සිට සම්මත පෙළක් ලෙස භාවිතා වී ඇත.",
-      ta: "Lorem Ipsum is gewoon een voorbeeldtekst uit de druk- en zetindustrie. Lorem Ipsum is al sinds de 16e eeuw de standaard voorbeeldtekst in de branche. Lorem Ipsum is gewoon een voorbeeldtekst uit de druk- en zetindustrie."
-    },
-    rightText: {
-      en: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      si: "ලොරිම් ඉප්සම් යනු මුද්‍රණ හා වර්ගලේඛන කර්මාන්තයේ සරලව භාවිතා වන දර්ශක වචන සමූහයකි. ලොරිම් ඉප්සම් 1500 ගණන්වල සිට සම්මත පෙළක් ලෙස භාවිතා වී ඇත.",
-      ta: "Lorem Ipsum is gewoon een voorbeeldtekst uit de druk- en zetindustrie. Lorem Ipsum is al sinds de 16e eeuw de standaard voorbeeldtekst in de branche. Lorem Ipsum is gewoon een voorbeeldtekst uit de druk- en zetindustrie."
-    },
-    stars: 5
-  },
-  {
-    name: { en: "Sarah Johnson", si: "Sarah Johnson", ta: "Sarah Johnson" },
-    country: { en: "United States", si: "United States", ta: "United States" },
+    name: { en: "Sophie", si: "සොෆී", ta: "Sophie" },
+    country: { en: "Netherlands", si: "නෙදර්ලන්තය", ta: "Nederland" },
     initial: "S",
     text: {
-      en: "The service was absolutely outstanding! The team went above and beyond to ensure everything was perfect. I couldn't be happier with the results. Highly recommend to anyone looking for quality.",
-      si: "සේවාව අතිශයින්ම විශිෂ්ටයි! සෑම දෙයක්ම පරිපූර්ණ බව සහතික කිරීමට කණ්ඩායම උපරිම උත්සාහයක් ගත්තා. ප්‍රතිඵල ගැන මට සතුටු වෙන්න බෑ. ගුණාත්මකභාවය සොයන ඕනෑම කෙනෙකුට මම ඉහළින්ම නිර්දේශ කරනවා.",
-      ta: "De service was werkelijk uitstekend! Het team deed er alles aan om ervoor te zorgen dat alles perfect was. Ik ben ontzettend blij met het resultaat. Een absolute aanrader voor iedereen die op zoek is naar kwaliteit."
+      en: "Our journey through Sri Lanka was beautifully organised. We loved the combination of culture, wildlife and relaxing days by the coast. Everything felt personal and we never felt rushed.",
+      si: "රී ලංකාවේ අපගේ සංචාරය ඉතා සුන්දර ලෙස සංවිධානය කර තිබුණා. සංස්කෘතිය, වනජීවී අත්දැකීම් සහ මුහුදුබඩ විවේකී දින එකට එක්ව තිබීම අපි විශේෂයෙන්ම ප්‍රිය කළා. සෑම දෙයක්ම අප වෙනුවෙන්ම සැලසුම් කළාක් මෙන් දැනුණු අතර, කිසිවිටෙකත් අපට හදිසි වීමක් දැනුණේ නැහැ.",
+      ta: "Onze reis door Sri Lanka was prachtig georganiseerd. We genoten enorm van de combinatie van cultuur, wildlife en ontspannen dagen aan de kust. Alles voelde persoonlijk en op maat gemaakt, en we hadden nooit het gevoel dat we ons moesten haasten."
     },
     rightText: {
-      en: "Sarah has been using our platform for over 2 years and her experience highlights the dedication we bring to every single client interaction and project.",
-      si: "සාරා වසර 2 කට වැඩි කාලයක් අපගේ වේදිකාව භාවිතා කර ඇති අතර ඇයගේ අත්දැකීම් මගින් අපි සෑම පාරිභෝගික අන්තර්ක්‍රියාවක් සහ ව්‍යාපෘතියක් සඳහාම ගෙන එන කැපවීම ඉස්මතු කරයි.",
-      ta: "Sarah gebruikt ons platform al meer dan 2 jaar en haar ervaring onderstreept de toewijding die we in elke klantinteractie en elk project steken."
+      en: "Share your travel aspirations with us and let TimetoCeylon create an exclusive, fully tailored journey designed around your desires. From carefully selected destinations to personalized service in every detail, we craft an unforgettable Sri Lanka experience that perfectly matches your expectations.",
+      si: "ඔබ සිතේ ඇති සංචාරක සිහින සහ බලාපොරොත්තු අප සමඟ බෙදාගන්න. ඔබේ රුචිකත්වයන් සහ අවශ්‍යතාවලට ගැළපෙන පරිදි සෑම දෙයක්ම සැලසුම් කළ සුවිශේෂී සංචාරයක් TimetoCeylon සමඟින් අත්විඳින්න. සැලකිල්ලෙන් තෝරාගත් ගමනාන්තයන්ගේ සිට, සෑම විස්තරයකටම ගැළපෙන පුද්ගලික සේවාව දක්වා, ඔබේ බලාපොරොත්තු සමඟ මනාව ගැළපෙන අමතක නොවන ශ්‍රී ලංකා සංචාරක අත්දැකීමක් අපි ඔබ වෙනුවෙන් නිර්මාණය කරමු.",
+      ta: "Deel uw reiswensen met ons en laat TimetoCeylon een exclusieve, volledig op maat gemaakte reis samenstellen. Van zorgvuldig geselecteerde bestemmingen tot persoonlijke service in elk detail – wij creëren een onvergetelijke Sri Lanka ervaring die perfect aansluit bij uw verwachtingen."
     },
     stars: 5
   },
   {
-    name: { en: "Kamal Silva", si: "Kamal Silva", ta: "Kamal Silva" },
-    country: { en: "Australia", si: "Australia", ta: "Australia" },
-    initial: "K",
+    name: { en: "Thomas", si: "තෝමස්", ta: "Thomas" },
+    country: { en: "Belgium", si: "බෙල්ජියම", ta: "België" },
+    initial: "T",
     text: {
-      en: "Incredible experience from start to finish. The attention to detail was remarkable and the final outcome exceeded all my expectations. Will definitely be coming back for more projects.",
-      si: "ආරම්භයේ සිට අවසානය දක්වා ඇදහිය නොහැකි අත්දැකීමක්. විස්තර කෙරෙහි අවධානය යොමු කිරීම විශිෂ්ට වූ අතර අවසාන ප්‍රතිඵලය මගේ සියලු අපේක්ෂාවන් ඉක්මවා ගියේය. තවත් ව්‍යාපෘති සඳහා නිසැකවම නැවත පැමිණේ.",
-      ta: "Een fantastische ervaring van begin tot eind. De aandacht voor detail was opmerkelijk en het eindresultaat overtrof al mijn verwachtingen. Ik kom zeker terug voor meer projecten."
+      en: "Having a private driver made our trip so much easier. We discovered beautiful places we would never have found ourselves, and the whole journey felt comfortable and relaxed.",
+      si: "පෞද්ගලික රියදුරෙකු සිටීම අපගේ සංචාරය වඩාත් පහසු කළා. අපට තනිවම සොයාගැනීමට නොහැකි වූ සුන්දර ස්ථාන රැසක් අපි දැකගත්තා. මුළු සංචාරයම ඉතා සුවපහසු සහ සැහැල්ලුවෙන් ගත කළ හැකි අත්දැකීමක් වුණා.",
+      ta: "Een privéchauffeur maakte onze reis zoveel gemakkelijker. We ontdekten prachtige plekken die we zelf nooit zouden hebben gevonden, en de hele reis voelde comfortabel en ontspannen aan."
     },
     rightText: {
-      en: "Kamal's journey with us began as a small startup and grew into a thriving business thanks to our collaborative approach and relentless focus on delivering value.",
-      si: "කමල් අප සමඟ කළ ගමන කුඩා ආරම්භයක් ලෙස ආරම්භ වූ අතර අපගේ සහයෝගී ප්‍රවේශය සහ වටිනාකම් ලබා දීම කෙරෙහි නොපසුබට අවධානය යොමු කිරීම නිසා සමෘද්ධිමත් ව්‍යාපාරයක් දක්වා වර්ධනය විය.",
-      ta: "Kamals reis met ons begon als een kleine startup en groeide uit tot een bloeiend bedrijf dankzij onze samenwerkingsgerichte aanpak en onophoudelijke focus op het leveren van waarde."
+      en: "Share your travel aspirations with us and let TimetoCeylon create an exclusive, fully tailored journey designed around your desires. From carefully selected destinations to personalized service in every detail, we craft an unforgettable Sri Lanka experience that perfectly matches your expectations.",
+      si: "ඔබ සිතේ ඇති සංචාරක සිහින සහ බලාපොරොත්තු අප සමඟ බෙදාගන්න. ඔබේ රුචිකත්වයන් සහ අවශ්‍යතාවලට ගැළපෙන පරිදි සෑම දෙයක්ම සැලසුම් කළ සුවිශේෂී සංචාරයක් TimetoCeylon සමඟින් අත්විඳින්න. සැලකිල්ලෙන් තෝරාගත් ගමනාන්තයන්ගේ සිට, සෑම විස්තරයකටම ගැළපෙන පුද්ගලික සේවාව දක්වා, ඔබේ බලාපොරොත්තු සමඟ මනාව ගැළපෙන අමතක නොවන ශ්‍රී ලංකා සංචාරක අත්දැකීමක් අපි ඔබ වෙනුවෙන් නිර්මාණය කරමු.",
+      ta: "Deel uw reiswensen met ons en laat TimetoCeylon een exclusieve, volledig op maat gemaakte reis samenstellen. Van zorgvuldig geselecteerde bestemmingen tot persoonlijke service in elk detail – wij creëren een onvergetelijke Sri Lanka ervaring die perfect aansluit bij uw verwachtingen."
     },
-    stars: 4
+    stars: 5
   },
   {
-    name: { en: "Mei Tanaka", si: "Mei Tanaka", ta: "Mei Tanaka" },
-    country: { en: "Japan", si: "Japan", ta: "Japan" },
-    initial: "M",
+    name: { en: "Anna", si: "ඇනා", ta: "Anna" },
+    country: { en: "Germany", si: "ජර්මනිය", ta: "Duitsland" },
+    initial: "A",
     text: {
-      en: "What sets this team apart is their passion and professionalism. They truly understand what you need and deliver results that speak for themselves. A truly world-class experience.",
-      si: "මෙම කණ්ඩායම කැපී පෙනෙන්නේ ඔවුන්ගේ දැඩි ආශාව සහ වෘත්තීයභාවයයි. ඔබට අවශ්‍ය දේ ඔවුන් සැබවින්ම තේරුම් ගෙන තමන් වෙනුවෙන්ම කතා කරන ප්‍රතිඵල ලබා දෙයි. සැබවින්ම ලෝක මට්ටමේ අත්දැකීමක්.",
-      ta: "Het wat deze groep onderscheidt is hun passie en professionaliteit. Zij begrijpen echt wat u nodig heeft en leveren resultaten die voor zichzelf spreken. Een ware wereldklasse ervaring."
+      en: "One of the highlights was our safari, but we also loved the tea country and Ella. The itinerary was well planned and there was still enough flexibility to enjoy Sri Lanka at our own pace.",
+      si: "අපගේ සංචාරයේ විශේෂතම අත්දැකීමක් වූයේ සෆාරියයි. ඒ වගේම තේ වගා ප්‍රදේශ සහ ඇල්ල අපි ඉතාමත් ප්‍රිය කළා. ගමන් මාර්ගය ඉතා හොඳින් සැලසුම් කර තිබූ අතර, ශ්‍රී ලංකාව අපට අවශ්‍ය වේගයෙන් නිදහසේ අත්විඳීමටත් ප්‍රමාණවත් නම්‍යශීලී බවක් තිබුණා.",
+      ta: "Een van de hoogtepunten van onze reis was de safari, maar we genoten ook enorm van het theeland en Ella. De route was goed gepland, terwijl er genoeg flexibiliteit was om Sri Lanka in ons eigen tempo te ontdekken."
     },
     rightText: {
-      en: "Mei represents our growing international clientele and her feedback motivates us to continue raising our standards and delivering excellence across every market.",
-      si: "Mei අපගේ වර්ධනය වන ජාත්‍යන්තර ගනුදෙනුකරුවන් නියෝජනය කරන අතර ඇයගේ ප්‍රතිපෝෂණය අපගේ ප්‍රමිතීන් ඉහළ නැංවීමට සහ සෑම වෙළඳපලකම විශිෂ්ටත්වය ලබා දීමට අපව පොළඹවයි.",
-      ta: "Mei vertegenwoordigt onze groeiende internationale klantenkring en haar feedback motiveert ons om onze normen te blijven verhogen en uitmuntende prestaties te leveren in elke markt."
+      en: "Share your travel aspirations with us and let TimetoCeylon create an exclusive, fully tailored journey designed around your desires. From carefully selected destinations to personalized service in every detail, we craft an unforgettable Sri Lanka experience that perfectly matches your expectations.",
+      si: "ඔබ සිතේ ඇති සංචාරක සිහින සහ බලාපොරොත්තු අප සමඟ බෙදාගන්න. ඔබේ රුචිකත්වයන් සහ අවශ්‍යතාවලට ගැළපෙන පරිදි සෑම දෙයක්ම සැලසුම් කළ සුවිශේෂී සංචාරයක් TimetoCeylon සමඟින් අත්විඳින්න. සැලකිල්ලෙන් තෝරාගත් ගමනාන්තයන්ගේ සිට, සෑම විස්තරයකටම ගැළපෙන පුද්ගලික සේවාව දක්වා, ඔබේ බලාපොරොත්තු සමඟ මනාව ගැළපෙන අමතක නොවන ශ්‍රී ලංකා සංචාරක අත්දැකීමක් අපි ඔබ වෙනුවෙන් නිර්මාණය කරමු.",
+      ta: "Deel uw reiswensen met ons en laat TimetoCeylon een exclusieve, volledig op maat gemaakte reis samenstellen. Van zorgvuldig geselecteerde bestemmingen tot persoonlijke service in elk detail – wij creëren een onvergetelijke Sri Lanka ervaring die perfect aansluit bij uw verwachtingen."
+    },
+    stars: 5
+  },
+  {
+    name: { en: "James", si: "ජේම්ස්", ta: "James" },
+    country: { en: "United Kingdom", si: "එක්සත් රාජධානිය", ta: "Verenigd Koninkrijk" },
+    initial: "J",
+    text: {
+      en: "Excellent communication from the beginning and great personal service throughout our trip. Our driver was friendly, reliable and always ready with helpful local recommendations.”",
+      si: "ආරම්භයේ සිටම ඉතා හොඳ සන්නිවේදනයක් සහ අපගේ මුළු සංචාරය පුරාවටම විශිෂ්ට පෞද්ගලික සේවාවක් ලැබුණා. අපගේ රියදුරා මිත්‍රශීලී, විශ්වාසවන්ත වූ අතර, ප්‍රදේශය පිළිබඳ ප්‍රයෝජනවත් උපදෙස් ලබාදීමට සෑම විටම සූදානමින් සිටියා.",
+      ta: "Vanaf het begin was de communicatie uitstekend en tijdens onze hele reis kregen we een geweldige persoonlijke service. Onze chauffeur was vriendelijk, betrouwbaar en stond altijd klaar met handige lokale tips en aanbevelingen."
+    },
+    rightText: {
+      en: "Share your travel aspirations with us and let TimetoCeylon create an exclusive, fully tailored journey designed around your desires. From carefully selected destinations to personalized service in every detail, we craft an unforgettable Sri Lanka experience that perfectly matches your expectations.",
+      si: "ඔබ සිතේ ඇති සංචාරක සිහින සහ බලාපොරොත්තු අප සමඟ බෙදාගන්න. ඔබේ රුචිකත්වයන් සහ අවශ්‍යතාවලට ගැළපෙන පරිදි සෑම දෙයක්ම සැලසුම් කළ සුවිශේෂී සංචාරයක් TimetoCeylon සමඟින් අත්විඳින්න. සැලකිල්ලෙන් තෝරාගත් ගමනාන්තයන්ගේ සිට, සෑම විස්තරයකටම ගැළපෙන පුද්ගලික සේවාව දක්වා, ඔබේ බලාපොරොත්තු සමඟ මනාව ගැළපෙන අමතක නොවන ශ්‍රී ලංකා සංචාරක අත්දැකීමක් අපි ඔබ වෙනුවෙන් නිර්මාණය කරමු.",
+      ta: "Deel uw reiswensen met ons en laat TimetoCeylon een exclusieve, volledig op maat gemaakte reis samenstellen. Van zorgvuldig geselecteerde bestemmingen tot persoonlijke service in elk detail – wij creëren een onvergetelijke Sri Lanka ervaring die perfect aansluit bij uw verwachtingen."
+    },
+    stars: 5
+  },
+  {
+    name: { en: "Claire", si: "ක්ලෙයාර්", ta: "Claire" },
+    country: { en: "France", si: "ප්‍රංශය", ta: "Frankrijk" },
+    initial: "C",
+    text: {
+      en: "Sri Lanka exceeded our expectations. From Sigiriya and Kandy to the beautiful south coast, every part of the journey offered something different. A truly memorable experience.”",
+      si: "රී ලංකාව අපගේ බලාපොරොත්තු ඉක්මවා ගියා. සීගිරිය සහ මහනුවර සිට සුන්දර දකුණු වෙරළ තීරය දක්වා, අපගේ ගමනේ සෑම අදියරකම අලුත්ම අත්දැකීමක් ලබා දුන්නා. සැබවින්ම අමතක නොවන සංචාරයක්.",
+      ta: "Sri Lanka heeft onze verwachtingen overtroffen. Van Sigiriya en Kandy tot de prachtige zuidkust, elk deel van onze reis bood iets bijzonders. Een werkelijk onvergetelijke ervaring."
+    },
+    rightText: {
+      en: "Share your travel aspirations with us and let TimetoCeylon create an exclusive, fully tailored journey designed around your desires. From carefully selected destinations to personalized service in every detail, we craft an unforgettable Sri Lanka experience that perfectly matches your expectations.",
+      si: "ඔබ සිතේ ඇති සංචාරක සිහින සහ බලාපොරොත්තු අප සමඟ බෙදාගන්න. ඔබේ රුචිකත්වයන් සහ අවශ්‍යතාවලට ගැළපෙන පරිදි සෑම දෙයක්ම සැලසුම් කළ සුවිශේෂී සංචාරයක් TimetoCeylon සමඟින් අත්විඳින්න. සැලකිල්ලෙන් තෝරාගත් ගමනාන්තයන්ගේ සිට, සෑම විස්තරයකටම ගැළපෙන පුද්ගලික සේවාව දක්වා, ඔබේ බලාපොරොත්තු සමඟ මනාව ගැළපෙන අමතක නොවන ශ්‍රී ලංකා සංචාරක අත්දැකීමක් අපි ඔබ වෙනුවෙන් නිර්මාණය කරමු.",
+      ta: "Deel uw reiswensen met ons en laat TimetoCeylon een exclusieve, volledig op maat gemaakte reis samenstellen. Van zorgvuldig geselecteerde bestemmingen tot persoonlijke service in elk detail – wij creëren een onvergetelijke Sri Lanka ervaring die perfect aansluit bij uw verwachtingen."
     },
     stars: 5
   }
